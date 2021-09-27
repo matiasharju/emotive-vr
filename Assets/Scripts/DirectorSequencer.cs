@@ -31,6 +31,8 @@ public class DirectorSequencer : MonoBehaviour
     public bool activeSubtitle = true;
     public bool vr = false;
 
+    public float epilogueSrtDelay;
+
     [Header("References")]
     public List<Camera> allCameras;
     public SRTManager srtManager;
@@ -332,11 +334,14 @@ public class DirectorSequencer : MonoBehaviour
 
         if(currentSequence.epilogue)
         {
-            StartCoroutine(CO_ForceSynchroEpilogue());
+           //            StartCoroutine(CO_ForceSynchroEpilogue(epilogueSrtDelay));
+            StartCoroutine(srtManager.Begin());
+            Debug.Log("Start subtitles");
         }
         else
         {
             StartCoroutine(srtManager.Begin());
+            Debug.Log("Start subtitles");
         }
 		    
         ++indexSequence;
@@ -516,9 +521,10 @@ public class DirectorSequencer : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator CO_ForceSynchroEpilogue()
+    IEnumerator CO_ForceSynchroEpilogue(float delay)
     {
-        yield return new WaitForSeconds(4);
+        Debug.Log("Force delay epilogue subtitles for " + delay + " seconds");
+        yield return new WaitForSeconds(delay);
 
         StartCoroutine(srtManager.Begin());
         Debug.Log("Start srtManager");

@@ -343,7 +343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &558842299
 Transform:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indexSequence: 3
+  indexSequence: 0
   sequences:
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
@@ -389,6 +389,7 @@ MonoBehaviour:
   loadedSceneName: 
   activeSubtitle: 1
   vr: 1
+  epilogueSrtDelay: 4
   allCameras:
   - {fileID: 1683436736}
   - {fileID: 963194227}
@@ -933,7 +934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1378302894
 Transform:
   m_ObjectHideFlags: 0
@@ -960,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indexSequence: 4
+  indexSequence: 0
   sequences:
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
@@ -979,6 +980,7 @@ MonoBehaviour:
   loadedSceneName: 
   activeSubtitle: 1
   vr: 1
+  epilogueSrtDelay: 0
   allCameras:
   - {fileID: 1683436736}
   - {fileID: 963194227}
