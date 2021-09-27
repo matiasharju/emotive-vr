@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/00_OBB_StartScene.unity
+    guid: 139dfe8627a5504478d055e29db93393
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: c8e7a2eba82499a448abb07235e833a3
+  - enabled: 0
+    path: Assets/Scenes/00_StartPlayback.unity
+    guid: b5f34051262b8974a8c9bd814b47b4bb
+  - enabled: 1
+    path: Assets/Scenes/01_Prologue.unity
+    guid: 5d6f3badbaadb4643928dea2567db5d7
+  - enabled: 1
+    path: Assets/Scenes/08_Epilogue.unity
+    guid: 0669d45c54c08554aa7313a309e9c64e
+  - enabled: 1
+    path: Assets/Scenes/09_EndCredits.unity
+    guid: 13b0c869fba0c584aa8460415f865d1e
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 04f2a14257ecaf4489b0280b8141b64e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 34af91bc37a80044899a9902f3aa852a, type: 2}

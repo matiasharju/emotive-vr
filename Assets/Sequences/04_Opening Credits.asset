@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
+  m_Name: 04_Opening Credits
+  m_EditorClassIdentifier: 
+  clip: {fileID: 32900000, guid: 8e433e8a1fc35d04ca642d59f1a46ecd, type: 3}
+  rt: {fileID: 8400000, guid: dafe30d3fe1a16248b11f3ce01ede5cf, type: 2}
+  useAudioFromVideo: 0
+  cutSequence: 0
+  videoLoop: 0
+  showEmotionalBar: 0
+  addScene: 0
+  waitInteraction: 0
+  clearVideo: 0
+  usePostProcess: 0
+  epilogue: 0
+  sceneNameToLoad: 
+  delayBeforeNextSequence: 0
+  soundBankName: OpenProSoundBank
+  audioEvtNames:
+  - PlayTitleMusic
+  delay: 0
+  barInfo: []
+  hideText: 0
+  showBackground: 0
+  updateColorFromValence: 0
+  forceSynchronize: 0
+  timeValue: 0
