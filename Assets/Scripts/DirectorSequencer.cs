@@ -334,9 +334,7 @@ public class DirectorSequencer : MonoBehaviour
 
         if(currentSequence.epilogue)
         {
-           //            StartCoroutine(CO_ForceSynchroEpilogue(epilogueSrtDelay));
-            StartCoroutine(srtManager.Begin());
-            Debug.Log("Start subtitles");
+            // does nothing; StartOldFreudSrt() waits a message from the prologue / epilogue scene
         }
         else
         {
@@ -347,8 +345,15 @@ public class DirectorSequencer : MonoBehaviour
         ++indexSequence;
     }
 
-    // Callback when the video is finish
-    private void EndVideo(VideoPlayer vp)
+// Start Epilogue subtitles
+    public void StartOldFreudSrt()       // Gets called from the prologue / epilogue scene when audio sources are running
+    {
+        StartCoroutine(srtManager.Begin());
+        Debug.Log("Audio started. Start srtManager");
+    }
+
+// Callback when the video is finish
+private void EndVideo(VideoPlayer vp)
     {
         if (!player.isLooping)
         {
@@ -520,6 +525,7 @@ public class DirectorSequencer : MonoBehaviour
         EndFadeOut();
         yield return null;
     }
+
 
     IEnumerator CO_ForceSynchroEpilogue(float delay)
     {

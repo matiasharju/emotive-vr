@@ -338,12 +338,12 @@ GameObject:
   - component: {fileID: 558842299}
   - component: {fileID: 558842300}
   m_Layer: 0
-  m_Name: Karl_Noninteractive (1)
-  m_TagString: Untagged
+  m_Name: Karl_Noninteractive
+  m_TagString: DirectorSequencer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &558842299
 Transform:
   m_ObjectHideFlags: 0
@@ -930,11 +930,11 @@ GameObject:
   - component: {fileID: 1378302895}
   m_Layer: 0
   m_Name: Freud_Noninteractive
-  m_TagString: Untagged
+  m_TagString: DirectorSequencer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1378302894
 Transform:
   m_ObjectHideFlags: 0
