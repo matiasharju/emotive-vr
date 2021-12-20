@@ -150,8 +150,11 @@ Transform:
   m_LocalPosition: {x: -2.095168, y: -0.5109768, z: -5.0882154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1349655377}
   - {fileID: 1378302894}
   - {fileID: 558842299}
+  - {fileID: 1007196593}
+  - {fileID: 1127165644}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -343,7 +346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &558842299
 Transform:
   m_ObjectHideFlags: 0
@@ -356,7 +359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &558842300
 MonoBehaviour:
@@ -720,6 +723,87 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
+--- !u!1 &1007196592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007196593}
+  - component: {fileID: 1007196594}
+  m_Layer: 0
+  m_Name: Choice
+  m_TagString: DirectorSequencer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1007196593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007196592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 176070623}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007196594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007196592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexSequence: 0
+  sequences:
+  - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
+  currentSequence: {fileID: 0}
+  timeToChoice: 3
+  timerChoiceEpi: 2.5
+  timer: 0
+  delay: 0
+  updateValenceTime: 1
+  synchronizeTimer: 0
+  timeToFade: 2
+  loadedSceneName: 
+  activeSubtitle: 1
+  vr: 1
+  epilogueSrtDelay: 4
+  allCameras:
+  - {fileID: 1683436736}
+  - {fileID: 963194227}
+  srtManager: {fileID: 1934347640}
+  player: {fileID: 789182111}
+  cutPlayer: {fileID: 2044297054}
+  emotionalBar: {fileID: 1666887947}
+  audioManager: {fileID: 449404880}
+  fadeAnimator: {fileID: 2102446123}
+  cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
+  canvasSubtitle: {fileID: 2061826942}
+  sphereFade: {fileID: 1234379020}
+  cam: {fileID: 0}
+  play: 0
+  fadeDone: 0
+  waitEndScene: 0
+  activeRaycast: 0
+  showEpilogue: 0
+  updateBarPos: 0
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
+  choiceSeqMuteFadeTime: 4
+  choiceSeqMusicStopEvent: StopChoixMusic
+  choiceSeqOldFreudStopEvent: StopOldFreud
 --- !u!1 &1041152800
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,16 +831,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1041152800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &1041152802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,6 +878,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1127165643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127165644}
+  - component: {fileID: 1127165645}
+  m_Layer: 0
+  m_Name: Prologue
+  m_TagString: DirectorSequencer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1127165644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127165643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 176070623}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1127165645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127165643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexSequence: 0
+  sequences:
+  - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
+  currentSequence: {fileID: 0}
+  timeToChoice: 3
+  timerChoiceEpi: 2.5
+  timer: 0
+  delay: 0
+  updateValenceTime: 1
+  synchronizeTimer: 0
+  timeToFade: 2
+  loadedSceneName: 
+  activeSubtitle: 1
+  vr: 1
+  epilogueSrtDelay: 4
+  allCameras:
+  - {fileID: 1683436736}
+  - {fileID: 963194227}
+  srtManager: {fileID: 1934347640}
+  player: {fileID: 789182111}
+  cutPlayer: {fileID: 2044297054}
+  emotionalBar: {fileID: 1666887947}
+  audioManager: {fileID: 449404880}
+  fadeAnimator: {fileID: 2102446123}
+  cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
+  canvasSubtitle: {fileID: 2061826942}
+  sphereFade: {fileID: 1234379020}
+  cam: {fileID: 0}
+  play: 0
+  fadeDone: 0
+  waitEndScene: 0
+  activeRaycast: 0
+  showEpilogue: 0
+  updateBarPos: 0
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
+  choiceSeqMuteFadeTime: 4
+  choiceSeqMusicStopEvent: StopChoixMusic
+  choiceSeqOldFreudStopEvent: StopOldFreud
 --- !u!1 &1234379018
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +1060,93 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234379018}
   m_Mesh: {fileID: 4300000, guid: e7cd6d4996b723b4ca6ffad89d1c9728, type: 3}
+--- !u!1 &1349655376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349655377}
+  - component: {fileID: 1349655378}
+  m_Layer: 0
+  m_Name: Full_Noninteractive
+  m_TagString: DirectorSequencer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349655377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349655376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 176070623}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1349655378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349655376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexSequence: 0
+  sequences:
+  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
+  - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
+  - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
+  - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
+  - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
+  - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
+  - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
+  currentSequence: {fileID: 0}
+  timeToChoice: 3
+  timerChoiceEpi: 2.5
+  timer: 0
+  delay: 0
+  updateValenceTime: 1
+  synchronizeTimer: 0
+  timeToFade: 2
+  loadedSceneName: 
+  activeSubtitle: 1
+  vr: 1
+  epilogueSrtDelay: 0
+  allCameras:
+  - {fileID: 1683436736}
+  - {fileID: 963194227}
+  srtManager: {fileID: 1934347640}
+  player: {fileID: 789182111}
+  cutPlayer: {fileID: 2044297054}
+  emotionalBar: {fileID: 1666887947}
+  audioManager: {fileID: 449404880}
+  fadeAnimator: {fileID: 2102446123}
+  cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
+  canvasSubtitle: {fileID: 2061826942}
+  sphereFade: {fileID: 1234379020}
+  cam: {fileID: 0}
+  play: 0
+  fadeDone: 0
+  waitEndScene: 0
+  activeRaycast: 0
+  showEpilogue: 0
+  updateBarPos: 0
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
+  choiceSeqMuteFadeTime: 4
+  choiceSeqMusicStopEvent: StopChoixMusic
+  choiceSeqOldFreudStopEvent: StopOldFreud
 --- !u!1 &1367399695
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +1207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1378302895
 MonoBehaviour:
@@ -1682,7 +1942,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 9
   m_SortingLayerID: 0
   m_SortingOrder: 20
   m_TargetDisplay: 0
