@@ -25,7 +25,7 @@ MonoBehaviour:
   epilogue: 0
   sceneNameToLoad: 00_StartPlayback
   delayBeforeNextSequence: 0
-  soundBankName: EpiEndSoundBank
+  soundBankName: OpenProSoundBank
   audioEvtNames: []
   delay: 0
   barInfo: []
