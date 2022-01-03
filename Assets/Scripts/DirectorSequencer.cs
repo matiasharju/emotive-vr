@@ -276,11 +276,10 @@ public class DirectorSequencer : MonoBehaviour
             cam.clearFlags = CameraClearFlags.Skybox;
         }
 
-        /*
         // SETUP EMOTIONAL BAR
         if(currentSequence.showEmotionalBar)
         {
-            audioManager.SetNewValenceValue(DataReader.GetValence());
+//            audioManager.SetNewValenceValue(DataReader.GetValence());
             StartCoroutine(CO_UpdateValenceTime());
 
             if(currentSequence.barInfo.Count > 0)
@@ -292,7 +291,6 @@ public class DirectorSequencer : MonoBehaviour
 			emotionalBar.GetComponent<EmotionBar>().ShowOrHideBackground(currentSequence.showBackground);
             emotionalBar.GetComponent<EmotionBar>().ShowOrHideText(currentSequence.hideText);
         }
-        */
 
         // SETUP AUDIO
         if (!string.IsNullOrEmpty(currentSequence.soundBankName))
@@ -436,7 +434,6 @@ private void EndVideo(VideoPlayer vp)
     // Update every second the emotional bar if it is active
     IEnumerator CO_UpdateValenceTime()
     {
-        /*
         while (emotionalBar.activeSelf)
         {
             yield return new WaitForSeconds(updateValenceTime);
@@ -446,12 +443,12 @@ private void EndVideo(VideoPlayer vp)
             emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
             if (currentSequence.updateColorFromValence)
             {
-                cam.GetComponent<CameraManager>().UpdateFilterColor(valence);
+//                cam.GetComponent<CameraManager>().UpdateFilterColor(valence);
             }
         }
 
-        cam.GetComponent<CameraManager>().DisablePostProcess();
-        */
+//        cam.GetComponent<CameraManager>().DisablePostProcess();
+
         yield return null;
 
     }

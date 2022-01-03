@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
-  m_Name: 06_Choice_01_NI
+  m_Name: 07_Karl_B_Noninteractive
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  rt: {fileID: 0}
+  clip: {fileID: 32900000, guid: 63c8133b25f57704fb8dc169a5430aa5, type: 3}
+  rt: {fileID: 8400000, guid: 69e77a92ad2022f47b1e20f44e1d76ac, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
@@ -25,12 +25,13 @@ MonoBehaviour:
   epilogue: 0
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
-  soundBankName: 
-  audioEvtNames: []
+  soundBankName: KarlSoundBank
+  audioEvtNames:
+  - PlayKarlAudioB
   delay: 0
   barInfo: []
   hideText: 0
   showBackground: 0
   updateColorFromValence: 0
-  forceSynchronize: 0
-  timeValue: 0
+  forceSynchronize: 1
+  timeValue: 0.5

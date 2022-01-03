@@ -18,13 +18,13 @@ MonoBehaviour:
   cutSequence: 0
   videoLoop: 0
   showEmotionalBar: 0
-  addScene: 0
+  addScene: 1
   waitInteraction: 0
-  clearVideo: 0
+  clearVideo: 1
   usePostProcess: 0
   epilogue: 0
-  sceneNameToLoad: 
-  delayBeforeNextSequence: 0
+  sceneNameToLoad: 02_Calibrage
+  delayBeforeNextSequence: 250
   soundBankName: 
   audioEvtNames: []
   delay: 0

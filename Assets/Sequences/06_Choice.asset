@@ -10,24 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
-  m_Name: 07_Freud_B_NI
+  m_Name: 06_Choice
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  rt: {fileID: 0}
+  clip: {fileID: 32900000, guid: 03616d1f06a514045bb17a4585858fc0, type: 3}
+  rt: {fileID: 8400000, guid: 7048ddd7200750b4d8429b2c1ae46a10, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
-  videoLoop: 0
+  videoLoop: 1
   showEmotionalBar: 0
-  addScene: 0
-  waitInteraction: 0
+  addScene: 1
+  waitInteraction: 1
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
-  sceneNameToLoad: 
+  sceneNameToLoad: 06_ViewpointChoice
   delayBeforeNextSequence: 0
-  soundBankName: 
-  audioEvtNames: []
-  delay: 0
+  soundBankName: Choice2SoundBank
+  audioEvtNames:
+  - PlayChoixMusic
+  - PlayOldFreud1
+  delay: 5
   barInfo: []
   hideText: 0
   showBackground: 0

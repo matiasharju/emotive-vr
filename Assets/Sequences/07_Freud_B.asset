@@ -17,7 +17,7 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
@@ -29,8 +29,52 @@ MonoBehaviour:
   audioEvtNames:
   - PlayFreudAudioB
   delay: 0
-  barInfo: []
-  hideText: 0
+  barInfo:
+  - position: {x: 253, y: 119.4, z: -156.2}
+    rotation: {x: 0, y: 129.852, z: 0}
+    keyFrame: 0
+    hide: 0
+  - position: {x: -26, y: 113, z: 138}
+    rotation: {x: -7.086, y: 44.753, z: -9.27}
+    keyFrame: 781
+    hide: 0
+  - position: {x: -230, y: 96.8, z: -58.3}
+    rotation: {x: -12.738, y: -79.847, z: -5.35}
+    keyFrame: 1805
+    hide: 0
+  - position: {x: -87.6, y: 108, z: 99}
+    rotation: {x: -15.33, y: 12.95, z: -12.004}
+    keyFrame: 1971
+    hide: 0
+  - position: {x: -210.5, y: 109.2, z: -171}
+    rotation: {x: -9.446, y: -100.014, z: -7.315001}
+    keyFrame: 2147
+    hide: 0
+  - position: {x: -144, y: 122, z: -42}
+    rotation: {x: -9.526, y: -59.513, z: -4.361}
+    keyFrame: 2294
+    hide: 0
+  - position: {x: 246.5, y: 113.6, z: 131.5}
+    rotation: {x: -8.360001, y: 85.201, z: -5.463}
+    keyFrame: 2788
+    hide: 0
+  - position: {x: 33.8, y: 119.7, z: -142.7}
+    rotation: {x: -15.4, y: 212.494, z: -2.386}
+    keyFrame: 2976
+    hide: 0
+  - position: {x: 293.2, y: 118.6, z: -30.2}
+    rotation: {x: -22.306, y: 108.445, z: -0.821}
+    keyFrame: 4404
+    hide: 0
+  - position: {x: -83.4, y: 126, z: 131.6}
+    rotation: {x: -12.364, y: 12.814, z: -3.989}
+    keyFrame: 4989
+    hide: 0
+  - position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    keyFrame: 5553
+    hide: 1
+  hideText: 1
   showBackground: 0
   updateColorFromValence: 0
   forceSynchronize: 1

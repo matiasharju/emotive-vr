@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: A_Cut_Neurones
   m_EditorClassIdentifier: 
   clip: {fileID: 0}
-  rt: {fileID: 0}
+  rt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   useAudioFromVideo: 0
-  cutSequence: 0
+  cutSequence: 1
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 0
   waitInteraction: 0
-  clearVideo: 0
+  clearVideo: 1
   usePostProcess: 0
   epilogue: 0
   sceneNameToLoad: 
-  delayBeforeNextSequence: 0
+  delayBeforeNextSequence: 5
   soundBankName: 
   audioEvtNames: []
   delay: 0
   barInfo: []
-  hideText: 0
+  hideText: 1
   showBackground: 0
   updateColorFromValence: 0
   forceSynchronize: 0

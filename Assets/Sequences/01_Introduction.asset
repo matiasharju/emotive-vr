@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 01_Introduction
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  rt: {fileID: 0}
+  clip: {fileID: 32900000, guid: 632035114d215c74ea825964c58c9bb1, type: 3}
+  rt: {fileID: 8400000, guid: 53ae36cdfab4f7b40bfd6031977931f3, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
@@ -25,8 +25,9 @@ MonoBehaviour:
   epilogue: 0
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
-  soundBankName: 
-  audioEvtNames: []
+  soundBankName: IntroSoundBank
+  audioEvtNames:
+  - PlayIntroduction1
   delay: 0
   barInfo: []
   hideText: 0

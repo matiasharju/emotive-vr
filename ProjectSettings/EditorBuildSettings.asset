@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/01_Prologue.unity
     guid: 5d6f3badbaadb4643928dea2567db5d7
   - enabled: 1
+    path: Assets/Scenes/02_Calibrage.unity
+    guid: 42bc1e646b6d5aa49a1968f9c2d13eb3
+  - enabled: 1
     path: Assets/Scenes/06_ViewpointChoice.unity
     guid: ef59473b59f023b4b86c6e97c231b52a
+  - enabled: 1
+    path: Assets/Scenes/06_ViewpointChoice_Noninteractive.unity
+    guid: ac549e030391d1140a8ce384063598b4
   - enabled: 1
     path: Assets/Scenes/08_Epilogue.unity
     guid: 0669d45c54c08554aa7313a309e9c64e
