@@ -44,6 +44,7 @@ public class DirectorSequencer : MonoBehaviour
     public RenderTexture cutRt;
     public Canvas canvasSubtitle;
 	public Animator sphereFade;
+    public PseudoDataInput pseudoDataInput;
 
     [HideInInspector] public Camera cam;
 
@@ -279,7 +280,8 @@ public class DirectorSequencer : MonoBehaviour
         // SETUP EMOTIONAL BAR
         if(currentSequence.showEmotionalBar)
         {
-//            audioManager.SetNewValenceValue(DataReader.GetValence());
+            //  audioManager.SetNewValenceValue(DataReader.GetValence());       // Read from CSV
+            audioManager.SetNewValenceValue(pseudoDataInput.GetValence());      // Read from debug valence slider
             StartCoroutine(CO_UpdateValenceTime());
 
             if(currentSequence.barInfo.Count > 0)
@@ -438,7 +440,8 @@ private void EndVideo(VideoPlayer vp)
         {
             yield return new WaitForSeconds(updateValenceTime);
             DataReader.UpTime();
-            float valence = DataReader.GetValence();
+            // float valence = DataReader.GetValence();     // Read from CSV
+            float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
             audioManager.SetNewValenceValue(valence);
             emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
             if (currentSequence.updateColorFromValence)

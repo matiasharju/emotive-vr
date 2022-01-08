@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DirectorSequencer
+  - PseudoDataInput
   layers:
   - Default
   - TransparentFX

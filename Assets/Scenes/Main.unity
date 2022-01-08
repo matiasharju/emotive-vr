@@ -290,6 +290,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -416,6 +417,51 @@ MonoBehaviour:
   musicVolume: 0
   valence: 0.5
   usePseudoValence: 0
+--- !u!1 &486323651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486323653}
+  - component: {fileID: 486323652}
+  m_Layer: 0
+  m_Name: PseudoDataInput
+  m_TagString: PseudoDataInput
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &486323652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486323651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3f0a6d2b4fea04bb9b2ac63a04d168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pseudoValence: 0.5
+  pseudoArousal: 0.5
+--- !u!4 &486323653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486323651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &558842298
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +537,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -825,7 +872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1007196593
 Transform:
   m_ObjectHideFlags: 0
@@ -879,6 +926,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -1034,6 +1082,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -1222,6 +1271,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -1339,6 +1389,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -1366,7 +1417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1387465136
 Transform:
   m_ObjectHideFlags: 0
@@ -1395,7 +1446,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
@@ -1404,6 +1454,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: 34b78acce56a66744898783ef4fb4bf8, type: 2}
+  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1428,6 +1479,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0
@@ -1682,6 +1734,7 @@ MonoBehaviour:
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
   sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
   cam: {fileID: 0}
   play: 0
   fadeDone: 0

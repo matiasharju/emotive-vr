@@ -17,7 +17,7 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 1
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 1
   waitInteraction: 1
   clearVideo: 0
@@ -30,8 +30,12 @@ MonoBehaviour:
   - PlayChoixMusic
   - PlayOldFreud1
   delay: 5
-  barInfo: []
-  hideText: 0
+  barInfo:
+  - position: {x: 68, y: -15, z: 0}
+    rotation: {x: 0, y: 90, z: 0}
+    keyFrame: 0
+    hide: 0
+  hideText: 1
   showBackground: 0
   updateColorFromValence: 0
   forceSynchronize: 0

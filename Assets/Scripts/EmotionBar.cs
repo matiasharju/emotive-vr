@@ -87,11 +87,14 @@ public class EmotionBar : MonoBehaviour
         }
         else
         {
-            _endAmountValue = (((valenceValue - 0) * 1) / 0.5f) + 0;
+//            _endAmountValue = (((valenceValue - 0) * 1) / 0.5f) + 0;      // original impelementation where negative bar goes opposite direction
+
+            float normal = Mathf.InverseLerp(0.0f, 0.5f, valenceValue);     // new implementation where negative bar goes logically
+            _endAmountValue = Mathf.Lerp(1.0f, 0.0f, normal);
         }
 
         // Defining which lerp apply
-        if(valenceValue >= 0.5f && barNeg.fillAmount == _startAmountValue)
+        if (valenceValue >= 0.5f && barNeg.fillAmount == _startAmountValue)
         {
             _blueToYellow = true;
             _lerpBlue = true;
