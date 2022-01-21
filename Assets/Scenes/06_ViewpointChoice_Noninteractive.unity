@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d89b296e087f5754c84181295e6454a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snapshot: {fileID: 24500006, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
+  snapshot: {fileID: 24500006, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
   fadeTime: 3
   callOnAwake: 1
 --- !u!114 &589601951
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   effect: {fileID: 386136081}
   sequences:
   - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
-  - {fileID: 11400000, guid: 9f2bffff0afb72c42b29a040078127ba, type: 2}
+  - {fileID: 0}
   nextSequence: 0
   blockHide: 0
   epilogue: 0
