@@ -13,4 +13,10 @@ public class PseudoDataInput : MonoBehaviour
     {
         return pseudoValence;
     }
+
+    public float GetArousal()
+    {
+        return pseudoArousal;
+    }
+
 }

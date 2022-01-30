@@ -271,7 +271,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -285,6 +285,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -298,7 +299,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -518,7 +519,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -532,6 +533,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -545,7 +547,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -744,7 +746,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1544528335}
   m_Father: {fileID: 1367399696}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1139,7 +1142,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1153,6 +1156,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1166,7 +1170,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -1295,7 +1299,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1309,6 +1313,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1322,7 +1327,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -1484,7 +1489,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1498,6 +1503,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1511,7 +1517,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -1603,7 +1609,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1617,6 +1623,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1630,7 +1637,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -1693,7 +1700,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1707,6 +1714,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1720,7 +1728,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
@@ -1948,7 +1956,7 @@ MonoBehaviour:
   timerChoiceEpi: 2.5
   timer: 0
   delay: 0
-  updateValenceTime: 1
+  updateValenceTime: 0.1
   synchronizeTimer: 0
   timeToFade: 2
   loadedSceneName: 
@@ -1962,6 +1970,7 @@ MonoBehaviour:
   player: {fileID: 789182111}
   cutPlayer: {fileID: 2044297054}
   emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
   audioManager: {fileID: 449404880}
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
@@ -1975,10 +1984,203 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: fdc82bb014870dc478d8a9e01ed8d9aa, type: 2}
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
+--- !u!1 &1493414557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493414558}
+  - component: {fileID: 1493414560}
+  - component: {fileID: 1493414559}
+  m_Layer: 5
+  m_Name: Pointer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1493414558
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493414557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1544528335}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1493414559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493414557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1493414560
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493414557}
+  m_CullTransparentMesh: 1
+--- !u!1 &1544528334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1544528335}
+  - component: {fileID: 1544528338}
+  - component: {fileID: 1544528337}
+  - component: {fileID: 1544528336}
+  - component: {fileID: 1544528339}
+  m_Layer: 5
+  m_Name: EmotionTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1544528335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544528334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 300}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1832413353}
+  - {fileID: 1493414558}
+  m_Father: {fileID: 955618324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 200, y: 100}
+  m_SizeDelta: {x: 800, y: 800}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1544528336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544528334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1544528337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544528334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1544528338
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544528334}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 955618327}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &1544528339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544528334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858e30c5e1658488086d877adff9f7bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerObject: {fileID: 1493414558}
+  backgroundImage: {fileID: 1832413354}
+  pointerImage: {fileID: 1493414559}
+  fadeTime: 3
 --- !u!1 &1683436734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,9 +2406,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3494806272631679973, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3494806272666755809, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3494806272666755809, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3494806272666755839, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
       propertyPath: m_fontAsset
@@ -2236,6 +2446,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3494806272743543132, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3494806272843434933, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -2252,9 +2466,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3494806272843434935, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3494806273003837151, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3494806273003837151, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5287659307092438684, guid: 61c61cab304be4e40bf71f8f856e5619, type: 3}
       propertyPath: m_Layer
@@ -2496,6 +2718,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768230316}
   m_CullTransparentMesh: 0
+--- !u!1 &1832413352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832413353}
+  - component: {fileID: 1832413355}
+  - component: {fileID: 1832413354}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1832413353
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832413352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1544528335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1832413354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832413352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1832413355
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832413352}
+  m_CullTransparentMesh: 1
 --- !u!1 &1919449754
 GameObject:
   m_ObjectHideFlags: 0
