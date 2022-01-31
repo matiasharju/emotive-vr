@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/09_EndCredits.unity
     guid: 13b0c869fba0c584aa8460415f865d1e
+  - enabled: 1
+    path: Assets/Scenes/07_NextViewpoint.unity
+    guid: ce2a0ccd6a257174c8ad3d54bee51f99
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 04f2a14257ecaf4489b0280b8141b64e, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: fdae2f3c64c4a45f895df97864095e1b, type: 2}

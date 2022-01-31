@@ -46,6 +46,8 @@ public class DirectorSequencer : MonoBehaviour
     public Canvas canvasSubtitle;
 	public Animator sphereFade;
     public PseudoDataInput pseudoDataInput;
+    public EmotionTable emotionTableScript;
+
 
     [HideInInspector] public Camera cam;
 
@@ -69,8 +71,11 @@ public class DirectorSequencer : MonoBehaviour
     private Quaternion startRotation;
     private GameObject _hitObject;
 
-//    private SteamVR_LoadLevel vrSceneManager;
+    //    private SteamVR_LoadLevel vrSceneManager;
 
+    [Header("Stats")]
+    public bool FreudPlayed = false;
+    public bool KarlPlayed = false;
 
     private void Awake()
     {
@@ -249,8 +254,11 @@ public class DirectorSequencer : MonoBehaviour
         
         player.prepareCompleted -= SetNextVideo;
 
-        emotionalBar.SetActive(currentSequence.showEmotionalBar);
-        emotionTable.SetActive(currentSequence.showEmotionalBar);
+        //        emotionalBar.SetActive(currentSequence.showEmotionalBar);
+
+        if ((currentSequence.showEmotionalBar) && (emotionTable != null)) emotionTableScript.FadeIn();
+        if ((!currentSequence.showEmotionalBar) && (emotionTable != null)) emotionTableScript.FadeOut();
+
 
         // SETUP ADDITIONAL SCENE
         if (currentSequence.addScene)
@@ -335,6 +343,9 @@ public class DirectorSequencer : MonoBehaviour
 
 		play = true;
 		player.Play();
+
+        if (currentSequence.thisIsFreud) FreudPlayed = true;
+        if (currentSequence.thisIsKarl) KarlPlayed = true;
 
         if(currentSequence.epilogue)
         {
@@ -448,6 +459,7 @@ private void EndVideo(VideoPlayer vp)
             float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
             float arousal = pseudoDataInput.GetArousal();
             audioManager.SetNewValenceValue(valence);
+
             emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
             emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, arousal);
 

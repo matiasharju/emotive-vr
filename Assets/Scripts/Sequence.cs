@@ -31,6 +31,8 @@ public class Sequence : ScriptableObject
     public bool clearVideo;
     public bool usePostProcess;
     public bool epilogue;
+    public bool thisIsFreud;
+    public bool thisIsKarl;
 
     [Header("Additional Behaviors")]
     public string sceneNameToLoad;

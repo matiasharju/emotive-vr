@@ -19,8 +19,6 @@ public class EmotionTable : MonoBehaviour
         backgroundImage.CrossFadeAlpha(0.0f, 0.0f, false);
         pointerImage.CrossFadeAlpha(0.0f, 0.0f, false);
 
-        backgroundImage.CrossFadeAlpha(1.0f, fadeTime, false);
-        pointerImage.CrossFadeAlpha(1.0f, fadeTime, false);
     }
 
     public void UpdateEmotionTable(float valenceValue, float arousalValue)
@@ -34,6 +32,21 @@ public class EmotionTable : MonoBehaviour
         pointerPosition.z = 0.0f;
 
         pointerObject.localPosition = pointerPosition;
+
+        float currentValence = valenceValue;
+
+    }
+
+    public void FadeIn()
+    {
+        backgroundImage.CrossFadeAlpha(1.0f, fadeTime, false);
+        pointerImage.CrossFadeAlpha(1.0f, fadeTime, false);
+    }
+
+    public void FadeOut()
+    {
+        backgroundImage.CrossFadeAlpha(0.0f, fadeTime, false);
+        pointerImage.CrossFadeAlpha(0.0f, fadeTime, false);
     }
 
 }

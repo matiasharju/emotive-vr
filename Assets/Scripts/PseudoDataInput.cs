@@ -19,8 +19,24 @@ public class PseudoDataInput : MonoBehaviour
         return pseudoArousal;
     }
 
-    private void Update()
+    public void IncreaseValence()
     {
-        if (Input.GetKeyDown("L")) pseudoValence = pseudoValence + 0.05f;
+        pseudoValence = pseudoValence + 0.05f;
     }
+
+    public void DecreaseValence()
+    {
+        pseudoValence = pseudoValence - 0.05f;
+    }
+
+    public void IncreaseArousal()
+    {
+        pseudoArousal = pseudoArousal + 0.05f;
+    }
+
+    public void DecreaseArousal()
+    {
+        pseudoArousal = pseudoArousal - 0.05f;
+    }
+
 }

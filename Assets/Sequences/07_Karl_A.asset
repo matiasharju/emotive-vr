@@ -17,12 +17,14 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 1
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
   soundBankName: KarlSoundBank
@@ -30,7 +32,7 @@ MonoBehaviour:
   - PlayKarlAudio
   delay: 0
   barInfo: []
-  hideText: 0
+  hideText: 1
   showBackground: 0
   updateColorFromValence: 0
   forceSynchronize: 1

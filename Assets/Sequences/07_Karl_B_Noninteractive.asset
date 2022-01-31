@@ -23,6 +23,8 @@ MonoBehaviour:
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 1
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
   soundBankName: KarlSoundBank
