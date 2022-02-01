@@ -12,7 +12,7 @@ public class ChoiceSequence : MonoBehaviour
     public List<Sequence> sequences;
     
     
-    public bool nextSequence = false;
+    public bool nextSequence = false;       // If false, adds sequences from the above list of sequences; If true, continues to the next sequence in the main DirectorSequencer list
     
     // Disable the choice
     public bool blockHide = false;

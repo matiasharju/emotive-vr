@@ -195,9 +195,31 @@ public class DirectorSequencer : MonoBehaviour
        
     }
 
+    public void PlayFreud(FreudOrKarl choice)
+    {
+        AddSequences(choice.GetFreudSequences());
+        srtManager.AddSubtitles(choice.GetFreudSequences());
+
+        if (!vr)
+            StartCoroutine(CO_FadeIn());
+        else
+            StartCoroutine(CO_FadeInVR());
+    }
+
+    public void PlayKarl(FreudOrKarl choice)
+    {
+        AddSequences(choice.GetKarlSequences());
+        srtManager.AddSubtitles(choice.GetKarlSequences());
+
+        if (!vr)
+            StartCoroutine(CO_FadeIn());
+        else
+            StartCoroutine(CO_FadeInVR());
+    }
+
     public void ValidateChoice(ChoiceSequence choice)
     {
-        if (!choice.nextSequence)
+        if (!choice.nextSequence)       // If false, adds sequences from the list of sequences in the choice script; If true, continues to the next sequence in the main list
         {
             AddSequences(choice.GetSequence());
             srtManager.AddSubtitles(choice.GetSequence());
@@ -254,7 +276,7 @@ public class DirectorSequencer : MonoBehaviour
         
         player.prepareCompleted -= SetNextVideo;
 
-        //        emotionalBar.SetActive(currentSequence.showEmotionalBar);
+//        emotionalBar.SetActive(currentSequence.showEmotionalBar);
 
         if ((currentSequence.showEmotionalBar) && (emotionTable != null)) emotionTableScript.FadeIn();
         if ((!currentSequence.showEmotionalBar) && (emotionTable != null)) emotionTableScript.FadeOut();

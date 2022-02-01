@@ -12,17 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 00_StartPlayback
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: bb81582382780f14d9f096d2c796556c, type: 3}
-  rt: {fileID: 8400000, guid: 53ae36cdfab4f7b40bfd6031977931f3, type: 2}
+  clip: {fileID: 0}
+  rt: {fileID: 0}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 1
   showEmotionalBar: 0
   addScene: 1
   waitInteraction: 1
-  clearVideo: 0
+  clearVideo: 1
   usePostProcess: 0
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 0
   sceneNameToLoad: 00_StartPlayback
   delayBeforeNextSequence: 0
   soundBankName: OpenProSoundBank

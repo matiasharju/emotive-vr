@@ -31,7 +31,11 @@ MonoBehaviour:
   audioEvtNames:
   - PlayFreudAudio
   delay: 0
-  barInfo: []
+  barInfo:
+  - position: {x: 68, y: -15, z: 0}
+    rotation: {x: 0, y: 90, z: 0}
+    keyFrame: 0
+    hide: 0
   hideText: 1
   showBackground: 0
   updateColorFromValence: 0
