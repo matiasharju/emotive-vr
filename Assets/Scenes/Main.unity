@@ -988,6 +988,7 @@ GameObject:
   - component: {fileID: 963194231}
   - component: {fileID: 963194233}
   - component: {fileID: 963194232}
+  - component: {fileID: 963194234}
   m_Layer: 7
   m_Name: XR_Camera
   m_TagString: MainCamera
@@ -1127,7 +1128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 1bb6a65fad77bb349a118d25d20b6442, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -1192,6 +1193,24 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &963194234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e69ef5f9104167c488db5ddf255f1621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: {fileID: 0}
+  volume: {fileID: 0}
+  speed: 1
+  positiveValenceColor: {r: 1, g: 0.9137255, b: 0.16470589, a: 1}
+  negativeValenceColor: {r: 0, g: 0.95686275, b: 1, a: 0}
+  neutralColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &1007196592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,7 +1818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
@@ -1808,6 +1826,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: 34b78acce56a66744898783ef4fb4bf8, type: 2}
+  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1821,7 +1840,7 @@ MonoBehaviour:
   vr: 1
   epilogueSrtDelay: 0
   allCameras:
-  - {fileID: 1683436736}
+  - {fileID: 963194227}
   - {fileID: 963194227}
   srtManager: {fileID: 1934347640}
   player: {fileID: 789182111}
@@ -1846,7 +1865,7 @@ MonoBehaviour:
   choiceSeqMuteFadeTime: 4
   choiceSeqMusicStopEvent: StopChoixMusic
   choiceSeqOldFreudStopEvent: StopOldFreud
-  FreudPlayed: 1
+  FreudPlayed: 0
   KarlPlayed: 0
 --- !u!1 &1396236846
 GameObject:
@@ -2329,10 +2348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69ef5f9104167c488db5ddf255f1621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layer: {fileID: 0}
+  volume: {fileID: 0}
   speed: 5
-  controlCameraWithMouse: 1
-  speedHorizontal: 1
-  speedVertical: 1
   positiveValenceColor: {r: 0.9468937, g: 1, b: 0, a: 0}
   negativeValenceColor: {r: 0, g: 0.13798308, b: 1, a: 0}
   neutralColor: {r: 1, g: 1, b: 1, a: 0}

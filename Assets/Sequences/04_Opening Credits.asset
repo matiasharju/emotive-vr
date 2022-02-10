@@ -21,8 +21,10 @@ MonoBehaviour:
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
-  usePostProcess: 0
+  usePostProcess: 1
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 0
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
   soundBankName: OpenProSoundBank
@@ -36,6 +38,7 @@ MonoBehaviour:
     hide: 0
   hideText: 1
   showBackground: 0
-  updateColorFromValence: 0
+  profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
+  updateColorFromValence: 1
   forceSynchronize: 0
   timeValue: 0

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
-// using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering.PostProcessing;
 
 [CreateAssetMenu(fileName = "Sequence")]
 public class Sequence : ScriptableObject
@@ -49,7 +49,7 @@ public class Sequence : ScriptableObject
 	public bool showBackground;
 
     [Header("Post Process")]
-//    public PostProcessProfile profile;
+    public PostProcessProfile profile;
     public bool updateColorFromValence;
 
     [Header("Synchronization")]

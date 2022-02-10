@@ -342,11 +342,11 @@ public class DirectorSequencer : MonoBehaviour
 
         if(currentSequence.usePostProcess)
         {
-//            cam.GetComponent<CameraManager>().SetPostProcess(true, currentSequence.profile);
+            cam.GetComponent<CameraManager>().SetPostProcess(true, currentSequence.profile);
         }
         else
         {
-//            cam.GetComponent<CameraManager>().SetPostProcess(false, null);
+            cam.GetComponent<CameraManager>().SetPostProcess(false, null);
         }
 
         if(activeSubtitle)
@@ -473,7 +473,7 @@ private void EndVideo(VideoPlayer vp)
     // Update every second the emotional bar if it is active
     IEnumerator CO_UpdateValenceTime()
     {
-        while (emotionalBar.activeSelf)
+        while (emotionTable.activeSelf)
         {
             yield return new WaitForSeconds(updateValenceTime);
             DataReader.UpTime();
@@ -487,11 +487,11 @@ private void EndVideo(VideoPlayer vp)
 
             if (currentSequence.updateColorFromValence)
             {
-//                cam.GetComponent<CameraManager>().UpdateFilterColor(valence);
+                cam.GetComponent<CameraManager>().UpdateFilterColor(valence);
             }
         }
 
-//        cam.GetComponent<CameraManager>().DisablePostProcess();
+        cam.GetComponent<CameraManager>().DisablePostProcess();
 
         yield return null;
 
