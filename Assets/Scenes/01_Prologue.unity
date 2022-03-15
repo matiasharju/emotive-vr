@@ -6444,7 +6444,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6811b4331374fad4f9f495e28c235d13, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6801,6 +6801,7 @@ MonoBehaviour:
   smokeParticleSystem: {fileID: 580649615}
   negativeValenceLight: {fileID: 972551383}
   positiveValenceLight: {fileID: 1432044811}
+  maxIntensity: 2
   smoothTime: 0.5
 --- !u!1 &2080348777
 GameObject:
