@@ -1727,12 +1727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
-  - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
-  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
-  - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
+  - {fileID: 11400000, guid: c04e4326edbd23c498ac3611f39c3771, type: 2}
+  - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
+  - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1818,14 +1815,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
+  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
+  - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
-  - {fileID: 11400000, guid: 34b78acce56a66744898783ef4fb4bf8, type: 2}
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
@@ -3184,7 +3181,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

@@ -10,31 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
-  m_Name: 07_Freud_B_Non-interactive
+  m_Name: 04_Opening Credits_Non-interactive
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 49d8189dafa38684ab40bc6f147e7505, type: 3}
-  rt: {fileID: 8400000, guid: 8df5dc3aa0f933f469bdf0e4b031c7f3, type: 2}
+  clip: {fileID: 32900000, guid: 8e433e8a1fc35d04ca642d59f1a46ecd, type: 3}
+  rt: {fileID: 8400000, guid: dafe30d3fe1a16248b11f3ce01ede5cf, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 1
+  showEmotionalBar: 0
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
-  thisIsFreud: 1
+  thisIsFreud: 0
   thisIsKarl: 0
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
-  soundBankName: FreudSoundBank
+  soundBankName: OpenProSoundBank
   audioEvtNames:
-  - PlayFreudAudioB
+  - PlayTitleMusic
   delay: 0
-  barInfo: []
+  barInfo:
+  - position: {x: 68, y: -15, z: 0}
+    rotation: {x: 0, y: 90, z: 0}
+    keyFrame: 0
+    hide: 0
   hideText: 0
   showBackground: 0
-  profile: {fileID: 0}
+  profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
   updateColorFromValence: 0
-  forceSynchronize: 1
-  timeValue: 0.5
+  forceSynchronize: 0
+  timeValue: 0

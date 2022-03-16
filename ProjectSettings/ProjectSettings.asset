@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Emotive VR
-  productName: "Freud, la derni\xE8re hypnose: Point de vue de Karl"
+  productName: "Freud, la derni\xE8re hypnose TEST BUILD 2022-03-16"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -155,7 +155,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.LeCrabeFantome.EmotiveVR_OculusQuest_Freud
-    Standalone: com.EmotiveVR.FreudladernirehypnosePointdevuedeKarl
+    Standalone: com.EmotiveVR.FreudladernirehypnoseTESTBUILD2022-03-16
   buildNumber:
     Standalone: 0
     iPhone: 0
