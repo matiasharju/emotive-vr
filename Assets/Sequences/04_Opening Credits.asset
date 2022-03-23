@@ -30,6 +30,7 @@ MonoBehaviour:
   soundBankName: OpenProSoundBank
   audioEvtNames:
   - PlayTitleMusic
+  - PlayArousalTestMusic
   delay: 0
   barInfo:
   - position: {x: 68, y: -15, z: 0}

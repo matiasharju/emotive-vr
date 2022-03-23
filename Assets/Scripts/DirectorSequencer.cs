@@ -22,7 +22,7 @@ public class DirectorSequencer : MonoBehaviour
     public float timerChoiceEpi = 0;
     public float timer = 0;
     public float delay;
-    public float updateValenceTime = 1;
+    public float updateValenceTime = 0.1f;
     public float synchronizeTimer = 0;
     public float timeToFade = 2;
 
@@ -77,6 +77,9 @@ public class DirectorSequencer : MonoBehaviour
     public bool FreudPlayed = false;
     public bool KarlPlayed = false;
 
+    [Header("Arousal Peak Data")]
+    public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
+
     private void Awake()
     {
         Instance = this;
@@ -119,6 +122,8 @@ public class DirectorSequencer : MonoBehaviour
         DataReader.Init("Data_Valence.csv");
         player.playOnAwake = false;
         */
+
+        DataReaderArousalPeaks.Init(ArousalPeakCSVFilename);
 
 		PrepareVideo();
     }
@@ -313,7 +318,7 @@ public class DirectorSequencer : MonoBehaviour
         // SETUP EMOTIONAL BAR
         if(currentSequence.showEmotionalBar)
         {
-            //  audioManager.SetNewValenceValue(DataReader.GetValence());       // Read from CSV
+            //audioManager.SetNewValenceValue(DataReader.GetValence());       // Read from CSV
             audioManager.SetNewValenceValue(pseudoDataInput.GetValence());      // Read from debug valence slider
 
             StartCoroutine(CO_UpdateValenceTime());
@@ -476,11 +481,14 @@ private void EndVideo(VideoPlayer vp)
         while (emotionTable.activeSelf)
         {
             yield return new WaitForSeconds(updateValenceTime);
-            DataReader.UpTime();
+            //DataReader.UpTime();
             // float valence = DataReader.GetValence();     // Read from CSV
+            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock
+            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak();    // Read from CSV
             float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
             float arousal = pseudoDataInput.GetArousal();
             audioManager.SetNewValenceValue(valence);
+            audioManager.SetNewArousalPeakValue(arousalPeak);
 
             emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
             emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, arousal);
