@@ -34,6 +34,9 @@ MonoBehaviour:
   barInfo: []
   hideText: 0
   showBackground: 0
+  profile: {fileID: 0}
   updateColorFromValence: 0
   forceSynchronize: 1
   timeValue: 0.5
+  readSensorData: 0
+  sensorDataStartTime: 0

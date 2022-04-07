@@ -23,6 +23,8 @@ MonoBehaviour:
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 0
   sceneNameToLoad: 09_EndCredits
   delayBeforeNextSequence: 160
   soundBankName: EpiEndSoundBank
@@ -32,6 +34,9 @@ MonoBehaviour:
   barInfo: []
   hideText: 1
   showBackground: 1
+  profile: {fileID: 0}
   updateColorFromValence: 0
   forceSynchronize: 0
   timeValue: 0
+  readSensorData: 0
+  sensorDataStartTime: 0

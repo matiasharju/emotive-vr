@@ -23,6 +23,8 @@ MonoBehaviour:
   clearVideo: 1
   usePostProcess: 1
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 0
   sceneNameToLoad: 07_NextViewpoint
   delayBeforeNextSequence: 0
   soundBankName: Choice2SoundBank
@@ -35,6 +37,9 @@ MonoBehaviour:
     hide: 0
   hideText: 1
   showBackground: 0
+  profile: {fileID: 0}
   updateColorFromValence: 0
   forceSynchronize: 0
   timeValue: 0
+  readSensorData: 0
+  sensorDataStartTime: 0

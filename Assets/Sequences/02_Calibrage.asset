@@ -23,6 +23,8 @@ MonoBehaviour:
   clearVideo: 1
   usePostProcess: 0
   epilogue: 0
+  thisIsFreud: 0
+  thisIsKarl: 0
   sceneNameToLoad: 02_Calibrage
   delayBeforeNextSequence: 250
   soundBankName: 
@@ -31,6 +33,9 @@ MonoBehaviour:
   barInfo: []
   hideText: 0
   showBackground: 0
+  profile: {fileID: 0}
   updateColorFromValence: 0
   forceSynchronize: 0
   timeValue: 0
+  readSensorData: 0
+  sensorDataStartTime: 0
