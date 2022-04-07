@@ -25,6 +25,9 @@ public class ChangeSmokeColour : MonoBehaviour
         light = GetComponent<Light>();
         pseudoDataInput = GameObject.FindGameObjectWithTag("PseudoDataInput").GetComponent<PseudoDataInput>();
 
+        positiveValenceLight.intensity = 0.0f;
+        negativeValenceLight.intensity = 0.0f;
+
         StartCoroutine(CO_UpdateValenceTime());
     }
 
