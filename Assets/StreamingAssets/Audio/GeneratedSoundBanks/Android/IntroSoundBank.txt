@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	172570369	StopIntroduction			\Default Work Unit\01_Introduction\StopIntroduction	
+	2845561435	PlayArousalTestMusic			\Default Work Unit\Common\PlayArousalTestMusic	
+	3043762247	PlayBeep			\Default Work Unit\Common\PlayBeep	
+	3086540886	StopAll			\Default Work Unit\Common\StopAll	
+	3240900869	ResumeAll			\Default Work Unit\Common\ResumeAll	
+	3698975080	GreetingsFromHelsinki			\Default Work Unit\Common\GreetingsFromHelsinki	
+	3934384867	PlayBreathing			\Default Work Unit\Common\PlayBreathing	
+	3972833680	PlayIntroduction1			\Default Work Unit\01_Introduction\PlayIntroduction1	
+	3972833683	PlayIntroduction2			\Default Work Unit\01_Introduction\PlayIntroduction2	
+	4091047182	PauseAll			\Default Work Unit\Common\PauseAll	
+	4284960165	PlayHeartbeat			\Default Work Unit\Common\PlayHeartbeat	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	125294654	Intro_synthpad_L	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Intro_synthpad.L_DF848474.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\Intro_synthpad_L		445253
+	203120769	Introduction2_Voiceover	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Introduction2_Voiceover_2018-05-06_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\Introduction2_Voiceover		431958
+	247385258	Introduction1_Voiceover	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Introduction1_Voiceover_2018-04-21_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\Introduction1_Voiceover		475991
+	280853858	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_02_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_02		8766
+	320466212	NeuroTheremin_15	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_15_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_15		11419
+	328051268	NeuroTheremin_01	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_01_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_01		10268
+	497011185	NeuroTheremin_03	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_03_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_03		9867
+	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		376873
+	603841057	NeuroTheremin_17	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_17_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_17		9785
+	983739793	Intro_synthpad_R	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Intro_synthpad.R_1D2EA8F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\Intro_synthpad_R		447409
+	994951117	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_07_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_07		4823
+

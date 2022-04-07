@@ -65,7 +65,9 @@ crashlytics-build.properties
 *.wav
 
 # Wwise soundbanks (always copied from the Wwise project when building the Unity project)
-[Aa]ssets/StreamingAssets/Audio/GeneratedSoundBanks/
+# [Aa]ssets/StreamingAssets/Audio/GeneratedSoundBanks/
+# NOTE 2022-04-07: Added LFS support to enable tracking of these large soundbank files for
+# more convenient development in multiple locations
  
 # WWise Picker (editor)
 # from https://www.audiokinetic.com/library/edge/?source=Unity&id=unity__troubleshooting.html

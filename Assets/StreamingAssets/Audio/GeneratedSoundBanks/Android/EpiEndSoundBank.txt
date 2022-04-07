@@ -1,0 +1,50 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1149452795	PlayEndMusic			\Default Work Unit\08_EndCredits\PlayEndMusic	
+	2664430727	PlayEpilogue			\Default Work Unit\07_Epilogue\PlayEpilogue	
+	2845561435	PlayArousalTestMusic			\Default Work Unit\Common\PlayArousalTestMusic	
+	3043762247	PlayBeep			\Default Work Unit\Common\PlayBeep	
+	3086540886	StopAll			\Default Work Unit\Common\StopAll	
+	3240900869	ResumeAll			\Default Work Unit\Common\ResumeAll	
+	3698975080	GreetingsFromHelsinki			\Default Work Unit\Common\GreetingsFromHelsinki	
+	3934384867	PlayBreathing			\Default Work Unit\Common\PlayBreathing	
+	4091047182	PauseAll			\Default Work Unit\Common\PauseAll	
+	4284960165	PlayHeartbeat			\Default Work Unit\Common\PlayHeartbeat	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	240302138	AverageValence			\Default Work Unit\AverageValence	
+
+Switch	ID	Name	Switch Group			Notes
+	670611050	Neutral	AverageValence			
+	1192865152	Positive	AverageValence			
+	4219547688	Negative	AverageValence			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2275494527	ValenceLevel			\Default Work Unit\ValenceLevel	
+	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39187228	EndCreditMusic_2018-05-24_neutral_celli	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_celli_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_celli		1690532
+	43150734	EndCreditMusic_2018-05-24_positive_violins1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_violins1_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_violins1		2115601
+	148405742	EndCreditMusic_2018-05-24_neutral_violas	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_violas_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_violas		1521282
+	172888099	EndCreditMusic_2018-05-24_positive_piano	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_piano_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_piano		1523498
+	178691049	EndCreditMusic_2018-05-24_positive_softStrings	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_softStrings_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_softStrings		2256387
+	211600827	EndCreditMusic_2018-05-24_positive_violins2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_violins2		1870656
+	280853858	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_02_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_02		8766
+	286182618	EndCreditMusic_2018-05-24_neutral_piano	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_piano_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_piano		1534995
+	320466212	NeuroTheremin_15	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_15_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_15		11419
+	328051268	NeuroTheremin_01	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_01_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_01		10268
+	338622814	EndCreditMusic_2018-05-24_neutral_violins1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_violins1_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_violins1		2118872
+	413265850	EndCreditMusic_2018-05-24_positive_theremin	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_theremin_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_theremin		952976
+	434738769	EndCreditMusic_2018-05-24_postivePizziTrill	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_postivePizziTrill_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_postivePizziTrill		1479580
+	497011185	NeuroTheremin_03	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_03_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_03		9867
+	508584385	EndCreditMusic_2018-05-24_positive_celli	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_celli_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_celli		1688196
+	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		376873
+	572517655	EndCreditMusic_2018-05-24_neutral_softStrings	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_softStrings_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_softStrings		2252181
+	603841057	NeuroTheremin_17	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_17_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_17		9785
+	633365506	EndCreditMusic_2018-05-24_neutral_theremin	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_theremin_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_theremin		980215
+	636072320	EndCreditMusic_2018-05-24_positive_violas	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_violas_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_violas		1793604
+	900798591	EndCreditMusic_2018-05-24_neutral_violins2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_violins2_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_violins2		1868244
+	994951117	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_07_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_07		4823
+	1013148108	EndCreditMusic_2018-05-24_negativePianoBass	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_negativePnoBass_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_negativePianoBass		1411154
+	1059116330	Epilogue_OldFreud_AmbiX2-2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Epilogue_2018-05-06_AmbiX2-2_FC37E65D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Epilogue\Epilogue_OldFreud_AmbiX2-2		8698934
+
