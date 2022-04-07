@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class PseudoValenceRTPC : MonoBehaviour {
 
-[Range(0.0f,1.0f)]
-public float pseudoValence = 0.5F; 		// 0 to 1
-float randomValence;
-public float sampleInterval = 7.0f;
-public float smoothTime = 5.0f;
-float velocity = 0.0f; 
+	public bool generateRandomValence;
+
+	[Range(0.0f,1.0f)]
+	public float pseudoValence = 0.5F; 		// 0 to 1
+	float randomValence = 0.5f;
+	public float sampleInterval = 7.0f;
+	public float smoothTime = 5.0f;
+	float velocity = 0.0f; 
 
 	void Start()
 	{
-		StartCoroutine(RandomValence());
+		if (generateRandomValence) StartCoroutine(RandomValence());
 	}
 
 	void Update () 
 	{
-		pseudoValence = Mathf.SmoothDamp(pseudoValence, randomValence, ref velocity, smoothTime);
+		if (generateRandomValence) pseudoValence = Mathf.SmoothDamp(pseudoValence, randomValence, ref velocity, smoothTime);
 		AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ValenceLevel"), pseudoValence);
 	}
 

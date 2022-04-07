@@ -56,5 +56,8 @@ public class Sequence : ScriptableObject
     public bool forceSynchronize;
     public float timeValue;
 
+    [Header("Sensor Data")]
+    public bool readSensorData = true;
+    public float sensorDataStartTime;
 }
 

@@ -79,6 +79,11 @@ public class DirectorSequencer : MonoBehaviour
 
     [Header("Arousal Peak Data")]
     public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
+    public float arousalStartTime = 0.0f;
+    public float arousalFadeDownSpeed = 0.005f;
+    // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
+    [Range(0, 4)] public float cumulativeArousal;
+
 
     private void Awake()
     {
@@ -478,28 +483,38 @@ private void EndVideo(VideoPlayer vp)
     // Update every second the emotional bar if it is active
     IEnumerator CO_UpdateValenceTime()
     {
-        while (emotionTable.activeSelf)
+        while(currentSequence.readSensorData)
         {
             yield return new WaitForSeconds(updateValenceTime);
-            //DataReader.UpTime();
-            // float valence = DataReader.GetValence();     // Read from CSV
-            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock
-            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak();    // Read from CSV
-            float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
-            float arousal = pseudoDataInput.GetArousal();
-            audioManager.SetNewValenceValue(valence);
-            audioManager.SetNewArousalPeakValue(arousalPeak);
+            //DataReader.UpTime();          
+            // float valence = DataReader.GetValence();     // Read valence from CSV
+            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
+            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV
 
-            emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
-            emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, arousal);
+            // Add peak value to the cumulative arousal value. Keep fading down slowly.
+            cumulativeArousal = cumulativeArousal + arousalPeak;
+            if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
+            if (cumulativeArousal < 0) cumulativeArousal = 0.0f;
+
+            float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
+            // float arousal = pseudoDataInput.GetArousal();
+
+            audioManager.SetNewValenceValue(valence);
+            audioManager.SetNewArousalValue(cumulativeArousal);
 
             if (currentSequence.updateColorFromValence)
             {
                 cam.GetComponent<CameraManager>().UpdateFilterColor(valence);
             }
+
+            if (emotionTable.activeSelf)
+            {
+                emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
+                emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, cumulativeArousal);
+            }
         }
 
-        cam.GetComponent<CameraManager>().DisablePostProcess();
+//        cam.GetComponent<CameraManager>().DisablePostProcess();
 
         yield return null;
 

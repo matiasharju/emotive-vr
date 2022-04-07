@@ -17,7 +17,7 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
@@ -79,6 +79,8 @@ MonoBehaviour:
   hideText: 1
   showBackground: 0
   profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
-  updateColorFromValence: 1
+  updateColorFromValence: 0
   forceSynchronize: 1
   timeValue: 0.5
+  readSensorData: 1
+  sensorDataStartTime: 466

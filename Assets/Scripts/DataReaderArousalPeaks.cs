@@ -5,13 +5,14 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 
-// Read the valence values from CSV file
+// Read the arousal values from CSV file
 public static class DataReaderArousalPeaks
 {
     private static string _path;
     private static string _filename;
 
     private static List<float> _arousalPeakPwrValues = new List<float>();
+    private static int _startTime = 0;       // time in tenth of seconds
     private static int _currentTime = 0;    // time in tenth of seconds
 
     public static void Init(string filename)
@@ -34,9 +35,11 @@ public static class DataReaderArousalPeaks
         _arousalPeakPwrValues.AddRange(floatValues);
     }
 
-    public static float GetArousalPeak()
+    public static float GetArousalPeak(float startTime)
     {
-        return _arousalPeakPwrValues[_currentTime];
+        _startTime = (int)(startTime * 10);
+//        Debug.Log(_currentTime + _startTime);
+        return _arousalPeakPwrValues[_currentTime + _startTime];
     }
 
     public static void UpTime()

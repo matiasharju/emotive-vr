@@ -23,25 +23,13 @@ public class AudioManager : MonoBehaviour
     // The arousal peak power value from the external CSV file
     [Range(0, 2)] public float arousalPeak;
 
-    // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
-    [Range(0, 2)] public float cumulativeArousal;
+    // Visualise cumulative arousal value fed from DirectorSequencer.cs <-- DataReaderArousalPeaks.cs
+    [Range(0, 4)] public float cumulativeArousal;
 
-    public float arousalFadeDownSpeed = 0.005f;
-
-    // If we want to use a random smoothed valence
-    public bool usePseudoValence;
+    //public float arousalFadeDownSpeed = 0.005f;
 
     private void Start()
     {
-        if (usePseudoValence == true)
-        {
-            GetComponent<PseudoValenceRTPC>().enabled = true;
-        }
-
-        else
-        {
-            GetComponent<PseudoValenceRTPC>().enabled = false;
-        }
 
     }
 
@@ -80,17 +68,22 @@ public class AudioManager : MonoBehaviour
     {
         valence = newValence;
     }
+    public void SetNewArousalValue(float newCumulativeArousal)
+    {
+        cumulativeArousal = newCumulativeArousal;
+    }
 
     //  Change the momentary arousal peak power value  
-    public void SetNewArousalPeakValue(float newArousalPeak)
-    {
-        arousalPeak = newArousalPeak;
+    /*    public void SetNewArousalPeakValue(float newArousalPeak)
+        {
+            arousalPeak = newArousalPeak;
 
-        // Add peak value to the cumulative arousal value. Keep fading down slowly.
-        cumulativeArousal = cumulativeArousal + arousalPeak;
-        if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
-        if (cumulativeArousal < 0) cumulativeArousal = 0.0f;
-    }
+            // Add peak value to the cumulative arousal value. Keep fading down slowly.
+            cumulativeArousal = cumulativeArousal + arousalPeak;
+            if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
+            if (cumulativeArousal < 0) cumulativeArousal = 0.0f;
+        }
+    */
 
 
     // Change the volume of music and audio (not used now)
@@ -118,11 +111,7 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("MusicVolume"), musicVolume);
 
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ArousalLevel"), cumulativeArousal);
-
-        if (usePseudoValence == false)
-        {
-            AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ValenceLevel"), valence);
-        }
+        AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ValenceLevel"), valence);
 
     }
 

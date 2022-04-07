@@ -307,6 +307,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &423129894
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +465,6 @@ GameObject:
   m_Component:
   - component: {fileID: 449404879}
   - component: {fileID: 449404880}
-  - component: {fileID: 449404878}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -469,21 +472,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &449404878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449404877}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1d55941d1a0fc44b989f5468c8c6df5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pseudoValence: 0.5
-  sampleInterval: 7
-  smoothTime: 5
 --- !u!4 &449404879
 Transform:
   m_ObjectHideFlags: 0
@@ -516,7 +504,8 @@ MonoBehaviour:
   audioVolume: 0
   musicVolume: 0
   valence: 0.5
-  usePseudoValence: 0
+  arousalPeak: 0
+  cumulativeArousal: 0
 --- !u!1 &486323651
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,8 +535,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3f0a6d2b4fea04bb9b2ac63a04d168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  generateRandomValence: 0
   pseudoValence: 0.5
   pseudoArousal: 0.5
+  sampleInterval: 7
+  smoothTime: 5
 --- !u!4 &486323653
 Transform:
   m_ObjectHideFlags: 0
@@ -653,6 +645,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &685884343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,6 +1293,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &1041152800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +1457,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &1234379018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1654,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &1367399695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,6 +1778,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &1387465135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,15 +1827,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
-  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
+  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
+  - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1837,7 +1849,7 @@ MonoBehaviour:
   vr: 1
   epilogueSrtDelay: 0
   allCameras:
-  - {fileID: 963194227}
+  - {fileID: 1683436736}
   - {fileID: 963194227}
   srtManager: {fileID: 1934347640}
   player: {fileID: 789182111}
@@ -1864,6 +1876,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.01
+  cumulativeArousal: 0
 --- !u!1 &1396236846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,6 +2139,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
 --- !u!1 &1493414557
 GameObject:
   m_ObjectHideFlags: 0
