@@ -158,6 +158,7 @@ Transform:
   - {fileID: 1007196593}
   - {fileID: 1127165644}
   - {fileID: 338844018}
+  - {fileID: 586983601}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -605,6 +606,96 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9b67543bd17c65b40a36a9e88e0269d8, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
+  currentSequence: {fileID: 0}
+  timeToChoice: 3
+  timerChoiceEpi: 2.5
+  timer: 0
+  delay: 0
+  updateValenceTime: 0.1
+  synchronizeTimer: 0
+  timeToFade: 2
+  loadedSceneName: 
+  activeSubtitle: 1
+  vr: 1
+  epilogueSrtDelay: 4
+  allCameras:
+  - {fileID: 1683436736}
+  - {fileID: 963194227}
+  srtManager: {fileID: 1934347640}
+  player: {fileID: 789182111}
+  cutPlayer: {fileID: 2044297054}
+  emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
+  audioManager: {fileID: 449404880}
+  fadeAnimator: {fileID: 2102446123}
+  cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
+  canvasSubtitle: {fileID: 2061826942}
+  sphereFade: {fileID: 1234379020}
+  pseudoDataInput: {fileID: 486323652}
+  emotionTableScript: {fileID: 1544528339}
+  cam: {fileID: 0}
+  play: 0
+  fadeDone: 0
+  waitEndScene: 0
+  activeRaycast: 0
+  showEpilogue: 0
+  updateBarPos: 0
+  choiceSeqMuteSnapshot: {fileID: 245920597558441856, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
+  choiceSeqMuteFadeTime: 4
+  choiceSeqMusicStopEvent: StopChoixMusic
+  choiceSeqOldFreudStopEvent: StopOldFreud
+  FreudPlayed: 0
+  KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.005
+  cumulativeArousal: 0
+--- !u!1 &586983600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586983601}
+  - component: {fileID: 586983602}
+  m_Layer: 0
+  m_Name: Epilogue
+  m_TagString: DirectorSequencer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &586983601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586983600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 176070623}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &586983602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586983600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexSequence: 0
+  sequences:
+  - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1416,7 +1507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
+  - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5

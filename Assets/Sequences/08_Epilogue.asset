@@ -27,7 +27,7 @@ MonoBehaviour:
   thisIsKarl: 0
   sceneNameToLoad: 08_Epilogue
   delayBeforeNextSequence: 120
-  soundBankName: Choice2SoundBank
+  soundBankName: EpiEndSoundBank
   audioEvtNames: []
   delay: 0
   barInfo: []

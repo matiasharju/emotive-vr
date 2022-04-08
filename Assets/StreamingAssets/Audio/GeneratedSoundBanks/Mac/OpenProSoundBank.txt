@@ -25,6 +25,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
+	596245445	Prologue_OldFreud_AmbiX	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_OldFreud_AmbiX		100615852
 	916912912	ChoiceMusicNoLoop	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\ChoiceMusicNoLoop		2025439
 	936697932	VieuxFreud_Il_y_avait_lui_1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_1		74225
 	961796277	VieuxFreud_Il_y_avait_lui_2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_2		73803

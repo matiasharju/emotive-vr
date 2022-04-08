@@ -458,7 +458,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="SFX">
+		<SoundBank Id="1053698777" Language="SFX" Hash="3446539288">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>OpenProSoundBank.bnk</Path>
@@ -527,16 +527,33 @@
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
 					<IncludedMemoryFiles>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
 						<File Id="916912912" Language="SFX">
 							<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3041392870" Name="PlayPrologueNoMusic" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoMusic" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="116.453293" DurationMax="116.453293"/>
+				<Event Id="3041392870" Name="PlayPrologueNoMusic" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoMusic" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="116.453293" DurationMax="116.453293">
+					<IncludedMemoryFiles>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="718394488" Name="PlayTitleMusic" ObjectPath="\Events\Default Work Unit\02_Titles\PlayTitleMusic" DurationType="OneShot" DurationMin="59.217834" DurationMax="59.217834">
 					<ReferencedStreamedFiles>
 						<File Id="274141040" Language="SFX">
@@ -570,7 +587,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX" Hash="3163374620">
+		<SoundBank Id="1916941780" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>
@@ -748,7 +765,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="SFX">
+		<SoundBank Id="3192374405" Language="SFX" Hash="1568770842">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>EpiEndSoundBank.bnk</Path>
