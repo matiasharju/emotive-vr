@@ -17,7 +17,7 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 1
   waitInteraction: 0
   clearVideo: 0

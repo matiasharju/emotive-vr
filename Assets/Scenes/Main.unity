@@ -1737,7 +1737,6 @@ MonoBehaviour:
   sequences:
   - {fileID: 11400000, guid: c04e4326edbd23c498ac3611f39c3771, type: 2}
   - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
-  - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
