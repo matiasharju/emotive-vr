@@ -34,7 +34,7 @@ MonoBehaviour:
   barInfo: []
   hideText: 0
   showBackground: 0
-  profile: {fileID: 0}
+  profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
   updateColorFromValence: 0
   forceSynchronize: 1
   timeValue: 0.5

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
-  m_Name: 07_Freud_B_Non-interactive
+  m_Name: 07_Karl_A_Noninteractive
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 49d8189dafa38684ab40bc6f147e7505, type: 3}
-  rt: {fileID: 8400000, guid: 8df5dc3aa0f933f469bdf0e4b031c7f3, type: 2}
+  clip: {fileID: 32900000, guid: df84dc50498743045992e7d01ad87975, type: 3}
+  rt: {fileID: 8400000, guid: 69e77a92ad2022f47b1e20f44e1d76ac, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
@@ -23,20 +23,24 @@ MonoBehaviour:
   clearVideo: 0
   usePostProcess: 0
   epilogue: 0
-  thisIsFreud: 1
-  thisIsKarl: 0
+  thisIsFreud: 0
+  thisIsKarl: 1
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
-  soundBankName: FreudSoundBank
+  soundBankName: KarlSoundBank
   audioEvtNames:
-  - PlayFreudAudioB
+  - PlayKarlAudio
   delay: 0
-  barInfo: []
-  hideText: 0
+  barInfo:
+  - position: {x: 68, y: -15, z: 0}
+    rotation: {x: 0, y: 90, z: 0}
+    keyFrame: 0
+    hide: 0
+  hideText: 1
   showBackground: 0
   profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
-  updateColorFromValence: 0
+  updateColorFromValence: 1
   forceSynchronize: 1
   timeValue: 0.5
-  readSensorData: 0
-  sensorDataStartTime: 0
+  readSensorData: 1
+  sensorDataStartTime: 53

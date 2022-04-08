@@ -30,7 +30,6 @@ MonoBehaviour:
   soundBankName: OpenProSoundBank
   audioEvtNames:
   - PlayTitleMusic
-  - PlayArousalTestMusic
   delay: 0
   barInfo:
   - position: {x: 68, y: -15, z: 0}
@@ -43,3 +42,5 @@ MonoBehaviour:
   updateColorFromValence: 1
   forceSynchronize: 0
   timeValue: 0
+  readSensorData: 1
+  sensorDataStartTime: 0

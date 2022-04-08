@@ -1578,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1349655377
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,13 +1607,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
-  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
-  - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
+  - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: 865c594617f986e429085efde488e82a, type: 2}
-  - {fileID: 11400000, guid: 865c594617f986e429085efde488e82a, type: 2}
+  - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
+  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   timeToChoice: 3
   timerChoiceEpi: 2.5
@@ -1798,7 +1798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1387465136
 Transform:
   m_ObjectHideFlags: 0
