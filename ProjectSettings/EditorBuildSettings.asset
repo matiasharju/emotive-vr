@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/06_ViewpointChoice.unity
     guid: ef59473b59f023b4b86c6e97c231b52a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/06_ViewpointChoice_Noninteractive.unity
     guid: ac549e030391d1140a8ce384063598b4
   - enabled: 1
