@@ -8,10 +8,15 @@
 		<ExternalSourcesOutputRoot>D:\Dropbox\EmotiveVR_WWise2019.2.8\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="274141040" Language="SFX">
+			<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
+			<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="237236122" Language="SFX" Hash="2946987325">
+		<SoundBank Id="237236122" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\KarlSoundBank</ObjectPath>
 			<ShortName>KarlSoundBank</ShortName>
 			<Path>KarlSoundBank.bnk</Path>
@@ -145,7 +150,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="854256009" Language="SFX" Hash="1985683482">
+		<SoundBank Id="854256009" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Choice2SoundBank</ObjectPath>
 			<ShortName>Choice2SoundBank</ShortName>
 			<Path>Choice2SoundBank.bnk</Path>
@@ -217,7 +222,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="886154420" Language="SFX" Hash="1933126019">
+		<SoundBank Id="886154420" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\IntroSoundBank</ObjectPath>
 			<ShortName>IntroSoundBank</ShortName>
 			<Path>IntroSoundBank.bnk</Path>
@@ -331,7 +336,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="SFX" Hash="1668009517">
+		<SoundBank Id="1053698777" Language="SFX" Hash="4100219618">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>OpenProSoundBank.bnk</Path>
@@ -411,12 +416,12 @@
 				</Event>
 				<Event Id="3041392870" Name="PlayPrologueNoMusic" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoMusic" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="116.453293" DurationMax="116.453293"/>
 				<Event Id="718394488" Name="PlayTitleMusic" ObjectPath="\Events\Default Work Unit\02_Titles\PlayTitleMusic" DurationType="OneShot" DurationMin="59.217834" DurationMax="59.217834">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="274141040" Language="SFX">
 							<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
 							<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -443,7 +448,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX" Hash="3048623334">
+		<SoundBank Id="1916941780" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>
@@ -619,7 +624,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="SFX" Hash="4189044581">
+		<SoundBank Id="3192374405" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>EpiEndSoundBank.bnk</Path>
