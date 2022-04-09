@@ -43,4 +43,4 @@ MonoBehaviour:
   forceSynchronize: 0
   timeValue: 0
   readSensorData: 1
-  sensorDataStartTime: 0
+  sensorDataStartTime: 3

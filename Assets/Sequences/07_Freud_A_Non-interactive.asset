@@ -42,5 +42,5 @@ MonoBehaviour:
   updateColorFromValence: 0
   forceSynchronize: 1
   timeValue: 0.5
-  readSensorData: 0
+  readSensorData: 1
   sensorDataStartTime: 0

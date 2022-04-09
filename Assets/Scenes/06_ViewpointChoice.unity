@@ -168,8 +168,8 @@ GameObject:
   - component: {fileID: 97947285}
   - component: {fileID: 97947284}
   - component: {fileID: 97947283}
-  - component: {fileID: 97947282}
-  - component: {fileID: 97947281}
+  - component: {fileID: 97947289}
+  - component: {fileID: 97947288}
   m_Layer: 0
   m_Name: Choice_Karl
   m_TagString: Untagged
@@ -177,154 +177,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &97947281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97947280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51e54047889f1c4dac64a27f85a09c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  occlusionWallMask:
-    serializedVersion: 2
-    m_Bits: 567
-  obstructionWallMask:
-    serializedVersion: 2
-    m_Bits: 567
-  occlusionRayUpdateTime: 1
-  obstructionRayUpdateTime: 1
-  clipIsPlaying: 0
-  gainLevel: 0
-  directLevel: 0
-  reflectionLevel: 0
-  reverbLevel: 0
-  azimuthCorrection: 1
-  distanceCorrection: 0.01
-  useUnityDistance: 0
-  auralization: 0
-  roomPreset: 40
-  internalReverb: 1
-  performanceMode: 0
-  dearVRPlayOnAwake: 0
-  bypass: 0
-  bypassPerformance: 0
-  reverbStopOverlap: 1
-  inputChannel: 0
-  reflectionLP: 20000
-  reverbLP: 20000
-  roomSize: 100
-  bassBoost: 0
-  occlusionLevel: 0.6
-  obsturctionLevel: 0.6
-  occlusionActive: 0
-  obstructionActive: 0
-  forceOcclusion: 0
-  forceObstruction: 0
-  occlusionDebugRayCast: 0
-  occlusionRayUpdateFreq: 0.2
-  obstructionRayUpdateFreq: 0.2
-  obstructionDebugRayCast: 0
-  reverbSends: []
---- !u!82 &97947282
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97947280}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243973568157582096, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d1a465e008b20ae4e975e0b21e00fb7f, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &97947283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +197,7 @@ MonoBehaviour:
   blockHide: 0
   epilogue: 0
   invert: 0
-  audioToFade: {fileID: 1641556401}
+  audioToFade: {fileID: 0}
 --- !u!65 &97947284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -422,6 +274,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97947288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97947280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b13f67043424be4d9fbdc207da7e7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e518ca14f9e58e94d99b738b5733ee52, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &97947289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97947280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c890eec24f84e34db452ca19a9ce8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &386136080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -771,7 +674,6 @@ GameObject:
   m_Component:
   - component: {fileID: 589601952}
   - component: {fileID: 589601951}
-  - component: {fileID: 589601950}
   m_Layer: 0
   m_Name: dearVR_Manager
   m_TagString: Untagged
@@ -779,21 +681,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &589601950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589601949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d89b296e087f5754c84181295e6454a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  snapshot: {fileID: 24500006, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
-  fadeTime: 3
-  callOnAwake: 1
 --- !u!114 &589601951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,8 +853,8 @@ GameObject:
   - component: {fileID: 1641556403}
   - component: {fileID: 1641556402}
   - component: {fileID: 1641556406}
-  - component: {fileID: 1641556401}
-  - component: {fileID: 1641556400}
+  - component: {fileID: 1641556408}
+  - component: {fileID: 1641556407}
   m_Layer: 0
   m_Name: Choice_Freud
   m_TagString: Untagged
@@ -975,154 +862,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1641556400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641556399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b51e54047889f1c4dac64a27f85a09c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  occlusionWallMask:
-    serializedVersion: 2
-    m_Bits: 567
-  obstructionWallMask:
-    serializedVersion: 2
-    m_Bits: 567
-  occlusionRayUpdateTime: 1
-  obstructionRayUpdateTime: 1
-  clipIsPlaying: 0
-  gainLevel: 0
-  directLevel: 0
-  reflectionLevel: 0
-  reverbLevel: 0
-  azimuthCorrection: 1
-  distanceCorrection: 0.01
-  useUnityDistance: 0
-  auralization: 0
-  roomPreset: 40
-  internalReverb: 1
-  performanceMode: 0
-  dearVRPlayOnAwake: 0
-  bypass: 0
-  bypassPerformance: 0
-  reverbStopOverlap: 1
-  inputChannel: 0
-  reflectionLP: 20000
-  reverbLP: 20000
-  roomSize: 100
-  bassBoost: 0
-  occlusionLevel: 0.6
-  obsturctionLevel: 0.6
-  occlusionActive: 0
-  obstructionActive: 0
-  forceOcclusion: 0
-  forceObstruction: 0
-  occlusionDebugRayCast: 0
-  occlusionRayUpdateFreq: 0.2
-  obstructionRayUpdateFreq: 0.2
-  obstructionDebugRayCast: 0
-  reverbSends: []
---- !u!82 &1641556401
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641556399}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243973568157582096, guid: 788e46307e788dc4ebb0cb4e2bb4ba93, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 49e9be4f553848b4f9647e16a09cb334, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!65 &1641556402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1219,7 +958,58 @@ MonoBehaviour:
   blockHide: 0
   epilogue: 0
   invert: 0
-  audioToFade: {fileID: 97947282}
+  audioToFade: {fileID: 0}
+--- !u!114 &1641556407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641556399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b13f67043424be4d9fbdc207da7e7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fac009562741137478926a877d9ca688, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1641556408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641556399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c890eec24f84e34db452ca19a9ce8f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1898911441
 PrefabInstance:
   m_ObjectHideFlags: 0

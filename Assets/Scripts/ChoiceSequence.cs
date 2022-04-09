@@ -24,7 +24,7 @@ public class ChoiceSequence : MonoBehaviour
     public bool invert = false;
 
     // The audio of the other choice
-    public AudioSource audioToFade;
+//    public AudioSource audioToFade;
 
     private float _fadePercent = 1;
     private bool _raycastEnter;
@@ -54,7 +54,7 @@ public class ChoiceSequence : MonoBehaviour
     }
 
     // Fade out the audio of the other choice
-    IEnumerator CO_FadeOutChoiceSequence(float speed)
+/*    IEnumerator CO_FadeOutChoiceSequence(float speed)
     {
         while (_fadePercent > 0)
         {
@@ -73,9 +73,11 @@ public class ChoiceSequence : MonoBehaviour
         _fadePercent = 0;
         audioToFade.volume = 0;
     }
+*/
+
 
     // Fade in the audio of the other choice
-    IEnumerator CO_FadeInChoiceSequence(float speed)
+/*    IEnumerator CO_FadeInChoiceSequence(float speed)
     {
         while (_fadePercent < 1)
         {
@@ -96,6 +98,9 @@ public class ChoiceSequence : MonoBehaviour
 
     }
 
+*/
+
+
     // Active the smoke effect
     public void ActiveEffect(bool active)
     {
@@ -108,18 +113,18 @@ public class ChoiceSequence : MonoBehaviour
     {
         if(!_raycastEnter)
         {
-            StopAllCoroutines();
+//            StopAllCoroutines();
             if (!invert)
             {
-                StartCoroutine(CO_FadeOutChoiceSequence(1));
+ //               StartCoroutine(CO_FadeOutChoiceSequence(1));
             }
             else
             {
-                StartCoroutine(CO_FadeInChoiceSequence(1));
+//                StartCoroutine(CO_FadeInChoiceSequence(1));
             }
 
             ActiveEffect(true);
-            GetComponent<AudioSource>().Play();
+//            GetComponent<AudioSource>().Play();
             _raycastEnter = true;
         }
 
@@ -129,8 +134,9 @@ public class ChoiceSequence : MonoBehaviour
         {
             DirectorSequencer.Instance.ValidateChoice(this);
             // fade out sounds (but if using master fader, then reset in the beginning of the next sequence)
+
         }
-       
+
     }
 
     // If the user doesn't watch this choice
@@ -138,14 +144,14 @@ public class ChoiceSequence : MonoBehaviour
     {
         if(_raycastEnter)
         {
-            StopAllCoroutines();
+//            StopAllCoroutines();
             if (!invert)
             {
-                StartCoroutine(CO_FadeInChoiceSequence(4));
+//                StartCoroutine(CO_FadeInChoiceSequence(4));
             }
             else
             {
-                StartCoroutine(CO_FadeOutChoiceSequence(4));
+//                StartCoroutine(CO_FadeOutChoiceSequence(4));
             }
 
             ActiveEffect(false);

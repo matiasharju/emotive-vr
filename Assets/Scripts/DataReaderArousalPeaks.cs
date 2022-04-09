@@ -13,7 +13,8 @@ public static class DataReaderArousalPeaks
 
     private static List<float> _arousalPeakPwrValues = new List<float>();
     private static int _startTime = 0;       // time in tenth of seconds
-    private static int _currentTime = 0;    // time in tenth of seconds
+    public static int _currentTime = 0;    // time in tenth of seconds
+    public static int _currentPlusStartTime;
 
     public static void Init(string filename)
     {
@@ -37,14 +38,21 @@ public static class DataReaderArousalPeaks
 
     public static float GetArousalPeak(float startTime)
     {
+        _currentTime = (int)(Time.fixedUnscaledTime * 10f);
+        //        _currentTime = (int)(Mathf.Round((Time.fixedUnscaledTime * 10f) * 1f));
+
         _startTime = (int)(startTime * 10);
+        _currentPlusStartTime = _currentTime + _startTime;
 //        Debug.Log(_currentTime + _startTime);
-        return _arousalPeakPwrValues[_currentTime + _startTime];
+//        return _arousalPeakPwrValues[_currentTime + _startTime];
+        return _arousalPeakPwrValues[_currentPlusStartTime];
     }
 
+    /*
     public static void UpTime()
     {
         _currentTime++;
         _currentTime = Mathf.Clamp(_currentTime, 0, (_arousalPeakPwrValues.Count * 10) - 1);
     }
+    */
 }

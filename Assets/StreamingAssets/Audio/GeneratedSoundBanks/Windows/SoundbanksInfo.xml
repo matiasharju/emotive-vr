@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Dropbox\EmotiveVR_WWise2019.2.8\</ProjectRoot>
+		<SourceFilesRoot>D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\EmotiveVR\emotive-vr\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Dropbox\EmotiveVR_WWise2019.2.8\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="13960270" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_violas.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_violas_D10D53C6.wem</Path>
+		</File>
+		<File Id="25237027" Language="SFX">
+			<ShortName>Freud_ALL_Active.wav</ShortName>
+			<Path>SFX\Freud_ALL_Active_34D9B405.wem</Path>
+		</File>
+		<File Id="32099593" Language="SFX">
+			<ShortName>Freud_2018-05-06_Headlocked.wav</ShortName>
+			<Path>SFX\Freud_2018-05-06_Headlocked_D302C21B.wem</Path>
+		</File>
+		<File Id="37646044" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_celli.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_celli_D10D53C6.wem</Path>
+		</File>
+		<File Id="39693198" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_piano.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_piano_D10D53C6.wem</Path>
+		</File>
+		<File Id="57620431" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_violins2.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_violins2_D10D53C6.wem</Path>
+		</File>
+		<File Id="82948176" Language="SFX">
+			<ShortName>Karl_small_sounds.wav</ShortName>
+			<Path>SFX\Karl_small_sounds_7EB50B16.wem</Path>
+		</File>
+		<File Id="86817842" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_violins1.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_violins1_D10D53C6.wem</Path>
+		</File>
+		<File Id="97479900" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_postivePizziTrill.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_postivePizziTrill_D10D53C6.wem</Path>
+		</File>
+		<File Id="120029847" Language="SFX">
+			<ShortName>KarlHallucination_bass.wav</ShortName>
+			<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
+		</File>
+		<File Id="125294654" Language="SFX">
+			<ShortName>Intro_synthpad.L.wav</ShortName>
+			<Path>SFX\Intro_synthpad.L_DF848474.wem</Path>
+		</File>
+		<File Id="135108681" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_celli.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_celli_D10D53C6.wem</Path>
+		</File>
+		<File Id="147186154" Language="SFX">
+			<ShortName>NeuroTheremin_02.wav</ShortName>
+			<Path>SFX\NeuroTheremin_02_1DE3917C.wem</Path>
+		</File>
+		<File Id="165148767" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_violins1.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_violins1_D10D53C6.wem</Path>
+		</File>
+		<File Id="183987409" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_theremin.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_theremin_D10D53C6.wem</Path>
+		</File>
+		<File Id="203120769" Language="SFX">
+			<ShortName>Introduction2_Voiceover_2018-05-06.wav</ShortName>
+			<Path>SFX\Introduction2_Voiceover_2018-05-06_1DE3917C.wem</Path>
+		</File>
+		<File Id="247385258" Language="SFX">
+			<ShortName>Introduction1_Voiceover_2018-04-21.wav</ShortName>
+			<Path>SFX\Introduction1_Voiceover_2018-04-21_1DE3917C.wem</Path>
+		</File>
+		<File Id="274141040" Language="SFX">
+			<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
+			<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
+		</File>
+		<File Id="289799131" Language="SFX">
+			<ShortName>Freud_2018-05-06_AmbiX2-2.wav</ShortName>
+			<Path>SFX\Freud_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
+		</File>
+		<File Id="367692447" Language="SFX">
+			<ShortName>KarlHallucination_violins2.wav</ShortName>
+			<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
+		</File>
+		<File Id="392348934" Language="SFX">
+			<ShortName>Karl_2018-07-22_Headlocked.wav</ShortName>
+			<Path>SFX\Karl_2018-07-22_Headlocked_1DE3917C.wem</Path>
+		</File>
+		<File Id="441117126" Language="SFX">
+			<ShortName>KarlB_2018-07-22_Headlocked.wav</ShortName>
+			<Path>SFX\KarlB_2018-07-22_Headlocked_1DE3917C.wem</Path>
+		</File>
+		<File Id="514229645" Language="SFX">
+			<ShortName>KarlHallucination_celli.wav</ShortName>
+			<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
+		</File>
+		<File Id="544406365" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_piano.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_piano_D10D53C6.wem</Path>
+		</File>
+		<File Id="556146288" Language="SFX">
+			<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+			<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+		</File>
+		<File Id="596245445" Language="SFX">
+			<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+			<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+		</File>
+		<File Id="613571474" Language="SFX">
+			<ShortName>KarlHallucination_piano.wav</ShortName>
+			<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
+		</File>
+		<File Id="637122654" Language="SFX">
+			<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
+			<Path>SFX\Karl_music_hypno_theremin2_D10D53C6.wem</Path>
+		</File>
+		<File Id="649381780" Language="SFX">
+			<ShortName>KarlHallucination_violins1.wav</ShortName>
+			<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
+		</File>
+		<File Id="676971331" Language="SFX">
+			<ShortName>NeuroTheremin_03.wav</ShortName>
+			<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
+		</File>
+		<File Id="692109710" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_softStrings.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_softStrings_D10D53C6.wem</Path>
+		</File>
+		<File Id="741758092" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_theremin.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_theremin_D10D53C6.wem</Path>
+		</File>
+		<File Id="742108528" Language="SFX">
+			<ShortName>NeuroTheremin_07.wav</ShortName>
+			<Path>SFX\NeuroTheremin_07_1DE3917C.wem</Path>
+		</File>
+		<File Id="764108043" Language="SFX">
+			<ShortName>KarlB_2018-05-06_AmbiX.wav</ShortName>
+			<Path>SFX\KarlB_2018-05-06_AmbiX_FC37E65D.wem</Path>
+		</File>
+		<File Id="765375186" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_violins2.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem</Path>
+		</File>
+		<File Id="773170163" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_violas.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_violas_D10D53C6.wem</Path>
+		</File>
+		<File Id="775023345" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_neutral_negativePnoBass.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_neutral_negativePnoBass_D10D53C6.wem</Path>
+		</File>
+		<File Id="816203901" Language="SFX">
+			<ShortName>NeuroTheremin_17.wav</ShortName>
+			<Path>SFX\NeuroTheremin_17_1DE3917C.wem</Path>
+		</File>
+		<File Id="837254795" Language="SFX">
+			<ShortName>Freud_ALL_Common.wav</ShortName>
+			<Path>SFX\Freud_ALL_Common_34D9B405.wem</Path>
+		</File>
+		<File Id="841534525" Language="SFX">
+			<ShortName>Freud_ALL_Calm.wav</ShortName>
+			<Path>SFX\Freud_ALL_Calm_34D9B405.wem</Path>
+		</File>
+		<File Id="843648995" Language="SFX">
+			<ShortName>KarlHallucination_bass_higher.wav</ShortName>
+			<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
+		</File>
+		<File Id="844915060" Language="SFX">
+			<ShortName>Karl_2018-07-22_AmbiX.wav</ShortName>
+			<Path>SFX\Karl_2018-07-22_AmbiX_FC37E65D.wem</Path>
+		</File>
+		<File Id="864687233" Language="SFX">
+			<ShortName>EndCreditMusic_2018-05-24_positive_softStrings.wav</ShortName>
+			<Path>SFX\EndCreditMusic_2018-05-24_positive_softStrings_D10D53C6.wem</Path>
+		</File>
+		<File Id="911171468" Language="SFX">
+			<ShortName>FreudB_2018-06-02_Headlocked.wav</ShortName>
+			<Path>SFX\FreudB_2018-06-02_Headlocked_1DE3917C.wem</Path>
+		</File>
+		<File Id="916912912" Language="SFX">
+			<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
+			<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
+		</File>
+		<File Id="936697932" Language="SFX">
+			<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
+			<Path>SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem</Path>
+		</File>
+		<File Id="961796277" Language="SFX">
+			<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
+			<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+		</File>
+		<File Id="978726710" Language="SFX">
+			<ShortName>NeuroTheremin_15.wav</ShortName>
+			<Path>SFX\NeuroTheremin_15_1DE3917C.wem</Path>
+		</File>
+		<File Id="983739793" Language="SFX">
+			<ShortName>Intro_synthpad.R.wav</ShortName>
+			<Path>SFX\Intro_synthpad.R_1D2EA8F7.wem</Path>
+		</File>
+		<File Id="985612366" Language="SFX">
+			<ShortName>Freud_small_sounds.wav</ShortName>
+			<Path>SFX\Freud_small_sounds_7EB50B16.wem</Path>
+		</File>
+		<File Id="996054496" Language="SFX">
+			<ShortName>FreudB_2018-06-02_AmbiX2-2.wav</ShortName>
+			<Path>SFX\FreudB_2018-06-02_AmbiX2-2_FC37E65D.wem</Path>
+		</File>
+		<File Id="1008580489" Language="SFX">
+			<ShortName>KarlHallucination_violas.wav</ShortName>
+			<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+		</File>
+		<File Id="1019554246" Language="SFX">
+			<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
+			<Path>SFX\Karl_music_hypno_theremin3_D10D53C6.wem</Path>
+		</File>
+		<File Id="1059116330" Language="SFX">
+			<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
+			<Path>SFX\Epilogue_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
+		</File>
+		<File Id="1072539586" Language="SFX">
+			<ShortName>Karl_music_hypno_theremin1.wav</ShortName>
+			<Path>SFX\Karl_music_hypno_theremin1_D10D53C6.wem</Path>
+		</File>
+		<File Id="1073416195" Language="SFX">
+			<ShortName>NeuroTheremin_01.wav</ShortName>
+			<Path>SFX\NeuroTheremin_01_1DE3917C.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="237236122" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\KarlSoundBank</ObjectPath>
+			<ShortName>KarlSoundBank</ShortName>
+			<Path>KarlSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3334910481" Name="PlayKarlAudio" ObjectPath="\Events\Default Work Unit\06_KarlSequence\PlayKarlAudio" DurationType="OneShot" DurationMin="408.380005" DurationMax="408.380005">
+					<ReferencedStreamedFiles>
+						<File Id="392348934" Language="SFX">
+							<ShortName>Karl_2018-07-22_Headlocked.wav</ShortName>
+							<Path>SFX\Karl_2018-07-22_Headlocked_1DE3917C.wem</Path>
+						</File>
+						<File Id="844915060" Language="SFX">
+							<ShortName>Karl_2018-07-22_AmbiX.wav</ShortName>
+							<Path>SFX\Karl_2018-07-22_AmbiX_FC37E65D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="392348934" Language="SFX">
+							<ShortName>Karl_2018-07-22_Headlocked.wav</ShortName>
+							<Path>SFX\Karl_2018-07-22_Headlocked_1DE3917C.wem</Path>
+							<PrefetchSize>5096</PrefetchSize>
+						</File>
+						<File Id="844915060" Language="SFX">
+							<ShortName>Karl_2018-07-22_AmbiX.wav</ShortName>
+							<Path>SFX\Karl_2018-07-22_AmbiX_FC37E65D.wem</Path>
+							<PrefetchSize>5149</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4224340129" Name="PlayKarlAudioB" ObjectPath="\Events\Default Work Unit\06_KarlSequence\PlayKarlAudioB" DurationType="OneShot" DurationMin="217.921478" DurationMax="217.921478">
+					<ReferencedStreamedFiles>
+						<File Id="120029847" Language="SFX">
+							<ShortName>KarlHallucination_bass.wav</ShortName>
+							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
+						</File>
+						<File Id="367692447" Language="SFX">
+							<ShortName>KarlHallucination_violins2.wav</ShortName>
+							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
+						</File>
+						<File Id="441117126" Language="SFX">
+							<ShortName>KarlB_2018-07-22_Headlocked.wav</ShortName>
+							<Path>SFX\KarlB_2018-07-22_Headlocked_1DE3917C.wem</Path>
+						</File>
+						<File Id="514229645" Language="SFX">
+							<ShortName>KarlHallucination_celli.wav</ShortName>
+							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
+						</File>
+						<File Id="613571474" Language="SFX">
+							<ShortName>KarlHallucination_piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
+						</File>
+						<File Id="637122654" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin2_D10D53C6.wem</Path>
+						</File>
+						<File Id="649381780" Language="SFX">
+							<ShortName>KarlHallucination_violins1.wav</ShortName>
+							<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
+						</File>
+						<File Id="764108043" Language="SFX">
+							<ShortName>KarlB_2018-05-06_AmbiX.wav</ShortName>
+							<Path>SFX\KarlB_2018-05-06_AmbiX_FC37E65D.wem</Path>
+						</File>
+						<File Id="843648995" Language="SFX">
+							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
+							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
+						</File>
+						<File Id="1008580489" Language="SFX">
+							<ShortName>KarlHallucination_violas.wav</ShortName>
+							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1019554246" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin3_D10D53C6.wem</Path>
+						</File>
+						<File Id="1072539586" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin1.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin1_D10D53C6.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="441117126" Language="SFX">
+							<ShortName>KarlB_2018-07-22_Headlocked.wav</ShortName>
+							<Path>SFX\KarlB_2018-07-22_Headlocked_1DE3917C.wem</Path>
+							<PrefetchSize>2872</PrefetchSize>
+						</File>
+						<File Id="764108043" Language="SFX">
+							<ShortName>KarlB_2018-05-06_AmbiX.wav</ShortName>
+							<Path>SFX\KarlB_2018-05-06_AmbiX_FC37E65D.wem</Path>
+							<PrefetchSize>10856</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4236082638" Name="PlayKarlMusic" ObjectPath="\Events\Default Work Unit\06_KarlSequence\PlayKarlMusic" DurationType="OneShot" DurationMin="176.000000" DurationMax="176.000000">
+					<ReferencedStreamedFiles>
+						<File Id="120029847" Language="SFX">
+							<ShortName>KarlHallucination_bass.wav</ShortName>
+							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
+						</File>
+						<File Id="367692447" Language="SFX">
+							<ShortName>KarlHallucination_violins2.wav</ShortName>
+							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
+						</File>
+						<File Id="514229645" Language="SFX">
+							<ShortName>KarlHallucination_celli.wav</ShortName>
+							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
+						</File>
+						<File Id="613571474" Language="SFX">
+							<ShortName>KarlHallucination_piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
+						</File>
+						<File Id="637122654" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin2_D10D53C6.wem</Path>
+						</File>
+						<File Id="649381780" Language="SFX">
+							<ShortName>KarlHallucination_violins1.wav</ShortName>
+							<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
+						</File>
+						<File Id="843648995" Language="SFX">
+							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
+							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
+						</File>
+						<File Id="1008580489" Language="SFX">
+							<ShortName>KarlHallucination_violas.wav</ShortName>
+							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1019554246" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin3_D10D53C6.wem</Path>
+						</File>
+						<File Id="1072539586" Language="SFX">
+							<ShortName>Karl_music_hypno_theremin1.wav</ShortName>
+							<Path>SFX\Karl_music_hypno_theremin1_D10D53C6.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="854256009" Language="SFX" Hash="3331370156">
+			<ObjectPath>\SoundBanks\Default Work Unit\Choice2SoundBank</ObjectPath>
+			<ShortName>Choice2SoundBank</ShortName>
+			<Path>Choice2SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="318344348" Name="Play_FreudSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Play_FreudSounds" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="985612366" Language="SFX">
+							<ShortName>Freud_small_sounds.wav</ShortName>
+							<Path>SFX\Freud_small_sounds_7EB50B16.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="1810893512" Name="Play_KarlSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Play_KarlSounds" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="82948176" Language="SFX">
+							<ShortName>Karl_small_sounds.wav</ShortName>
+							<Path>SFX\Karl_small_sounds_7EB50B16.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="3899680803" Name="PlayChoixMusic" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayChoixMusic" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3397257820" Name="PlayChoixMusicNoLoop" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayChoixMusicNoLoop" DurationType="OneShot" DurationMin="159.857040" DurationMax="159.857040">
+					<ReferencedStreamedFiles>
+						<File Id="916912912" Language="SFX">
+							<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2922769081" Name="PlayOldFreud1" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud1" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="936697932" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem</Path>
+						</File>
+						<File Id="961796277" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3655101832" Name="PlayOldFreud1_single" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud1_single" DurationType="OneShot" DurationMin="7.956417" DurationMax="7.956417">
+					<ReferencedStreamedFiles>
+						<File Id="936697932" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2922769082" Name="PlayOldFreud2" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud2" DurationType="OneShot" DurationMin="8.047646" DurationMax="8.047646">
+					<ReferencedStreamedFiles>
+						<File Id="961796277" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="511903031" Name="Stop_ChoixSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Stop_ChoixSounds" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4071506729" Name="StopChoixMusic" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\StopChoixMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1915520066" Name="StopOldFreud" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\StopOldFreud" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="703117816" Name="startDelay" ObjectPath="\Game Parameters\Default Work Unit\startDelay"/>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="886154420" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\IntroSoundBank</ObjectPath>
+			<ShortName>IntroSoundBank</ShortName>
+			<Path>IntroSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3972833680" Name="PlayIntroduction1" ObjectPath="\Events\Default Work Unit\01_Introduction\PlayIntroduction1" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="125294654" Language="SFX">
+							<ShortName>Intro_synthpad.L.wav</ShortName>
+							<Path>SFX\Intro_synthpad.L_DF848474.wem</Path>
+						</File>
+						<File Id="247385258" Language="SFX">
+							<ShortName>Introduction1_Voiceover_2018-04-21.wav</ShortName>
+							<Path>SFX\Introduction1_Voiceover_2018-04-21_1DE3917C.wem</Path>
+						</File>
+						<File Id="983739793" Language="SFX">
+							<ShortName>Intro_synthpad.R.wav</ShortName>
+							<Path>SFX\Intro_synthpad.R_1D2EA8F7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="147186154" Language="SFX">
+							<ShortName>NeuroTheremin_02.wav</ShortName>
+							<Path>SFX\NeuroTheremin_02_1DE3917C.wem</Path>
+						</File>
+						<File Id="676971331" Language="SFX">
+							<ShortName>NeuroTheremin_03.wav</ShortName>
+							<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
+						</File>
+						<File Id="742108528" Language="SFX">
+							<ShortName>NeuroTheremin_07.wav</ShortName>
+							<Path>SFX\NeuroTheremin_07_1DE3917C.wem</Path>
+						</File>
+						<File Id="816203901" Language="SFX">
+							<ShortName>NeuroTheremin_17.wav</ShortName>
+							<Path>SFX\NeuroTheremin_17_1DE3917C.wem</Path>
+						</File>
+						<File Id="978726710" Language="SFX">
+							<ShortName>NeuroTheremin_15.wav</ShortName>
+							<Path>SFX\NeuroTheremin_15_1DE3917C.wem</Path>
+						</File>
+						<File Id="1073416195" Language="SFX">
+							<ShortName>NeuroTheremin_01.wav</ShortName>
+							<Path>SFX\NeuroTheremin_01_1DE3917C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
+						<AuxBus Id="2327170656" Name="Headlocked_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Headlocked Bus\Headlocked_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3972833683" Name="PlayIntroduction2" ObjectPath="\Events\Default Work Unit\01_Introduction\PlayIntroduction2" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="125294654" Language="SFX">
+							<ShortName>Intro_synthpad.L.wav</ShortName>
+							<Path>SFX\Intro_synthpad.L_DF848474.wem</Path>
+						</File>
+						<File Id="203120769" Language="SFX">
+							<ShortName>Introduction2_Voiceover_2018-05-06.wav</ShortName>
+							<Path>SFX\Introduction2_Voiceover_2018-05-06_1DE3917C.wem</Path>
+						</File>
+						<File Id="983739793" Language="SFX">
+							<ShortName>Intro_synthpad.R.wav</ShortName>
+							<Path>SFX\Intro_synthpad.R_1D2EA8F7.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="147186154" Language="SFX">
+							<ShortName>NeuroTheremin_02.wav</ShortName>
+							<Path>SFX\NeuroTheremin_02_1DE3917C.wem</Path>
+						</File>
+						<File Id="676971331" Language="SFX">
+							<ShortName>NeuroTheremin_03.wav</ShortName>
+							<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
+						</File>
+						<File Id="742108528" Language="SFX">
+							<ShortName>NeuroTheremin_07.wav</ShortName>
+							<Path>SFX\NeuroTheremin_07_1DE3917C.wem</Path>
+						</File>
+						<File Id="816203901" Language="SFX">
+							<ShortName>NeuroTheremin_17.wav</ShortName>
+							<Path>SFX\NeuroTheremin_17_1DE3917C.wem</Path>
+						</File>
+						<File Id="978726710" Language="SFX">
+							<ShortName>NeuroTheremin_15.wav</ShortName>
+							<Path>SFX\NeuroTheremin_15_1DE3917C.wem</Path>
+						</File>
+						<File Id="1073416195" Language="SFX">
+							<ShortName>NeuroTheremin_01.wav</ShortName>
+							<Path>SFX\NeuroTheremin_01_1DE3917C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
+						<AuxBus Id="2327170656" Name="Headlocked_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Headlocked Bus\Headlocked_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="172570369" Name="StopIntroduction" ObjectPath="\Events\Default Work Unit\01_Introduction\StopIntroduction" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1053698777" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
+			<ShortName>OpenProSoundBank</ShortName>
+			<Path>OpenProSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="318344348" Name="Play_FreudSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Play_FreudSounds" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="985612366" Language="SFX">
+							<ShortName>Freud_small_sounds.wav</ShortName>
+							<Path>SFX\Freud_small_sounds_7EB50B16.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="1810893512" Name="Play_KarlSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Play_KarlSounds" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="82948176" Language="SFX">
+							<ShortName>Karl_small_sounds.wav</ShortName>
+							<Path>SFX\Karl_small_sounds_7EB50B16.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="3899680803" Name="PlayChoixMusic" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayChoixMusic" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3397257820" Name="PlayChoixMusicNoLoop" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayChoixMusicNoLoop" DurationType="OneShot" DurationMin="159.857040" DurationMax="159.857040">
+					<ReferencedStreamedFiles>
+						<File Id="916912912" Language="SFX">
+							<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2922769081" Name="PlayOldFreud1" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud1" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="936697932" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem</Path>
+						</File>
+						<File Id="961796277" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3655101832" Name="PlayOldFreud1_single" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud1_single" DurationType="OneShot" DurationMin="7.956417" DurationMax="7.956417">
+					<ReferencedStreamedFiles>
+						<File Id="936697932" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="2922769082" Name="PlayOldFreud2" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\PlayOldFreud2" DurationType="OneShot" DurationMin="8.047646" DurationMax="8.047646">
+					<ReferencedStreamedFiles>
+						<File Id="961796277" Language="SFX">
+							<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
+							<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="1486414576" Name="PlayPrologue" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologue" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
+					<ReferencedStreamedFiles>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
+						<File Id="916912912" Language="SFX">
+							<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3041392870" Name="PlayPrologueNoMusic" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoMusic" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="116.453293" DurationMax="116.453293">
+					<ReferencedStreamedFiles>
+						<File Id="596245445" Language="SFX">
+							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="718394488" Name="PlayTitleMusic" ObjectPath="\Events\Default Work Unit\02_Titles\PlayTitleMusic" DurationType="OneShot" DurationMin="59.217834" DurationMax="59.217834">
+					<ReferencedStreamedFiles>
+						<File Id="274141040" Language="SFX">
+							<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
+							<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="511903031" Name="Stop_ChoixSounds" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\Stop_ChoixSounds" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4071506729" Name="StopChoixMusic" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\StopChoixMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1915520066" Name="StopOldFreud" ObjectPath="\Events\Default Work Unit\04_ChoixSequence\StopOldFreud" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="703117816" Name="startDelay" ObjectPath="\Game Parameters\Default Work Unit\startDelay"/>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2651793392">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
+				<AuxBus Id="2327170656" Name="Headlocked_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Headlocked Bus\Headlocked_Reverb"/>
+				<AuxBus Id="2450185101" Name="Music_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Normal Music Bus\Music_Reverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1146284679" Name="AudioVolume" ObjectPath="\Game Parameters\Default Work Unit\AudioVolume"/>
+				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1916941780" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
+			<ShortName>FreudSoundBank</ShortName>
+			<Path>FreudSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="1437163987" Name="PlayFreudAudio" ObjectPath="\Events\Default Work Unit\05_FreudSequence\PlayFreudAudio" DurationType="OneShot" DurationMin="414.299988" DurationMax="414.299988">
+					<ReferencedStreamedFiles>
+						<File Id="32099593" Language="SFX">
+							<ShortName>Freud_2018-05-06_Headlocked.wav</ShortName>
+							<Path>SFX\Freud_2018-05-06_Headlocked_D302C21B.wem</Path>
+						</File>
+						<File Id="289799131" Language="SFX">
+							<ShortName>Freud_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Freud_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="32099593" Language="SFX">
+							<ShortName>Freud_2018-05-06_Headlocked.wav</ShortName>
+							<Path>SFX\Freud_2018-05-06_Headlocked_D302C21B.wem</Path>
+							<PrefetchSize>5172</PrefetchSize>
+						</File>
+						<File Id="289799131" Language="SFX">
+							<ShortName>Freud_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Freud_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
+							<PrefetchSize>5149</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2896494411" Name="PlayFreudAudioB" ObjectPath="\Events\Default Work Unit\05_FreudSequence\PlayFreudAudioB" DurationType="OneShot" DurationMin="285.720001" DurationMax="285.720001">
+					<ReferencedStreamedFiles>
+						<File Id="25237027" Language="SFX">
+							<ShortName>Freud_ALL_Active.wav</ShortName>
+							<Path>SFX\Freud_ALL_Active_34D9B405.wem</Path>
+						</File>
+						<File Id="837254795" Language="SFX">
+							<ShortName>Freud_ALL_Common.wav</ShortName>
+							<Path>SFX\Freud_ALL_Common_34D9B405.wem</Path>
+						</File>
+						<File Id="841534525" Language="SFX">
+							<ShortName>Freud_ALL_Calm.wav</ShortName>
+							<Path>SFX\Freud_ALL_Calm_34D9B405.wem</Path>
+						</File>
+						<File Id="911171468" Language="SFX">
+							<ShortName>FreudB_2018-06-02_Headlocked.wav</ShortName>
+							<Path>SFX\FreudB_2018-06-02_Headlocked_1DE3917C.wem</Path>
+						</File>
+						<File Id="996054496" Language="SFX">
+							<ShortName>FreudB_2018-06-02_AmbiX2-2.wav</ShortName>
+							<Path>SFX\FreudB_2018-06-02_AmbiX2-2_FC37E65D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="911171468" Language="SFX">
+							<ShortName>FreudB_2018-06-02_Headlocked.wav</ShortName>
+							<Path>SFX\FreudB_2018-06-02_Headlocked_1DE3917C.wem</Path>
+							<PrefetchSize>5113</PrefetchSize>
+						</File>
+						<File Id="996054496" Language="SFX">
+							<ShortName>FreudB_2018-06-02_AmbiX2-2.wav</ShortName>
+							<Path>SFX\FreudB_2018-06-02_AmbiX2-2_FC37E65D.wem</Path>
+							<PrefetchSize>3641</PrefetchSize>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2450185101" Name="Music_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Normal Music Bus\Music_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2051861868" Name="PlayFreudMusic" ObjectPath="\Events\Default Work Unit\05_FreudSequence\PlayFreudMusic" DurationType="OneShot" DurationMin="177.709015" DurationMax="177.709015">
+					<IncludedMemoryFiles>
+						<File Id="25722323" Language="SFX">
+							<ShortName>MOD_Freud_pianochords_moderate.wav</ShortName>
+							<Path>SFX\MOD_Freud_pianochords_moderate_5320B3D5.wem</Path>
+						</File>
+						<File Id="120796193" Language="SFX">
+							<ShortName>Freud_music_pianochords_hard.wav</ShortName>
+							<Path>SFX\Freud_music_pianochords_hard_5320B3D5.wem</Path>
+						</File>
+						<File Id="272805053" Language="SFX">
+							<ShortName>Freud_music_eightsarppeggio_lowerrange.wav</ShortName>
+							<Path>SFX\Freud_music_eightsarppeggio_lowerrange_5320B3D5.wem</Path>
+						</File>
+						<File Id="386394299" Language="SFX">
+							<ShortName>Freud_music_eightsarppeggio_higherrange.wav</ShortName>
+							<Path>SFX\Freud_music_eightsarppeggio_higherrange_5320B3D5.wem</Path>
+						</File>
+						<File Id="404369555" Language="SFX">
+							<ShortName>MOD_Freud_sixteentharpeggio_middlerange.wav</ShortName>
+							<Path>SFX\MOD_Freud_sixteentharpeggio_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="425868521" Language="SFX">
+							<ShortName>Freud_music_sixteenthsarppeggio_middlerange.wav</ShortName>
+							<Path>SFX\Freud_music_sixteenthsarppeggio_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="435690196" Language="SFX">
+							<ShortName>MOD_Freud_pianochords_hard.wav</ShortName>
+							<Path>SFX\MOD_Freud_pianochords_hard_5320B3D5.wem</Path>
+						</File>
+						<File Id="465079721" Language="SFX">
+							<ShortName>Freud_music_eightsarppeggio_middlerange.wav</ShortName>
+							<Path>SFX\Freud_music_eightsarppeggio_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="481057725" Language="SFX">
+							<ShortName>MOD_Freud_justchords_slow_middlerange.wav</ShortName>
+							<Path>SFX\MOD_Freud_justchords_slow_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="498444037" Language="SFX">
+							<ShortName>MOD_Freud_lowbass.wav</ShortName>
+							<Path>SFX\MOD_Freud_lowbass_5320B3D5.wem</Path>
+						</File>
+						<File Id="506215901" Language="SFX">
+							<ShortName>Freud_music_middlequarters.wav</ShortName>
+							<Path>SFX\Freud_music_middlequarters_5320B3D5.wem</Path>
+						</File>
+						<File Id="525245683" Language="SFX">
+							<ShortName>Freud_music_sixteenthsarppeggio_higherrange.wav</ShortName>
+							<Path>SFX\Freud_music_sixteenthsarppeggio_higherrange_5320B3D5.wem</Path>
+						</File>
+						<File Id="576849229" Language="SFX">
+							<ShortName>MOD_Freud_eightsarpeggio_higherrange.wav</ShortName>
+							<Path>SFX\MOD_Freud_eightsarpeggio_higherrange_5320B3D5.wem</Path>
+						</File>
+						<File Id="580609762" Language="SFX">
+							<ShortName>MOD_Freud_pianochords_soft.wav</ShortName>
+							<Path>SFX\MOD_Freud_pianochords_soft_5320B3D5.wem</Path>
+						</File>
+						<File Id="598008059" Language="SFX">
+							<ShortName>MOD_Freud_justchords_middlerange.wav</ShortName>
+							<Path>SFX\MOD_Freud_justchords_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="599544762" Language="SFX">
+							<ShortName>Freud_music_justchords_slow_middlerange.wav</ShortName>
+							<Path>SFX\Freud_music_justchords_slow_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="637607448" Language="SFX">
+							<ShortName>MOD_Freud_strings_ending.wav</ShortName>
+							<Path>SFX\MOD_Freud_strings_ending_5320B3D5.wem</Path>
+						</File>
+						<File Id="652415452" Language="SFX">
+							<ShortName>Freud_music_pianochords_soft.wav</ShortName>
+							<Path>SFX\Freud_music_pianochords_soft_5320B3D5.wem</Path>
+						</File>
+						<File Id="663366981" Language="SFX">
+							<ShortName>MOD_Freud_music_strings.wav</ShortName>
+							<Path>SFX\MOD_Freud_music_strings_5320B3D5.wem</Path>
+						</File>
+						<File Id="684795944" Language="SFX">
+							<ShortName>Freud_music_strings.wav</ShortName>
+							<Path>SFX\Freud_music_strings_5320B3D5.wem</Path>
+						</File>
+						<File Id="688385573" Language="SFX">
+							<ShortName>MOD_Freud_sixteenthsarpeggio_higherrange.wav</ShortName>
+							<Path>SFX\MOD_Freud_sixteenthsarpeggio_higherrange_5320B3D5.wem</Path>
+						</File>
+						<File Id="784999225" Language="SFX">
+							<ShortName>MOD_Freud_middlequarters.wav</ShortName>
+							<Path>SFX\MOD_Freud_middlequarters_5320B3D5.wem</Path>
+						</File>
+						<File Id="895699937" Language="SFX">
+							<ShortName>Freud_music_lowbass.wav</ShortName>
+							<Path>SFX\Freud_music_lowbass_5320B3D5.wem</Path>
+						</File>
+						<File Id="956973067" Language="SFX">
+							<ShortName>Freud_music_justchords_middlerange.wav</ShortName>
+							<Path>SFX\Freud_music_justchords_middlerange_5320B3D5.wem</Path>
+						</File>
+						<File Id="1012210263" Language="SFX">
+							<ShortName>Freud_music_pianochords_moderate.wav</ShortName>
+							<Path>SFX\Freud_music_pianochords_moderate_5320B3D5.wem</Path>
+						</File>
+						<File Id="1054731262" Language="SFX">
+							<ShortName>MOD_Freud_eightsarpeggio_middlerange.wav</ShortName>
+							<Path>SFX\MOD_Freud_eightsarpeggio_middlerange_5320B3D5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2450185101" Name="Music_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Normal Music Bus\Music_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3192374405" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
+			<ShortName>EpiEndSoundBank</ShortName>
+			<Path>EpiEndSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3698975080" Name="GreetingsFromHelsinki" ObjectPath="\Events\Default Work Unit\Common\GreetingsFromHelsinki" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4091047182" Name="PauseAll" ObjectPath="\Events\Default Work Unit\Common\PauseAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="556146288" Language="SFX">
+							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
+							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="0.200000" DurationMax="0.200000"/>
+				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="Infinite"/>
+				<Event Id="1149452795" Name="PlayEndMusic" ObjectPath="\Events\Default Work Unit\08_EndCredits\PlayEndMusic" DurationType="Infinite">
+					<ReferencedStreamedFiles>
+						<File Id="13960270" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_violas.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="37646044" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_celli.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_celli_D10D53C6.wem</Path>
+						</File>
+						<File Id="39693198" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_piano.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_piano_D10D53C6.wem</Path>
+						</File>
+						<File Id="57620431" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_violins2.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_violins2_D10D53C6.wem</Path>
+						</File>
+						<File Id="86817842" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_violins1.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_violins1_D10D53C6.wem</Path>
+						</File>
+						<File Id="97479900" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_postivePizziTrill.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_postivePizziTrill_D10D53C6.wem</Path>
+						</File>
+						<File Id="135108681" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_celli.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_celli_D10D53C6.wem</Path>
+						</File>
+						<File Id="147186154" Language="SFX">
+							<ShortName>NeuroTheremin_02.wav</ShortName>
+							<Path>SFX\NeuroTheremin_02_1DE3917C.wem</Path>
+						</File>
+						<File Id="165148767" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_violins1.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_violins1_D10D53C6.wem</Path>
+						</File>
+						<File Id="183987409" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_theremin.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_theremin_D10D53C6.wem</Path>
+						</File>
+						<File Id="544406365" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_piano.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_piano_D10D53C6.wem</Path>
+						</File>
+						<File Id="676971331" Language="SFX">
+							<ShortName>NeuroTheremin_03.wav</ShortName>
+							<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
+						</File>
+						<File Id="692109710" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_softStrings.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_softStrings_D10D53C6.wem</Path>
+						</File>
+						<File Id="741758092" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_theremin.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_theremin_D10D53C6.wem</Path>
+						</File>
+						<File Id="742108528" Language="SFX">
+							<ShortName>NeuroTheremin_07.wav</ShortName>
+							<Path>SFX\NeuroTheremin_07_1DE3917C.wem</Path>
+						</File>
+						<File Id="765375186" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_violins2.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem</Path>
+						</File>
+						<File Id="773170163" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_violas.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="775023345" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_neutral_negativePnoBass.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_neutral_negativePnoBass_D10D53C6.wem</Path>
+						</File>
+						<File Id="816203901" Language="SFX">
+							<ShortName>NeuroTheremin_17.wav</ShortName>
+							<Path>SFX\NeuroTheremin_17_1DE3917C.wem</Path>
+						</File>
+						<File Id="864687233" Language="SFX">
+							<ShortName>EndCreditMusic_2018-05-24_positive_softStrings.wav</ShortName>
+							<Path>SFX\EndCreditMusic_2018-05-24_positive_softStrings_D10D53C6.wem</Path>
+						</File>
+						<File Id="978726710" Language="SFX">
+							<ShortName>NeuroTheremin_15.wav</ShortName>
+							<Path>SFX\NeuroTheremin_15_1DE3917C.wem</Path>
+						</File>
+						<File Id="1073416195" Language="SFX">
+							<ShortName>NeuroTheremin_01.wav</ShortName>
+							<Path>SFX\NeuroTheremin_01_1DE3917C.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{86829211-944F-43AF-B222-EE694E5A52F8}">
+							<Media>
+								<File Id="37646044"/>
+								<File Id="57620431"/>
+								<File Id="165148767"/>
+								<File Id="183987409"/>
+								<File Id="544406365"/>
+								<File Id="692109710"/>
+								<File Id="773170163"/>
+								<File Id="775023345"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9ADE10CB-BFC2-4589-AED9-FF0FB0DE6064}">
+							<Media>
+								<File Id="13960270"/>
+								<File Id="39693198"/>
+								<File Id="86817842"/>
+								<File Id="97479900"/>
+								<File Id="135108681"/>
+								<File Id="741758092"/>
+								<File Id="765375186"/>
+								<File Id="864687233"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{86829211-944F-43AF-B222-EE694E5A52F8}">
+							<Media>
+								<File Id="37646044"/>
+								<File Id="57620431"/>
+								<File Id="165148767"/>
+								<File Id="183987409"/>
+								<File Id="544406365"/>
+								<File Id="692109710"/>
+								<File Id="773170163"/>
+								<File Id="775023345"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9ADE10CB-BFC2-4589-AED9-FF0FB0DE6064}">
+							<Media>
+								<File Id="13960270"/>
+								<File Id="39693198"/>
+								<File Id="86817842"/>
+								<File Id="97479900"/>
+								<File Id="135108681"/>
+								<File Id="741758092"/>
+								<File Id="765375186"/>
+								<File Id="864687233"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
+					<ReferencedStreamedFiles>
+						<File Id="1059116330" Language="SFX">
+							<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
+							<Path>SFX\Epilogue_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
+						</File>
+					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
+				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="240302138" Name="AverageValence" ObjectPath="\Switches\Default Work Unit\AverageValence">
+					<Switches>
+						<Switch Id="4219547688" Name="Negative" ObjectPath="\Switches\Default Work Unit\AverageValence\Negative"/>
+						<Switch Id="670611050" Name="Neutral" ObjectPath="\Switches\Default Work Unit\AverageValence\Neutral"/>
+						<Switch Id="1192865152" Name="Positive" ObjectPath="\Switches\Default Work Unit\AverageValence\Positive"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

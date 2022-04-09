@@ -26,7 +26,7 @@ public class EmotionTable : MonoBehaviour
         float normalX = Mathf.InverseLerp(0.0f, 1.0f, valenceValue);
         pointerPosition.x = Mathf.Lerp(-50f, 50f, normalX);
 
-        float normalY = Mathf.InverseLerp(0.0f, 1.0f, arousalValue);
+        float normalY = Mathf.InverseLerp(0.0f, 4.0f, arousalValue);
         pointerPosition.y = Mathf.Lerp(-50f, 50f, normalY);
 
         pointerPosition.z = 0.0f;

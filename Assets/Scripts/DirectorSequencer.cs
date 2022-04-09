@@ -18,6 +18,7 @@ public class DirectorSequencer : MonoBehaviour
     public Sequence currentSequence;
 
     [Header("Parameters")]
+    public bool isInteractive = true;
     public float timeToChoice = 3;
     public float timerChoiceEpi = 0;
     public float timer = 0;
@@ -60,9 +61,7 @@ public class DirectorSequencer : MonoBehaviour
     public bool updateBarPos = false;
 
     [Header("ChoiceSequenceAudio")]
-    public AudioMixerSnapshot choiceSeqMuteSnapshot;
-    public float choiceSeqMuteFadeTime = 4.0f;
-    public string choiceSeqMusicStopEvent = "StopChoixMusic";
+    public string choiceSeqSoundstopEvent = "StopChoixSounds";
     public string choiceSeqOldFreudStopEvent = "StopOldFreud";
 
     private readonly float _timerChoice = 0;
@@ -82,7 +81,7 @@ public class DirectorSequencer : MonoBehaviour
     public float arousalStartTime = 0.0f;
     public float arousalFadeDownSpeed = 0.005f;
     // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
-    [Range(0, 4)] public float cumulativeArousal;
+    [Range(0, 4)] public static float cumulativeArousal;
 
 
     private void Awake()
@@ -147,9 +146,9 @@ public class DirectorSequencer : MonoBehaviour
                     timer = 0;
 
                     if(!vr)
-                        StartCoroutine(CO_FadeIn());
+                        StartCoroutine(Coroutine_FadeInBlack());
                     else
-                        StartCoroutine(CO_FadeInVR());
+                        StartCoroutine(Coroutine_FadeInBlack_VR());
                 }
             }
 
@@ -162,9 +161,9 @@ public class DirectorSequencer : MonoBehaviour
                     fadeDone = false;
 
                     if (!vr)
-                        StartCoroutine(CO_FadeIn());
+                        StartCoroutine(Coroutine_FadeInBlack());
                     else
-                        StartCoroutine(CO_FadeInVR());
+                        StartCoroutine(Coroutine_FadeInBlack_VR());
                 }
             }
 
@@ -211,9 +210,9 @@ public class DirectorSequencer : MonoBehaviour
         srtManager.AddSubtitles(choice.GetFreudSequences());
 
         if (!vr)
-            StartCoroutine(CO_FadeIn());
+            StartCoroutine(Coroutine_FadeInBlack());
         else
-            StartCoroutine(CO_FadeInVR());
+            StartCoroutine(Coroutine_FadeInBlack_VR());
     }
 
     public void PlayKarl(FreudOrKarl choice)
@@ -222,9 +221,9 @@ public class DirectorSequencer : MonoBehaviour
         srtManager.AddSubtitles(choice.GetKarlSequences());
 
         if (!vr)
-            StartCoroutine(CO_FadeIn());
+            StartCoroutine(Coroutine_FadeInBlack());
         else
-            StartCoroutine(CO_FadeInVR());
+            StartCoroutine(Coroutine_FadeInBlack_VR());
     }
 
     public void ValidateChoice(ChoiceSequence choice)
@@ -239,21 +238,20 @@ public class DirectorSequencer : MonoBehaviour
         showEpilogue = true;
 
         if (!vr)
-            StartCoroutine(CO_FadeIn());
+            StartCoroutine(Coroutine_FadeInBlack());
         else
-            StartCoroutine(CO_FadeInVR());
+            StartCoroutine(Coroutine_FadeInBlack_VR());
 
         // fade out choice sequence sounds
-        choiceSeqMuteSnapshot.TransitionTo(choiceSeqMuteFadeTime);
-        Debug.Log(choiceSeqMuteSnapshot + " called with fade time " + choiceSeqMuteFadeTime);
-        audioManager.SetEvent(choiceSeqMusicStopEvent, 0);
+        //        choiceSeqMuteSnapshot.TransitionTo(choiceSeqMuteFadeTime);
+        audioManager.SetEvent(choiceSeqSoundstopEvent, 0);
         audioManager.SetEvent(choiceSeqOldFreudStopEvent, 0);
     }
 
     // Called by the "Press space to start playback" scene
     public void PlayNextSequence()
     {
-        EndFadeIn();
+        EndFadeInBlack();
     }
 
     private void PrepareVideo()
@@ -366,11 +364,11 @@ public class DirectorSequencer : MonoBehaviour
 
         if(vr)
         {
-            StartCoroutine(CO_FadeOutVR());
+            StartCoroutine(Coroutine_FadeOutBlack_VR());
         }
         else
         {
-            StartCoroutine(CO_FadeOut());
+            StartCoroutine(Coroutine_FadeOutBlack());
         }
 
 		play = true;
@@ -409,9 +407,9 @@ private void EndVideo(VideoPlayer vp)
             if (!currentSequence.waitInteraction && currentSequence.delayBeforeNextSequence == 0)
             {
                 if (!vr)
-                    StartCoroutine(CO_FadeIn());
+                    StartCoroutine(Coroutine_FadeInBlack());
                 else
-                    StartCoroutine(CO_FadeInVR());
+                    StartCoroutine(Coroutine_FadeInBlack_VR());
             }
         }
     }
@@ -446,8 +444,9 @@ private void EndVideo(VideoPlayer vp)
 
     #region Fade Event
 
-    public void EndFadeIn()
+    public void EndFadeInBlack()
     {
+        Debug.Log("EndFadeInBlack");
 		if(currentSequence.addScene)
 		{
 			RemoveScene();
@@ -455,9 +454,9 @@ private void EndVideo(VideoPlayer vp)
         PrepareVideo();
     }
 
-    public void EndFadeOut()
+    public void EndFadeOutBlack()
     {
-        
+        Debug.Log("EndFadeOutBlack");
     }
     #endregion
 
@@ -483,13 +482,13 @@ private void EndVideo(VideoPlayer vp)
     // Update every second the emotional bar if it is active
     IEnumerator CO_UpdateValenceTime()
     {
-        while(currentSequence.readSensorData)
+        while(currentSequence.readSensorData && isInteractive)
         {
-            yield return new WaitForSeconds(updateValenceTime);
             //DataReader.UpTime();          
             // float valence = DataReader.GetValence();     // Read valence from CSV
-            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
-            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV
+//            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
+//            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
+            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
 
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
             cumulativeArousal = cumulativeArousal + arousalPeak;
@@ -512,9 +511,11 @@ private void EndVideo(VideoPlayer vp)
                 emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
                 emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, cumulativeArousal);
             }
+
+            yield return new WaitForSeconds(updateValenceTime);
         }
 
-//        cam.GetComponent<CameraManager>().DisablePostProcess();
+        //        cam.GetComponent<CameraManager>().DisablePostProcess();
 
         yield return null;
 
@@ -545,40 +546,49 @@ private void EndVideo(VideoPlayer vp)
         }
     }
 
-    IEnumerator CO_FadeIn()
+    IEnumerator Coroutine_FadeInBlack()
     {
+        Debug.Log("Coroutine_FadeInBlack");
+
         fadeDone = false;
         fadeAnimator.SetTrigger("FadeIn");
 
         yield return new WaitForSeconds(fadeAnimator.GetCurrentAnimatorStateInfo(0).length);
 
-        EndFadeIn();
+        EndFadeInBlack();
         yield return null;
     }
 
-    IEnumerator CO_FadeOut()
+    IEnumerator Coroutine_FadeOutBlack()
     {
+        Debug.Log("Coroutine_FadeOutBlack");
+
         fadeAnimator.SetTrigger("FadeOut");
 
         yield return new WaitForSeconds(fadeAnimator.GetCurrentAnimatorStateInfo(0).length);
 
         fadeDone = true;
-        EndFadeOut();
+        EndFadeOutBlack();
         yield return null;
     }
 
-    IEnumerator CO_FadeInVR()
+    IEnumerator Coroutine_FadeInBlack_VR()
     {
+        Debug.Log("Coroutine_FadeInBlack_VR");
+
         sphereFade.SetBool("FadeIn", true);
+
 
         yield return new WaitForSeconds(sphereFade.GetCurrentAnimatorStateInfo(0).length + 1);
 
-        EndFadeIn();
+        EndFadeInBlack();
         yield return null;
     }
 
-    IEnumerator CO_FadeOutVR()
+    IEnumerator Coroutine_FadeOutBlack_VR()
     {
+        Debug.Log("Coroutine_FadeOutBlack_VR");
+
         yield return new WaitForSeconds(1);
 
 		sphereFade.SetBool("FadeIn", false);
@@ -586,7 +596,7 @@ private void EndVideo(VideoPlayer vp)
         yield return new WaitForSeconds(sphereFade.GetCurrentAnimatorStateInfo(0).length);
 		sphereFade.SetBool("FadeOut", false);
         fadeDone = true;
-        EndFadeOut();
+        EndFadeOutBlack();
         yield return null;
     }
 
