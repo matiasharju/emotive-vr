@@ -9,10 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
-		<File Id="25237027" Language="SFX">
-			<ShortName>Freud_ALL_Active.wav</ShortName>
-			<Path>SFX\Freud_ALL_Active_34D9B405.wem</Path>
-		</File>
 		<File Id="32099593" Language="SFX">
 			<ShortName>Freud_2018-05-06_Headlocked.wav</ShortName>
 			<Path>SFX\Freud_2018-05-06_Headlocked_D302C21B.wem</Path>
@@ -77,6 +73,10 @@
 			<ShortName>Freud_2018-05-06_AmbiX2-2.wav</ShortName>
 			<Path>SFX\Freud_2018-05-06_AmbiX2-2_FC37E65D.wem</Path>
 		</File>
+		<File Id="320455122" Language="SFX">
+			<ShortName>Freud_ALL_MoreActive_fromStart.wav</ShortName>
+			<Path>SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem</Path>
+		</File>
 		<File Id="320466212" Language="SFX">
 			<ShortName>NeuroTheremin_15.wav</ShortName>
 			<Path>SFX\NeuroTheremin_15_1DE3917C.wem</Path>
@@ -109,6 +109,10 @@
 			<ShortName>KarlB_2018-07-22_Headlocked.wav</ShortName>
 			<Path>SFX\KarlB_2018-07-22_Headlocked_1DE3917C.wem</Path>
 		</File>
+		<File Id="475772932" Language="SFX">
+			<ShortName>Freud_ALL_Active_fromStart.wav</ShortName>
+			<Path>SFX\Freud_ALL_Active_fromStart_34D9B405.wem</Path>
+		</File>
 		<File Id="497011185" Language="SFX">
 			<ShortName>NeuroTheremin_03.wav</ShortName>
 			<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
@@ -137,6 +141,10 @@
 			<ShortName>NeuroTheremin_17.wav</ShortName>
 			<Path>SFX\NeuroTheremin_17_1DE3917C.wem</Path>
 		</File>
+		<File Id="610501190" Language="SFX">
+			<ShortName>Freud_ALL_Calm_fromStart.wav</ShortName>
+			<Path>SFX\Freud_ALL_Calm_fromStart_34D9B405.wem</Path>
+		</File>
 		<File Id="613571474" Language="SFX">
 			<ShortName>KarlHallucination_piano.wav</ShortName>
 			<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
@@ -160,14 +168,6 @@
 		<File Id="764108043" Language="SFX">
 			<ShortName>KarlB_2018-05-06_AmbiX.wav</ShortName>
 			<Path>SFX\KarlB_2018-05-06_AmbiX_FC37E65D.wem</Path>
-		</File>
-		<File Id="837254795" Language="SFX">
-			<ShortName>Freud_ALL_Common.wav</ShortName>
-			<Path>SFX\Freud_ALL_Common_34D9B405.wem</Path>
-		</File>
-		<File Id="841534525" Language="SFX">
-			<ShortName>Freud_ALL_Calm.wav</ShortName>
-			<Path>SFX\Freud_ALL_Calm_34D9B405.wem</Path>
 		</File>
 		<File Id="843648995" Language="SFX">
 			<ShortName>KarlHallucination_bass_higher.wav</ShortName>
@@ -224,6 +224,10 @@
 		<File Id="1019554246" Language="SFX">
 			<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
 			<Path>SFX\Karl_music_hypno_theremin3_D10D53C6.wem</Path>
+		</File>
+		<File Id="1024539883" Language="SFX">
+			<ShortName>Freud_ALL_Common_fromStart.wav</ShortName>
+			<Path>SFX\Freud_ALL_Common_fromStart_34D9B405.wem</Path>
 		</File>
 		<File Id="1059116330" Language="SFX">
 			<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
@@ -394,7 +398,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="854256009" Language="SFX" Hash="1372343370">
+		<SoundBank Id="854256009" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Choice2SoundBank</ObjectPath>
 			<ShortName>Choice2SoundBank</ShortName>
 			<Path>Choice2SoundBank.bnk</Path>
@@ -745,7 +749,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX">
+		<SoundBank Id="1916941780" Language="SFX" Hash="3117672130">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>
@@ -788,17 +792,17 @@
 				</Event>
 				<Event Id="2896494411" Name="PlayFreudAudioB" ObjectPath="\Events\Default Work Unit\05_FreudSequence\PlayFreudAudioB" DurationType="OneShot" DurationMin="285.720001" DurationMax="285.720001">
 					<ReferencedStreamedFiles>
-						<File Id="25237027" Language="SFX">
-							<ShortName>Freud_ALL_Active.wav</ShortName>
-							<Path>SFX\Freud_ALL_Active_34D9B405.wem</Path>
+						<File Id="320455122" Language="SFX">
+							<ShortName>Freud_ALL_MoreActive_fromStart.wav</ShortName>
+							<Path>SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem</Path>
 						</File>
-						<File Id="837254795" Language="SFX">
-							<ShortName>Freud_ALL_Common.wav</ShortName>
-							<Path>SFX\Freud_ALL_Common_34D9B405.wem</Path>
+						<File Id="475772932" Language="SFX">
+							<ShortName>Freud_ALL_Active_fromStart.wav</ShortName>
+							<Path>SFX\Freud_ALL_Active_fromStart_34D9B405.wem</Path>
 						</File>
-						<File Id="841534525" Language="SFX">
-							<ShortName>Freud_ALL_Calm.wav</ShortName>
-							<Path>SFX\Freud_ALL_Calm_34D9B405.wem</Path>
+						<File Id="610501190" Language="SFX">
+							<ShortName>Freud_ALL_Calm_fromStart.wav</ShortName>
+							<Path>SFX\Freud_ALL_Calm_fromStart_34D9B405.wem</Path>
 						</File>
 						<File Id="911171468" Language="SFX">
 							<ShortName>FreudB_2018-06-02_Headlocked.wav</ShortName>
@@ -807,6 +811,10 @@
 						<File Id="996054496" Language="SFX">
 							<ShortName>FreudB_2018-06-02_AmbiX2-2.wav</ShortName>
 							<Path>SFX\FreudB_2018-06-02_AmbiX2-2_FC37E65D.wem</Path>
+						</File>
+						<File Id="1024539883" Language="SFX">
+							<ShortName>Freud_ALL_Common_fromStart.wav</ShortName>
+							<Path>SFX\Freud_ALL_Common_fromStart_34D9B405.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>

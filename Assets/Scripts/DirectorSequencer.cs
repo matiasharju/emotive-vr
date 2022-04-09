@@ -45,7 +45,7 @@ public class DirectorSequencer : MonoBehaviour
     public Animator fadeAnimator;
     public RenderTexture cutRt;
     public Canvas canvasSubtitle;
-	public Animator sphereFade;
+	public Animator fadeCanvas;
     public PseudoDataInput pseudoDataInput;
     public EmotionTable emotionTableScript;
 
@@ -384,7 +384,7 @@ public class DirectorSequencer : MonoBehaviour
         else
         {
             StartCoroutine(srtManager.Begin());
-            Debug.Log("Start subtitles");
+//            Debug.Log("Start subtitles");
         }
 		    
         ++indexSequence;
@@ -394,7 +394,7 @@ public class DirectorSequencer : MonoBehaviour
     public void StartOldFreudSrt()       // Gets called from the prologue / epilogue scene when audio sources are running
     {
         StartCoroutine(srtManager.Begin());
-        Debug.Log("Audio started. Start srtManager");
+ //       Debug.Log("Audio started. Start srtManager");
     }
 
 // Callback when the video is finish
@@ -446,7 +446,7 @@ private void EndVideo(VideoPlayer vp)
 
     public void EndFadeInBlack()
     {
-        Debug.Log("EndFadeInBlack");
+//        Debug.Log("EndFadeInBlack");
 		if(currentSequence.addScene)
 		{
 			RemoveScene();
@@ -456,7 +456,7 @@ private void EndVideo(VideoPlayer vp)
 
     public void EndFadeOutBlack()
     {
-        Debug.Log("EndFadeOutBlack");
+//        Debug.Log("EndFadeOutBlack");
     }
     #endregion
 
@@ -487,8 +487,8 @@ private void EndVideo(VideoPlayer vp)
             //DataReader.UpTime();          
             // float valence = DataReader.GetValence();     // Read valence from CSV
 //            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
-//            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
-            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
+            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
+//            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
 
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
             cumulativeArousal = cumulativeArousal + arousalPeak;
@@ -548,7 +548,7 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeInBlack()
     {
-        Debug.Log("Coroutine_FadeInBlack");
+    //    Debug.Log("Coroutine_FadeInBlack");
 
         fadeDone = false;
         fadeAnimator.SetTrigger("FadeIn");
@@ -561,7 +561,7 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeOutBlack()
     {
-        Debug.Log("Coroutine_FadeOutBlack");
+   //    Debug.Log("Coroutine_FadeOutBlack");
 
         fadeAnimator.SetTrigger("FadeOut");
 
@@ -574,12 +574,12 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeInBlack_VR()
     {
-        Debug.Log("Coroutine_FadeInBlack_VR");
+  //      Debug.Log("Coroutine_FadeInBlack_VR");
 
-        sphereFade.SetBool("FadeIn", true);
+        fadeCanvas.SetBool("FadeIn", true);
 
 
-        yield return new WaitForSeconds(sphereFade.GetCurrentAnimatorStateInfo(0).length + 1);
+        yield return new WaitForSeconds(fadeCanvas.GetCurrentAnimatorStateInfo(0).length + 1);
 
         EndFadeInBlack();
         yield return null;
@@ -587,14 +587,14 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeOutBlack_VR()
     {
-        Debug.Log("Coroutine_FadeOutBlack_VR");
+   //     Debug.Log("Coroutine_FadeOutBlack_VR");
 
         yield return new WaitForSeconds(1);
 
-		sphereFade.SetBool("FadeIn", false);
-        sphereFade.SetBool("FadeOut", true);
-        yield return new WaitForSeconds(sphereFade.GetCurrentAnimatorStateInfo(0).length);
-		sphereFade.SetBool("FadeOut", false);
+		fadeCanvas.SetBool("FadeIn", false);
+        fadeCanvas.SetBool("FadeOut", true);
+        yield return new WaitForSeconds(fadeCanvas.GetCurrentAnimatorStateInfo(0).length);
+		fadeCanvas.SetBool("FadeOut", false);
         fadeDone = true;
         EndFadeOutBlack();
         yield return null;
@@ -603,11 +603,11 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator CO_ForceSynchroEpilogue(float delay)
     {
-        Debug.Log("Force delay epilogue subtitles for " + delay + " seconds");
+   //     Debug.Log("Force delay epilogue subtitles for " + delay + " seconds");
         yield return new WaitForSeconds(delay);
 
         StartCoroutine(srtManager.Begin());
-        Debug.Log("Start srtManager");
+  //      Debug.Log("Start srtManager");
     }
     #endregion
 }

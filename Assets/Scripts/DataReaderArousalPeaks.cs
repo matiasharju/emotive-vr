@@ -21,7 +21,7 @@ public static class DataReaderArousalPeaks
         _filename = filename;
         
         _path = Application.streamingAssetsPath + "/SensorData/" + _filename;
-        Debug.Log(_path);
+//        Debug.Log(_path);
         ReadDataFromCSV();
 
     }

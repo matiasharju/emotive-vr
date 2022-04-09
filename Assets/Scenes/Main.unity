@@ -388,7 +388,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -476,7 +476,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -812,7 +812,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -918,7 +918,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -1630,7 +1630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1007196593
 Transform:
   m_ObjectHideFlags: 0
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 140260530}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a32e6319d6cb834eb176440c211fc45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hideTimeDisplays: 1
+  hideTimeDisplays: 0
   hideArousalValue: 0
   realTime: {fileID: 1713057146}
   dataTableTime: {fileID: 1889288527}
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -2284,7 +2284,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -2317,7 +2317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1387465136
 Transform:
   m_ObjectHideFlags: 0
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
@@ -2639,7 +2639,7 @@ MonoBehaviour:
   fadeAnimator: {fileID: 2102446123}
   cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   canvasSubtitle: {fileID: 2061826942}
-  sphereFade: {fileID: 1234379020}
+  fadeCanvas: {fileID: 140260530}
   pseudoDataInput: {fileID: 486323652}
   emotionTableScript: {fileID: 1544528339}
   cam: {fileID: 0}
