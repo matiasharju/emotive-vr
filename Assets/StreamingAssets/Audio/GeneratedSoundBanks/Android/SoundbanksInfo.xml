@@ -25,6 +25,10 @@
 			<ShortName>Karl_small_sounds.wav</ShortName>
 			<Path>SFX\Karl_small_sounds_7EB50B16.wem</Path>
 		</File>
+		<File Id="85536470" Language="SFX">
+			<ShortName>Common.wav</ShortName>
+			<Path>SFX\Common_7EB50B16.wem</Path>
+		</File>
 		<File Id="120029847" Language="SFX">
 			<ShortName>KarlHallucination_bass.wav</ShortName>
 			<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
@@ -45,6 +49,10 @@
 			<ShortName>EndCreditMusic_2018-05-24_positive_softStrings.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_positive_softStrings_D10D53C6.wem</Path>
 		</File>
+		<File Id="186639973" Language="SFX">
+			<ShortName>ActivePno.wav</ShortName>
+			<Path>SFX\ActivePno_7EB50B16.wem</Path>
+		</File>
 		<File Id="203120769" Language="SFX">
 			<ShortName>Introduction2_Voiceover_2018-05-06.wav</ShortName>
 			<Path>SFX\Introduction2_Voiceover_2018-05-06_1DE3917C.wem</Path>
@@ -56,10 +64,6 @@
 		<File Id="247385258" Language="SFX">
 			<ShortName>Introduction1_Voiceover_2018-04-21.wav</ShortName>
 			<Path>SFX\Introduction1_Voiceover_2018-04-21_1DE3917C.wem</Path>
-		</File>
-		<File Id="274141040" Language="SFX">
-			<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
-			<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
 		</File>
 		<File Id="280853858" Language="SFX">
 			<ShortName>NeuroTheremin_02.wav</ShortName>
@@ -101,6 +105,10 @@
 			<ShortName>EndCreditMusic_2018-05-24_positive_theremin.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_positive_theremin_D10D53C6.wem</Path>
 		</File>
+		<File Id="423379083" Language="SFX">
+			<ShortName>ActiveStrgs_Step2.wav</ShortName>
+			<Path>SFX\ActiveStrgs_Step2_7EB50B16.wem</Path>
+		</File>
 		<File Id="434738769" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_postivePizziTrill.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_postivePizziTrill_D10D53C6.wem</Path>
@@ -112,6 +120,10 @@
 		<File Id="497011185" Language="SFX">
 			<ShortName>NeuroTheremin_03.wav</ShortName>
 			<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
+		</File>
+		<File Id="499097965" Language="SFX">
+			<ShortName>CalmStrings.wav</ShortName>
+			<Path>SFX\CalmStrings_7EB50B16.wem</Path>
 		</File>
 		<File Id="508584385" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_positive_celli.wav</ShortName>
@@ -160,6 +172,10 @@
 		<File Id="649381780" Language="SFX">
 			<ShortName>KarlHallucination_violins1.wav</ShortName>
 			<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
+		</File>
+		<File Id="686559545" Language="SFX">
+			<ShortName>ActiveStrgs_Step1.wav</ShortName>
+			<Path>SFX\ActiveStrgs_Step1_7EB50B16.wem</Path>
 		</File>
 		<File Id="764108043" Language="SFX">
 			<ShortName>KarlB_2018-05-06_AmbiX.wav</ShortName>
@@ -601,7 +617,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="SFX">
+		<SoundBank Id="1053698777" Language="SFX" Hash="4177710710">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>OpenProSoundBank.bnk</Path>
@@ -711,11 +727,27 @@
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
-				<Event Id="718394488" Name="PlayTitleMusic" ObjectPath="\Events\Default Work Unit\02_Titles\PlayTitleMusic" DurationType="OneShot" DurationMin="59.217834" DurationMax="59.217834">
+				<Event Id="718394488" Name="PlayTitleMusic" ObjectPath="\Events\Default Work Unit\02_Titles\PlayTitleMusic" DurationType="OneShot" DurationMin="59.070621" DurationMax="59.070621">
 					<ReferencedStreamedFiles>
-						<File Id="274141040" Language="SFX">
-							<ShortName>OpeningTitleMusic_2018-05-25.wav</ShortName>
-							<Path>SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem</Path>
+						<File Id="85536470" Language="SFX">
+							<ShortName>Common.wav</ShortName>
+							<Path>SFX\Common_7EB50B16.wem</Path>
+						</File>
+						<File Id="186639973" Language="SFX">
+							<ShortName>ActivePno.wav</ShortName>
+							<Path>SFX\ActivePno_7EB50B16.wem</Path>
+						</File>
+						<File Id="423379083" Language="SFX">
+							<ShortName>ActiveStrgs_Step2.wav</ShortName>
+							<Path>SFX\ActiveStrgs_Step2_7EB50B16.wem</Path>
+						</File>
+						<File Id="499097965" Language="SFX">
+							<ShortName>CalmStrings.wav</ShortName>
+							<Path>SFX\CalmStrings_7EB50B16.wem</Path>
+						</File>
+						<File Id="686559545" Language="SFX">
+							<ShortName>ActiveStrgs_Step1.wav</ShortName>
+							<Path>SFX\ActiveStrgs_Step1_7EB50B16.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
@@ -745,7 +777,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX" Hash="2273211182">
+		<SoundBank Id="1916941780" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>

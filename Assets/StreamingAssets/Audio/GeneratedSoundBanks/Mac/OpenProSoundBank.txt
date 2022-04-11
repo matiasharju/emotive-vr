@@ -1,7 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	318344348	Play_FreudSounds			\Default Work Unit\04_ChoixSequence\Play_FreudSounds	
+	511903031	Stop_ChoixSounds			\Default Work Unit\04_ChoixSequence\Stop_ChoixSounds	
 	718394488	PlayTitleMusic			\Default Work Unit\02_Titles\PlayTitleMusic	
 	862099911	PlayPrologueNoLoop			\Default Work Unit\03_Prologue\PlayPrologueNoLoop	
 	1486414576	PlayPrologue			\Default Work Unit\03_Prologue\PlayPrologue	
+	1810893512	Play_KarlSounds			\Default Work Unit\04_ChoixSequence\Play_KarlSounds	
 	1915520066	StopOldFreud			\Default Work Unit\04_ChoixSequence\StopOldFreud	
 	2845561435	PlayArousalTestMusic			\Default Work Unit\Common\PlayArousalTestMusic	
 	2922769081	PlayOldFreud1			\Default Work Unit\04_ChoixSequence\PlayOldFreud1	
@@ -23,14 +26,23 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	703117816	startDelay			\Default Work Unit\startDelay	
 	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2995775460	Room_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
-	596245445	Prologue_OldFreud_AmbiX	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_OldFreud_AmbiX		100615852
-	916912912	ChoiceMusicNoLoop	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\ChoiceMusicNoLoop		2025439
-	936697932	VieuxFreud_Il_y_avait_lui_1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_1		74225
-	961796277	VieuxFreud_Il_y_avait_lui_2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_2		73803
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	274141040	TitleMusic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\OpeningTitleMusic_2018-05-25_1DE3917C.wem	274141040.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Titles\TitleMusic	
+	82948176	Karl_small_sounds	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Karl_small_sounds_7EB50B16.wem	82948176.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\Karl_small_sounds	
+	85536470	Common	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Common_7EB50B16.wem	85536470.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\Common	
+	186639973	ActivePno	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ActivePno_7EB50B16.wem	186639973.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\ActivePno	
+	423379083	ActiveStrgs_Step2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ActiveStrgs_Step2_7EB50B16.wem	423379083.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\ActiveStrgs_Step2	
+	499097965	CalmStrings	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\CalmStrings_7EB50B16.wem	499097965.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\CalmStrings	
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem	556146288.wem	\Interactive Music Hierarchy\Default Work Unit\Choix\Choix\ChoiceMusic_2018-05-29_extraBarEnd	
+	596245445	Prologue_OldFreud_AmbiX	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem	596245445.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_OldFreud_AmbiX	
+	686559545	ActiveStrgs_Step1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ActiveStrgs_Step1_7EB50B16.wem	686559545.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\ActiveStrgs_Step1	
+	916912912	ChoiceMusicNoLoop	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem	916912912.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\ChoiceMusicNoLoop	
+	936697932	VieuxFreud_Il_y_avait_lui_1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem	936697932.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_1	
+	961796277	VieuxFreud_Il_y_avait_lui_2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem	961796277.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_2	
+	985612366	Freud_small_sounds	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Freud_small_sounds_7EB50B16.wem	985612366.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\Freud_small_sounds	
 
