@@ -247,6 +247,7 @@ Transform:
   m_Children:
   - {fileID: 1482753711}
   - {fileID: 1387465136}
+  - {fileID: 1540548086}
   - {fileID: 326218838}
   - {fileID: 1349655377}
   - {fileID: 338844018}
@@ -331,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &326218838
 Transform:
   m_ObjectHideFlags: 0
@@ -344,7 +345,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &326218839
 MonoBehaviour:
@@ -434,7 +435,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &338844019
 MonoBehaviour:
@@ -767,7 +768,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &558842300
 MonoBehaviour:
@@ -960,7 +961,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &586983602
 MonoBehaviour:
@@ -1645,7 +1646,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1007196594
 MonoBehaviour:
@@ -1736,8 +1737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a32e6319d6cb834eb176440c211fc45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hideTimeDisplays: 0
-  hideArousalValue: 0
+  hideTimeDisplays: 1
+  hideArousalValue: 1
   realTime: {fileID: 1713057146}
   dataTableTime: {fileID: 1889288527}
   arousalValue: {fileID: 1936124514}
@@ -1928,7 +1929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1127165645
 MonoBehaviour:
@@ -2117,7 +2118,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1349655378
 MonoBehaviour:
@@ -2243,7 +2244,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1378302895
 MonoBehaviour:
@@ -2733,6 +2734,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493414557}
   m_CullTransparentMesh: 1
+--- !u!1 &1540548085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540548086}
+  - component: {fileID: 1540548087}
+  m_Layer: 0
+  m_Name: Noninteractive_Opening_And_Freud
+  m_TagString: DirectorSequencer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1540548086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540548085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 176070623}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1540548087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540548085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexSequence: 0
+  sequences:
+  - {fileID: 11400000, guid: 84ad66648688e7f49982ae1ac5af2cf2, type: 2}
+  - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
+  - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
+  - {fileID: 11400000, guid: c04e4326edbd23c498ac3611f39c3771, type: 2}
+  - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
+  - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
+  - {fileID: 11400000, guid: 612808f022311ac468115bc2cb8db679, type: 2}
+  currentSequence: {fileID: 0}
+  isInteractive: 1
+  timeToChoice: 3
+  timerChoiceEpi: 2.5
+  timer: 0
+  delay: 0
+  updateValenceTime: 0.1
+  synchronizeTimer: 0
+  timeToFade: 2
+  loadedSceneName: 
+  activeSubtitle: 0
+  vr: 1
+  epilogueSrtDelay: 0
+  allCameras:
+  - {fileID: 1683436736}
+  - {fileID: 963194227}
+  srtManager: {fileID: 1934347640}
+  player: {fileID: 789182111}
+  cutPlayer: {fileID: 2044297054}
+  emotionalBar: {fileID: 1731009946}
+  emotionTable: {fileID: 1544528334}
+  audioManager: {fileID: 449404880}
+  fadeAnimator: {fileID: 2102446123}
+  cutRt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
+  canvasSubtitle: {fileID: 2061826942}
+  fadeCanvas: {fileID: 140260530}
+  pseudoDataInput: {fileID: 486323652}
+  emotionTableScript: {fileID: 1544528339}
+  cam: {fileID: 0}
+  play: 0
+  fadeDone: 0
+  waitEndScene: 0
+  activeRaycast: 0
+  showEpilogue: 0
+  updateBarPos: 0
+  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqOldFreudStopEvent: StopOldFreud
+  FreudPlayed: 0
+  KarlPlayed: 0
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
+  arousalStartTime: 0
+  arousalFadeDownSpeed: 0.01
 --- !u!1 &1544528334
 GameObject:
   m_ObjectHideFlags: 0
@@ -4080,3 +4175,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102446121}
   m_CullTransparentMesh: 0
+--- !u!1 &2114617356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2114617358}
+  - component: {fileID: 2114617357}
+  m_Layer: 0
+  m_Name: Load_iMotions_Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2114617357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114617356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0ffa0f212387f44a5b96f66b75190d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2114617358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114617356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

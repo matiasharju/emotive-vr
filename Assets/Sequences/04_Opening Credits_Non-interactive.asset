@@ -17,7 +17,7 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 1
+  showEmotionalBar: 0
   addScene: 0
   waitInteraction: 0
   clearVideo: 0
@@ -42,5 +42,5 @@ MonoBehaviour:
   updateColorFromValence: 0
   forceSynchronize: 0
   timeValue: 0
-  readSensorData: 1
+  readSensorData: 0
   sensorDataStartTime: 0

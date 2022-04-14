@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 00_StartPlayback
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  rt: {fileID: 0}
+  clip: {fileID: 32900000, guid: bb81582382780f14d9f096d2c796556c, type: 3}
+  rt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 1
@@ -27,7 +27,7 @@ MonoBehaviour:
   thisIsKarl: 0
   sceneNameToLoad: 00_StartPlayback
   delayBeforeNextSequence: 0
-  soundBankName: OpenProSoundBank
+  soundBankName: 
   audioEvtNames: []
   delay: 0
   barInfo: []

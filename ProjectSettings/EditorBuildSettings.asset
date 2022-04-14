@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/09_EndCredits.unity
     guid: 13b0c869fba0c584aa8460415f865d1e
+  - enabled: 1
+    path: Assets/3SL/ViveSRIntegration-Extras/Example-SteamVR/Example-iMotions-ViveSR-SteamVR2.unity
+    guid: b2bb75997e707794596d27bac106d45f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 04f2a14257ecaf4489b0280b8141b64e, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: ca6a5341ffcb8e649b994e81d87c50ac, type: 2}
