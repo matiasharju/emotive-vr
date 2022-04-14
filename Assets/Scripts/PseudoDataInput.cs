@@ -5,6 +5,7 @@ using UnityEngine;
 public class PseudoDataInput : MonoBehaviour
 {
     public bool generateRandomValence;
+    public bool sendPseudoArousalValues;
 
     [Range(0.0f, 1.0f)]
     public float pseudoValence = 0.5F; 		// 0 to 1
@@ -16,9 +17,12 @@ public class PseudoDataInput : MonoBehaviour
     public float smoothTime = 5.0f;
     float velocity = 0.0f;
 
+    public float sendArousalInterval = 0.1f;
+
     void Start()
     {
         if (generateRandomValence) StartCoroutine(RandomValence());
+        if (sendPseudoArousalValues) StartCoroutine(SendPseudoArousalValues());
     }
 
     void Update()
@@ -64,4 +68,15 @@ public class PseudoDataInput : MonoBehaviour
             yield return new WaitForSeconds(sampleInterval);
         }
     }
+
+    IEnumerator SendPseudoArousalValues()
+    {
+        while (true)
+        {
+            DataReaderArousalPeaks.ReadDataFromStream(pseudoArousal);   // send pseudo arousal value to DataReaderArousalPeaks.cs
+            yield return new WaitForSeconds(sendArousalInterval);
+        }
+    }
+
+
 }

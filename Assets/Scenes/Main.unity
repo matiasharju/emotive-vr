@@ -331,7 +331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &326218838
 Transform:
   m_ObjectHideFlags: 0
@@ -718,10 +718,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   generateRandomValence: 0
+  sendPseudoArousalValues: 1
   pseudoValence: 0.5
-  pseudoArousal: 0.5
+  pseudoArousal: 0.595
   sampleInterval: 7
   smoothTime: 5
+  sendArousalInterval: 0.1
 --- !u!4 &486323653
 Transform:
   m_ObjectHideFlags: 0
@@ -2317,7 +2319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1387465136
 Transform:
   m_ObjectHideFlags: 0

@@ -486,10 +486,12 @@ private void EndVideo(VideoPlayer vp)
         {
             //DataReader.UpTime();          
             // float valence = DataReader.GetValence();     // Read valence from CSV
-//            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
-            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
-//            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
+            //            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
+            //            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
+            // float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
+            float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks();
+            
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
             cumulativeArousal = cumulativeArousal + arousalPeak;
             if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
