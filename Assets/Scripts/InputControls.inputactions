@@ -36,6 +36,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "StartPlayback",
+                    "type": "Button",
+                    "id": "9356bbc5-2fc0-4e10-83c5-8fb3a7baf6c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -80,6 +88,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "DecreaseArousal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14a68e4f-11d6-4e6a-94cd-9dfdf4d541e0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartPlayback",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -92,7 +92,7 @@ public class DirectorSequencer : MonoBehaviour
             {
                 cam = allCameras[1];
                 cam.transform.parent.gameObject.SetActive(true);
-                fadeAnimator.transform.parent.gameObject.SetActive(false);
+//                fadeAnimator.transform.parent.gameObject.SetActive(false);
             }
             else
             {
@@ -108,10 +108,10 @@ public class DirectorSequencer : MonoBehaviour
 
     private void Start()
     {
-/*        vrSceneManager = GetComponent<SteamVR_LoadLevel>();
-        vrSceneManager.fadeInTime = timeToFade;
-        vrSceneManager.fadeOutTime = timeToFade;
-*/
+        /*        vrSceneManager = GetComponent<SteamVR_LoadLevel>();
+                vrSceneManager.fadeInTime = timeToFade;
+                vrSceneManager.fadeOutTime = timeToFade;
+        */
 
         if(activeSubtitle)
             srtManager.Init(sequences);
@@ -251,7 +251,7 @@ public class DirectorSequencer : MonoBehaviour
     // Called by the "Press space to start playback" scene
     public void PlayNextSequence()
     {
-        EndFadeInBlack();
+        StartCoroutine(Coroutine_FadeInBlack_VR());
     }
 
     private void PrepareVideo()
@@ -550,7 +550,7 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeInBlack()
     {
-    //    Debug.Log("Coroutine_FadeInBlack");
+//        Debug.Log("Coroutine_FadeInBlack");
 
         fadeDone = false;
         fadeAnimator.SetTrigger("FadeIn");
@@ -576,7 +576,7 @@ private void EndVideo(VideoPlayer vp)
 
     IEnumerator Coroutine_FadeInBlack_VR()
     {
-  //      Debug.Log("Coroutine_FadeInBlack_VR");
+//        Debug.Log("Coroutine_FadeInBlack_VR");
 
         fadeCanvas.SetBool("FadeIn", true);
 

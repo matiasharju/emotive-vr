@@ -49,6 +49,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""StartPlayback"",
+                    ""type"": ""Button"",
+                    ""id"": ""9356bbc5-2fc0-4e10-83c5-8fb3a7baf6c1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -95,6 +103,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""DecreaseArousal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""14a68e4f-11d6-4e6a-94cd-9dfdf4d541e0"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""StartPlayback"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -107,6 +126,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_DecreaseValence = m_Keyboard.FindAction("DecreaseValence", throwIfNotFound: true);
         m_Keyboard_IncreaseArousal = m_Keyboard.FindAction("IncreaseArousal", throwIfNotFound: true);
         m_Keyboard_DecreaseArousal = m_Keyboard.FindAction("DecreaseArousal", throwIfNotFound: true);
+        m_Keyboard_StartPlayback = m_Keyboard.FindAction("StartPlayback", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -160,6 +180,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_DecreaseValence;
     private readonly InputAction m_Keyboard_IncreaseArousal;
     private readonly InputAction m_Keyboard_DecreaseArousal;
+    private readonly InputAction m_Keyboard_StartPlayback;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -168,6 +189,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @DecreaseValence => m_Wrapper.m_Keyboard_DecreaseValence;
         public InputAction @IncreaseArousal => m_Wrapper.m_Keyboard_IncreaseArousal;
         public InputAction @DecreaseArousal => m_Wrapper.m_Keyboard_DecreaseArousal;
+        public InputAction @StartPlayback => m_Wrapper.m_Keyboard_StartPlayback;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -189,6 +211,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @DecreaseArousal.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
                 @DecreaseArousal.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
                 @DecreaseArousal.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
+                @StartPlayback.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
+                @StartPlayback.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
+                @StartPlayback.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -205,6 +230,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @DecreaseArousal.started += instance.OnDecreaseArousal;
                 @DecreaseArousal.performed += instance.OnDecreaseArousal;
                 @DecreaseArousal.canceled += instance.OnDecreaseArousal;
+                @StartPlayback.started += instance.OnStartPlayback;
+                @StartPlayback.performed += instance.OnStartPlayback;
+                @StartPlayback.canceled += instance.OnStartPlayback;
             }
         }
     }
@@ -215,5 +243,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnDecreaseValence(InputAction.CallbackContext context);
         void OnIncreaseArousal(InputAction.CallbackContext context);
         void OnDecreaseArousal(InputAction.CallbackContext context);
+        void OnStartPlayback(InputAction.CallbackContext context);
     }
 }
