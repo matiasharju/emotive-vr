@@ -57,6 +57,22 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleSubtitlesPress"",
+                    ""type"": ""Button"",
+                    ""id"": ""d5b1047f-6473-4a0e-8641-080c521203a5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleDisplayOfEmotionalData"",
+                    ""type"": ""Button"",
+                    ""id"": ""3d58f27f-4208-445e-8885-5073005f5a17"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -114,6 +130,28 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""StartPlayback"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""96e35371-de35-45c6-9c53-26d0d6e6ecb3"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleSubtitlesPress"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7bc0ab86-f7b4-4b33-8467-8e7ce7259d48"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleDisplayOfEmotionalData"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -127,6 +165,8 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_IncreaseArousal = m_Keyboard.FindAction("IncreaseArousal", throwIfNotFound: true);
         m_Keyboard_DecreaseArousal = m_Keyboard.FindAction("DecreaseArousal", throwIfNotFound: true);
         m_Keyboard_StartPlayback = m_Keyboard.FindAction("StartPlayback", throwIfNotFound: true);
+        m_Keyboard_ToggleSubtitlesPress = m_Keyboard.FindAction("ToggleSubtitlesPress", throwIfNotFound: true);
+        m_Keyboard_ToggleDisplayOfEmotionalData = m_Keyboard.FindAction("ToggleDisplayOfEmotionalData", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -181,6 +221,8 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_IncreaseArousal;
     private readonly InputAction m_Keyboard_DecreaseArousal;
     private readonly InputAction m_Keyboard_StartPlayback;
+    private readonly InputAction m_Keyboard_ToggleSubtitlesPress;
+    private readonly InputAction m_Keyboard_ToggleDisplayOfEmotionalData;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -190,6 +232,8 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @IncreaseArousal => m_Wrapper.m_Keyboard_IncreaseArousal;
         public InputAction @DecreaseArousal => m_Wrapper.m_Keyboard_DecreaseArousal;
         public InputAction @StartPlayback => m_Wrapper.m_Keyboard_StartPlayback;
+        public InputAction @ToggleSubtitlesPress => m_Wrapper.m_Keyboard_ToggleSubtitlesPress;
+        public InputAction @ToggleDisplayOfEmotionalData => m_Wrapper.m_Keyboard_ToggleDisplayOfEmotionalData;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -214,6 +258,12 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @StartPlayback.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
                 @StartPlayback.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
                 @StartPlayback.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
+                @ToggleSubtitlesPress.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSubtitlesPress;
+                @ToggleSubtitlesPress.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSubtitlesPress;
+                @ToggleSubtitlesPress.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSubtitlesPress;
+                @ToggleDisplayOfEmotionalData.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
+                @ToggleDisplayOfEmotionalData.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
+                @ToggleDisplayOfEmotionalData.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -233,6 +283,12 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @StartPlayback.started += instance.OnStartPlayback;
                 @StartPlayback.performed += instance.OnStartPlayback;
                 @StartPlayback.canceled += instance.OnStartPlayback;
+                @ToggleSubtitlesPress.started += instance.OnToggleSubtitlesPress;
+                @ToggleSubtitlesPress.performed += instance.OnToggleSubtitlesPress;
+                @ToggleSubtitlesPress.canceled += instance.OnToggleSubtitlesPress;
+                @ToggleDisplayOfEmotionalData.started += instance.OnToggleDisplayOfEmotionalData;
+                @ToggleDisplayOfEmotionalData.performed += instance.OnToggleDisplayOfEmotionalData;
+                @ToggleDisplayOfEmotionalData.canceled += instance.OnToggleDisplayOfEmotionalData;
             }
         }
     }
@@ -244,5 +300,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnIncreaseArousal(InputAction.CallbackContext context);
         void OnDecreaseArousal(InputAction.CallbackContext context);
         void OnStartPlayback(InputAction.CallbackContext context);
+        void OnToggleSubtitlesPress(InputAction.CallbackContext context);
+        void OnToggleDisplayOfEmotionalData(InputAction.CallbackContext context);
     }
 }

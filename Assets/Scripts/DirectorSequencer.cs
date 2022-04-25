@@ -41,6 +41,7 @@ public class DirectorSequencer : MonoBehaviour
     public VideoPlayer cutPlayer;
     public GameObject emotionalBar;
     public GameObject emotionTable;
+    public GameObject emotionTableExternal;
     public AudioManager audioManager;
     public Animator fadeAnimator;
     public RenderTexture cutRt;
@@ -249,8 +250,9 @@ public class DirectorSequencer : MonoBehaviour
     }
 
     // Called by the "Press space to start playback" scene
-    public void PlayNextSequence()
+    public void PlayNextSequenceFromStartScreen()
     {
+        indexSequence = 1;
         StartCoroutine(Coroutine_FadeInBlack_VR());
     }
 
@@ -513,6 +515,12 @@ private void EndVideo(VideoPlayer vp)
                 emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
                 emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, cumulativeArousal);
             }
+
+            if (emotionTableExternal.activeSelf)
+            {
+                emotionTableExternal.GetComponent<EmotionTableExternal>().UpdateEmotionTable(valence, cumulativeArousal);
+            }
+
 
             yield return new WaitForSeconds(updateValenceTime);
         }

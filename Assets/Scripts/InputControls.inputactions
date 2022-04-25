@@ -44,6 +44,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ToggleSubtitlesPress",
+                    "type": "Button",
+                    "id": "d5b1047f-6473-4a0e-8641-080c521203a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ToggleDisplayOfEmotionalData",
+                    "type": "Button",
+                    "id": "3d58f27f-4208-445e-8885-5073005f5a17",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -99,6 +115,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "StartPlayback",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "96e35371-de35-45c6-9c53-26d0d6e6ecb3",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleSubtitlesPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bc0ab86-f7b4-4b33-8467-8e7ce7259d48",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDisplayOfEmotionalData",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
