@@ -491,9 +491,10 @@ private void EndVideo(VideoPlayer vp)
             //            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
             //            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
-            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal data from CSV and adjust the start by x seconds
-            // float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks();
-            
+            //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal peaks from peak CSV and adjust the start by x seconds
+            float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks();      // Read arousal peaks calculated in Unity from raw GSR data CSV
+            float arousalRawValue = DataReaderArousalPeaks.arousalRawValue;                 // Read arousal raw value 
+
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
             cumulativeArousal = cumulativeArousal + arousalPeak;
             if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
@@ -519,6 +520,7 @@ private void EndVideo(VideoPlayer vp)
             if (emotionTableExternal.activeSelf)
             {
                 emotionTableExternal.GetComponent<EmotionTableExternal>().UpdateEmotionTable(valence, cumulativeArousal);
+                emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagram(arousalRawValue);
             }
 
 

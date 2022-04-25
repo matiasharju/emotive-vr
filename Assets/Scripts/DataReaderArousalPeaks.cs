@@ -35,6 +35,8 @@ public static class DataReaderArousalPeaks
     public static bool valleyReachedGSR = false;
     public static float oldArousalValueGSR = 0.0f;
 
+    public static float arousalRawValue;
+
 
     public static void Init(string filename)
     {
@@ -94,7 +96,9 @@ public static class DataReaderArousalPeaks
 
         oldArousalValueGSR = arousalRawValueGSR;
 
-//        if (arousalPeakPwr != 0) Debug.Log("GSR PEAK PWR: " + arousalPeakPwrGSR);
+        //        if (arousalPeakPwr != 0) Debug.Log("GSR PEAK PWR: " + arousalPeakPwrGSR);
+
+        arousalRawValue = arousalRawValueGSR;
 
         return arousalPeakPwrGSR;
     }

@@ -11,8 +11,17 @@ public class EmotionTableExternal : MonoBehaviour
     float pointerPosHorizontal;
     float pointerPosVertical;
 
-    private void Awake()
+    public GameObject dataDiagramObject;
+    private DD_DataDiagram m_DataDiagram;
+    Color arousalColor;
+    private GameObject line;
+
+    private float m_Input = 0f;
+
+
+    private void Start()
     {
+        InitialiseDataDiagram();
     }
 
     public void UpdateEmotionTable(float valenceValue, float arousalValue)
@@ -28,7 +37,24 @@ public class EmotionTableExternal : MonoBehaviour
         pointerObject.localPosition = pointerPosition;
 
         float currentValence = valenceValue;
-
     }
 
-}
+    public void InitialiseDataDiagram()
+    {
+        arousalColor = Color.green;
+        m_DataDiagram = dataDiagramObject.GetComponent<DD_DataDiagram>();
+        line = m_DataDiagram.AddLine("Arousal", arousalColor);
+    }
+
+    public void DrawDataDiagram(float arousalRawValue)
+    {
+        //        int counter = 0;
+//        Debug.Log(arousalRawValue);
+        m_DataDiagram.InputPoint(line, new Vector2(0.01f, arousalRawValue));
+
+
+//        m_DataDiagram.InputPoint(line, new Vector2(0.1f, (Mathf.Sin(counter + arousalRawValue) + 1f) * 2f));
+
+//        counter++;
+    }
+}   

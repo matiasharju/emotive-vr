@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 00_StartPlayback
   m_EditorClassIdentifier: 
   clip: {fileID: 0}
-  rt: {fileID: 0}
+  rt: {fileID: 8400000, guid: 99a35b5bb97500342b5deebea1772df2, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
