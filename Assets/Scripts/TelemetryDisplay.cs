@@ -10,11 +10,13 @@ public class TelemetryDisplay : MonoBehaviour
 
     public Text realTime;
     public Text dataTableTime;
-    public Text arousalValue;
+    public Text GSRValue;
+    public Text arousalCumulativePeaks;
 
     public GameObject realTimeDisplayObject;
     public GameObject dataTimeDisplayObject;
-    public GameObject arousalValueObject;
+    public GameObject GSRValueObject;
+    public GameObject arousalPeaksObject;
 
     void Start()
     {
@@ -26,14 +28,19 @@ public class TelemetryDisplay : MonoBehaviour
 
         if (hideArousalValue)
         {
-            if (arousalValueObject != null) arousalValueObject.SetActive(false);
+            if (GSRValueObject != null)
+            {
+                arousalPeaksObject.SetActive(false);
+                GSRValueObject.SetActive(false);
+            }
         }
     }
 
     void Update()
     {
-        if (!hideTimeDisplays) realTime.text = ("Real time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
-        if (!hideTimeDisplays) dataTableTime.text = ("Data time: " + (DataReaderArousalPeaks._currentPlusStartTime / 10) + " s").ToString();
-        if (!hideArousalValue) arousalValue.text = ("Arousal cumulative:\n" + DirectorSequencer.cumulativeArousal);
+        if (!hideTimeDisplays) realTime.text = ("Running time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
+        if (!hideTimeDisplays) dataTableTime.text = ("CSV data time: " + (DataReaderArousalPeaks._currentPlusStartTime / 10) + " s").ToString();
+        if (!hideArousalValue) GSRValue.text = ("GSR: " + DataReaderArousalPeaks.arousalRawValue);
+        if (!hideArousalValue) arousalCumulativePeaks.text = ("Cumulative\narousal peaks" + DirectorSequencer.cumulativeArousal);
     }
 }

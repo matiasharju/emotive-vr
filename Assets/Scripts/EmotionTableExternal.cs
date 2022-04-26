@@ -18,10 +18,24 @@ public class EmotionTableExternal : MonoBehaviour
 
     private float m_Input = 0f;
 
+    GameObject lineArousal;
+
+    DD_Lines dD_Lines_Arousal;
 
     private void Start()
     {
         InitialiseDataDiagram();
+        lineArousal = GameObject.Find("LineArousal");
+        Invoke("ActivateLines", 1.0f);
+    }
+
+    private void ActivateLines()
+    {
+        if (lineArousal != null)
+        {
+            dD_Lines_Arousal = lineArousal.GetComponent<DD_Lines>();
+            dD_Lines_Arousal.enabled = true;
+        }
     }
 
     public void UpdateEmotionTable(float valenceValue, float arousalValue)
