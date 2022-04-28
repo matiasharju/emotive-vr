@@ -492,7 +492,7 @@ private void EndVideo(VideoPlayer vp)
             //            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
             //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal peaks from peak CSV and adjust the start by x seconds
-            float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks();      // Read arousal peaks calculated in Unity from raw GSR data CSV
+            float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);      // Read arousal peaks calculated in Unity from raw GSR data CSV
             float arousalRawValue = DataReaderArousalPeaks.arousalRawValue;                 // Read arousal raw value 
 
             // Add peak value to the cumulative arousal value. Keep fading down slowly.

@@ -38,9 +38,9 @@ public class TelemetryDisplay : MonoBehaviour
 
     void Update()
     {
-        if (!hideTimeDisplays) realTime.text = ("Running time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
-        if (!hideTimeDisplays) dataTableTime.text = ("CSV data time: " + (DataReaderArousalPeaks._currentPlusStartTime / 10) + " s").ToString();
-        if (!hideArousalValue) GSRValue.text = ("GSR: " + DataReaderArousalPeaks.arousalRawValue);
-        if (!hideArousalValue) arousalCumulativePeaks.text = ("Cumulative\narousal peaks" + DirectorSequencer.cumulativeArousal);
+        if (!hideTimeDisplays) realTime.text = ("Running time:\n" + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
+        if (!hideTimeDisplays) dataTableTime.text = ("CSV data time:\n" + (DataReaderArousalPeaks._currentPlusStartTime / 10) + " s").ToString();
+        if (!hideArousalValue) GSRValue.text = ("GSR:\n" + DataReaderArousalPeaks.arousalRawValue);
+        if (!hideArousalValue) arousalCumulativePeaks.text = ("Cumulative\narousal peaks:\n" + DirectorSequencer.cumulativeArousal);
     }
 }

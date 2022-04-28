@@ -55,7 +55,7 @@ public class EmotionTableExternal : MonoBehaviour
 
     public void InitialiseDataDiagram()
     {
-        arousalColor = Color.green;
+        arousalColor = Color.cyan;
         m_DataDiagram = dataDiagramObject.GetComponent<DD_DataDiagram>();
         line = m_DataDiagram.AddLine("Arousal", arousalColor);
     }

@@ -66,11 +66,13 @@ public static class DataReaderArousalPeaks
 
     }
 
-    public static float CalculateAndGetArousalPeaks()
+    public static float CalculateAndGetArousalPeaks(float startTime)
     {
         _currentTime = (int)(Time.fixedUnscaledTime * 10f);
+        _startTime = (int)(startTime * 10);
+        _currentPlusStartTime = _currentTime + _startTime;
 
-        float arousalRawValueGSR = _GSRValues[_currentTime];
+        float arousalRawValueGSR = _GSRValues[_currentPlusStartTime];
 
         if ((arousalRawValueGSR > oldArousalValueGSR) && !valleyReachedGSR)
         {
