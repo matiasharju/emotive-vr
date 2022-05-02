@@ -73,6 +73,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleNeuLog"",
+                    ""type"": ""Button"",
+                    ""id"": ""a47d603f-20d6-47f7-8c2d-211b04de7a65"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -152,6 +160,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""ToggleDisplayOfEmotionalData"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4b22be02-55bd-4c7e-9636-5414f175b254"",
+                    ""path"": ""<Keyboard>/g"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleNeuLog"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -167,6 +186,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_StartPlayback = m_Keyboard.FindAction("StartPlayback", throwIfNotFound: true);
         m_Keyboard_ToggleSubtitlesPress = m_Keyboard.FindAction("ToggleSubtitlesPress", throwIfNotFound: true);
         m_Keyboard_ToggleDisplayOfEmotionalData = m_Keyboard.FindAction("ToggleDisplayOfEmotionalData", throwIfNotFound: true);
+        m_Keyboard_ToggleNeuLog = m_Keyboard.FindAction("ToggleNeuLog", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -223,6 +243,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_StartPlayback;
     private readonly InputAction m_Keyboard_ToggleSubtitlesPress;
     private readonly InputAction m_Keyboard_ToggleDisplayOfEmotionalData;
+    private readonly InputAction m_Keyboard_ToggleNeuLog;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -234,6 +255,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @StartPlayback => m_Wrapper.m_Keyboard_StartPlayback;
         public InputAction @ToggleSubtitlesPress => m_Wrapper.m_Keyboard_ToggleSubtitlesPress;
         public InputAction @ToggleDisplayOfEmotionalData => m_Wrapper.m_Keyboard_ToggleDisplayOfEmotionalData;
+        public InputAction @ToggleNeuLog => m_Wrapper.m_Keyboard_ToggleNeuLog;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -264,6 +286,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @ToggleDisplayOfEmotionalData.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
                 @ToggleDisplayOfEmotionalData.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
                 @ToggleDisplayOfEmotionalData.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleDisplayOfEmotionalData;
+                @ToggleNeuLog.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleNeuLog;
+                @ToggleNeuLog.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleNeuLog;
+                @ToggleNeuLog.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleNeuLog;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -289,6 +314,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @ToggleDisplayOfEmotionalData.started += instance.OnToggleDisplayOfEmotionalData;
                 @ToggleDisplayOfEmotionalData.performed += instance.OnToggleDisplayOfEmotionalData;
                 @ToggleDisplayOfEmotionalData.canceled += instance.OnToggleDisplayOfEmotionalData;
+                @ToggleNeuLog.started += instance.OnToggleNeuLog;
+                @ToggleNeuLog.performed += instance.OnToggleNeuLog;
+                @ToggleNeuLog.canceled += instance.OnToggleNeuLog;
             }
         }
     }
@@ -302,5 +330,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnStartPlayback(InputAction.CallbackContext context);
         void OnToggleSubtitlesPress(InputAction.CallbackContext context);
         void OnToggleDisplayOfEmotionalData(InputAction.CallbackContext context);
+        void OnToggleNeuLog(InputAction.CallbackContext context);
     }
 }

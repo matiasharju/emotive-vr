@@ -5,8 +5,7 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 
-// Read the valence values from CSV file
-public static class DataReader
+public static class DataReaderValence
 {
     private static string _path;
     private static string _filename;

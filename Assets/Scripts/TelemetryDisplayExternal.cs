@@ -14,10 +14,19 @@ public class TelemetryDisplayExternal : MonoBehaviour
     public GameObject arousalValueObject;
 
 
-    void Update()
+    void Start()
     {
-        realTime.text = ("Real time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
-        dataTableTime.text = ("Data time: " + (DataReaderArousalPeaks._currentPlusStartTime / 10) + " s").ToString();
-        arousalValue.text = ("Arousal cumulative:\n" + DirectorSequencer.cumulativeArousal);
+        StartCoroutine(UpdateDisplays());
+    }
+
+    IEnumerator UpdateDisplays()
+    {
+        while(true)
+        {
+            realTime.text = ("Real time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
+            dataTableTime.text = ("Data time: " + (DataReaderArousal._currentPlusStartTime / 10) + " s").ToString();
+            arousalValue.text = ("Arousal cumulative:\n" + DirectorSequencer.cumulativeArousal);
+        }
+
     }
 }

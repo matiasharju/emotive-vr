@@ -4,53 +4,54 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
-// Read the arousal values from CSV file
-public static class DataReaderArousalPeaks
+public static class DataReaderArousal
 {
-    private static string _path;
-    private static string _filename;
     private static string _pathGSR;
     private static string _filenameGSR;
+    private static string _path;
+    private static string _filename;
 
+    private static List<float> _GSRValues = new List<float>();
     private static List<float> _arousalPeakPwrValues = new List<float>();
+
     private static int _startTime = 0;       // time in tenth of seconds
-    public static int _currentTime = 0;    // time in tenth of seconds
+    public static int _currentTime = 0;      // time in tenth of seconds
     public static int _currentPlusStartTime;
+
+    static bool firstTime = true;
 
     private static float arousalPeak;
     private static float arousalValley;
-
     private static float arousalPeakPwr;
     public static bool peakReached = false;
     public static bool valleyReached = false;
-    public static float oldArousalValue;
-
-    private static List<float> _GSRValues = new List<float>();
-    private static float arousalPeakGSR;
-    private static float arousalValleyGSR;
-
-    private static float arousalPeakPwrGSR;
-    public static bool peakReachedGSR = false;
-    public static bool valleyReachedGSR = false;
-    public static float oldArousalValueGSR = 0.0f;
-
-    public static float arousalRawValue;
+    public static float oldArousalValue = 0.0f;
 
 
-    public static void Init(string filename)
+    public static float arousalRawValuePublic;
+
+
+    public static void Init(string GSRfilename, string PeakCSVfilename)
     {
-        _filename = filename;
-        
-        _path = Application.streamingAssetsPath + "/SensorData/" + _filename;
-        _pathGSR = Application.streamingAssetsPath + "/SensorData/03_GSR_Only.csv";
-//        Debug.Log(_path);
+        _pathGSR = Application.streamingAssetsPath + "/SensorData/" + GSRfilename;
+        _path = Application.streamingAssetsPath + "/SensorData/" + PeakCSVfilename;
         ReadDataFromCSV();
-
     }
 
     public static void ReadDataFromCSV()
     {
+        // GSR raw data
+        string fileDataGSR = File.ReadAllText(_pathGSR);
+        string[] valuesGSR = fileDataGSR.Split('\n');
+        float[] floatValuesGSR = Array.ConvertAll(valuesGSR, x => float.Parse(x));
+
+        _GSRValues.AddRange(floatValuesGSR);
+
+
+        // Pre-calculated arousal peaks
         string fileData = File.ReadAllText(_path);
         string[] values = fileData.Split('\n');
 
@@ -58,55 +59,53 @@ public static class DataReaderArousalPeaks
  
         _arousalPeakPwrValues.AddRange(floatValues);
 
-        string fileDataGSR = File.ReadAllText(_pathGSR);
-        string[] valuesGSR = fileDataGSR.Split('\n');
-        float[] floatValuesGSR = Array.ConvertAll(valuesGSR, x => float.Parse(x));
-
-        _GSRValues.AddRange(floatValuesGSR);
 
     }
 
-    public static float CalculateAndGetArousalPeaks(float startTime)
+    public static float ReadArousalFromCSV(float startTime)
     {
         _currentTime = (int)(Time.fixedUnscaledTime * 10f);
         _startTime = (int)(startTime * 10);
         _currentPlusStartTime = _currentTime + _startTime;
 
-        float arousalRawValueGSR = _GSRValues[_currentPlusStartTime];
+        float arousalRawValueCSV = _GSRValues[_currentPlusStartTime];
+        arousalRawValuePublic = arousalRawValueCSV;
 
-        if ((arousalRawValueGSR > oldArousalValueGSR) && !valleyReachedGSR)
-        {
-            arousalValleyGSR = oldArousalValueGSR;
-            valleyReachedGSR = true;
-            peakReachedGSR = false;
-        }
+        return arousalRawValueCSV;
 
-        if (peakReachedGSR)
-        {
-            arousalPeakGSR = 0.0f;
-            arousalPeakPwrGSR = 0.0f;
-
-        }
-        else if ((arousalRawValueGSR < oldArousalValueGSR) && !peakReachedGSR)
-        {
-            arousalPeakGSR = oldArousalValueGSR;
-            peakReachedGSR = true;
-            valleyReachedGSR = false;
-
-            arousalPeakPwrGSR = arousalPeakGSR - arousalValleyGSR;
-        }
-
-        oldArousalValueGSR = arousalRawValueGSR;
-
-        //        if (arousalPeakPwr != 0) Debug.Log("GSR PEAK PWR: " + arousalPeakPwrGSR);
-
-        arousalRawValue = arousalRawValueGSR;
-
-        return arousalPeakPwrGSR;
     }
 
-    public static float ReadDataFromStream(float arousalRawValue)
+
+
+    public static float ReadArousalFromNeuLog(string neuLogData)
     {
+        var parsedNeuLogData = JObject.Parse(neuLogData);
+
+        try
+        {
+            float arousalRawValueNeuLog = parsedNeuLogData["GetSensorValue"][0].Value<float>();
+            arousalRawValuePublic = arousalRawValueNeuLog;
+            return arousalRawValueNeuLog;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.ToString());
+        }
+
+        return 0f;
+    }
+
+
+
+
+    public static float CalculateArousalPeaks(float arousalRawValue)
+    {
+        if (firstTime)      // prevents creation of arousal peak, if the first incoming data is descending
+        {
+            oldArousalValue = arousalRawValue;
+            peakReached = true;
+        }
+
         if ((arousalRawValue > oldArousalValue) && !valleyReached)
         {
             arousalValley = oldArousalValue;
@@ -129,16 +128,12 @@ public static class DataReaderArousalPeaks
             arousalPeakPwr = arousalPeak - arousalValley;
         }
 
-
-
         oldArousalValue = arousalRawValue;
 
-
-//        if (arousalPeakPwr != 0) Debug.Log(arousalPeakPwr);
+        firstTime = false;
 
         return arousalPeakPwr;
     }
-
 
     public static float GetArousalPeak(float startTime)
     {
@@ -147,8 +142,6 @@ public static class DataReaderArousalPeaks
 
         _startTime = (int)(startTime * 10);
         _currentPlusStartTime = _currentTime + _startTime;
-//        Debug.Log(_currentTime + _startTime);
-//        return _arousalPeakPwrValues[_currentTime + _startTime];
         return _arousalPeakPwrValues[_currentPlusStartTime];
     }
 

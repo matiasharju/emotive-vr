@@ -49,6 +49,7 @@ public class DirectorSequencer : MonoBehaviour
 	public Animator fadeCanvas;
     public PseudoDataInput pseudoDataInput;
     public EmotionTable emotionTableScript;
+    public NeuLogAPIRequest neuLogAPIRequestScript;
 
 
     [HideInInspector] public Camera cam;
@@ -77,10 +78,20 @@ public class DirectorSequencer : MonoBehaviour
     public bool FreudPlayed = false;
     public bool KarlPlayed = false;
 
-    [Header("Arousal Peak Data")]
+    [Header("Arousal Data")]
+    public static bool useNeuLog = false;
+
+    public string NeuLogIP = "127.0.0.1";
+    public string NeuLogPort = "22001";
+    public string NeuLogRequest = "NeuLogAPI?GetSensorValue:[GSR],[1]";
+
+    public string GSRDataCSVFilename = "03_GSR_Only.csv";
     public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
     public float arousalStartTime = 0.0f;
     public float arousalFadeDownSpeed = 0.005f;
+
+    float arousalRawValue;
+
     // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
     [Range(0, 4)] public static float cumulativeArousal;
 
@@ -122,15 +133,19 @@ public class DirectorSequencer : MonoBehaviour
 
         player.EnableAudioTrack(0, false);
 
-        /*
-        // Read all the valence data in the csv file
-        DataReader.Init("Data_Valence.csv");
-        player.playOnAwake = false;
-        */
 
-        DataReaderArousalPeaks.Init(ArousalPeakCSVFilename);
+        // START READING EMOTIONAL DATA 
+        DataReaderArousal.Init(GSRDataCSVFilename, ArousalPeakCSVFilename);
 
-		PrepareVideo();
+        PrepareVideo();
+
+        Invoke("StartEmotionalDataCoroutine", 1.0f);
+
+    }
+
+    private void StartEmotionalDataCoroutine()
+    {
+        StartCoroutine(CO_UpdateEmotionalData());
     }
 
     private void Update()
@@ -320,15 +335,12 @@ public class DirectorSequencer : MonoBehaviour
             cam.clearFlags = CameraClearFlags.Skybox;
         }
 
-        // SETUP EMOTIONAL BAR
-        if(currentSequence.showEmotionalBar)
-        {
-            //audioManager.SetNewValenceValue(DataReader.GetValence());       // Read from CSV
-            audioManager.SetNewValenceValue(pseudoDataInput.GetValence());      // Read from debug valence slider
+        // OBSOLETE: EMOTIONAL BAR INIT
+        //        if(currentSequence.showEmotionalBar)
+        //        {
 
-            StartCoroutine(CO_UpdateValenceTime());
 
-            if(currentSequence.barInfo.Count > 0)
+        if (currentSequence.barInfo.Count > 0)
             {
                 emotionalBar.GetComponent<EmotionBar>().MapBarInfo(currentSequence.barInfo);
                 updateBarPos = true;
@@ -336,7 +348,7 @@ public class DirectorSequencer : MonoBehaviour
 
 			emotionalBar.GetComponent<EmotionBar>().ShowOrHideBackground(currentSequence.showBackground);
             emotionalBar.GetComponent<EmotionBar>().ShowOrHideText(currentSequence.hideText);
-        }
+//        }
 
         // SETUP AUDIO
         if (!string.IsNullOrEmpty(currentSequence.soundBankName))
@@ -481,19 +493,31 @@ private void EndVideo(VideoPlayer vp)
     #endregion
 
     #region Coroutines
-    // Update every second the emotional bar if it is active
-    IEnumerator CO_UpdateValenceTime()
+    IEnumerator CO_UpdateEmotionalData()
     {
-        while(currentSequence.readSensorData && isInteractive)
+        while(true)
+//        while(currentSequence.readSensorData && isInteractive)
         {
             //DataReader.UpTime();          
-            // float valence = DataReader.GetValence();     // Read valence from CSV
-            //            DataReaderArousalPeaks.UpTime();                // update arousal data reader's clock, add start time offset
-            //            float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
+            //float valence = DataReaderValence.GetValence();     // Read valence from CSV
+            //DataReaderArousal.UpTime();                // update arousal data reader's clock, add start time offset
+            //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
             //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal peaks from peak CSV and adjust the start by x seconds
-            float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);      // Read arousal peaks calculated in Unity from raw GSR data CSV
-            float arousalRawValue = DataReaderArousalPeaks.arousalRawValue;                 // Read arousal raw value 
+            //float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);      // Read arousal peaks calculated in Unity from raw GSR data CSV
+            //DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);   // call this method to generate arousalRawValue from CSV
+
+            if (useNeuLog)
+            {
+                neuLogAPIRequestScript.RequestArousalFromNeuLog(NeuLogIP, NeuLogPort, NeuLogRequest);         // Send HTTP request to NeuLog for arousal data
+                arousalRawValue = DataReaderArousal.arousalRawValuePublic;                         // Read arousal raw value from NeuLog sensor
+            }
+            else if (!useNeuLog)
+            {
+                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(arousalStartTime);        // Read arousal raw value from csv
+            }
+
+            float arousalPeak = DataReaderArousal.CalculateArousalPeaks(arousalRawValue);                               // Calculate arousal peaks
 
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
             cumulativeArousal = cumulativeArousal + arousalPeak;
