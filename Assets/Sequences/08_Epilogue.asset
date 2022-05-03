@@ -17,12 +17,12 @@ MonoBehaviour:
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 0
+  showEmotionalBar: 1
   addScene: 1
   waitInteraction: 0
   clearVideo: 1
   usePostProcess: 1
-  epilogue: 1
+  epilogue: 0
   thisIsFreud: 0
   thisIsKarl: 0
   sceneNameToLoad: 08_Epilogue
