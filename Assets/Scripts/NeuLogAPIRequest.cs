@@ -7,7 +7,8 @@ public class NeuLogAPIRequest : MonoBehaviour
 {
     public void RequestArousalFromNeuLog(string IP, string port, string request)
     {
-        StartCoroutine(SendHTTPRequest("http://" + IP + ":" + port + request));
+
+        StartCoroutine(SendHTTPRequest("http://" + IP + ":" + port + "/" + request));
     }
 
     IEnumerator SendHTTPRequest(string request)
@@ -16,7 +17,8 @@ public class NeuLogAPIRequest : MonoBehaviour
 
         using (UnityWebRequest webRequest = UnityWebRequest.Get(request))
         {
-            //Debug.Log(request);
+            Debug.Log(request);
+
             yield return webRequest.SendWebRequest();
 
             switch (webRequest.result)
