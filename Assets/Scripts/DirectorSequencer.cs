@@ -82,7 +82,7 @@ public class DirectorSequencer : MonoBehaviour
     public static bool useNeuLog = false;
 
     public string NeuLogIP = "127.0.0.1";
-    public string NeuLogPort = "22001";
+    public string NeuLogPort = "22004";
     public string NeuLogRequest = "NeuLogAPI?GetSensorValue:[GSR],[1]";
 
     public string GSRDataCSVFilename = "03_GSR_Only.csv";
