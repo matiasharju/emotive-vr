@@ -79,7 +79,7 @@ public class DirectorSequencer : MonoBehaviour
     public bool KarlPlayed = false;
 
     [Header("Arousal Data")]
-    public static bool useNeuLog = false;
+    public static bool useNeuLog = true;
 
     public string NeuLogIP = "127.0.0.1";
     public string NeuLogPort = "22004";
