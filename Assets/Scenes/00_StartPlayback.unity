@@ -887,7 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 643137804}
   m_Layer: 0
-  m_Name: UI_ExternalDisplay
+  m_Name: UI_Texts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3425,7 +3425,7 @@ GameObject:
   - component: {fileID: 2050445676}
   - component: {fileID: 2050445675}
   m_Layer: 0
-  m_Name: UICamera_ExternalDisplay
+  m_Name: UI_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3466,7 +3466,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 0
+  m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
