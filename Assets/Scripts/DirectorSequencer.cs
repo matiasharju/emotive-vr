@@ -81,10 +81,6 @@ public class DirectorSequencer : MonoBehaviour
     [Header("Arousal Data")]
     public static bool useNeuLog = true;
 
-    public string NeuLogIP = "127.0.0.1";
-    public string NeuLogPort = "22004";
-    public string NeuLogRequest = "NeuLogAPI?GetSensorValue:[GSR],[1]";
-
     public string GSRDataCSVFilename = "03_GSR_Only.csv";
     public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
     public float arousalStartTime = 0.0f;
@@ -509,8 +505,8 @@ private void EndVideo(VideoPlayer vp)
 
             if (useNeuLog)
             {
-                neuLogAPIRequestScript.RequestArousalFromNeuLog(NeuLogIP, NeuLogPort, NeuLogRequest);         // Send HTTP request to NeuLog for arousal data
-                arousalRawValue = DataReaderArousal.arousalRawValuePublic;                         // Read arousal raw value from NeuLog sensor
+                neuLogAPIRequestScript.RequestArousalFromNeuLog();                      // Send HTTP request to NeuLog for arousal data
+                arousalRawValue = DataReaderArousal.arousalRawValuePublic;              // Read arousal raw value from NeuLog sensor
             }
             else if (!useNeuLog)
             {

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class NeuLogToggleDisplay : MonoBehaviour
 {
-    public TextMesh textMeshOn;
-    public TextMesh textMeshOff;
+    public Text textNeuLog;
+    public Text textCSV;
     Color darkGrey;
 
     void Start()
@@ -18,13 +20,13 @@ public class NeuLogToggleDisplay : MonoBehaviour
     {
         if (DirectorSequencer.useNeuLog)
         {
-            if (textMeshOn != null) textMeshOn.color = Color.white;
-            if (textMeshOff != null) textMeshOff.color = darkGrey;
+            if (textNeuLog != null) textNeuLog.color = Color.white;
+            if (textCSV != null) textCSV.color = darkGrey;
         }
         else if (!DirectorSequencer.useNeuLog)
         {
-            if (textMeshOn != null) textMeshOn.color = darkGrey;
-            if (textMeshOff != null) textMeshOff.color = Color.white;
+            if (textNeuLog != null) textNeuLog.color = darkGrey;
+            if (textCSV != null) textCSV.color = Color.white;
         }
 
 

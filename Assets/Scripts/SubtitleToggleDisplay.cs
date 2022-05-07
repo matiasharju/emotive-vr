@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SubtitleToggleDisplay : MonoBehaviour
 {
     GameObject subtitleCanvas;
-    public TextMesh textMeshOn;
-    public TextMesh textMeshOff;
+    public Text textOn;
+    public Text textOff;
     Color darkGrey;
 
     void Start()
@@ -19,13 +20,13 @@ public class SubtitleToggleDisplay : MonoBehaviour
     {
         if ((subtitleCanvas != null) && (subtitleCanvas.activeSelf))
         {
-            if (textMeshOn != null) textMeshOn.color = Color.white;
-            if (textMeshOff != null) textMeshOff.color = darkGrey;
+            if (textOn != null) textOn.color = Color.white;
+            if (textOff != null) textOff.color = darkGrey;
         }
         else if ((subtitleCanvas != null) && (!subtitleCanvas.activeSelf))
         {
-            if (textMeshOn != null) textMeshOn.color = darkGrey;
-            if (textMeshOff != null) textMeshOff.color = Color.white;
+            if (textOn != null) textOn.color = darkGrey;
+            if (textOff != null) textOff.color = Color.white;
         }
 
     }

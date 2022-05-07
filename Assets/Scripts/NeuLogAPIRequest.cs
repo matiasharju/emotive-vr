@@ -5,20 +5,19 @@ using UnityEngine.Networking;
 
 public class NeuLogAPIRequest : MonoBehaviour
 {
-    public void RequestArousalFromNeuLog(string IP, string port, string request)
-    {
+    public string NeuLogIP = "127.0.0.1";
+    public string NeuLogPort = "22004";
+    public string NeuLogRequest = "NeuLogAPI?GetSensorValue:[GSR],[1]";
 
-        StartCoroutine(SendHTTPRequest("http://" + IP + ":" + port + "/" + request));
+    public void RequestArousalFromNeuLog()
+    {
+        StartCoroutine(SendHTTPRequest("http://" + NeuLogIP + ":" + NeuLogPort + "/" + NeuLogRequest));
     }
 
     IEnumerator SendHTTPRequest(string request)
     {
-
-
         using (UnityWebRequest webRequest = UnityWebRequest.Get(request))
         {
-            Debug.Log(request);
-
             yield return webRequest.SendWebRequest();
 
             switch (webRequest.result)

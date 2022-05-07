@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class KeyboardControls : MonoBehaviour
 {
-
-    public GameObject subtitlesParentObject;
-    bool keyPressed = false;
-
-    public GameObject emotionalTableParentObject;
     public GameObject telemetryElementsParentObject;
-    bool keyPressed2 = false;
-
-    bool keyPressedStart = false;
+    public GameObject subtitlesParentObject;
+    public GameObject emotionalTableParentObject;
+    public GameObject pressSpace;
+    public GameObject menuItems;
 
     bool keyPressedNeuLog = false;
+    bool keyPressedSubtitles = false;
+    bool keyPressedDataDisplay = false;
+    bool keyPressedStart = false;
+    bool keyPressedMenu = false;
 
 
     public void StartPlayback()
@@ -23,7 +23,32 @@ public class KeyboardControls : MonoBehaviour
         {
             keyPressedStart = true;
             DirectorSequencer.Instance.PlayNextSequenceFromStartScreen();
+
+            pressSpace.SetActive(false);
+            menuItems.SetActive(false);
         }
+    }
+
+    public void ToggleMenu()
+    {
+        if ((!keyPressedMenu) && (menuItems != null))
+        {
+            keyPressedMenu = true;
+
+            if (menuItems.activeSelf)
+            {
+                menuItems.SetActive(false);
+            }
+            else if (!menuItems.activeSelf)
+            {
+                menuItems.SetActive(true);
+            }
+
+            StartCoroutine(releaseMenuButton());
+        }
+
+
+
     }
 
     public void ToggleNeuLog()
@@ -52,12 +77,18 @@ public class KeyboardControls : MonoBehaviour
         keyPressedNeuLog = false;
     }
 
+    IEnumerator releaseMenuButton()
+    {
+        yield return new WaitForSeconds(1);
+        keyPressedMenu = false;
+    }
+
 
     public void ToggleSubtitles()
     {
-        if ((!keyPressed) && (subtitlesParentObject != null))
+        if ((!keyPressedSubtitles) && (subtitlesParentObject != null))
         {
-            keyPressed = true;
+            keyPressedSubtitles = true;
  
             if (subtitlesParentObject.activeSelf)
             {
@@ -75,15 +106,15 @@ public class KeyboardControls : MonoBehaviour
     IEnumerator releaseSubtitleButton()
     {
         yield return new WaitForSeconds(1);
-        keyPressed = false;
+        keyPressedSubtitles = false;
     }
 
 
     public void ToggleEmotionDataDisplay()
     {
-        if ((!keyPressed) && (emotionalTableParentObject != null))
+        if ((!keyPressedSubtitles) && (emotionalTableParentObject != null))
         {
-            keyPressed2 = true;
+            keyPressedDataDisplay = true;
 
             if (emotionalTableParentObject.activeSelf)
             {
@@ -103,7 +134,7 @@ public class KeyboardControls : MonoBehaviour
     IEnumerator releaseDataDisplayButton()
     {
         yield return new WaitForSeconds(1);
-        keyPressed2 = false;
+        keyPressedDataDisplay = false;
     }
 
 }
