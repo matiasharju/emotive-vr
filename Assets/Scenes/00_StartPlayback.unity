@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5232791114bba80478a891b41661abb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshOn: {fileID: 156323873}
-  textMeshOff: {fileID: 1364003948}
+  textOn: {fileID: 0}
+  textOff: {fileID: 0}
 --- !u!1 &156323871
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161615143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -55, z: 0}
   m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_Children: []
   m_Father: {fileID: 0}
@@ -619,8 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69369c2644cbf704db581ba0f09cd8d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshOn: {fileID: 1141079524}
-  textMeshOff: {fileID: 1139810723}
+  textNeuLog: {fileID: 0}
+  textCSV: {fileID: 0}
 --- !u!102 &171733131
 TextMesh:
   serializedVersion: 3
@@ -3014,8 +3014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6f0b122805ca7b4c8b9cf65c8d04d88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshOn: {fileID: 1780332920}
-  textMeshOff: {fileID: 1089777459}
+  textOn: {fileID: 0}
+  textOff: {fileID: 0}
 --- !u!1 &1602377555
 GameObject:
   m_ObjectHideFlags: 0

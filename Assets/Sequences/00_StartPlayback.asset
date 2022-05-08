@@ -27,7 +27,7 @@ MonoBehaviour:
   thisIsKarl: 0
   sceneNameToLoad: 00_StartPlayback
   delayBeforeNextSequence: 0
-  soundBankName: 
+  soundBankName: Choice2SoundBank
   audioEvtNames: []
   delay: 0
   barInfo: []
