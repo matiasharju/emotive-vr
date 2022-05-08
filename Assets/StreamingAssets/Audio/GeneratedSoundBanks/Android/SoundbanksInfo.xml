@@ -617,7 +617,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="SFX" Hash="4177710710">
+		<SoundBank Id="1053698777" Language="SFX" Hash="1376938529">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>OpenProSoundBank.bnk</Path>
