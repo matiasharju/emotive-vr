@@ -87,9 +87,10 @@ public class DirectorSequencer : MonoBehaviour
     public float arousalFadeDownSpeed = 0.005f;
 
     float arousalRawValue;
+    public float GSRCalibrationMultiplier = 1.0f;       // to calibrate the incoming GSR value with a multiplier constant
 
     // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
-    [Range(0, 4)] public static float cumulativeArousal;
+    public float cumulativeArousal;
 
 
     private void Awake()
@@ -506,17 +507,17 @@ private void EndVideo(VideoPlayer vp)
             if (useNeuLog)
             {
                 neuLogAPIRequestScript.RequestArousalFromNeuLog();                      // Send HTTP request to NeuLog for arousal data
-                arousalRawValue = DataReaderArousal.arousalRawValuePublic;              // Read arousal raw value from NeuLog sensor
+                arousalRawValue = DataReaderArousal.arousalRawValuePublic * GSRCalibrationMultiplier;              // Read arousal raw value from NeuLog sensor
             }
             else if (!useNeuLog)
             {
-                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(arousalStartTime);        // Read arousal raw value from csv
+                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(arousalStartTime) * GSRCalibrationMultiplier;        // Read arousal raw value from csv
             }
 
-            float arousalPeak = DataReaderArousal.CalculateArousalPeaks(arousalRawValue);                               // Calculate arousal peaks
+            float arousalPeak = DataReaderArousal.CalculateArousalPeaks(arousalRawValue);           // Calculate arousal peaks
 
             // Add peak value to the cumulative arousal value. Keep fading down slowly.
-            cumulativeArousal = cumulativeArousal + arousalPeak;
+            cumulativeArousal = cumulativeArousal + arousalPeak;                                // cumulative arousal will be reset to 0 when pressing spacebar to start playback
             if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
             if (cumulativeArousal < 0) cumulativeArousal = 0.0f;
 

@@ -89,6 +89,22 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""IncreaseGSRCalibrationValue"",
+                    ""type"": ""Button"",
+                    ""id"": ""0c48737e-39f6-47cf-9607-b0e018ef2c4a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""DecreaseGSRCalibrationValue"",
+                    ""type"": ""Button"",
+                    ""id"": ""7c876a91-0964-4730-baca-93020f503719"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -190,6 +206,28 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""MenuShowHide"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4cdd6826-92b3-4bd3-acf1-2d857413d658"",
+                    ""path"": ""<Keyboard>/numpadPlus"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""IncreaseGSRCalibrationValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ac21542a-6e96-489a-a4fd-3a4b87d9e196"",
+                    ""path"": ""<Keyboard>/numpadMinus"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DecreaseGSRCalibrationValue"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -207,6 +245,8 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_ToggleDisplayOfEmotionalData = m_Keyboard.FindAction("ToggleDisplayOfEmotionalData", throwIfNotFound: true);
         m_Keyboard_ToggleNeuLog = m_Keyboard.FindAction("ToggleNeuLog", throwIfNotFound: true);
         m_Keyboard_MenuShowHide = m_Keyboard.FindAction("MenuShowHide", throwIfNotFound: true);
+        m_Keyboard_IncreaseGSRCalibrationValue = m_Keyboard.FindAction("IncreaseGSRCalibrationValue", throwIfNotFound: true);
+        m_Keyboard_DecreaseGSRCalibrationValue = m_Keyboard.FindAction("DecreaseGSRCalibrationValue", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -265,6 +305,8 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_ToggleDisplayOfEmotionalData;
     private readonly InputAction m_Keyboard_ToggleNeuLog;
     private readonly InputAction m_Keyboard_MenuShowHide;
+    private readonly InputAction m_Keyboard_IncreaseGSRCalibrationValue;
+    private readonly InputAction m_Keyboard_DecreaseGSRCalibrationValue;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -278,6 +320,8 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @ToggleDisplayOfEmotionalData => m_Wrapper.m_Keyboard_ToggleDisplayOfEmotionalData;
         public InputAction @ToggleNeuLog => m_Wrapper.m_Keyboard_ToggleNeuLog;
         public InputAction @MenuShowHide => m_Wrapper.m_Keyboard_MenuShowHide;
+        public InputAction @IncreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_IncreaseGSRCalibrationValue;
+        public InputAction @DecreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_DecreaseGSRCalibrationValue;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -314,6 +358,12 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @MenuShowHide.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnMenuShowHide;
                 @MenuShowHide.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnMenuShowHide;
                 @MenuShowHide.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnMenuShowHide;
+                @IncreaseGSRCalibrationValue.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseGSRCalibrationValue;
+                @IncreaseGSRCalibrationValue.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseGSRCalibrationValue;
+                @IncreaseGSRCalibrationValue.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -345,6 +395,12 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @MenuShowHide.started += instance.OnMenuShowHide;
                 @MenuShowHide.performed += instance.OnMenuShowHide;
                 @MenuShowHide.canceled += instance.OnMenuShowHide;
+                @IncreaseGSRCalibrationValue.started += instance.OnIncreaseGSRCalibrationValue;
+                @IncreaseGSRCalibrationValue.performed += instance.OnIncreaseGSRCalibrationValue;
+                @IncreaseGSRCalibrationValue.canceled += instance.OnIncreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.started += instance.OnDecreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.performed += instance.OnDecreaseGSRCalibrationValue;
+                @DecreaseGSRCalibrationValue.canceled += instance.OnDecreaseGSRCalibrationValue;
             }
         }
     }
@@ -360,5 +416,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnToggleDisplayOfEmotionalData(InputAction.CallbackContext context);
         void OnToggleNeuLog(InputAction.CallbackContext context);
         void OnMenuShowHide(InputAction.CallbackContext context);
+        void OnIncreaseGSRCalibrationValue(InputAction.CallbackContext context);
+        void OnDecreaseGSRCalibrationValue(InputAction.CallbackContext context);
     }
 }

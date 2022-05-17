@@ -25,7 +25,7 @@ public class TelemetryDisplayExternal : MonoBehaviour
         {
             realTime.text = ("Real time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
             dataTableTime.text = ("Data time: " + (DataReaderArousal._currentPlusStartTime / 10) + " s").ToString();
-            arousalValue.text = ("Arousal cumulative:\n" + DirectorSequencer.cumulativeArousal);
+            arousalValue.text = ("Arousal cumulative:\n" + DirectorSequencer.Instance.cumulativeArousal);
         }
 
     }

@@ -11,11 +11,13 @@ public class TelemetryDisplay : MonoBehaviour
     public Text realTime;
     public Text dataTableTime;
     public Text GSRValue;
+    public Text GSRCalibration;
     public Text arousalCumulativePeaks;
 
     public GameObject realTimeDisplayObject;
     public GameObject dataTimeDisplayObject;
     public GameObject GSRValueObject;
+    public GameObject GSRCalibrationObject;
     public GameObject arousalPeaksObject;
 
     void Start()
@@ -46,8 +48,9 @@ public class TelemetryDisplay : MonoBehaviour
         {
             if (!hideTimeDisplays && realTimeDisplayObject != null) realTime.text = ("Running time: " + (Mathf.Round(Time.fixedUnscaledTime) * 1f) + " s").ToString();
             if (!hideTimeDisplays && dataTimeDisplayObject != null) dataTableTime.text = ("CSV data time: " + (DataReaderArousal._currentPlusStartTime / 10) + " s").ToString();
-            if (!hideArousalValues && GSRValueObject != null) GSRValue.text = ("GSR:\n" + DataReaderArousal.arousalRawValuePublic);
-            if (!hideArousalValues && arousalPeaksObject != null) arousalCumulativePeaks.text = ("Cumulative\narousal peaks:\n" + DirectorSequencer.cumulativeArousal);
+            if (!hideArousalValues && GSRValueObject != null) GSRValue.text = ("GSR: " + (DataReaderArousal.arousalRawValuePublic * DirectorSequencer.Instance.GSRCalibrationMultiplier).ToString("F3"));
+            if (!hideArousalValues && GSRCalibrationObject != null) GSRCalibration.text = ("Cal: " + DirectorSequencer.Instance.GSRCalibrationMultiplier.ToString("F2"));
+            if (!hideArousalValues && arousalPeaksObject != null) arousalCumulativePeaks.text = ("Cumulative\narousal peaks:\n" + DirectorSequencer.Instance.cumulativeArousal.ToString("F3"));
 
             yield return new WaitForSeconds(0.1f);
         }

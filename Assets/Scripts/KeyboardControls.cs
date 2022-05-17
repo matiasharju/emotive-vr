@@ -26,6 +26,8 @@ public class KeyboardControls : MonoBehaviour
 
             pressSpace.SetActive(false);
             menuItems.SetActive(false);
+
+            DirectorSequencer.Instance.cumulativeArousal = 0.0f;
         }
     }
 
@@ -135,6 +137,16 @@ public class KeyboardControls : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         keyPressedDataDisplay = false;
+    }
+
+    public void IncreaseGSRCalibrationValue()
+    {
+        DirectorSequencer.Instance.GSRCalibrationMultiplier = DirectorSequencer.Instance.GSRCalibrationMultiplier + 0.02f;
+    }
+
+    public void DecreaseGSRCalibrationValue()
+    {
+        DirectorSequencer.Instance.GSRCalibrationMultiplier = DirectorSequencer.Instance.GSRCalibrationMultiplier - 0.02f;
     }
 
 }

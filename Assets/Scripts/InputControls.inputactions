@@ -76,6 +76,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "IncreaseGSRCalibrationValue",
+                    "type": "Button",
+                    "id": "0c48737e-39f6-47cf-9607-b0e018ef2c4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DecreaseGSRCalibrationValue",
+                    "type": "Button",
+                    "id": "7c876a91-0964-4730-baca-93020f503719",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -175,6 +191,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "MenuShowHide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cdd6826-92b3-4bd3-acf1-2d857413d658",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IncreaseGSRCalibrationValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac21542a-6e96-489a-a4fd-3a4b87d9e196",
+                    "path": "<Keyboard>/numpadMinus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DecreaseGSRCalibrationValue",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
