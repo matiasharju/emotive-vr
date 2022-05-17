@@ -4105,6 +4105,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &338844017
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4198,7 @@ MonoBehaviour:
   arousalStartTime: 472
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &351430212
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,6 +7118,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &563168019
 GameObject:
   m_ObjectHideFlags: 0
@@ -7466,6 +7469,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &586988586
 GameObject:
   m_ObjectHideFlags: 0
@@ -11326,7 +11330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 0.105882354}
+  m_Color: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14152,6 +14156,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1007999251
 GameObject:
   m_ObjectHideFlags: 0
@@ -15644,6 +15649,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1134990194
 GameObject:
   m_ObjectHideFlags: 0
@@ -17814,6 +17820,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1365198782
 GameObject:
   m_ObjectHideFlags: 0
@@ -18273,6 +18280,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1382970478
 GameObject:
   m_ObjectHideFlags: 0
@@ -18450,6 +18458,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1394458536
 GameObject:
   m_ObjectHideFlags: 0
@@ -19054,7 +19063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CSV
+  m_Text: C
 --- !u!222 &1420554299
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19783,6 +19792,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.005
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1487496655
 GameObject:
   m_ObjectHideFlags: 0
@@ -20732,6 +20742,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1544528334
 GameObject:
   m_ObjectHideFlags: 0
@@ -23847,6 +23858,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1812748176
 GameObject:
   m_ObjectHideFlags: 0
@@ -25957,6 +25969,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &1963965293
 GameObject:
   m_ObjectHideFlags: 0
@@ -27564,6 +27577,7 @@ MonoBehaviour:
   arousalStartTime: 0
   arousalFadeDownSpeed: 0.01
   GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
 --- !u!1 &2072993498
 GameObject:
   m_ObjectHideFlags: 0

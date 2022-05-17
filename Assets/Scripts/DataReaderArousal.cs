@@ -33,6 +33,8 @@ public static class DataReaderArousal
 
     public static float arousalRawValuePublic;
 
+    static float startTimeOld;
+    static int minusTime;
 
     public static void Init(string GSRfilename, string PeakCSVfilename)
     {
@@ -64,9 +66,11 @@ public static class DataReaderArousal
 
     public static float ReadArousalFromCSV(float startTime)
     {
+        if (startTime != startTimeOld) minusTime = _currentTime;        // when a new startTime is passed, substract _currentTime from the _currentPlusStartTime
+        startTimeOld = startTime;
         _currentTime = (int)(Time.fixedUnscaledTime * 10f);
         _startTime = (int)(startTime * 10);
-        _currentPlusStartTime = _currentTime + _startTime;
+        _currentPlusStartTime = _currentTime + _startTime - minusTime;
 
         float arousalRawValueCSV = _GSRValues[_currentPlusStartTime];
         arousalRawValuePublic = arousalRawValueCSV;

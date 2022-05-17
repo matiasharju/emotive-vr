@@ -83,10 +83,9 @@ public class DirectorSequencer : MonoBehaviour
 
     public string GSRDataCSVFilename = "03_GSR_Only.csv";
     public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
-    public float arousalStartTime = 0.0f;
     public float arousalFadeDownSpeed = 0.005f;
 
-    float arousalRawValue;
+    public float arousalRawValue;
     public float GSRCalibrationMultiplier = 1.0f;       // to calibrate the incoming GSR value with a multiplier constant
 
     // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
@@ -500,10 +499,6 @@ private void EndVideo(VideoPlayer vp)
             //DataReaderArousal.UpTime();                // update arousal data reader's clock, add start time offset
             //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
-            //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(arousalStartTime);    // Read arousal peaks from peak CSV and adjust the start by x seconds
-            //float arousalPeak = DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);      // Read arousal peaks calculated in Unity from raw GSR data CSV
-            //DataReaderArousalPeaks.CalculateAndGetArousalPeaks(arousalStartTime);   // call this method to generate arousalRawValue from CSV
-
             if (useNeuLog)
             {
                 neuLogAPIRequestScript.RequestArousalFromNeuLog();                      // Send HTTP request to NeuLog for arousal data
@@ -511,7 +506,7 @@ private void EndVideo(VideoPlayer vp)
             }
             else if (!useNeuLog)
             {
-                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(arousalStartTime) * GSRCalibrationMultiplier;        // Read arousal raw value from csv
+                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(currentSequence.sensorDataStartTime);        // Read arousal raw value from csv from the timepoint defined from the sequence
             }
 
             float arousalPeak = DataReaderArousal.CalculateArousalPeaks(arousalRawValue);           // Calculate arousal peaks
