@@ -7,12 +7,16 @@ public class KeyboardControls : MonoBehaviour
     public GameObject telemetryElementsParentObject;
     public GameObject subtitlesParentObject;
     public GameObject emotionalTableParentObject;
+    public GameObject operatorDataDisplay1;
+    public GameObject operatorDataDisplay2;
+    public GameObject operatorDataDisplay3;
     public GameObject pressSpace;
     public GameObject menuItems;
 
     bool keyPressedNeuLog = false;
     bool keyPressedSubtitles = false;
     bool keyPressedDataDisplay = false;
+    bool keyPressedOperatorDataDisplay = false;
     bool keyPressedStart = false;
     bool keyPressedMenu = false;
 
@@ -116,7 +120,7 @@ public class KeyboardControls : MonoBehaviour
 
     public void ToggleEmotionDataDisplay()
     {
-        if ((!keyPressedSubtitles) && (emotionalTableParentObject != null))
+        if ((!keyPressedDataDisplay) && (emotionalTableParentObject != null))
         {
             keyPressedDataDisplay = true;
 
@@ -134,11 +138,39 @@ public class KeyboardControls : MonoBehaviour
             StartCoroutine(releaseDataDisplayButton());
         }
     }
-
     IEnumerator releaseDataDisplayButton()
     {
         yield return new WaitForSeconds(1);
         keyPressedDataDisplay = false;
+    }
+
+
+    public void ToggleOperatorDataDisplay()
+    {
+        if ((!keyPressedOperatorDataDisplay) && (operatorDataDisplay1 != null))
+        {
+            keyPressedOperatorDataDisplay = true;
+
+            if (operatorDataDisplay1.activeSelf)
+            {
+                operatorDataDisplay1.SetActive(false);
+                operatorDataDisplay2.SetActive(false);
+                operatorDataDisplay3.SetActive(false);
+            }
+            else if (!operatorDataDisplay1.activeSelf)
+            {
+                operatorDataDisplay1.SetActive(true);
+                operatorDataDisplay2.SetActive(true);
+                operatorDataDisplay3.SetActive(true);
+            }
+
+            StartCoroutine(releaseOperatorDataDisplayButton());
+        }
+    }
+    IEnumerator releaseOperatorDataDisplayButton()
+    {
+        yield return new WaitForSeconds(1);
+        keyPressedOperatorDataDisplay = false;
     }
 
     public void IncreaseGSRCalibrationValue()

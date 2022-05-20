@@ -19,38 +19,6 @@ public class @InputControls : IInputActionCollection, IDisposable
             ""id"": ""71c03045-bffc-409b-a52f-d81aff5f4c3c"",
             ""actions"": [
                 {
-                    ""name"": ""IncreaseValence"",
-                    ""type"": ""Button"",
-                    ""id"": ""ee4b1705-3ab8-4df4-a36b-da260cfbdafe"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""DecreaseValence"",
-                    ""type"": ""Button"",
-                    ""id"": ""a74dc899-73ce-4626-bdb7-d36c4dbaa3df"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""IncreaseArousal"",
-                    ""type"": ""Button"",
-                    ""id"": ""3227545a-847c-4710-9b19-f5df3ff2a43b"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""DecreaseArousal"",
-                    ""type"": ""Button"",
-                    ""id"": ""15126d01-9590-4f26-867e-49fa62c50717"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
                     ""name"": ""StartPlayback"",
                     ""type"": ""Button"",
                     ""id"": ""9356bbc5-2fc0-4e10-83c5-8fb3a7baf6c1"",
@@ -105,53 +73,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleOperatorDataDisplay"",
+                    ""type"": ""Button"",
+                    ""id"": ""cae7cf6e-d501-42bb-968e-5fa629887062"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""b1cde0a0-f6d3-4f92-88bc-ebdab99e0c11"",
-                    ""path"": ""<Keyboard>/l"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""IncreaseValence"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""322610eb-6280-4470-a35e-39f8063d0690"",
-                    ""path"": ""<Keyboard>/j"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""DecreaseValence"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""076fc29e-b5a6-459d-9111-c0c45c186aaa"",
-                    ""path"": ""<Keyboard>/i"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""IncreaseArousal"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""ed59aece-a96e-40db-9a0d-20cd8652b11f"",
-                    ""path"": ""<Keyboard>/k"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""DecreaseArousal"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
                 {
                     ""name"": """",
                     ""id"": ""14a68e4f-11d6-4e6a-94cd-9dfdf4d541e0"",
@@ -166,7 +98,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""96e35371-de35-45c6-9c53-26d0d6e6ecb3"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/f1"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -177,7 +109,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7bc0ab86-f7b4-4b33-8467-8e7ce7259d48"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/f2"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -188,7 +120,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4b22be02-55bd-4c7e-9636-5414f175b254"",
-                    ""path"": ""<Keyboard>/g"",
+                    ""path"": ""<Keyboard>/f4"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -199,7 +131,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""57857603-4515-41f0-b15a-39d196497fff"",
-                    ""path"": ""<Keyboard>/m"",
+                    ""path"": ""<Keyboard>/f10"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -228,6 +160,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""DecreaseGSRCalibrationValue"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4038824f-cd9d-49ff-8965-9106a4cc64ea"",
+                    ""path"": ""<Keyboard>/f3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleOperatorDataDisplay"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -236,10 +179,6 @@ public class @InputControls : IInputActionCollection, IDisposable
 }");
         // Keyboard
         m_Keyboard = asset.FindActionMap("Keyboard", throwIfNotFound: true);
-        m_Keyboard_IncreaseValence = m_Keyboard.FindAction("IncreaseValence", throwIfNotFound: true);
-        m_Keyboard_DecreaseValence = m_Keyboard.FindAction("DecreaseValence", throwIfNotFound: true);
-        m_Keyboard_IncreaseArousal = m_Keyboard.FindAction("IncreaseArousal", throwIfNotFound: true);
-        m_Keyboard_DecreaseArousal = m_Keyboard.FindAction("DecreaseArousal", throwIfNotFound: true);
         m_Keyboard_StartPlayback = m_Keyboard.FindAction("StartPlayback", throwIfNotFound: true);
         m_Keyboard_ToggleSubtitlesPress = m_Keyboard.FindAction("ToggleSubtitlesPress", throwIfNotFound: true);
         m_Keyboard_ToggleDisplayOfEmotionalData = m_Keyboard.FindAction("ToggleDisplayOfEmotionalData", throwIfNotFound: true);
@@ -247,6 +186,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_MenuShowHide = m_Keyboard.FindAction("MenuShowHide", throwIfNotFound: true);
         m_Keyboard_IncreaseGSRCalibrationValue = m_Keyboard.FindAction("IncreaseGSRCalibrationValue", throwIfNotFound: true);
         m_Keyboard_DecreaseGSRCalibrationValue = m_Keyboard.FindAction("DecreaseGSRCalibrationValue", throwIfNotFound: true);
+        m_Keyboard_ToggleOperatorDataDisplay = m_Keyboard.FindAction("ToggleOperatorDataDisplay", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -296,10 +236,6 @@ public class @InputControls : IInputActionCollection, IDisposable
     // Keyboard
     private readonly InputActionMap m_Keyboard;
     private IKeyboardActions m_KeyboardActionsCallbackInterface;
-    private readonly InputAction m_Keyboard_IncreaseValence;
-    private readonly InputAction m_Keyboard_DecreaseValence;
-    private readonly InputAction m_Keyboard_IncreaseArousal;
-    private readonly InputAction m_Keyboard_DecreaseArousal;
     private readonly InputAction m_Keyboard_StartPlayback;
     private readonly InputAction m_Keyboard_ToggleSubtitlesPress;
     private readonly InputAction m_Keyboard_ToggleDisplayOfEmotionalData;
@@ -307,14 +243,11 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_MenuShowHide;
     private readonly InputAction m_Keyboard_IncreaseGSRCalibrationValue;
     private readonly InputAction m_Keyboard_DecreaseGSRCalibrationValue;
+    private readonly InputAction m_Keyboard_ToggleOperatorDataDisplay;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
         public KeyboardActions(@InputControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @IncreaseValence => m_Wrapper.m_Keyboard_IncreaseValence;
-        public InputAction @DecreaseValence => m_Wrapper.m_Keyboard_DecreaseValence;
-        public InputAction @IncreaseArousal => m_Wrapper.m_Keyboard_IncreaseArousal;
-        public InputAction @DecreaseArousal => m_Wrapper.m_Keyboard_DecreaseArousal;
         public InputAction @StartPlayback => m_Wrapper.m_Keyboard_StartPlayback;
         public InputAction @ToggleSubtitlesPress => m_Wrapper.m_Keyboard_ToggleSubtitlesPress;
         public InputAction @ToggleDisplayOfEmotionalData => m_Wrapper.m_Keyboard_ToggleDisplayOfEmotionalData;
@@ -322,6 +255,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @MenuShowHide => m_Wrapper.m_Keyboard_MenuShowHide;
         public InputAction @IncreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_IncreaseGSRCalibrationValue;
         public InputAction @DecreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_DecreaseGSRCalibrationValue;
+        public InputAction @ToggleOperatorDataDisplay => m_Wrapper.m_Keyboard_ToggleOperatorDataDisplay;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -331,18 +265,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_KeyboardActionsCallbackInterface != null)
             {
-                @IncreaseValence.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseValence;
-                @IncreaseValence.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseValence;
-                @IncreaseValence.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseValence;
-                @DecreaseValence.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseValence;
-                @DecreaseValence.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseValence;
-                @DecreaseValence.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseValence;
-                @IncreaseArousal.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseArousal;
-                @IncreaseArousal.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseArousal;
-                @IncreaseArousal.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnIncreaseArousal;
-                @DecreaseArousal.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
-                @DecreaseArousal.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
-                @DecreaseArousal.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseArousal;
                 @StartPlayback.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
                 @StartPlayback.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
                 @StartPlayback.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartPlayback;
@@ -364,22 +286,13 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @DecreaseGSRCalibrationValue.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
                 @DecreaseGSRCalibrationValue.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
                 @DecreaseGSRCalibrationValue.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnDecreaseGSRCalibrationValue;
+                @ToggleOperatorDataDisplay.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
+                @ToggleOperatorDataDisplay.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
+                @ToggleOperatorDataDisplay.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @IncreaseValence.started += instance.OnIncreaseValence;
-                @IncreaseValence.performed += instance.OnIncreaseValence;
-                @IncreaseValence.canceled += instance.OnIncreaseValence;
-                @DecreaseValence.started += instance.OnDecreaseValence;
-                @DecreaseValence.performed += instance.OnDecreaseValence;
-                @DecreaseValence.canceled += instance.OnDecreaseValence;
-                @IncreaseArousal.started += instance.OnIncreaseArousal;
-                @IncreaseArousal.performed += instance.OnIncreaseArousal;
-                @IncreaseArousal.canceled += instance.OnIncreaseArousal;
-                @DecreaseArousal.started += instance.OnDecreaseArousal;
-                @DecreaseArousal.performed += instance.OnDecreaseArousal;
-                @DecreaseArousal.canceled += instance.OnDecreaseArousal;
                 @StartPlayback.started += instance.OnStartPlayback;
                 @StartPlayback.performed += instance.OnStartPlayback;
                 @StartPlayback.canceled += instance.OnStartPlayback;
@@ -401,16 +314,15 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @DecreaseGSRCalibrationValue.started += instance.OnDecreaseGSRCalibrationValue;
                 @DecreaseGSRCalibrationValue.performed += instance.OnDecreaseGSRCalibrationValue;
                 @DecreaseGSRCalibrationValue.canceled += instance.OnDecreaseGSRCalibrationValue;
+                @ToggleOperatorDataDisplay.started += instance.OnToggleOperatorDataDisplay;
+                @ToggleOperatorDataDisplay.performed += instance.OnToggleOperatorDataDisplay;
+                @ToggleOperatorDataDisplay.canceled += instance.OnToggleOperatorDataDisplay;
             }
         }
     }
     public KeyboardActions @Keyboard => new KeyboardActions(this);
     public interface IKeyboardActions
     {
-        void OnIncreaseValence(InputAction.CallbackContext context);
-        void OnDecreaseValence(InputAction.CallbackContext context);
-        void OnIncreaseArousal(InputAction.CallbackContext context);
-        void OnDecreaseArousal(InputAction.CallbackContext context);
         void OnStartPlayback(InputAction.CallbackContext context);
         void OnToggleSubtitlesPress(InputAction.CallbackContext context);
         void OnToggleDisplayOfEmotionalData(InputAction.CallbackContext context);
@@ -418,5 +330,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnMenuShowHide(InputAction.CallbackContext context);
         void OnIncreaseGSRCalibrationValue(InputAction.CallbackContext context);
         void OnDecreaseGSRCalibrationValue(InputAction.CallbackContext context);
+        void OnToggleOperatorDataDisplay(InputAction.CallbackContext context);
     }
 }

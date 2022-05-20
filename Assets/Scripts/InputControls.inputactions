@@ -6,38 +6,6 @@
             "id": "71c03045-bffc-409b-a52f-d81aff5f4c3c",
             "actions": [
                 {
-                    "name": "IncreaseValence",
-                    "type": "Button",
-                    "id": "ee4b1705-3ab8-4df4-a36b-da260cfbdafe",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "DecreaseValence",
-                    "type": "Button",
-                    "id": "a74dc899-73ce-4626-bdb7-d36c4dbaa3df",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "IncreaseArousal",
-                    "type": "Button",
-                    "id": "3227545a-847c-4710-9b19-f5df3ff2a43b",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "DecreaseArousal",
-                    "type": "Button",
-                    "id": "15126d01-9590-4f26-867e-49fa62c50717",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "StartPlayback",
                     "type": "Button",
                     "id": "9356bbc5-2fc0-4e10-83c5-8fb3a7baf6c1",
@@ -92,53 +60,17 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ToggleOperatorDataDisplay",
+                    "type": "Button",
+                    "id": "cae7cf6e-d501-42bb-968e-5fa629887062",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "b1cde0a0-f6d3-4f92-88bc-ebdab99e0c11",
-                    "path": "<Keyboard>/l",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "IncreaseValence",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "322610eb-6280-4470-a35e-39f8063d0690",
-                    "path": "<Keyboard>/j",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "DecreaseValence",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "076fc29e-b5a6-459d-9111-c0c45c186aaa",
-                    "path": "<Keyboard>/i",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "IncreaseArousal",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ed59aece-a96e-40db-9a0d-20cd8652b11f",
-                    "path": "<Keyboard>/k",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "DecreaseArousal",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "14a68e4f-11d6-4e6a-94cd-9dfdf4d541e0",
@@ -153,7 +85,7 @@
                 {
                     "name": "",
                     "id": "96e35371-de35-45c6-9c53-26d0d6e6ecb3",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/f1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -164,7 +96,7 @@
                 {
                     "name": "",
                     "id": "7bc0ab86-f7b4-4b33-8467-8e7ce7259d48",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/f2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -175,7 +107,7 @@
                 {
                     "name": "",
                     "id": "4b22be02-55bd-4c7e-9636-5414f175b254",
-                    "path": "<Keyboard>/g",
+                    "path": "<Keyboard>/f4",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -186,7 +118,7 @@
                 {
                     "name": "",
                     "id": "57857603-4515-41f0-b15a-39d196497fff",
-                    "path": "<Keyboard>/m",
+                    "path": "<Keyboard>/f10",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -213,6 +145,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "DecreaseGSRCalibrationValue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4038824f-cd9d-49ff-8965-9106a4cc64ea",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleOperatorDataDisplay",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

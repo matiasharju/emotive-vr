@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DataDisplayToggle : MonoBehaviour
+public class DataOperatorDisplayToggle : MonoBehaviour
 {
-    public GameObject playerDataDisplay;
+    public GameObject operatorDataDisplay;
     public Text textOn;
     public Text textOff;
     Color darkGrey;
@@ -17,12 +17,12 @@ public class DataDisplayToggle : MonoBehaviour
 
     void Update()
     {
-        if ((playerDataDisplay != null) && (playerDataDisplay.activeSelf))
+        if ((operatorDataDisplay != null) && (operatorDataDisplay.activeSelf))
         {
             if (textOn != null) textOn.color = Color.white;
             if (textOff != null) textOff.color = darkGrey;
         }
-        else if ((playerDataDisplay != null) && (!playerDataDisplay.activeSelf))
+        else if ((operatorDataDisplay != null) && (!operatorDataDisplay.activeSelf))
         {
             if (textOn != null) textOn.color = darkGrey;
             if (textOff != null) textOff.color = Color.white;
