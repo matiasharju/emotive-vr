@@ -539,6 +539,11 @@ private void EndVideo(VideoPlayer vp)
                 emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagram(arousalRawValue);
             }
 
+            // Send data to DataRecorder.cs to be written on a csv file
+            string currentClipName;
+            if (player.clip != null) currentClipName = player.clip.name;
+            else currentClipName = "(NO VIDEO)";
+            DataRecorder.WriteData(currentSequence.name, currentClipName, player.time, arousalRawValue, arousalPeak);
 
             yield return new WaitForSeconds(updateValenceTime);
         }

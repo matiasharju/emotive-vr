@@ -28,6 +28,8 @@ public class KeyboardControls : MonoBehaviour
             menuItems.SetActive(false);
 
             DirectorSequencer.Instance.cumulativeArousal = 0.0f;
+
+            DataRecorder.StartRecording();
         }
     }
 
