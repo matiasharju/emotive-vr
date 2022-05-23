@@ -81,6 +81,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleInteractiveMusic"",
+                    ""type"": ""Button"",
+                    ""id"": ""1b3f418f-ada9-4cc3-a239-d00a11f092d0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -120,7 +128,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4b22be02-55bd-4c7e-9636-5414f175b254"",
-                    ""path"": ""<Keyboard>/f4"",
+                    ""path"": ""<Keyboard>/f9"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -171,6 +179,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""ToggleOperatorDataDisplay"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""741537e9-faed-4977-82dd-f52cc81faaba"",
+                    ""path"": ""<Keyboard>/f4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ToggleInteractiveMusic"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -187,6 +206,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_IncreaseGSRCalibrationValue = m_Keyboard.FindAction("IncreaseGSRCalibrationValue", throwIfNotFound: true);
         m_Keyboard_DecreaseGSRCalibrationValue = m_Keyboard.FindAction("DecreaseGSRCalibrationValue", throwIfNotFound: true);
         m_Keyboard_ToggleOperatorDataDisplay = m_Keyboard.FindAction("ToggleOperatorDataDisplay", throwIfNotFound: true);
+        m_Keyboard_ToggleInteractiveMusic = m_Keyboard.FindAction("ToggleInteractiveMusic", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -244,6 +264,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_IncreaseGSRCalibrationValue;
     private readonly InputAction m_Keyboard_DecreaseGSRCalibrationValue;
     private readonly InputAction m_Keyboard_ToggleOperatorDataDisplay;
+    private readonly InputAction m_Keyboard_ToggleInteractiveMusic;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -256,6 +277,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @IncreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_IncreaseGSRCalibrationValue;
         public InputAction @DecreaseGSRCalibrationValue => m_Wrapper.m_Keyboard_DecreaseGSRCalibrationValue;
         public InputAction @ToggleOperatorDataDisplay => m_Wrapper.m_Keyboard_ToggleOperatorDataDisplay;
+        public InputAction @ToggleInteractiveMusic => m_Wrapper.m_Keyboard_ToggleInteractiveMusic;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -289,6 +311,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @ToggleOperatorDataDisplay.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
                 @ToggleOperatorDataDisplay.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
                 @ToggleOperatorDataDisplay.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleOperatorDataDisplay;
+                @ToggleInteractiveMusic.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleInteractiveMusic;
+                @ToggleInteractiveMusic.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleInteractiveMusic;
+                @ToggleInteractiveMusic.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleInteractiveMusic;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -317,6 +342,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @ToggleOperatorDataDisplay.started += instance.OnToggleOperatorDataDisplay;
                 @ToggleOperatorDataDisplay.performed += instance.OnToggleOperatorDataDisplay;
                 @ToggleOperatorDataDisplay.canceled += instance.OnToggleOperatorDataDisplay;
+                @ToggleInteractiveMusic.started += instance.OnToggleInteractiveMusic;
+                @ToggleInteractiveMusic.performed += instance.OnToggleInteractiveMusic;
+                @ToggleInteractiveMusic.canceled += instance.OnToggleInteractiveMusic;
             }
         }
     }
@@ -331,5 +359,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnIncreaseGSRCalibrationValue(InputAction.CallbackContext context);
         void OnDecreaseGSRCalibrationValue(InputAction.CallbackContext context);
         void OnToggleOperatorDataDisplay(InputAction.CallbackContext context);
+        void OnToggleInteractiveMusic(InputAction.CallbackContext context);
     }
 }

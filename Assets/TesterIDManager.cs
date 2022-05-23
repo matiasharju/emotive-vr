@@ -15,7 +15,7 @@ public class TesterIDManager : MonoBehaviour
 
     private void SetID(string ID)
     {
-        DataRecorder.testerID = ID;
+        DataRecorder.sessionID = ID;
         currentTesterID.text = ID;
     }
 

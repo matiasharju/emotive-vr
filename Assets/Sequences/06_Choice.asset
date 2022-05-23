@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 06_Choice
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 03616d1f06a514045bb17a4585858fc0, type: 3}
+  clip: {fileID: 0}
   rt: {fileID: 8400000, guid: 7048ddd7200750b4d8429b2c1ae46a10, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0

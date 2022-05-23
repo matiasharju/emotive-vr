@@ -17,6 +17,7 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedSubtitles = false;
     bool keyPressedDataDisplay = false;
     bool keyPressedOperatorDataDisplay = false;
+    bool keyPressedInteractiveMusic = false;
     bool keyPressedStart = false;
     bool keyPressedMenu = false;
 
@@ -171,6 +172,30 @@ public class KeyboardControls : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         keyPressedOperatorDataDisplay = false;
+    }
+
+    public void ToggleInteractiveMusic()
+    {
+        if (!keyPressedInteractiveMusic)
+        {
+            keyPressedInteractiveMusic = true;
+
+            if (DirectorSequencer.Instance.enableInteractiveMusic)
+            {
+                DirectorSequencer.Instance.enableInteractiveMusic = false;
+            }
+            else if (!DirectorSequencer.Instance.enableInteractiveMusic)
+            {
+                DirectorSequencer.Instance.enableInteractiveMusic = true;
+            }
+
+            StartCoroutine(releaseInteractiveMusicButton());
+        }
+    }
+    IEnumerator releaseInteractiveMusicButton()
+    {
+        yield return new WaitForSeconds(1);
+        keyPressedInteractiveMusic = false;
     }
 
     public void IncreaseGSRCalibrationValue()

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: A_Cut_Neurones
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: bb81582382780f14d9f096d2c796556c, type: 3}
+  clip: {fileID: 0}
   rt: {fileID: 8400000, guid: 0edf8055d457b5b4c844771a311ce83f, type: 2}
   useAudioFromVideo: 0
   cutSequence: 1

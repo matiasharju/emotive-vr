@@ -34,6 +34,8 @@ public class DirectorSequencer : MonoBehaviour
 
     public float epilogueSrtDelay;
 
+    public bool enableInteractiveMusic = false;
+
     [Header("References")]
     public List<Camera> allCameras;
     public SRTManager srtManager;
@@ -519,8 +521,16 @@ private void EndVideo(VideoPlayer vp)
             float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
             // float arousal = pseudoDataInput.GetArousal();
 
-            audioManager.SetNewValenceValue(valence);
-            audioManager.SetNewArousalValue(cumulativeArousal);
+            if (enableInteractiveMusic)
+            {
+                audioManager.SetNewValenceValue(valence);
+                audioManager.SetNewArousalValue(cumulativeArousal);
+            }
+            else if (!enableInteractiveMusic) // if interactive music disabled, reset music rtpc values
+            {
+                audioManager.SetNewValenceValue(0.5f);
+                audioManager.SetNewArousalValue(0.0f);  
+            }
 
             if (currentSequence.updateColorFromValence)
             {

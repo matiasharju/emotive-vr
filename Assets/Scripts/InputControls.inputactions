@@ -68,6 +68,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ToggleInteractiveMusic",
+                    "type": "Button",
+                    "id": "1b3f418f-ada9-4cc3-a239-d00a11f092d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -107,7 +115,7 @@
                 {
                     "name": "",
                     "id": "4b22be02-55bd-4c7e-9636-5414f175b254",
-                    "path": "<Keyboard>/f4",
+                    "path": "<Keyboard>/f9",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -156,6 +164,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ToggleOperatorDataDisplay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "741537e9-faed-4977-82dd-f52cc81faaba",
+                    "path": "<Keyboard>/f4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleInteractiveMusic",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

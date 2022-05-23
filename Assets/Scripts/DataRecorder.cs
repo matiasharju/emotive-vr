@@ -8,7 +8,7 @@ using System;
 public static class DataRecorder
 {
     static StreamWriter sw;
-    public static string testerID;
+    public static string sessionID;
     public static bool enableRecording = true;
     public static bool enableWriting = false;
 
@@ -23,12 +23,12 @@ public static class DataRecorder
             string date = dateTimeOnStart.ToString("yyyy-MM-dd");
             string timeHours = dateTimeOnStart.ToString("HH");
             string timeMinutes = dateTimeOnStart.ToString("mm");
-            string fileName = "EmotiveVR_" + date + "_" + timeHours + "h" + timeMinutes + "_" + testerID + ".csv";
+            string fileName = "EmotiveVR_" + date + "_" + timeHours + "h" + timeMinutes + "_" + sessionID + ".csv";
             sw = new StreamWriter(fileName);
             sw.WriteLine("EMOTIVE VR DATA RECORDING");
             sw.WriteLine("Date (year-month-day): " + date);
             sw.WriteLine("Playback start time: " + timeHours + ":" + timeMinutes);
-            sw.WriteLine("Tester ID: " + testerID);
+            sw.WriteLine("Session ID: " + sessionID);
             sw.WriteLine("\n");
             sw.WriteLine("Time from playback start (s),Sequence name,Video clip name,Video time (s),GSR,Arousal peak power");
             sw.Flush();
