@@ -26,7 +26,7 @@ MonoBehaviour:
   thisIsFreud: 0
   thisIsKarl: 0
   sceneNameToLoad: 08_Epilogue
-  delayBeforeNextSequence: 120
+  delayBeforeNextSequence: 115
   soundBankName: EpiEndSoundBank
   audioEvtNames: []
   delay: 0

@@ -14,6 +14,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "StopPlayback",
+                    "type": "Button",
+                    "id": "c3a26a22-2057-4734-a099-a766bd05b150",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "ToggleSubtitlesPress",
                     "type": "Button",
                     "id": "d5b1047f-6473-4a0e-8641-080c521203a5",
@@ -73,6 +81,14 @@
                     "name": "ToggleInteractiveMusic",
                     "type": "Button",
                     "id": "1b3f418f-ada9-4cc3-a239-d00a11f092d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "QuitApplication",
+                    "type": "Button",
+                    "id": "b8ac7ebf-daaf-497f-9786-d731dc1c921e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -177,6 +193,72 @@
                     "action": "ToggleInteractiveMusic",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "2bdce997-a7bb-45b6-ada4-da3154d60803",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopPlayback",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "14a4875b-4658-4b02-84c1-2408ec5046d6",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopPlayback",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "83c9b7be-cda2-4a6d-b288-4fdb99abcdeb",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StopPlayback",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "27dc50ba-3a42-4c3b-88fe-b01c7dfb77d8",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitApplication",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "3f71e2ae-fa0c-4610-91eb-da8c673324b6",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitApplication",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "e847a30c-f68d-42ca-92ce-e12e4634e990",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitApplication",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

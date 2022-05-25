@@ -12,6 +12,7 @@ public class KeyboardControls : MonoBehaviour
     public GameObject operatorDataDisplay3;
     public GameObject pressSpace;
     public GameObject menuItems;
+    public GameObject syncSlate;
 
     bool keyPressedNeuLog = false;
     bool keyPressedSubtitles = false;
@@ -35,8 +36,31 @@ public class KeyboardControls : MonoBehaviour
             DirectorSequencer.Instance.cumulativeArousal = 0.0f;
 
             DataRecorder.StartRecording();
+
+            StartCoroutine(FlashSlate());
         }
     }
+
+    IEnumerator FlashSlate()
+    {
+        syncSlate.SetActive(true);
+        AkSoundEngine.PostEvent("PlayBeep", gameObject);
+
+        yield return new WaitForSeconds(0.06f);
+
+        syncSlate.SetActive(false);
+    }
+
+    public void StopPlayback()
+    {
+        DirectorSequencer.Instance.StopPlaybackReturnToSequence0();
+    }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
+    }
+
 
     public void ToggleMenu()
     {
