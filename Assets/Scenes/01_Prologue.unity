@@ -7061,6 +7061,7 @@ MonoBehaviour:
   - 77
   maxBurn: 0
   minBurn: 0
+  colorDark: {r: 0, g: 0, b: 0, a: 0}
   colorIdle: {r: 0.4528302, g: 0.11711125, b: 0, a: 1}
   colorInhale: {r: 1, g: 0.1764706, b: 0, a: 1}
 --- !u!1 &2080348777
