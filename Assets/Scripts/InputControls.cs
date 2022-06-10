@@ -105,6 +105,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""JumpToNextSequence"",
+                    ""type"": ""Button"",
+                    ""id"": ""5865ce83-b223-4c3c-b3d7-07d78b18de1c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -272,6 +280,39 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""QuitApplication"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Button With One Modifier"",
+                    ""id"": ""13feee39-0b7a-429c-a504-a6f4b720028b"",
+                    ""path"": ""ButtonWithOneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""JumpToNextSequence"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""ba5e0ae9-feca-4605-96f9-c6c59cc19d7d"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""JumpToNextSequence"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""button"",
+                    ""id"": ""aa0a7b3b-1af1-4628-9052-c48490fac5c9"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""JumpToNextSequence"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -291,6 +332,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_ToggleOperatorDataDisplay = m_Keyboard.FindAction("ToggleOperatorDataDisplay", throwIfNotFound: true);
         m_Keyboard_ToggleInteractiveMusic = m_Keyboard.FindAction("ToggleInteractiveMusic", throwIfNotFound: true);
         m_Keyboard_QuitApplication = m_Keyboard.FindAction("QuitApplication", throwIfNotFound: true);
+        m_Keyboard_JumpToNextSequence = m_Keyboard.FindAction("JumpToNextSequence", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -351,6 +393,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_ToggleOperatorDataDisplay;
     private readonly InputAction m_Keyboard_ToggleInteractiveMusic;
     private readonly InputAction m_Keyboard_QuitApplication;
+    private readonly InputAction m_Keyboard_JumpToNextSequence;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -366,6 +409,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @ToggleOperatorDataDisplay => m_Wrapper.m_Keyboard_ToggleOperatorDataDisplay;
         public InputAction @ToggleInteractiveMusic => m_Wrapper.m_Keyboard_ToggleInteractiveMusic;
         public InputAction @QuitApplication => m_Wrapper.m_Keyboard_QuitApplication;
+        public InputAction @JumpToNextSequence => m_Wrapper.m_Keyboard_JumpToNextSequence;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -408,6 +452,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @QuitApplication.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnQuitApplication;
                 @QuitApplication.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnQuitApplication;
                 @QuitApplication.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnQuitApplication;
+                @JumpToNextSequence.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
+                @JumpToNextSequence.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
+                @JumpToNextSequence.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -445,6 +492,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @QuitApplication.started += instance.OnQuitApplication;
                 @QuitApplication.performed += instance.OnQuitApplication;
                 @QuitApplication.canceled += instance.OnQuitApplication;
+                @JumpToNextSequence.started += instance.OnJumpToNextSequence;
+                @JumpToNextSequence.performed += instance.OnJumpToNextSequence;
+                @JumpToNextSequence.canceled += instance.OnJumpToNextSequence;
             }
         }
     }
@@ -462,5 +512,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnToggleOperatorDataDisplay(InputAction.CallbackContext context);
         void OnToggleInteractiveMusic(InputAction.CallbackContext context);
         void OnQuitApplication(InputAction.CallbackContext context);
+        void OnJumpToNextSequence(InputAction.CallbackContext context);
     }
 }

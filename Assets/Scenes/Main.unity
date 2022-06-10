@@ -19333,6 +19333,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b8ac7ebf-daaf-497f-9786-d731dc1c921e
     m_ActionName: Keyboard/QuitApplication[/Keyboard/shift,/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1371614973}
+        m_TargetAssemblyTypeName: KeyboardControls, Assembly-CSharp
+        m_MethodName: JumpToNextSequence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5865ce83-b223-4c3c-b3d7-07d78b18de1c
+    m_ActionName: Keyboard/JumpToNextSequence[/Keyboard/shift,/Keyboard/j]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Keyboard

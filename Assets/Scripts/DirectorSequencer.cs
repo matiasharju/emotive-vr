@@ -271,6 +271,18 @@ public class DirectorSequencer : MonoBehaviour
         StartCoroutine(Coroutine_FadeInBlack_VR());
     }
 
+    // WORK IN PROGRESS!!!
+    public void JumpToNextSequence()
+    {
+        float videoLength = (float)player.clip.length;
+        player.time = player.time + videoLength * 0.95;
+
+        if (currentSequence.delayBeforeNextSequence != 0)
+        {
+            StartCoroutine(Coroutine_FadeInBlack_VR());
+        }
+    }
+
     public void StopPlaybackReturnToSequence0()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

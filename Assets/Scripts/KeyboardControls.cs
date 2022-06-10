@@ -21,6 +21,7 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedInteractiveMusic = false;
     bool keyPressedStart = false;
     bool keyPressedMenu = false;
+    bool keyPressedJump = false;
 
 
     public void StartPlayback()
@@ -59,6 +60,20 @@ public class KeyboardControls : MonoBehaviour
     public void QuitApplication()
     {
         Application.Quit();
+    }
+
+    public void JumpToNextSequence()
+    {
+        if (!keyPressedJump)
+        {
+            DirectorSequencer.Instance.JumpToNextSequence();
+        }
+    }
+
+    IEnumerator releaseJumpButton()
+    {
+        yield return new WaitForSeconds(1);
+        keyPressedJump = false;
     }
 
 
