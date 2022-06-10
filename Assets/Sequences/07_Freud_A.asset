@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 07_Freud_A
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 0aaa81a69d874fb4c9a77562c801922c, type: 3}
+  clip: {fileID: 0}
   rt: {fileID: 8400000, guid: b5ba5d471d3d12c408bce8de8401b940, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
   showBackground: 0
   profile: {fileID: 11400000, guid: 679ac270e38d53646b1b4e6a63fbc0d2, type: 2}
   updateColorFromValence: 0
-  forceSynchronize: 1
+  forceSynchronize: 0
   timeValue: 0.5
   readSensorData: 1
   sensorDataStartTime: 59

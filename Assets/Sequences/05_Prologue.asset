@@ -35,7 +35,7 @@ MonoBehaviour:
   showBackground: 0
   profile: {fileID: 0}
   updateColorFromValence: 0
-  forceSynchronize: 1
+  forceSynchronize: 0
   timeValue: 0.5
   readSensorData: 1
   sensorDataStartTime: 0

@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 // Manage all audio and wwise events on the scene
 public class AudioManager : MonoBehaviour
@@ -11,9 +13,12 @@ public class AudioManager : MonoBehaviour
     // The current loaded soundbank
     public string currentBankName;
 
+    // The current Wwise audio event name
+    public string eventName;
+
     // The volume of the audio effect (for Wwise only)
     [Range(-50, 12)] public float audioVolume;
-    
+
     // The volume of the music (for Wwise only)
     [Range(-50, 12)] public float musicVolume;
 
@@ -28,23 +33,25 @@ public class AudioManager : MonoBehaviour
 
     //public float arousalFadeDownSpeed = 0.005f;
 
-    private void Start()
-    {
 
+    public void SeekAudio(int seekTimeMs)
+    {
+        AkSoundEngine.SeekOnEvent(AkSoundEngine.GetIDFromString(eventName), source, seekTimeMs);
+        Debug.Log("Audio seeked to: " + seekTimeMs + " ms");
     }
 
 
     // To load a soundbank with the name
     public void LoadSoundBank(string soundBankName)
     {
-        if(currentBankName != soundBankName)
+        if (currentBankName != soundBankName)
         {
             // Before load, we need to unload the previous soundbank
-            UnloadSoundBank(); 
+            UnloadSoundBank();
             currentBankName = soundBankName;
             AkBankManager.LoadBank(soundBankName, false, false);
         }
-       
+
     }
 
     // Unload the current soundBank
@@ -56,12 +63,34 @@ public class AudioManager : MonoBehaviour
         AkBankManager.UnloadBank(currentBankName);
     }
 
+
     // Set an audio event
     public void SetEvent(string evtName, float delay = 0)
     {
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("startDelay"), delay);
-        AkSoundEngine.PostEvent(evtName, source);  
+        //        AkSoundEngine.PostEvent(evtName, source);
+
+        object cookie = 0;
+        AkCallbackType CallbackType = AkCallbackType.AK_EnableGetSourcePlayPosition;
+
+        AkSoundEngine.PostEvent(evtName, source, (uint)CallbackType, EnableGetSourcePosition, cookie);
+
+        Debug.Log(Time.realtimeSinceStartup + " : Posted Wwise event: " + evtName);
+        eventName = evtName;
     }
+
+
+    void EnableGetSourcePosition(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
+    {
+        Debug.Log("Enabled GetSourcePosition");
+    }
+
+    public void GetAudioPosition()
+    {
+        AkSoundEngine.GetSourcePlayPosition(AkSoundEngine.GetIDFromString(eventName), out int position);
+        //Debug.Log(position);
+    }
+
 
     // Change the valence value
     public void SetNewValenceValue(float newValence)
@@ -114,6 +143,7 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ValenceLevel"), valence);
 
     }
+
 
 
 }

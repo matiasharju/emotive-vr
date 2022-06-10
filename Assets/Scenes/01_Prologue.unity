@@ -5010,6 +5010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cigar
       objectReference: {fileID: 0}
+    - target: {fileID: 7389075325874058788, guid: f0a7c660dc7c22b43a039bb091788320, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a7c660dc7c22b43a039bb091788320, type: 3}
 --- !u!1 &705368496

@@ -8,6 +8,10 @@ public class LevelLoadFinished : MonoBehaviour
     public GameObject menuItems;
     public GameObject pressSpaceUI;
     public GameObject loadScreenUI;
+    bool StartSceneLoaded = false;
+    bool MainSceneLoaded = false;
+    public NeuLogAPIRequest neuLogAPIScript;
+    bool done = false;
 
     private void Start()
     {
@@ -30,12 +34,32 @@ public class LevelLoadFinished : MonoBehaviour
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
+        Debug.Log("Level " + scene.name + " loaded");
+
+        if (scene.name == "Main")
+        {
+            MainSceneLoaded = true;
+            done = false;
+        };
+
+
         if (scene.name == "00_StartPlayback")
         {
-            Debug.Log("Level "+ scene.name + " loaded");
+            StartSceneLoaded = true;
+        };
+
+
+    }
+
+    private void Update()
+    {
+        if (!done && StartSceneLoaded && MainSceneLoaded && neuLogAPIScript.webRequestSent)
+        {
             if (loadScreenUI != null) loadScreenUI.SetActive(false);
             if (menuItems != null) menuItems.SetActive(true);
             if (pressSpaceUI != null) pressSpaceUI.SetActive(true);
+            done = true;
         }
+
     }
 }

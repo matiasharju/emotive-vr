@@ -819,6 +819,7 @@ MonoBehaviour:
   menuItems: {fileID: 533505771}
   pressSpaceUI: {fileID: 361195004}
   loadScreenUI: {fileID: 340034011}
+  neuLogAPIScript: {fileID: 1432712341}
 --- !u!4 &77408396
 Transform:
   m_ObjectHideFlags: 0
@@ -6113,6 +6114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1396236846}
   currentBankName: 
+  eventName: 
   audioVolume: 0
   musicVolume: 0
   valence: 0.5
@@ -8672,7 +8674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &646651074
 Transform:
   m_ObjectHideFlags: 0
@@ -8694,7 +8696,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646651073}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 137f67fa2937a5747b1908a054d691a9, type: 3}
   m_Name: 
@@ -10350,12 +10352,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'This version:
 
-    FREUD''S POINT OF VIEW ONLY
+    KARL''S POINT OF VIEW ONLY
 
 
 
-    SPACEBAR: Start
-    playback
+    SPACEBAR: Start playback
 
 '
 --- !u!222 &750094234
@@ -20395,6 +20396,7 @@ MonoBehaviour:
   NeuLogIP: 127.0.0.1
   NeuLogPort: 22004
   NeuLogRequest: NeuLogAPI?GetSensorValue:[GSR],[1]
+  webRequestSent: 0
 --- !u!4 &1432712342
 Transform:
   m_ObjectHideFlags: 0
@@ -24970,7 +24972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1794989399
 Transform:
   m_ObjectHideFlags: 0

@@ -139,6 +139,7 @@ public class DirectorSequencer : MonoBehaviour
 
         Invoke("StartEmotionalDataCoroutine", 1.0f);
 
+        StartCoroutine(SyncAudioToVideo());
     }
 
     private void StartEmotionalDataCoroutine()
@@ -215,7 +216,8 @@ public class DirectorSequencer : MonoBehaviour
             
             emotionalBar.GetComponent<EmotionBar>().UpdateBar(player.frame);
         }
-       
+
+//        audioManager.GetAudioPosition();
     }
 
     public void PlayFreud(FreudOrKarl choice)
@@ -391,6 +393,7 @@ public class DirectorSequencer : MonoBehaviour
 
 		play = true;
 		player.Play();
+        Debug.Log(Time.realtimeSinceStartup + " : Start video playback");
 
         if (currentSequence.thisIsFreud) FreudPlayed = true;
         if (currentSequence.thisIsKarl) KarlPlayed = true;
@@ -568,6 +571,18 @@ private void EndVideo(VideoPlayer vp)
 
         yield return null;
 
+    }
+
+    IEnumerator SyncAudioToVideo()
+    {
+        while(true)
+        {
+            int seekTimeMs = (int)(player.time * 1000);
+            if (currentSequence.thisIsFreud) audioManager.SeekAudio(seekTimeMs);
+            if (currentSequence.thisIsKarl) audioManager.SeekAudio(seekTimeMs);
+            Debug.Log("Video time: " + player.time + " s");
+            yield return new WaitForSeconds(3f);
+        }
     }
 
     IEnumerator CO_WaitVideoToLaunchAudio()

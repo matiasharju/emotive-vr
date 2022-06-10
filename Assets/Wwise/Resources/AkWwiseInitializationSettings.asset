@@ -72,5 +72,5 @@ MonoBehaviour:
     m_CommandPort: 0
     m_NotificationPort: 0
     m_InitializeSystemComms: 1
-    m_NetworkName: 
+    m_NetworkName: EmotiveVR
     m_commSystem: 0
