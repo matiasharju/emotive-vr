@@ -34,7 +34,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		376873
-	925514077	Prologue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_2022-06-27_AmbiX3-3		16208770
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	82948176	Karl_small_sounds	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Karl_small_sounds_7EB50B16.wem	82948176.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\Karl_small_sounds	
@@ -46,6 +45,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	596245445	Prologue_OldFreud_AmbiX	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem	596245445.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_OldFreud_AmbiX	
 	686559545	ActiveStrgs_Step1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ActiveStrgs_Step1_7EB50B16.wem	686559545.wem	\Interactive Music Hierarchy\Default Work Unit\OpeningCredits\ActiveStrgs_Step1	
 	916912912	ChoiceMusicNoLoop	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem	916912912.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\ChoiceMusicNoLoop	
+	925514077	Prologue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem	925514077.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_2022-06-27_AmbiX3-3	
 	936697932	VieuxFreud_Il_y_avait_lui_1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\VieuxFreud_Il_y_avait_lui_1_4064F83E.wem	936697932.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_1	
 	961796277	VieuxFreud_Il_y_avait_lui_2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem	961796277.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\OldFreud\VieuxFreud_Il_y_avait_lui_2	
 	985612366	Freud_small_sounds	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Freud_small_sounds_7EB50B16.wem	985612366.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\Freud_small_sounds	

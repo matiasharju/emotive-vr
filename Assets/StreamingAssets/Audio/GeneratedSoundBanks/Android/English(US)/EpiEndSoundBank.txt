@@ -26,7 +26,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	844826255	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Sine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	317076416	Epilogue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Epilogue\Epilogue_2022-06-27_AmbiX3-3		16101763
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		376873
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
@@ -38,6 +37,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	211600827	EndCreditMusic_2018-05-24_positive_violins2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem	211600827.wem	\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsPositive\EndCreditMusic_2018-05-24_positive_violins2	
 	280853858	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_02_1DE3917C.wem	280853858.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_02	
 	286182618	EndCreditMusic_2018-05-24_neutral_piano	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_piano_D10D53C6.wem	286182618.wem	\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_piano	
+	317076416	Epilogue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem	317076416.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Epilogue\Epilogue_2022-06-27_AmbiX3-3	
 	320466212	NeuroTheremin_15	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_15_1DE3917C.wem	320466212.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_15	
 	328051268	NeuroTheremin_01	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_01_1DE3917C.wem	328051268.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_01	
 	338622814	EndCreditMusic_2018-05-24_neutral_violins1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_violins1_D10D53C6.wem	338622814.wem	\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_violins1	

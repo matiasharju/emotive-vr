@@ -77,6 +77,10 @@
 			<ShortName>FreudB_2018-06-02_AmbiX2-2_add0.5seconds.wav</ShortName>
 			<Path>SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem</Path>
 		</File>
+		<File Id="317076416" Language="SFX">
+			<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
+			<Path>SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
+		</File>
 		<File Id="320455122" Language="SFX">
 			<ShortName>Freud_ALL_MoreActive_fromStart.wav</ShortName>
 			<Path>SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem</Path>
@@ -204,6 +208,10 @@
 		<File Id="916912912" Language="SFX">
 			<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
 			<Path>SFX\ChoiceMusic_2018-06-21_long_1DE3917C.wem</Path>
+		</File>
+		<File Id="925514077" Language="SFX">
+			<ShortName>Prologue_2022-06-27_AmbiX3-3.wav</ShortName>
+			<Path>SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 		</File>
 		<File Id="936697932" Language="SFX">
 			<ShortName>VieuxFreud_Il_y_avait_lui_1.wav</ShortName>
@@ -994,7 +1002,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="English(US)" Hash="2650629865">
+		<SoundBank Id="1053698777" Language="English(US)" Hash="203726287">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>English(US)\OpenProSoundBank.bnk</Path>
@@ -1078,13 +1086,11 @@
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
-					<IncludedMemoryFiles>
 						<File Id="925514077" Language="SFX">
 							<ShortName>Prologue_2022-06-27_AmbiX3-3.wav</ShortName>
 							<Path>SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
 					<ReferencedStreamedFiles>
@@ -1141,7 +1147,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="French" Hash="2650629865">
+		<SoundBank Id="1053698777" Language="French" Hash="203726287">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>French\OpenProSoundBank.bnk</Path>
@@ -1225,13 +1231,11 @@
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
-					<IncludedMemoryFiles>
 						<File Id="925514077" Language="SFX">
 							<ShortName>Prologue_2022-06-27_AmbiX3-3.wav</ShortName>
 							<Path>SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
 					<ReferencedStreamedFiles>
@@ -1513,7 +1517,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="English(US)" Hash="798197217">
+		<SoundBank Id="3192374405" Language="English(US)" Hash="1503321019">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>English(US)\EpiEndSoundBank.bnk</Path>
@@ -1676,12 +1680,12 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="317076416" Language="SFX">
 							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
 							<Path>SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -1701,7 +1705,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="French" Hash="798197217">
+		<SoundBank Id="3192374405" Language="French" Hash="1503321019">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>French\EpiEndSoundBank.bnk</Path>
@@ -1864,12 +1868,12 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="317076416" Language="SFX">
 							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
 							<Path>SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
