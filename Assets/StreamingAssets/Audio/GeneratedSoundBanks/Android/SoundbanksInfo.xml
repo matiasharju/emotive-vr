@@ -1002,7 +1002,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="English(US)" Hash="203726287">
+		<SoundBank Id="1053698777" Language="English(US)" Hash="1145400210">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>English(US)\OpenProSoundBank.bnk</Path>
@@ -1147,7 +1147,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="French" Hash="203726287">
+		<SoundBank Id="1053698777" Language="French" Hash="1145400210">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>French\OpenProSoundBank.bnk</Path>
@@ -1517,7 +1517,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="English(US)" Hash="1503321019">
+		<SoundBank Id="3192374405" Language="English(US)" Hash="1163517333">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>English(US)\EpiEndSoundBank.bnk</Path>
@@ -1679,7 +1679,7 @@
 						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
+				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
 					<ReferencedStreamedFiles>
 						<File Id="317076416" Language="SFX">
 							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
@@ -1705,7 +1705,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="French" Hash="1503321019">
+		<SoundBank Id="3192374405" Language="French" Hash="1163517333">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>French\EpiEndSoundBank.bnk</Path>
@@ -1867,7 +1867,7 @@
 						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
+				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
 					<ReferencedStreamedFiles>
 						<File Id="317076416" Language="SFX">
 							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
