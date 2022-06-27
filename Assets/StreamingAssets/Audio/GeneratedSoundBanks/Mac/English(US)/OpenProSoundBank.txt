@@ -34,6 +34,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
+	925514077	Prologue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Prologue\Prologue_2022-06-27_AmbiX3-3		16310809
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	82948176	Karl_small_sounds	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Mac\SFX\Karl_small_sounds_7EB50B16.wem	82948176.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Choix\Karl_small_sounds	

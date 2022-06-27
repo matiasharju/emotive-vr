@@ -26,6 +26,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	199410597	Ambisonic 3-3 Bus			\Default Work Unit\Master Audio Bus\Ambisonic 3-3 Bus	
 	512097367	Karl Spatial Hallucination Music Bus			\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus	
 	602705761	Freud HallucinationMusic Bus			\Default Work Unit\Master Audio Bus\Freud HallucinationMusic Bus	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
@@ -42,6 +43,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	178460936	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	294368286	Resonance_Audio_Renderer_(Custom)	Resonance Audio Renderer			
 	372425879	Freud_Flanger	Wwise Flanger			
 	516932076	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	806644700	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			

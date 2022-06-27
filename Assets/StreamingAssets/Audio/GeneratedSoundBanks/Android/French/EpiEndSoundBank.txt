@@ -26,6 +26,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	844826255	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Sine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	317076416	Epilogue_2022-06-27_AmbiX3-3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Epilogue\Epilogue_2022-06-27_AmbiX3-3		16101763
 	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		376873
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
@@ -51,5 +52,4 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	900798591	EndCreditMusic_2018-05-24_neutral_violins2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_violins2_D10D53C6.wem	900798591.wem	\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_neutral_violins2	
 	994951117	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\NeuroTheremin_07_1DE3917C.wem	994951117.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\EndCreditMusic\NeuroThereminEndCredits\NeuroTheremin_07	
 	1013148108	EndCreditMusic_2018-05-24_negativePianoBass	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\EndCreditMusic_2018-05-24_neutral_negativePnoBass_D10D53C6.wem	1013148108.wem	\Interactive Music Hierarchy\Default Work Unit\EndCreditsSwitch\EndCreditsNeutral\EndCreditMusic_2018-05-24_negativePianoBass	
-	1059116330	Epilogue_OldFreud_AmbiX2-2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Android\SFX\Epilogue_2018-05-06_AmbiX2-2_10DF790B.wem	1059116330.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Epilogue\Epilogue_OldFreud_AmbiX2-2	
 

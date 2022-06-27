@@ -257,10 +257,6 @@
 			<ShortName>KarlB_2018-05-06_AmbiX_add0.5seconds.wav</ShortName>
 			<Path>SFX\KarlB_2018-05-06_AmbiX_add0.5seconds_4087959D.wem</Path>
 		</File>
-		<File Id="1059116330" Language="SFX">
-			<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
-			<Path>SFX\Epilogue_2018-05-06_AmbiX2-2_A1F3BE0F.wem</Path>
-		</File>
 		<File Id="1072539586" Language="SFX">
 			<ShortName>Karl_music_hypno_theremin1.wav</ShortName>
 			<Path>SFX\Karl_music_hypno_theremin1_D10D53C6.wem</Path>
@@ -268,7 +264,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="237236122" Language="English(US)" Hash="3758202727">
+		<SoundBank Id="237236122" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\KarlSoundBank</ObjectPath>
 			<ShortName>KarlSoundBank</ShortName>
 			<Path>English(US)\KarlSoundBank.bnk</Path>
@@ -426,7 +422,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="237236122" Language="French" Hash="3758202727">
+		<SoundBank Id="237236122" Language="French">
 			<ObjectPath>\SoundBanks\Default Work Unit\KarlSoundBank</ObjectPath>
 			<ShortName>KarlSoundBank</ShortName>
 			<Path>French\KarlSoundBank.bnk</Path>
@@ -998,7 +994,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="English(US)">
+		<SoundBank Id="1053698777" Language="English(US)" Hash="2650629865">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>English(US)\OpenProSoundBank.bnk</Path>
@@ -1082,11 +1078,13 @@
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 						</File>
-						<File Id="596245445" Language="SFX">
-							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
-							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
-						</File>
 					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="925514077" Language="SFX">
+							<ShortName>Prologue_2022-06-27_AmbiX3-3.wav</ShortName>
+							<Path>SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
 					<ReferencedStreamedFiles>
@@ -1143,7 +1141,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="French">
+		<SoundBank Id="1053698777" Language="French" Hash="2650629865">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>French\OpenProSoundBank.bnk</Path>
@@ -1227,11 +1225,13 @@
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 						</File>
-						<File Id="596245445" Language="SFX">
-							<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
-							<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
-						</File>
 					</ReferencedStreamedFiles>
+					<IncludedMemoryFiles>
+						<File Id="925514077" Language="SFX">
+							<ShortName>Prologue_2022-06-27_AmbiX3-3.wav</ShortName>
+							<Path>SFX\Prologue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="862099911" Name="PlayPrologueNoLoop" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologueNoLoop" DurationType="OneShot" DurationMin="263.357056" DurationMax="263.357056">
 					<ReferencedStreamedFiles>
@@ -1288,7 +1288,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="109092422">
+		<SoundBank Id="1355168291" Language="SFX" Hash="144882072">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -1303,7 +1303,7 @@
 				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="English(US)" Hash="3040564835">
+		<SoundBank Id="1916941780" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>English(US)\FreudSoundBank.bnk</Path>
@@ -1408,7 +1408,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="French" Hash="3040564835">
+		<SoundBank Id="1916941780" Language="French">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>French\FreudSoundBank.bnk</Path>
@@ -1513,7 +1513,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="English(US)">
+		<SoundBank Id="3192374405" Language="English(US)" Hash="798197217">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>English(US)\EpiEndSoundBank.bnk</Path>
@@ -1675,13 +1675,13 @@
 						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="114.295952" DurationMax="114.295952">
-					<ReferencedStreamedFiles>
-						<File Id="1059116330" Language="SFX">
-							<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
-							<Path>SFX\Epilogue_2018-05-06_AmbiX2-2_A1F3BE0F.wem</Path>
+				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
+					<IncludedMemoryFiles>
+						<File Id="317076416" Language="SFX">
+							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
+							<Path>SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -1701,7 +1701,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="French">
+		<SoundBank Id="3192374405" Language="French" Hash="798197217">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>French\EpiEndSoundBank.bnk</Path>
@@ -1863,13 +1863,13 @@
 						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="114.295952" DurationMax="114.295952">
-					<ReferencedStreamedFiles>
-						<File Id="1059116330" Language="SFX">
-							<ShortName>Epilogue_2018-05-06_AmbiX2-2.wav</ShortName>
-							<Path>SFX\Epilogue_2018-05-06_AmbiX2-2_A1F3BE0F.wem</Path>
+				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
+					<IncludedMemoryFiles>
+						<File Id="317076416" Language="SFX">
+							<ShortName>Epilogue_2022-06-27_AmbiX3-3.wav</ShortName>
+							<Path>SFX\Epilogue_2022-06-27_AmbiX3-3_158960FE.wem</Path>
 						</File>
-					</ReferencedStreamedFiles>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
