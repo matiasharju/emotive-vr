@@ -25,6 +25,7 @@ MonoBehaviour:
   epilogue: 0
   thisIsFreud: 1
   thisIsKarl: 0
+  thisIsStartScene: 0
   sceneNameToLoad: 
   delayBeforeNextSequence: 0
   soundBankName: FreudSoundBank

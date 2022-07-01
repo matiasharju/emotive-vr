@@ -18,10 +18,11 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedSubtitles = false;
     bool keyPressedDataDisplay = false;
     bool keyPressedOperatorDataDisplay = false;
-    bool keyPressedInteractiveMusic = false;
+    bool keyPressedInteractive = false;
     bool keyPressedStart = false;
     bool keyPressedMenu = false;
     bool keyPressedJump = false;
+    bool keyPressedSync = false;
 
 
     public void StartPlayback()
@@ -62,11 +63,29 @@ public class KeyboardControls : MonoBehaviour
         Application.Quit();
     }
 
+
+    public void SyncAudioToVideo()
+    {
+        if (!keyPressedSync)
+        {
+            DirectorSequencer.Instance.SyncAudioToVideo();
+            StartCoroutine(releaseSyncButton());
+        }
+    }
+
+    IEnumerator releaseSyncButton()
+    {
+        yield return new WaitForSeconds(1);
+        keyPressedSync = false;
+    }
+
+
     public void JumpToNextSequence()
     {
         if (!keyPressedJump)
         {
             DirectorSequencer.Instance.JumpToNextSequence();
+            StartCoroutine(releaseJumpButton());
         }
     }
 
@@ -213,28 +232,41 @@ public class KeyboardControls : MonoBehaviour
         keyPressedOperatorDataDisplay = false;
     }
 
-    public void ToggleInteractiveMusic()
+    public void ToggleInteractive()
     {
-        if (!keyPressedInteractiveMusic)
+        if (!keyPressedInteractive)
         {
-            keyPressedInteractiveMusic = true;
+            keyPressedInteractive = true;
 
             if (DirectorSequencer.Instance.enableInteractiveMusic)
             {
                 DirectorSequencer.Instance.enableInteractiveMusic = false;
+
+                if (emotionalTableParentObject != null)
+                {
+                    emotionalTableParentObject.SetActive(false);
+                    telemetryElementsParentObject.SetActive(false);
+                }
             }
             else if (!DirectorSequencer.Instance.enableInteractiveMusic)
             {
                 DirectorSequencer.Instance.enableInteractiveMusic = true;
+
+                if (emotionalTableParentObject != null)
+                {
+                    emotionalTableParentObject.SetActive(true);
+                    telemetryElementsParentObject.SetActive(true);
+                }
+
             }
 
-            StartCoroutine(releaseInteractiveMusicButton());
+        StartCoroutine(releaseInteractiveButton());
         }
     }
-    IEnumerator releaseInteractiveMusicButton()
+    IEnumerator releaseInteractiveButton()
     {
         yield return new WaitForSeconds(1);
-        keyPressedInteractiveMusic = false;
+        keyPressedInteractive = false;
     }
 
     public void IncreaseGSRCalibrationValue()

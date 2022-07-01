@@ -25,6 +25,7 @@ MonoBehaviour:
   epilogue: 0
   thisIsFreud: 0
   thisIsKarl: 0
+  thisIsStartScene: 1
   sceneNameToLoad: 00_StartPlayback
   delayBeforeNextSequence: 0
   soundBankName: OpenProSoundBank

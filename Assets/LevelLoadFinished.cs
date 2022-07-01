@@ -10,7 +10,6 @@ public class LevelLoadFinished : MonoBehaviour
     public GameObject loadScreenUI;
     bool StartSceneLoaded = false;
     bool MainSceneLoaded = false;
-    public NeuLogAPIRequest neuLogAPIScript;
     bool done = false;
 
     private void Start()
@@ -53,7 +52,7 @@ public class LevelLoadFinished : MonoBehaviour
 
     private void Update()
     {
-        if (!done && StartSceneLoaded && MainSceneLoaded && neuLogAPIScript.webRequestSent)
+        if (!done && StartSceneLoaded && MainSceneLoaded)
         {
             if (loadScreenUI != null) loadScreenUI.SetActive(false);
             if (menuItems != null) menuItems.SetActive(true);

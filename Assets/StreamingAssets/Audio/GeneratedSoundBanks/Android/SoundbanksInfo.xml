@@ -61,13 +61,33 @@
 			<ShortName>EndCreditMusic_2018-05-24_positive_violins2.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem</Path>
 		</File>
+		<File Id="231586404" Language="SFX">
+			<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window.wav</ShortName>
+			<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window_158960FE.wem</Path>
+		</File>
 		<File Id="247385258" Language="SFX">
 			<ShortName>Introduction1_Voiceover_2018-04-21.wav</ShortName>
 			<Path>SFX\Introduction1_Voiceover_2018-04-21_1DE3917C.wem</Path>
 		</File>
+		<File Id="265891501" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Cymbal.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem</Path>
+		</File>
+		<File Id="269255137" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Piano.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Piano_7EB50B16.wem</Path>
+		</File>
+		<File Id="280153882" Language="SFX">
+			<ShortName>Prologue_2022-07_01_AmbiX_3rdOrder_v5.wav</ShortName>
+			<Path>SFX\Prologue_2022-07_01_AmbiX_3rdOrder_v5_158960FE.wem</Path>
+		</File>
 		<File Id="280853858" Language="SFX">
 			<ShortName>NeuroTheremin_02.wav</ShortName>
 			<Path>SFX\NeuroTheremin_02_1DE3917C.wem</Path>
+		</File>
+		<File Id="282812980" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Cello.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Cello_7EB50B16.wem</Path>
 		</File>
 		<File Id="286182618" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_neutral_piano.wav</ShortName>
@@ -109,6 +129,10 @@
 			<ShortName>EndCreditMusic_2018-05-24_postivePizziTrill.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_postivePizziTrill_D10D53C6.wem</Path>
 		</File>
+		<File Id="446601149" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Vibes.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem</Path>
+		</File>
 		<File Id="497011185" Language="SFX">
 			<ShortName>NeuroTheremin_03.wav</ShortName>
 			<Path>SFX\NeuroTheremin_03_1DE3917C.wem</Path>
@@ -129,10 +153,6 @@
 			<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 			<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 		</File>
-		<File Id="561195569" Language="SFX">
-			<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-			<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
-		</File>
 		<File Id="572517655" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_neutral_softStrings.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_neutral_softStrings_D10D53C6.wem</Path>
@@ -152,10 +172,6 @@
 		<File Id="610501190" Language="SFX">
 			<ShortName>Freud_ALL_Calm_fromStart.wav</ShortName>
 			<Path>SFX\Freud_ALL_Calm_fromStart_34D9B405.wem</Path>
-		</File>
-		<File Id="613571474" Language="SFX">
-			<ShortName>KarlHallucination_piano.wav</ShortName>
-			<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
 		</File>
 		<File Id="633365506" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_neutral_theremin.wav</ShortName>
@@ -193,6 +209,10 @@
 			<ShortName>Freud_ALL_fromStart_ActiveStep1.wav</ShortName>
 			<Path>SFX\Freud_ALL_fromStart_ActiveStep1_34D9B405.wem</Path>
 		</File>
+		<File Id="828371417" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Violin2.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem</Path>
+		</File>
 		<File Id="843648995" Language="SFX">
 			<ShortName>KarlHallucination_bass_higher.wav</ShortName>
 			<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
@@ -217,13 +237,13 @@
 			<ShortName>Karl_2018-07-22_Headlocked_add0.5seconds.wav</ShortName>
 			<Path>SFX\Karl_2018-07-22_Headlocked_add0.5seconds_1752715B.wem</Path>
 		</File>
-		<File Id="953685893" Language="SFX">
-			<ShortName>Prologue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-			<Path>SFX\Prologue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
-		</File>
 		<File Id="961796277" Language="SFX">
 			<ShortName>VieuxFreud_Il_y_avait_lui_2.wav</ShortName>
 			<Path>SFX\VieuxFreud_Il_y_avait_lui_2_4064F83E.wem</Path>
+		</File>
+		<File Id="969323216" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Violin1.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem</Path>
 		</File>
 		<File Id="982226890" Language="SFX">
 			<ShortName>Freud_2018-05-06_Headlocked_add0.5seconds.wav</ShortName>
@@ -236,6 +256,10 @@
 		<File Id="985612366" Language="SFX">
 			<ShortName>Freud_small_sounds.wav</ShortName>
 			<Path>SFX\Freud_small_sounds_7EB50B16.wem</Path>
+		</File>
+		<File Id="993969215" Language="SFX">
+			<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
+			<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
 		</File>
 		<File Id="994951117" Language="SFX">
 			<ShortName>NeuroTheremin_07.wav</ShortName>
@@ -252,6 +276,10 @@
 		<File Id="1013148108" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_neutral_negativePnoBass.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_neutral_negativePnoBass_D10D53C6.wem</Path>
+		</File>
+		<File Id="1015226438" Language="SFX">
+			<ShortName>KarlHallucination_Slow_Piano.wav</ShortName>
+			<Path>SFX\KarlHallucination_Slow_Piano_7EB50B16.wem</Path>
 		</File>
 		<File Id="1019554246" Language="SFX">
 			<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
@@ -320,17 +348,29 @@
 							<ShortName>KarlHallucination_bass.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
 						</File>
+						<File Id="265891501" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cymbal.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem</Path>
+						</File>
+						<File Id="269255137" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Piano_7EB50B16.wem</Path>
+						</File>
+						<File Id="282812980" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cello.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cello_7EB50B16.wem</Path>
+						</File>
 						<File Id="367692447" Language="SFX">
 							<ShortName>KarlHallucination_violins2.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
 						</File>
+						<File Id="446601149" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Vibes.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem</Path>
+						</File>
 						<File Id="514229645" Language="SFX">
 							<ShortName>KarlHallucination_celli.wav</ShortName>
 							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
-						</File>
-						<File Id="613571474" Language="SFX">
-							<ShortName>KarlHallucination_piano.wav</ShortName>
-							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
 						</File>
 						<File Id="637122654" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
@@ -344,13 +384,29 @@
 							<ShortName>KarlB_2018-07-22_Headlocked_add0.5seconds.wav</ShortName>
 							<Path>SFX\KarlB_2018-07-22_Headlocked_add0.5seconds_1752715B.wem</Path>
 						</File>
+						<File Id="828371417" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin2.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem</Path>
+						</File>
 						<File Id="843648995" Language="SFX">
 							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
 						</File>
+						<File Id="969323216" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin1.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem</Path>
+						</File>
+						<File Id="993969215" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
+						</File>
 						<File Id="1008580489" Language="SFX">
 							<ShortName>KarlHallucination_violas.wav</ShortName>
 							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1015226438" Language="SFX">
+							<ShortName>KarlHallucination_Slow_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Slow_Piano_7EB50B16.wem</Path>
 						</File>
 						<File Id="1019554246" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
@@ -384,17 +440,29 @@
 							<ShortName>KarlHallucination_bass.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
 						</File>
+						<File Id="265891501" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cymbal.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem</Path>
+						</File>
+						<File Id="269255137" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Piano_7EB50B16.wem</Path>
+						</File>
+						<File Id="282812980" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cello.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cello_7EB50B16.wem</Path>
+						</File>
 						<File Id="367692447" Language="SFX">
 							<ShortName>KarlHallucination_violins2.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
 						</File>
+						<File Id="446601149" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Vibes.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem</Path>
+						</File>
 						<File Id="514229645" Language="SFX">
 							<ShortName>KarlHallucination_celli.wav</ShortName>
 							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
-						</File>
-						<File Id="613571474" Language="SFX">
-							<ShortName>KarlHallucination_piano.wav</ShortName>
-							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
 						</File>
 						<File Id="637122654" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
@@ -404,13 +472,29 @@
 							<ShortName>KarlHallucination_violins1.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
 						</File>
+						<File Id="828371417" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin2.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem</Path>
+						</File>
 						<File Id="843648995" Language="SFX">
 							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
 						</File>
+						<File Id="969323216" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin1.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem</Path>
+						</File>
+						<File Id="993969215" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
+						</File>
 						<File Id="1008580489" Language="SFX">
 							<ShortName>KarlHallucination_violas.wav</ShortName>
 							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1015226438" Language="SFX">
+							<ShortName>KarlHallucination_Slow_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Slow_Piano_7EB50B16.wem</Path>
 						</File>
 						<File Id="1019554246" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
@@ -426,7 +510,6 @@
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
-				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
@@ -478,17 +561,29 @@
 							<ShortName>KarlHallucination_bass.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
 						</File>
+						<File Id="265891501" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cymbal.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem</Path>
+						</File>
+						<File Id="269255137" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Piano_7EB50B16.wem</Path>
+						</File>
+						<File Id="282812980" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cello.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cello_7EB50B16.wem</Path>
+						</File>
 						<File Id="367692447" Language="SFX">
 							<ShortName>KarlHallucination_violins2.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
 						</File>
+						<File Id="446601149" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Vibes.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem</Path>
+						</File>
 						<File Id="514229645" Language="SFX">
 							<ShortName>KarlHallucination_celli.wav</ShortName>
 							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
-						</File>
-						<File Id="613571474" Language="SFX">
-							<ShortName>KarlHallucination_piano.wav</ShortName>
-							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
 						</File>
 						<File Id="637122654" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
@@ -502,13 +597,29 @@
 							<ShortName>KarlB_2018-07-22_Headlocked_add0.5seconds.wav</ShortName>
 							<Path>SFX\KarlB_2018-07-22_Headlocked_add0.5seconds_1752715B.wem</Path>
 						</File>
+						<File Id="828371417" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin2.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem</Path>
+						</File>
 						<File Id="843648995" Language="SFX">
 							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
 						</File>
+						<File Id="969323216" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin1.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem</Path>
+						</File>
+						<File Id="993969215" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
+						</File>
 						<File Id="1008580489" Language="SFX">
 							<ShortName>KarlHallucination_violas.wav</ShortName>
 							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1015226438" Language="SFX">
+							<ShortName>KarlHallucination_Slow_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Slow_Piano_7EB50B16.wem</Path>
 						</File>
 						<File Id="1019554246" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
@@ -542,17 +653,29 @@
 							<ShortName>KarlHallucination_bass.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_D10D53C6.wem</Path>
 						</File>
+						<File Id="265891501" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cymbal.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem</Path>
+						</File>
+						<File Id="269255137" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Piano_7EB50B16.wem</Path>
+						</File>
+						<File Id="282812980" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Cello.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Cello_7EB50B16.wem</Path>
+						</File>
 						<File Id="367692447" Language="SFX">
 							<ShortName>KarlHallucination_violins2.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
 						</File>
+						<File Id="446601149" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Vibes.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem</Path>
+						</File>
 						<File Id="514229645" Language="SFX">
 							<ShortName>KarlHallucination_celli.wav</ShortName>
 							<Path>SFX\KarlHallucination_celli_D10D53C6.wem</Path>
-						</File>
-						<File Id="613571474" Language="SFX">
-							<ShortName>KarlHallucination_piano.wav</ShortName>
-							<Path>SFX\KarlHallucination_piano_D10D53C6.wem</Path>
 						</File>
 						<File Id="637122654" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
@@ -562,13 +685,29 @@
 							<ShortName>KarlHallucination_violins1.wav</ShortName>
 							<Path>SFX\KarlHallucination_violins1_D10D53C6.wem</Path>
 						</File>
+						<File Id="828371417" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin2.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem</Path>
+						</File>
 						<File Id="843648995" Language="SFX">
 							<ShortName>KarlHallucination_bass_higher.wav</ShortName>
 							<Path>SFX\KarlHallucination_bass_higher_D10D53C6.wem</Path>
 						</File>
+						<File Id="969323216" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Violin1.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem</Path>
+						</File>
+						<File Id="993969215" Language="SFX">
+							<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
+							<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
+						</File>
 						<File Id="1008580489" Language="SFX">
 							<ShortName>KarlHallucination_violas.wav</ShortName>
 							<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
+						</File>
+						<File Id="1015226438" Language="SFX">
+							<ShortName>KarlHallucination_Slow_Piano.wav</ShortName>
+							<Path>SFX\KarlHallucination_Slow_Piano_7EB50B16.wem</Path>
 						</File>
 						<File Id="1019554246" Language="SFX">
 							<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
@@ -584,7 +723,6 @@
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
-				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
@@ -1002,7 +1140,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="English(US)" Hash="2160933741">
+		<SoundBank Id="1053698777" Language="English(US)" Hash="584975839">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>English(US)\OpenProSoundBank.bnk</Path>
@@ -1082,13 +1220,13 @@
 				</Event>
 				<Event Id="1486414576" Name="PlayPrologue" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologue" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="280153882" Language="SFX">
+							<ShortName>Prologue_2022-07_01_AmbiX_3rdOrder_v5.wav</ShortName>
+							<Path>SFX\Prologue_2022-07_01_AmbiX_3rdOrder_v5_158960FE.wem</Path>
+						</File>
 						<File Id="556146288" Language="SFX">
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
-						</File>
-						<File Id="953685893" Language="SFX">
-							<ShortName>Prologue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-							<Path>SFX\Prologue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
@@ -1147,7 +1285,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1053698777" Language="French" Hash="2160933741">
+		<SoundBank Id="1053698777" Language="French" Hash="584975839">
 			<ObjectPath>\SoundBanks\Default Work Unit\OpenProSoundBank</ObjectPath>
 			<ShortName>OpenProSoundBank</ShortName>
 			<Path>French\OpenProSoundBank.bnk</Path>
@@ -1227,13 +1365,13 @@
 				</Event>
 				<Event Id="1486414576" Name="PlayPrologue" ObjectPath="\Events\Default Work Unit\03_Prologue\PlayPrologue" DurationType="Infinite">
 					<ReferencedStreamedFiles>
+						<File Id="280153882" Language="SFX">
+							<ShortName>Prologue_2022-07_01_AmbiX_3rdOrder_v5.wav</ShortName>
+							<Path>SFX\Prologue_2022-07_01_AmbiX_3rdOrder_v5_158960FE.wem</Path>
+						</File>
 						<File Id="556146288" Language="SFX">
 							<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 							<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
-						</File>
-						<File Id="953685893" Language="SFX">
-							<ShortName>Prologue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-							<Path>SFX\Prologue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
@@ -1517,7 +1655,7 @@
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="English(US)" Hash="2169130340">
+		<SoundBank Id="3192374405" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>English(US)\EpiEndSoundBank.bnk</Path>
@@ -1681,9 +1819,9 @@
 				</Event>
 				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
 					<ReferencedStreamedFiles>
-						<File Id="561195569" Language="SFX">
-							<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-							<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
+						<File Id="231586404" Language="SFX">
+							<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window.wav</ShortName>
+							<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window_158960FE.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>
@@ -1705,7 +1843,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3192374405" Language="French" Hash="2169130340">
+		<SoundBank Id="3192374405" Language="French">
 			<ObjectPath>\SoundBanks\Default Work Unit\EpiEndSoundBank</ObjectPath>
 			<ShortName>EpiEndSoundBank</ShortName>
 			<Path>French\EpiEndSoundBank.bnk</Path>
@@ -1869,9 +2007,9 @@
 				</Event>
 				<Event Id="2664430727" Name="PlayEpilogue" ObjectPath="\Events\Default Work Unit\07_Epilogue\PlayEpilogue" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="119.667000" DurationMax="119.667000">
 					<ReferencedStreamedFiles>
-						<File Id="561195569" Language="SFX">
-							<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v2.wav</ShortName>
-							<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v2_158960FE.wem</Path>
+						<File Id="231586404" Language="SFX">
+							<ShortName>Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window.wav</ShortName>
+							<Path>SFX\Epilogue_2022-06-27_AmbiX_3rdOrder_v5_window_158960FE.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
 				</Event>

@@ -139,7 +139,7 @@ public class DirectorSequencer : MonoBehaviour
 
         Invoke("StartEmotionalDataCoroutine", 1.0f);
 
-        StartCoroutine(SyncAudioToVideo());
+//        StartCoroutine(SyncAudioToVideoContinuously());
     }
 
     private void StartEmotionalDataCoroutine()
@@ -585,14 +585,23 @@ private void EndVideo(VideoPlayer vp)
 
     }
 
-    IEnumerator SyncAudioToVideo()
+
+    // sync audio to video
+    public void SyncAudioToVideo()
+    {
+        int seekTimeMs = (int)(player.time * 1000);
+        if (currentSequence.thisIsFreud) audioManager.SeekAudio(seekTimeMs);
+        if (currentSequence.thisIsKarl) audioManager.SeekAudio(seekTimeMs);
+        Debug.Log("Video time: " + player.time + " s");
+    }
+
+
+    // for continuous syncing of audio+video (may cause clips)
+    IEnumerator SyncAudioToVideoContinuously()
     {
         while(true)
         {
-            int seekTimeMs = (int)(player.time * 1000);
-            if (currentSequence.thisIsFreud) audioManager.SeekAudio(seekTimeMs);
-            if (currentSequence.thisIsKarl) audioManager.SeekAudio(seekTimeMs);
-            Debug.Log("Video time: " + player.time + " s");
+            SyncAudioToVideo();
             yield return new WaitForSeconds(3f);
         }
     }

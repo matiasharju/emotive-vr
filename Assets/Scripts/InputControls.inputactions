@@ -100,6 +100,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "SyncAudioToVideo",
+                    "type": "Button",
+                    "id": "479e59b2-9056-4015-9ecf-55c878d4ebe8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -128,7 +136,7 @@
                 {
                     "name": "",
                     "id": "7bc0ab86-f7b4-4b33-8467-8e7ce7259d48",
-                    "path": "<Keyboard>/f2",
+                    "path": "<Keyboard>/f4",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -194,7 +202,7 @@
                 {
                     "name": "",
                     "id": "741537e9-faed-4977-82dd-f52cc81faaba",
-                    "path": "<Keyboard>/f4",
+                    "path": "<Keyboard>/f2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -300,6 +308,17 @@
                     "action": "JumpToNextSequence",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e88dd562-d74f-4170-9862-c55e745aab20",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SyncAudioToVideo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

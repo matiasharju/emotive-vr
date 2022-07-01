@@ -113,6 +113,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""SyncAudioToVideo"",
+                    ""type"": ""Button"",
+                    ""id"": ""479e59b2-9056-4015-9ecf-55c878d4ebe8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -141,7 +149,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7bc0ab86-f7b4-4b33-8467-8e7ce7259d48"",
-                    ""path"": ""<Keyboard>/f2"",
+                    ""path"": ""<Keyboard>/f4"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -207,7 +215,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""741537e9-faed-4977-82dd-f52cc81faaba"",
-                    ""path"": ""<Keyboard>/f4"",
+                    ""path"": ""<Keyboard>/f2"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -313,6 +321,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""JumpToNextSequence"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e88dd562-d74f-4170-9862-c55e745aab20"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SyncAudioToVideo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -333,6 +352,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_ToggleInteractiveMusic = m_Keyboard.FindAction("ToggleInteractiveMusic", throwIfNotFound: true);
         m_Keyboard_QuitApplication = m_Keyboard.FindAction("QuitApplication", throwIfNotFound: true);
         m_Keyboard_JumpToNextSequence = m_Keyboard.FindAction("JumpToNextSequence", throwIfNotFound: true);
+        m_Keyboard_SyncAudioToVideo = m_Keyboard.FindAction("SyncAudioToVideo", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -394,6 +414,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_ToggleInteractiveMusic;
     private readonly InputAction m_Keyboard_QuitApplication;
     private readonly InputAction m_Keyboard_JumpToNextSequence;
+    private readonly InputAction m_Keyboard_SyncAudioToVideo;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -410,6 +431,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @ToggleInteractiveMusic => m_Wrapper.m_Keyboard_ToggleInteractiveMusic;
         public InputAction @QuitApplication => m_Wrapper.m_Keyboard_QuitApplication;
         public InputAction @JumpToNextSequence => m_Wrapper.m_Keyboard_JumpToNextSequence;
+        public InputAction @SyncAudioToVideo => m_Wrapper.m_Keyboard_SyncAudioToVideo;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -455,6 +477,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @JumpToNextSequence.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
                 @JumpToNextSequence.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
                 @JumpToNextSequence.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnJumpToNextSequence;
+                @SyncAudioToVideo.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
+                @SyncAudioToVideo.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
+                @SyncAudioToVideo.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -495,6 +520,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @JumpToNextSequence.started += instance.OnJumpToNextSequence;
                 @JumpToNextSequence.performed += instance.OnJumpToNextSequence;
                 @JumpToNextSequence.canceled += instance.OnJumpToNextSequence;
+                @SyncAudioToVideo.started += instance.OnSyncAudioToVideo;
+                @SyncAudioToVideo.performed += instance.OnSyncAudioToVideo;
+                @SyncAudioToVideo.canceled += instance.OnSyncAudioToVideo;
             }
         }
     }
@@ -513,5 +541,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnToggleInteractiveMusic(InputAction.CallbackContext context);
         void OnQuitApplication(InputAction.CallbackContext context);
         void OnJumpToNextSequence(InputAction.CallbackContext context);
+        void OnSyncAudioToVideo(InputAction.CallbackContext context);
     }
 }

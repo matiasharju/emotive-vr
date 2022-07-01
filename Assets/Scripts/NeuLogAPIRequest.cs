@@ -8,11 +8,9 @@ public class NeuLogAPIRequest : MonoBehaviour
     public string NeuLogIP = "127.0.0.1";
     public string NeuLogPort = "22004";
     public string NeuLogRequest = "NeuLogAPI?GetSensorValue:[GSR],[1]";
-    public bool webRequestSent = false;
 
     public void RequestArousalFromNeuLog()
     {
-        webRequestSent = true;
         StartCoroutine(SendHTTPRequest("http://" + NeuLogIP + ":" + NeuLogPort + "/" + NeuLogRequest));
     }
 

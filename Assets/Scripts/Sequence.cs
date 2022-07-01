@@ -33,6 +33,7 @@ public class Sequence : ScriptableObject
     public bool epilogue;
     public bool thisIsFreud;
     public bool thisIsKarl;
+    public bool thisIsStartScene;
 
     [Header("Additional Behaviors")]
     public string sceneNameToLoad;
