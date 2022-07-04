@@ -1,0 +1,46 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2845561435	PlayArousalTestMusic			\Default Work Unit\Common\PlayArousalTestMusic	
+	3043762247	PlayBeep			\Default Work Unit\Common\PlayBeep	
+	3086540886	StopAll			\Default Work Unit\Common\StopAll	
+	3240900869	ResumeAll			\Default Work Unit\Common\ResumeAll	
+	3334910481	PlayKarlAudio			\Default Work Unit\06_KarlSequence\PlayKarlAudio	
+	3698975080	GreetingsFromHelsinki			\Default Work Unit\Common\GreetingsFromHelsinki	
+	3934384867	PlayBreathing			\Default Work Unit\Common\PlayBreathing	
+	4091047182	PauseAll			\Default Work Unit\Common\PauseAll	
+	4224340129	PlayKarlAudioB			\Default Work Unit\06_KarlSequence\PlayKarlAudioB	
+	4236082638	PlayKarlMusic			\Default Work Unit\06_KarlSequence\PlayKarlMusic	
+	4284960165	PlayHeartbeat			\Default Work Unit\Common\PlayHeartbeat	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
+	686829110	KarlB_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlB_2018-07-22_Headlocked_add0.5seconds_1752715B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\KarlB_Headlocked		2880
+	732418468	Karl_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_2018-07-22_AmbiX_add0.5seconds_4087959D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\Karl_Ambisonic		5081
+	938836479	Karl_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_2018-07-22_Headlocked_add0.5seconds_1752715B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\Karl_Headlocked		5100
+	1044095283	KarlB_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlB_2018-05-06_AmbiX_add0.5seconds_4087959D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\KarlB_Ambisonic		2753
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	120029847	Karl_music_hypno_bass	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_bass_D10D53C6.wem	120029847.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_bass	
+	265891501	KarlHallucination_Fast_Cymbal	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Cymbal_7EB50B16.wem	265891501.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Cymbal	
+	269255137	KarlHallucination_Fast_Piano	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Piano_7EB50B16.wem	269255137.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Piano	
+	282812980	KarlHallucination_Fast_Cello	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Cello_7EB50B16.wem	282812980.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Cello	
+	367692447	Karl_music_hypno_vl2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_violins2_D10D53C6.wem	367692447.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_vl2	
+	446601149	KarlHallucination_Fast_Vibes	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Vibes_7EB50B16.wem	446601149.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Vibes	
+	514229645	Karl_music_hypno_vlc	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_celli_D10D53C6.wem	514229645.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_vlc	
+	637122654	Karl_music_hypno_theremin2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_music_hypno_theremin2_D10D53C6.wem	637122654.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_theremin2	
+	649381780	Karl_music_hypno_vl1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_violins1_D10D53C6.wem	649381780.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_vl1	
+	686829110	KarlB_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlB_2018-07-22_Headlocked_add0.5seconds_1752715B.wem	686829110.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\KarlB_Headlocked	
+	732418468	Karl_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_2018-07-22_AmbiX_add0.5seconds_4087959D.wem	732418468.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\Karl_Ambisonic	
+	828371417	KarlHallucination_Fast_Violin2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Violin2_7EB50B16.wem	828371417.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Violin2	
+	843648995	Karl_bass_higher	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_bass_higher_D10D53C6.wem	843648995.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_bass_higher	
+	938836479	Karl_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_2018-07-22_Headlocked_add0.5seconds_1752715B.wem	938836479.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\Karl_Headlocked	
+	969323216	KarlHallucination_Fast_Violin1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Violin1_7EB50B16.wem	969323216.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Violin1	
+	993969215	KarlHallucination_Fast_Snare	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Fast_Snare_7EB50B16.wem	993969215.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Fast_Snare	
+	1008580489	Karl_music_hypno_vla	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_violas_D10D53C6.wem	1008580489.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_vla	
+	1015226438	KarlHallucination_Slow_Piano	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlHallucination_Slow_Piano_7EB50B16.wem	1015226438.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\KarlHallucination_Slow_Piano	
+	1019554246	Karl_music_hypno_theremin3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_music_hypno_theremin3_D10D53C6.wem	1019554246.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_theremin3	
+	1044095283	KarlB_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\KarlB_2018-05-06_AmbiX_add0.5seconds_4087959D.wem	1044095283.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Karl\KarlB_Ambisonic	
+	1072539586	Karl_music_hypno_theremin1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Karl_music_hypno_theremin1_D10D53C6.wem	1072539586.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationKarl\HallucinationKarl_Arousal\Karl_music_hypno_theremin1	
+
