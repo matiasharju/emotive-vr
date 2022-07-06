@@ -23,18 +23,18 @@ MonoBehaviour:
   InvalidReferencePlatforms: []
   UserSettings:
     m_BasePath: Audio\GeneratedSoundBanks
-    m_StartupLanguage: English(US)
+    m_StartupLanguage: French
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
     m_SamplesPerFrame: 1024
     m_MainOutputSettings:
-      m_AudioDeviceShareset: 
+      m_AudioDeviceShareset: System
       m_DeviceID: 0
-      m_PanningRule: 0
+      m_PanningRule: 1
       m_ChannelConfig:
-        m_ChannelConfigType: 0
-        m_ChannelMask: 0
+        m_ChannelConfigType: 1
+        m_ChannelMask: 3
         m_NumberOfChannels: 0
     m_StreamingLookAheadRatio: 1
     m_SampleRate: 48000

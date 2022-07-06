@@ -21,7 +21,6 @@ MonoBehaviour:
   - UserSettings.m_MemoryCutoffThreshold
   - UserSettings.m_CommandQueueSize
   - UserSettings.m_SamplesPerFrame
-  - UserSettings.m_MainOutputSettings.m_AudioDeviceShareset
   - UserSettings.m_MainOutputSettings.m_DeviceID
   - UserSettings.m_MainOutputSettings.m_ChannelConfig.m_NumberOfChannels
   - UserSettings.m_StreamingLookAheadRatio
@@ -57,15 +56,18 @@ MonoBehaviour:
   - AdvancedSettings.m_SoundBankPersistentDataPath
   - AdvancedSettings.m_DebugOutOfRangeCheckEnabled
   - AdvancedSettings.m_DebugOutOfRangeLimit
+  - UserSettings.m_MainOutputSettings.m_AudioDeviceShareset
+  - UserSettings.m_MainOutputSettings.m_ChannelConfig.m_ChannelConfigType
+  - UserSettings.m_MainOutputSettings.m_ChannelConfig.m_ChannelMask
   UserSettings:
     m_BasePath: Audio\GeneratedSoundBanks
-    m_StartupLanguage: English(US)
+    m_StartupLanguage: French
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
     m_SamplesPerFrame: 1024
     m_MainOutputSettings:
-      m_AudioDeviceShareset: 
+      m_AudioDeviceShareset: System
       m_DeviceID: 0
       m_PanningRule: 1
       m_ChannelConfig:
@@ -97,7 +99,7 @@ MonoBehaviour:
     m_DebugOutOfRangeCheckEnabled: 0
     m_DebugOutOfRangeLimit: 16
     m_SpatialAudioSettings:
-      m_DiffractionShadowAttenuationFactor: 1
+      m_DiffractionShadowAttenuationFactor: 2
       m_DiffractionShadowDegrees: 30
     m_RenderDuringFocusLoss: 0
     m_SoundBankPersistentDataPath: 
