@@ -81,7 +81,7 @@ public class DirectorSequencer : MonoBehaviour
     public bool KarlPlayed = false;
 
     [Header("Arousal Data")]
-    public static bool useNeuLog = true;
+    public bool useNeuLog = true;
 
     public string GSRDataCSVFilename = "03_GSR_Only.csv";
     public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";

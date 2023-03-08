@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class SubtitleToggleDisplay : MonoBehaviour
 {
-    GameObject subtitleCanvas;
+    public GameObject subtitleCanvas;
     public Text textOn;
     public Text textOff;
     Color darkGrey;
 
     void Start()
     {
-        subtitleCanvas = GameObject.Find("/Canvas_Subtitles");
+//        subtitleCanvas = GameObject.Find("/Canvas_Subtitles");
         darkGrey = new Color(0.1f, 0.1f, 0.1f, 1.0f);
     }
 

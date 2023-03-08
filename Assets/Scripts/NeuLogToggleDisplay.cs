@@ -18,12 +18,12 @@ public class NeuLogToggleDisplay : MonoBehaviour
 
     void Update()
     {
-        if (DirectorSequencer.useNeuLog)
+        if (DirectorSequencer.Instance.useNeuLog)
         {
             if (textNeuLog != null) textNeuLog.color = Color.white;
             if (textCSV != null) textCSV.color = darkGrey;
         }
-        else if (!DirectorSequencer.useNeuLog)
+        else if (!DirectorSequencer.Instance.useNeuLog)
         {
             if (textNeuLog != null) textNeuLog.color = darkGrey;
             if (textCSV != null) textCSV.color = Color.white;

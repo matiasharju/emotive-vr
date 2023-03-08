@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 09_Credits_Noninteractive
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 3844769622d2d414f8f4d4580630094a, type: 3}
+  clip: {fileID: 0}
   rt: {fileID: 8400000, guid: eb58606eb91a54b49820be102a0d83ba, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
@@ -25,6 +25,7 @@ MonoBehaviour:
   epilogue: 0
   thisIsFreud: 0
   thisIsKarl: 0
+  thisIsStartScene: 0
   sceneNameToLoad: 09_EndCredits
   delayBeforeNextSequence: 160
   soundBankName: EpiEndSoundBank

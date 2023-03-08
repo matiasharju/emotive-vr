@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/06_ViewpointChoice_Noninteractive.unity
     guid: ac549e030391d1140a8ce384063598b4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/07_NextViewpoint.unity
     guid: ce2a0ccd6a257174c8ad3d54bee51f99
   - enabled: 1

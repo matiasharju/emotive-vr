@@ -212,6 +212,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -2361,6 +2362,7 @@ Transform:
   m_Children:
   - {fileID: 1959774266}
   - {fileID: 7147298}
+  - {fileID: 1349655377}
   - {fileID: 1794989399}
   - {fileID: 646651074}
   - {fileID: 2065060863}
@@ -2372,7 +2374,6 @@ Transform:
   - {fileID: 1387465136}
   - {fileID: 1540548086}
   - {fileID: 326218838}
-  - {fileID: 1349655377}
   - {fileID: 1378302894}
   - {fileID: 558842299}
   m_Father: {fileID: 0}
@@ -3994,6 +3995,7 @@ GameObject:
   - component: {fileID: 287326547}
   - component: {fileID: 287326546}
   - component: {fileID: 287326545}
+  - component: {fileID: 287326548}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -4092,6 +4094,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &287326548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287326543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: debf5452235f01b46824faf9003e5884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SessionIDItem: {fileID: 842704956}
+  NeulogIPItem: {fileID: 891285565}
+  InteractiveMusicItem: {fileID: 337436759}
+  OperatorDataItem: {fileID: 639794882}
 --- !u!1 &293902754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,7 +4455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &326218839
 MonoBehaviour:
@@ -4498,6 +4516,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -4586,7 +4605,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &338844019
 MonoBehaviour:
@@ -4645,6 +4664,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -7746,6 +7766,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -8039,7 +8060,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &586983602
 MonoBehaviour:
@@ -8098,6 +8119,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -8770,7 +8792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &646651074
 Transform:
   m_ObjectHideFlags: 0
@@ -8783,7 +8805,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &646651075
 MonoBehaviour:
@@ -8848,6 +8870,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -10446,8 +10469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 580.6, y: -211.6}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 600, y: -210}
+  m_SizeDelta: {x: 500, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750094233
 MonoBehaviour:
@@ -10481,16 +10504,9 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'This version:
-
-    KARL''S POINT OF VIEW ONLY
-
-
-
-    SPACEBAR: Start playback
-
-'
+    m_LineSpacing: 1.2
+  m_Text: "This version:\nNON-INTERACTIVE\nPrologue \u2192  Freud \u2192  Karl \u2192 
+    Epilogue\n\n\nSPACEBAR: Start playback"
 --- !u!222 &750094234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14845,7 +14861,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1007196594
 MonoBehaviour:
@@ -14904,6 +14920,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -15827,7 +15844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'M: Show/hide this menu'
+  m_Text: 'F10: Show/Hide this menu'
 --- !u!222 &1045771740
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16719,7 +16736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1127165645
 MonoBehaviour:
@@ -16778,6 +16795,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -19081,12 +19099,12 @@ GameObject:
   - component: {fileID: 1349655377}
   - component: {fileID: 1349655378}
   m_Layer: 0
-  m_Name: Noninteractive_FromOpeningCredits
+  m_Name: Noninteractive_Automatic_Both
   m_TagString: DirectorSequencer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1349655377
 Transform:
   m_ObjectHideFlags: 0
@@ -19099,7 +19117,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 13
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1349655378
 MonoBehaviour:
@@ -19115,13 +19133,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexSequence: 0
   sequences:
+  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
-  - {fileID: 11400000, guid: 865c594617f986e429085efde488e82a, type: 2}
+  - {fileID: 11400000, guid: c04e4326edbd23c498ac3611f39c3771, type: 2}
+  - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
-  - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 0
   timeToChoice: 3
@@ -19164,9 +19183,10 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 0
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
+  arousalFadeDownSpeed: 0.01
   arousalRawValue: 0
   GSRCalibrationMultiplier: 1
   cumulativeArousal: 0
@@ -19740,6 +19760,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -19854,7 +19875,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1387465137
 MonoBehaviour:
@@ -19919,6 +19940,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -21267,7 +21289,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1482753712
 MonoBehaviour:
@@ -21335,6 +21357,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.005
@@ -22222,7 +22245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1540548087
 MonoBehaviour:
@@ -22286,6 +22309,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -22311,7 +22335,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1544528335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22715,6 +22739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5232791114bba80478a891b41661abb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  subtitleCanvas: {fileID: 2061826939}
   textOn: {fileID: 1319502042}
   textOff: {fileID: 2063157216}
 --- !u!1 &1569526923
@@ -25397,7 +25422,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1794989400
 MonoBehaviour:
@@ -25462,6 +25487,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -27814,6 +27840,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01
@@ -29247,7 +29274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2061826940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29438,7 +29465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 176070623}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2065060864
 MonoBehaviour:
@@ -29502,6 +29529,7 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
+  useNeuLog: 1
   GSRDataCSVFilename: 03_GSR_Only.csv
   ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   arousalFadeDownSpeed: 0.01

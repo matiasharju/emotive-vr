@@ -101,6 +101,7 @@ public class KeyboardControls : MonoBehaviour
         if ((!keyPressedMenu) && (menuItems != null))
         {
             keyPressedMenu = true;
+            Debug.Log("MENU");
 
             if (menuItems.activeSelf)
             {
@@ -124,13 +125,13 @@ public class KeyboardControls : MonoBehaviour
         {
             keyPressedNeuLog = true;
 
-            if (DirectorSequencer.useNeuLog)
+            if (DirectorSequencer.Instance.useNeuLog)
             {
-                DirectorSequencer.useNeuLog = false;
+                DirectorSequencer.Instance.useNeuLog = false;
             }
-            else if (!DirectorSequencer.useNeuLog)
+            else if (!DirectorSequencer.Instance.useNeuLog)
             {
-                DirectorSequencer.useNeuLog = true;
+                DirectorSequencer.Instance.useNeuLog = true;
             }
 
             StartCoroutine(releaseNeuLogButton());
@@ -140,13 +141,13 @@ public class KeyboardControls : MonoBehaviour
 
     IEnumerator releaseNeuLogButton()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.3f);
         keyPressedNeuLog = false;
     }
 
     IEnumerator releaseMenuButton()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.3f);
         keyPressedMenu = false;
     }
 
@@ -228,7 +229,7 @@ public class KeyboardControls : MonoBehaviour
     }
     IEnumerator releaseOperatorDataDisplayButton()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.3f);
         keyPressedOperatorDataDisplay = false;
     }
 
@@ -265,7 +266,7 @@ public class KeyboardControls : MonoBehaviour
     }
     IEnumerator releaseInteractiveButton()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.3f);
         keyPressedInteractive = false;
     }
 

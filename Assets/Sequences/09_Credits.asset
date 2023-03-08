@@ -25,6 +25,7 @@ MonoBehaviour:
   epilogue: 0
   thisIsFreud: 0
   thisIsKarl: 0
+  thisIsStartScene: 0
   sceneNameToLoad: 09_EndCredits
   delayBeforeNextSequence: 160
   soundBankName: EpiEndSoundBank
