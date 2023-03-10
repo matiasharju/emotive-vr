@@ -215,7 +215,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -4602,7 +4602,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -4750,7 +4750,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -7856,7 +7856,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -8209,7 +8209,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -8960,7 +8960,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -10592,7 +10592,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "Prologue \u2192  Freud \u2192  Karl \u2192  Epilogue"
+  m_Text: "Opening Credits\nPrologue  \nChoice\nSelected Viewpoint\nOther Viewpoint
+    \nEpilogue\nEnd Credits"
 --- !u!222 &750094234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16965,7 +16966,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -19303,9 +19304,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
-  - {fileID: 11400000, guid: 865c594617f986e429085efde488e82a, type: 2}
-  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
-  - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
+  - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
@@ -19354,7 +19353,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -19931,7 +19930,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -20111,7 +20110,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -21528,7 +21527,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -22480,7 +22479,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -25658,7 +25657,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -28011,7 +28010,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
@@ -29779,7 +29778,7 @@ MonoBehaviour:
   activeRaycast: 0
   showEpilogue: 0
   updateBarPos: 0
-  choiceSeqSoundstopEvent: StopChoixSounds
+  choiceSeqSoundstopEvent: Stop_ChoixSounds
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
