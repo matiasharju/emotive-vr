@@ -37,7 +37,7 @@ public class KeyboardControls : MonoBehaviour
 
             DirectorSequencer.Instance.cumulativeArousal = 0.0f;
 
-            DataRecorder.StartRecording();
+            if (DirectorSequencer.Instance.isInteractive) DataRecorder.StartRecording();    // Start DataRecorder only in interactive mode
 
             StartCoroutine(FlashSlate());
         }
@@ -125,13 +125,13 @@ public class KeyboardControls : MonoBehaviour
         {
             keyPressedNeuLog = true;
 
-            if (DirectorSequencer.Instance.useNeuLog)
+            if (DirectorSequencer.Instance.useGSRRecording)
             {
-                DirectorSequencer.Instance.useNeuLog = false;
+                DirectorSequencer.Instance.useGSRRecording = false;
             }
-            else if (!DirectorSequencer.Instance.useNeuLog)
+            else if (!DirectorSequencer.Instance.useGSRRecording)
             {
-                DirectorSequencer.Instance.useNeuLog = true;
+                DirectorSequencer.Instance.useGSRRecording = true;
             }
 
             StartCoroutine(releaseNeuLogButton());
@@ -180,22 +180,26 @@ public class KeyboardControls : MonoBehaviour
 
     public void ToggleEmotionDataDisplay()
     {
-        if ((!keyPressedDataDisplay) && (emotionalTableParentObject != null))
-        {
-            keyPressedDataDisplay = true;
+        if (DirectorSequencer.Instance.isInteractive)
+        { 
+             if ((!keyPressedDataDisplay) && (emotionalTableParentObject != null))
+             {
+                keyPressedDataDisplay = true;
 
-            if (emotionalTableParentObject.activeSelf)
-            {
-                emotionalTableParentObject.SetActive(false);
-                telemetryElementsParentObject.SetActive(false);
-            }
-            else if (!emotionalTableParentObject.activeSelf)
-            {
-                emotionalTableParentObject.SetActive(true);
-                telemetryElementsParentObject.SetActive(true);
-            }
+                if (emotionalTableParentObject.activeSelf)
+                {
+                    emotionalTableParentObject.SetActive(false);
+                    telemetryElementsParentObject.SetActive(false);
+                }
+                else if (!emotionalTableParentObject.activeSelf)
+                {
+                    emotionalTableParentObject.SetActive(true);
+                    telemetryElementsParentObject.SetActive(true);
+                }
 
-            StartCoroutine(releaseDataDisplayButton());
+                StartCoroutine(releaseDataDisplayButton());
+             }
+
         }
     }
     IEnumerator releaseDataDisplayButton()
@@ -207,24 +211,27 @@ public class KeyboardControls : MonoBehaviour
 
     public void ToggleOperatorDataDisplay()
     {
-        if ((!keyPressedOperatorDataDisplay) && (operatorDataDisplay1 != null))
+        if (DirectorSequencer.Instance.isInteractive)
         {
-            keyPressedOperatorDataDisplay = true;
-
-            if (operatorDataDisplay1.activeSelf)
+            if ((!keyPressedOperatorDataDisplay) && (operatorDataDisplay1 != null))
             {
-                operatorDataDisplay1.SetActive(false);
-                operatorDataDisplay2.SetActive(false);
-                operatorDataDisplay3.SetActive(false);
-            }
-            else if (!operatorDataDisplay1.activeSelf)
-            {
-                operatorDataDisplay1.SetActive(true);
-                operatorDataDisplay2.SetActive(true);
-                operatorDataDisplay3.SetActive(true);
-            }
+                keyPressedOperatorDataDisplay = true;
 
-            StartCoroutine(releaseOperatorDataDisplayButton());
+                if (operatorDataDisplay1.activeSelf)
+                {
+                    operatorDataDisplay1.SetActive(false);
+                    operatorDataDisplay2.SetActive(false);
+                    operatorDataDisplay3.SetActive(false);
+                }
+                else if (!operatorDataDisplay1.activeSelf)
+                {
+                    operatorDataDisplay1.SetActive(true);
+                    operatorDataDisplay2.SetActive(true);
+                    operatorDataDisplay3.SetActive(true);
+                }
+
+                StartCoroutine(releaseOperatorDataDisplayButton());
+            }
         }
     }
     IEnumerator releaseOperatorDataDisplayButton()
@@ -233,35 +240,38 @@ public class KeyboardControls : MonoBehaviour
         keyPressedOperatorDataDisplay = false;
     }
 
-    public void ToggleInteractive()
+    public void ToggleInteractive()     // Toggle Intearctive Music
     {
-        if (!keyPressedInteractive)
+        if (DirectorSequencer.Instance.isInteractive)
         {
-            keyPressedInteractive = true;
-
-            if (DirectorSequencer.Instance.enableInteractiveMusic)
+            if (!keyPressedInteractive)
             {
-                DirectorSequencer.Instance.enableInteractiveMusic = false;
+                keyPressedInteractive = true;
 
-                if (emotionalTableParentObject != null)
+                if (DirectorSequencer.Instance.enableInteractiveMusic)
                 {
-                    emotionalTableParentObject.SetActive(false);
-                    telemetryElementsParentObject.SetActive(false);
-                }
-            }
-            else if (!DirectorSequencer.Instance.enableInteractiveMusic)
-            {
-                DirectorSequencer.Instance.enableInteractiveMusic = true;
+                    DirectorSequencer.Instance.enableInteractiveMusic = false;
 
-                if (emotionalTableParentObject != null)
+                    if (emotionalTableParentObject != null)
+                    {
+                        emotionalTableParentObject.SetActive(false);
+                        telemetryElementsParentObject.SetActive(false);
+                    }
+                }
+                else if (!DirectorSequencer.Instance.enableInteractiveMusic)
                 {
-                    emotionalTableParentObject.SetActive(true);
-                    telemetryElementsParentObject.SetActive(true);
+                    DirectorSequencer.Instance.enableInteractiveMusic = true;
+
+                    if (emotionalTableParentObject != null)
+                    {
+                        emotionalTableParentObject.SetActive(true);
+                        telemetryElementsParentObject.SetActive(true);
+                    }
+
                 }
 
+                StartCoroutine(releaseInteractiveButton());
             }
-
-        StartCoroutine(releaseInteractiveButton());
         }
     }
     IEnumerator releaseInteractiveButton()

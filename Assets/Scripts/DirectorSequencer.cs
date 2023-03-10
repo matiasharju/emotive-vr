@@ -17,8 +17,26 @@ public class DirectorSequencer : MonoBehaviour
     public List<Sequence> sequences;
     public Sequence currentSequence;
 
-    [Header("Parameters")]
+    [Header("Interactive")]
     public bool isInteractive = true;
+
+    public bool useGSRRecording = false;     // instead of NeuLog, use pre-recorded GSR/EDA raw data from csv file
+//    public bool useNeuLog = true;
+
+    public float arousalFadeDownSpeed = 0.005f;
+
+    public float arousalRawValue;
+    public float GSRCalibrationMultiplier = 1.0f;       // to calibrate the incoming GSR value with a multiplier constant
+
+    // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
+    public float cumulativeArousal;
+
+    [Header("GSR Recording")]
+    public string GSRDataCSVFilename = "03_GSR_Only.csv";
+    public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
+
+
+    [Header("Time Parameters")]
     public float timeToChoice = 3;
     public float timerChoiceEpi = 0;
     public float timer = 0;
@@ -80,18 +98,7 @@ public class DirectorSequencer : MonoBehaviour
     public bool FreudPlayed = false;
     public bool KarlPlayed = false;
 
-    [Header("Arousal Data")]
-    public bool useNeuLog = true;
 
-    public string GSRDataCSVFilename = "03_GSR_Only.csv";
-    public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
-    public float arousalFadeDownSpeed = 0.005f;
-
-    public float arousalRawValue;
-    public float GSRCalibrationMultiplier = 1.0f;       // to calibrate the incoming GSR value with a multiplier constant
-
-    // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
-    public float cumulativeArousal;
 
 
     private void Awake()
@@ -514,20 +521,20 @@ private void EndVideo(VideoPlayer vp)
     #region Coroutines
     IEnumerator CO_UpdateEmotionalData()
     {
-        while(true)
-//        while(currentSequence.readSensorData && isInteractive)
+        //while(true)
+        while(isInteractive)
         {
             //DataReader.UpTime();          
             //float valence = DataReaderValence.GetValence();     // Read valence from CSV
             //DataReaderArousal.UpTime();                // update arousal data reader's clock, add start time offset
             //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
 
-            if (useNeuLog)
+            if (!useGSRRecording)       // Read arousal raw value from NeuLog sensor
             {
-                neuLogAPIRequestScript.RequestArousalFromNeuLog();                      // Send HTTP request to NeuLog for arousal data
+                neuLogAPIRequestScript.RequestArousalFromNeuLog();                                                  // Send HTTP request to NeuLog for arousal data
                 arousalRawValue = DataReaderArousal.arousalRawValuePublic * GSRCalibrationMultiplier;              // Read arousal raw value from NeuLog sensor
             }
-            else if (!useNeuLog)
+            else if (useGSRRecording)    // Instead of NeuLog, use pre-recorded GSR/EDA data from csv file
             {
                 arousalRawValue = DataReaderArousal.ReadArousalFromCSV(currentSequence.sensorDataStartTime);        // Read arousal raw value from csv from the timepoint defined from the sequence
             }

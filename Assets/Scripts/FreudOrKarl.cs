@@ -4,33 +4,41 @@ using UnityEngine;
 
 public class FreudOrKarl : MonoBehaviour
 {
-
+    public GameObject NextViewpointObject;
     public GameObject FreudTextObject;
     public GameObject KarlTextObject;
 
-    public bool enableText = true;
     public float waitBeforeNextSequence = 5.0f;
 
     // Sequences to add 
-    public List<Sequence> FreudSequences;
-    public List<Sequence> KarlSequences;
+    public List<Sequence> FreudSequencesInteractive;
+    public List<Sequence> KarlSequencesInteractive;
+    public List<Sequence> FreudSequencesNonInteractive;
+    public List<Sequence> KarlSequencesNonInteractive;
 
     private void Awake()
     {
         KarlTextObject.SetActive(false);
         FreudTextObject.SetActive(false);
+
+        if (DirectorSequencer.Instance.isInteractive) NextViewpointObject.SetActive(true);  // Show "Next Viewpoint" text only in interactive experience
+        else NextViewpointObject.SetActive(false);
+
+        if (DirectorSequencer.Instance.isInteractive) waitBeforeNextSequence = 5.0f;
+        else waitBeforeNextSequence = 2.0f;                                             // Shorter delay before next viewpoint in non-interactive version without text
+
     }
     void Start()
     {
         if (DirectorSequencer.Instance.FreudPlayed)
         {
-            if (enableText) KarlTextObject.SetActive(true);
+            if (DirectorSequencer.Instance.isInteractive) KarlTextObject.SetActive(true);
             StartCoroutine(StartNewViewpoint("Karl"));
         }
 
         else if (DirectorSequencer.Instance.KarlPlayed)
         {
-            if (enableText) FreudTextObject.SetActive(true);
+            if (!DirectorSequencer.Instance.isInteractive) FreudTextObject.SetActive(true);
             StartCoroutine(StartNewViewpoint("Freud"));
         }
 
@@ -44,11 +52,13 @@ public class FreudOrKarl : MonoBehaviour
 
     public List<Sequence> GetFreudSequences()
     {
-        return FreudSequences;
+        if (DirectorSequencer.Instance.isInteractive) return FreudSequencesInteractive;
+        else return FreudSequencesNonInteractive;
     }
     public List<Sequence> GetKarlSequences()
     {
-        return KarlSequences;
+        if (DirectorSequencer.Instance.isInteractive) return KarlSequencesInteractive;
+        else return KarlSequencesNonInteractive;
     }
 
     IEnumerator StartNewViewpoint(string nextSequence)

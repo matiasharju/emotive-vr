@@ -17,7 +17,7 @@ public static class DataRecorder
 
     public static void StartRecording()     // called from KeyboardControls.cs
     {
-        if (enableRecording)        // boolean controlled from KeyboardControls.cs
+        if (enableRecording)
         {
             dateTimeOnStart = DateTime.Now;
             string date = dateTimeOnStart.ToString("yyyy-MM-dd");

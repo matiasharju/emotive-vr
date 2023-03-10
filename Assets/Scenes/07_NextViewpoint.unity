@@ -586,15 +586,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ca34091bfd75224993a9dc8e80ea790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextViewpointObject: {fileID: 1863897685}
   FreudTextObject: {fileID: 793110375}
   KarlTextObject: {fileID: 1598313321}
-  FreudSequences:
+  waitBeforeNextSequence: 5
+  FreudSequencesInteractive:
   - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
   - {fileID: 11400000, guid: 508af1a2a014d704aaf4edf4817f025b, type: 2}
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
-  KarlSequences:
+  KarlSequencesInteractive:
   - {fileID: 11400000, guid: 9f753c4ddf8767b4fbd4e6c54c231a9c, type: 2}
   - {fileID: 11400000, guid: 508af1a2a014d704aaf4edf4817f025b, type: 2}
+  - {fileID: 11400000, guid: c5cf3bc70a3e7604c8f268d3d781586e, type: 2}
+  FreudSequencesNonInteractive:
+  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
+  - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
+  KarlSequencesNonInteractive:
+  - {fileID: 11400000, guid: 9f753c4ddf8767b4fbd4e6c54c231a9c, type: 2}
   - {fileID: 11400000, guid: c5cf3bc70a3e7604c8f268d3d781586e, type: 2}
 --- !u!4 &1835119010
 Transform:

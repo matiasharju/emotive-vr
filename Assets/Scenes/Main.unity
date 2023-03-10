@@ -172,6 +172,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5cf3bc70a3e7604c8f268d3d781586e, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -212,13 +219,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &7543521
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,7 +928,7 @@ Transform:
   m_Children:
   - {fileID: 340034015}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &85304561
 GameObject:
@@ -1166,6 +1166,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88843457}
+  m_CullTransparentMesh: 1
+--- !u!1 &90181448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 90181449}
+  - component: {fileID: 90181451}
+  - component: {fileID: 90181450}
+  m_Layer: 5
+  m_Name: ThisVersion_Interactive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &90181449
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90181448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 361195005}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 600, y: -150}
+  m_SizeDelta: {x: 500, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &90181450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90181448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7924528, g: 0.7804913, b: 0.7804913, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: 'This version:
+
+    INTERACTIVE'
+--- !u!222 &90181451
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90181448}
   m_CullTransparentMesh: 1
 --- !u!1 &90348682
 GameObject:
@@ -4110,6 +4191,8 @@ MonoBehaviour:
   NeulogIPItem: {fileID: 891285565}
   InteractiveMusicItem: {fileID: 337436759}
   OperatorDataItem: {fileID: 639794882}
+  InteractiveItem: {fileID: 90181448}
+  NonInteractiveItem: {fileID: 1008215278}
 --- !u!1 &293902754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,6 +4559,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -4516,13 +4606,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &337436759
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,6 +4707,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -4664,13 +4754,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &340034011
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,7 +5025,7 @@ GameObject:
   - component: {fileID: 361195007}
   - component: {fileID: 361195006}
   m_Layer: 5
-  m_Name: PressSpaceToStart
+  m_Name: RightSideInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4959,9 +5042,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 90181449}
+  - {fileID: 1008215279}
   - {fileID: 750094232}
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  - {fileID: 2063726250}
+  m_Father: {fileID: 533505772}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7354,8 +7440,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 287326544}
+  - {fileID: 361195005}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &543837672
 GameObject:
@@ -7726,6 +7813,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -7766,13 +7860,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &563168019
 GameObject:
   m_ObjectHideFlags: 0
@@ -8079,6 +8166,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -8119,13 +8213,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &586988586
 GameObject:
   m_ObjectHideFlags: 0
@@ -8392,7 +8479,7 @@ Transform:
   m_Children:
   - {fileID: 2080052936}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625667420
 GameObject:
@@ -8830,6 +8917,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -8870,13 +8964,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &646669975
 GameObject:
   m_ObjectHideFlags: 0
@@ -10447,7 +10534,7 @@ GameObject:
   - component: {fileID: 750094234}
   - component: {fileID: 750094233}
   m_Layer: 5
-  m_Name: CurrentIP_Title
+  m_Name: Sequences
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10465,11 +10552,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 361195005}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 600, y: -210}
+  m_AnchoredPosition: {x: 600, y: -200}
   m_SizeDelta: {x: 500, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750094233
@@ -10505,8 +10592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: "This version:\nNON-INTERACTIVE\nPrologue \u2192  Freud \u2192  Karl \u2192 
-    Epilogue\n\n\nSPACEBAR: Start playback"
+  m_Text: "Prologue \u2192  Freud \u2192  Karl \u2192  Epilogue"
 --- !u!222 &750094234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14880,6 +14966,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -14920,13 +15013,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1007999251
 GameObject:
   m_ObjectHideFlags: 0
@@ -15005,6 +15091,87 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007999251}
+  m_CullTransparentMesh: 1
+--- !u!1 &1008215278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008215279}
+  - component: {fileID: 1008215281}
+  - component: {fileID: 1008215280}
+  m_Layer: 5
+  m_Name: ThisVersion_Non-Interactive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1008215279
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008215278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 361195005}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 600, y: -150}
+  m_SizeDelta: {x: 500, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1008215280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008215278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7924528, g: 0.7804913, b: 0.7804913, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: 'This version:
+
+    NON-INTERACTIVE'
+--- !u!222 &1008215281
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008215278}
   m_CullTransparentMesh: 1
 --- !u!1 &1013495293
 GameObject:
@@ -15540,7 +15707,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1038218080
 GameObject:
@@ -16755,6 +16922,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -16795,13 +16969,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1134990194
 GameObject:
   m_ObjectHideFlags: 0
@@ -19136,13 +19303,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
-  - {fileID: 11400000, guid: c04e4326edbd23c498ac3611f39c3771, type: 2}
-  - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
+  - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
+  - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 0
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -19183,13 +19357,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 0
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1355924749
 GameObject:
   m_ObjectHideFlags: 0
@@ -19720,6 +19887,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aff9e605ad1808747a10f056280e80d1, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 0
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -19760,13 +19934,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1382970478
 GameObject:
   m_ObjectHideFlags: 0
@@ -19900,6 +20067,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -19940,13 +20114,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1394458536
 GameObject:
   m_ObjectHideFlags: 0
@@ -20099,7 +20266,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1410486644
 GameObject:
@@ -21317,6 +21484,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 34b78acce56a66744898783ef4fb4bf8, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.005
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -21357,13 +21531,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.005
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1487496655
 GameObject:
   m_ObjectHideFlags: 0
@@ -22269,6 +22436,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 612808f022311ac468115bc2cb8db679, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -22309,13 +22483,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1544528334
 GameObject:
   m_ObjectHideFlags: 0
@@ -24778,7 +24945,7 @@ RectTransform:
   m_Children:
   - {fileID: 1269227206}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -25447,6 +25614,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -25487,13 +25661,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1812748176
 GameObject:
   m_ObjectHideFlags: 0
@@ -27800,6 +27967,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -27840,13 +28014,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &1963965293
 GameObject:
   m_ObjectHideFlags: 0
@@ -29436,6 +29603,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063157214}
   m_CullTransparentMesh: 1
+--- !u!1 &2063726249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2063726250}
+  - component: {fileID: 2063726252}
+  - component: {fileID: 2063726251}
+  m_Layer: 5
+  m_Name: PressSpacebarToStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2063726250
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063726249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 361195005}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 600, y: -392.1}
+  m_SizeDelta: {x: 500, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2063726251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063726249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7924528, g: 0.7804913, b: 0.7804913, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.2
+  m_Text: 'SPACEBAR: Start playback'
+--- !u!222 &2063726252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063726249}
+  m_CullTransparentMesh: 1
 --- !u!1 &2065060862
 GameObject:
   m_ObjectHideFlags: 0
@@ -29489,6 +29735,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}
   isInteractive: 1
+  useGSRRecording: 0
+  arousalFadeDownSpeed: 0.01
+  arousalRawValue: 0
+  GSRCalibrationMultiplier: 1
+  cumulativeArousal: 0
+  GSRDataCSVFilename: 03_GSR_Only.csv
+  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
   timeToChoice: 3
   timerChoiceEpi: 2.5
   timer: 0
@@ -29529,13 +29782,6 @@ MonoBehaviour:
   choiceSeqOldFreudStopEvent: StopOldFreud
   FreudPlayed: 0
   KarlPlayed: 0
-  useNeuLog: 1
-  GSRDataCSVFilename: 03_GSR_Only.csv
-  ArousalPeakCSVFilename: 03_peakPwrOnly.csv
-  arousalFadeDownSpeed: 0.01
-  arousalRawValue: 0
-  GSRCalibrationMultiplier: 1
-  cumulativeArousal: 0
 --- !u!1 &2072993498
 GameObject:
   m_ObjectHideFlags: 0
