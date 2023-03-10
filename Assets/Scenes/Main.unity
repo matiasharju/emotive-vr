@@ -19266,7 +19266,7 @@ GameObject:
   - component: {fileID: 1349655377}
   - component: {fileID: 1349655378}
   m_Layer: 0
-  m_Name: Noninteractive_Automatic_Both
+  m_Name: Noninteractive_Full
   m_TagString: DirectorSequencer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19303,6 +19303,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af22496b9fcdba24c90f09b7d9b6ce09, type: 2}
   - {fileID: 11400000, guid: fd58ad6ca8b401446ab1ee52da5f86c0, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
+  - {fileID: 11400000, guid: 865c594617f986e429085efde488e82a, type: 2}
   - {fileID: 11400000, guid: a78ee224884f7df4ca265752640f0c49, type: 2}
   - {fileID: 11400000, guid: 36b4060f89e88664faf8240cc1d75895, type: 2}
   - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
