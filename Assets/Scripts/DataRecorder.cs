@@ -30,7 +30,7 @@ public static class DataRecorder
             sw.WriteLine("Playback start time: " + timeHours + ":" + timeMinutes);
             sw.WriteLine("Session ID: " + sessionID);
             sw.WriteLine("\n");
-            sw.WriteLine("Time from playback start (s),Sequence name,Video clip name,Video time (s),GSR,Arousal peak power");
+            sw.WriteLine("Time from playback start (s),Sequence name,Video clip name,Video time (s),Valence,Arousal");
             sw.Flush();
 
             timeSecondsOnStart = (float)(dateTimeOnStart.TimeOfDay.TotalSeconds);
@@ -40,13 +40,13 @@ public static class DataRecorder
         }
     }
 
-    public static void WriteData(string sequenceName, string videoClipName, double timeInSeconds, float GSR, float arousalPeak)      // called from DirectorSequencer.cs
+    public static void WriteData(string sequenceName, string videoClipName, double timeInSeconds, float valence, float arousal)      // called from DirectorSequencer.cs
     {
         if (enableWriting)      // boolean set true by StartRecording() method
         {
             DateTime dateTimeUpdate = DateTime.Now;
             float timeSecondsUpdate = (float)(dateTimeUpdate.TimeOfDay.TotalSeconds) - timeSecondsOnStart;
-            sw.WriteLine(timeSecondsUpdate.ToString("F2") + "," + sequenceName + "," + videoClipName + "," + timeInSeconds.ToString("F2") + "," + GSR + "," + arousalPeak);
+            sw.WriteLine(timeSecondsUpdate.ToString("F2") + "," + sequenceName + "," + videoClipName + "," + timeInSeconds.ToString("F2") + "," + valence + "," + arousal);
             sw.Flush();
         }
     }

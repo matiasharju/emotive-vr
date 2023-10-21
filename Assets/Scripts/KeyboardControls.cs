@@ -35,7 +35,7 @@ public class KeyboardControls : MonoBehaviour
             pressSpace.SetActive(false);
             menuItems.SetActive(false);
 
-            DirectorSequencer.Instance.cumulativeArousal = 0.0f;
+            DirectorSequencer.Instance.arousal = 0.0f;
 
             if (DirectorSequencer.Instance.isInteractive) DataRecorder.StartRecording();    // Start DataRecorder only in interactive mode
 
@@ -117,25 +117,6 @@ public class KeyboardControls : MonoBehaviour
 
 
 
-    }
-
-    public void ToggleNeuLog()
-    {
-        if ((!keyPressedNeuLog) && (subtitlesParentObject != null))
-        {
-            keyPressedNeuLog = true;
-
-            if (DirectorSequencer.Instance.useGSRRecording)
-            {
-                DirectorSequencer.Instance.useGSRRecording = false;
-            }
-            else if (!DirectorSequencer.Instance.useGSRRecording)
-            {
-                DirectorSequencer.Instance.useGSRRecording = true;
-            }
-
-            StartCoroutine(releaseNeuLogButton());
-        }
     }
 
 
@@ -280,14 +261,5 @@ public class KeyboardControls : MonoBehaviour
         keyPressedInteractive = false;
     }
 
-    public void IncreaseGSRCalibrationValue()
-    {
-        DirectorSequencer.Instance.GSRCalibrationMultiplier = DirectorSequencer.Instance.GSRCalibrationMultiplier + 0.02f;
-    }
-
-    public void DecreaseGSRCalibrationValue()
-    {
-        DirectorSequencer.Instance.GSRCalibrationMultiplier = DirectorSequencer.Instance.GSRCalibrationMultiplier - 0.02f;
-    }
 
 }

@@ -19,21 +19,10 @@ public class DirectorSequencer : MonoBehaviour
 
     [Header("Interactive")]
     public bool isInteractive = true;
+    public bool enableInteractiveMusic = false;
 
-    public bool useGSRRecording = false;     // instead of NeuLog, use pre-recorded GSR/EDA raw data from csv file
-//    public bool useNeuLog = true;
-
-    public float arousalFadeDownSpeed = 0.005f;
-
-    public float arousalRawValue;
-    public float GSRCalibrationMultiplier = 1.0f;       // to calibrate the incoming GSR value with a multiplier constant
-
-    // Cumulative arousal value. Grows by each arousal peak, but fades down if no peaks appear
-    public float cumulativeArousal;
-
-    [Header("GSR Recording")]
-    public string GSRDataCSVFilename = "03_GSR_Only.csv";
-    public string ArousalPeakCSVFilename = "03_peakPwrOnly.csv";
+    public float valence;
+    public float arousal;
 
 
     [Header("Time Parameters")]
@@ -52,7 +41,6 @@ public class DirectorSequencer : MonoBehaviour
 
     public float epilogueSrtDelay;
 
-    public bool enableInteractiveMusic = false;
 
     [Header("References")]
     public List<Camera> allCameras;
@@ -138,9 +126,6 @@ public class DirectorSequencer : MonoBehaviour
 
         player.EnableAudioTrack(0, false);
 
-
-        // START READING EMOTIONAL DATA 
-        DataReaderArousal.Init(GSRDataCSVFilename, ArousalPeakCSVFilename);
 
         PrepareVideo();
 
@@ -524,35 +509,13 @@ private void EndVideo(VideoPlayer vp)
         //while(true)
         while(isInteractive)
         {
-            //DataReader.UpTime();          
-            //float valence = DataReaderValence.GetValence();     // Read valence from CSV
-            //DataReaderArousal.UpTime();                // update arousal data reader's clock, add start time offset
-            //float arousalPeak = DataReaderArousalPeaks.GetArousalPeak(currentSequence.sensorDataStartTime);    // Read arousal data from CSV and let the sequence adjust the start time
-
-            if (!useGSRRecording)       // Read arousal raw value from NeuLog sensor
-            {
-                neuLogAPIRequestScript.RequestArousalFromNeuLog();                                                  // Send HTTP request to NeuLog for arousal data
-                arousalRawValue = DataReaderArousal.arousalRawValuePublic * GSRCalibrationMultiplier;              // Read arousal raw value from NeuLog sensor
-            }
-            else if (useGSRRecording)    // Instead of NeuLog, use pre-recorded GSR/EDA data from csv file
-            {
-                arousalRawValue = DataReaderArousal.ReadArousalFromCSV(currentSequence.sensorDataStartTime);        // Read arousal raw value from csv from the timepoint defined from the sequence
-            }
-
-            float arousalPeak = DataReaderArousal.CalculateArousalPeaks(arousalRawValue);           // Calculate arousal peaks
-
-            // Add peak value to the cumulative arousal value. Keep fading down slowly.
-            cumulativeArousal = cumulativeArousal + arousalPeak;                                // cumulative arousal will be reset to 0 when pressing spacebar to start playback
-            if (cumulativeArousal > 0) cumulativeArousal = cumulativeArousal - arousalFadeDownSpeed;
-            if (cumulativeArousal < 0) cumulativeArousal = 0.0f;
-
-            float valence = pseudoDataInput.GetValence();   // Read from debug valence slider
-            // float arousal = pseudoDataInput.GetArousal();
+            arousal = ReceiveValenceArousal.arousal / 110f;     // values coming from the Mentalista sensor are 0 - 120???
+            valence = ReceiveValenceArousal.valence / 110f;     // values coming from the Mentalista sensor are 0 - 120???
 
             if (enableInteractiveMusic)
             {
                 audioManager.SetNewValenceValue(valence);
-                audioManager.SetNewArousalValue(cumulativeArousal);
+                audioManager.SetNewArousalValue(arousal);
             }
             else if (!enableInteractiveMusic) // if interactive music disabled, reset music rtpc values
             {
@@ -568,20 +531,20 @@ private void EndVideo(VideoPlayer vp)
             if (emotionTable.activeSelf)
             {
                 emotionalBar.GetComponent<EmotionBar>().UpdateEmotionBar(valence);
-                emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, cumulativeArousal);
+                emotionTable.GetComponent<EmotionTable>().UpdateEmotionTable(valence, arousal);
             }
 
             if (emotionTableExternal.activeSelf)
             {
-                emotionTableExternal.GetComponent<EmotionTableExternal>().UpdateEmotionTable(valence, cumulativeArousal);
-                emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagram(arousalRawValue);
+                emotionTableExternal.GetComponent<EmotionTableExternal>().UpdateEmotionTable(valence, arousal);
+                emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagram(arousal);
             }
 
             // Send data to DataRecorder.cs to be written on a csv file
             string currentClipName;
             if (player.clip != null) currentClipName = player.clip.name;
             else currentClipName = "(NO VIDEO)";
-            DataRecorder.WriteData(currentSequence.name, currentClipName, player.time, arousalRawValue, arousalPeak);
+            DataRecorder.WriteData(currentSequence.name, currentClipName, player.time, valence, arousal);   
 
             yield return new WaitForSeconds(updateValenceTime);
         }

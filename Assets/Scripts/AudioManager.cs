@@ -22,14 +22,11 @@ public class AudioManager : MonoBehaviour
     // The volume of the music (for Wwise only)
     [Range(-50, 12)] public float musicVolume;
 
-    // The valence value. Actually she is defined by a external CSV file
+    // The valence value
     [Range(0, 1)] public float valence;
 
-    // The arousal peak power value from the external CSV file
-    [Range(0, 2)] public float arousalPeak;
-
-    // Visualise cumulative arousal value fed from DirectorSequencer.cs <-- DataReaderArousalPeaks.cs
-    [Range(0, 4)] public float cumulativeArousal;
+    // The arousal value
+    [Range(0, 1)] public float arousal;
 
     //public float arousalFadeDownSpeed = 0.005f;
 
@@ -97,9 +94,9 @@ public class AudioManager : MonoBehaviour
     {
         valence = newValence;
     }
-    public void SetNewArousalValue(float newCumulativeArousal)
+    public void SetNewArousalValue(float newArousal)
     {
-        cumulativeArousal = newCumulativeArousal;
+        arousal = newArousal;
     }
 
     //  Change the momentary arousal peak power value  
@@ -139,7 +136,7 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("AudioVolume"), audioVolume);
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("MusicVolume"), musicVolume);
 
-        AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ArousalLevel"), cumulativeArousal);
+        AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ArousalLevel"), arousal);
         AkSoundEngine.SetRTPCValue(AkSoundEngine.GetIDFromString("ValenceLevel"), valence);
 
     }
