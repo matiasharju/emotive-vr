@@ -19272,7 +19272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1349655377
 Transform:
   m_ObjectHideFlags: 0
@@ -29693,12 +29693,12 @@ GameObject:
   - component: {fileID: 2065060863}
   - component: {fileID: 2065060864}
   m_Layer: 0
-  m_Name: Interactive_With_StartScreen
+  m_Name: Interactive_Full_With_StartScreen
   m_TagString: DirectorSequencer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2065060863
 Transform:
   m_ObjectHideFlags: 0
@@ -29731,6 +29731,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ddea97d63b05b014c910de1b531ca1fc, type: 2}
   - {fileID: 11400000, guid: 77f743ef18253174198aab992422b099, type: 2}
   - {fileID: 11400000, guid: f7550405b107329439fb6b5145bb9c19, type: 2}
+  - {fileID: 11400000, guid: 636e8e09f8f6af840af23f437b4f6732, type: 2}
   - {fileID: 11400000, guid: 6fe7e10f96039024da79f128c7287619, type: 2}
   - {fileID: 11400000, guid: 59c8a996d22737a41843adf449d886c6, type: 2}
   currentSequence: {fileID: 0}

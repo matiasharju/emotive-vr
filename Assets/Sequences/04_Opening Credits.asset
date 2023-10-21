@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
   m_Name: 04_Opening Credits
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 32900000, guid: c4533d57d6b8d0a47800aaeadebbb54e, type: 3}
   rt: {fileID: 8400000, guid: dafe30d3fe1a16248b11f3ce01ede5cf, type: 2}
   useAudioFromVideo: 0
   cutSequence: 0
