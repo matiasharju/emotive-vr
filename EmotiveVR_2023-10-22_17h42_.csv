@@ -1,0 +1,740 @@
+EMOTIVE VR DATA RECORDING
+Date (year-month-day): 2023-10-22
+Playback start time: 17:42
+Session ID: 
+
+
+Time from playback start (s),Sequence name,Video clip name,Video time (s),Valence,Arousal
+0.06,00_StartPlayback,(NO VIDEO),0.00,0.4272727,0.2181818
+0.16,00_StartPlayback,(NO VIDEO),0.00,0.4181818,0.2181818
+0.27,00_StartPlayback,(NO VIDEO),0.00,0.4181818,0.2181818
+0.36,00_StartPlayback,(NO VIDEO),0.00,0.4181818,0.2181818
+0.46,00_StartPlayback,(NO VIDEO),0.00,0.4090909,0.2181818
+0.57,00_StartPlayback,(NO VIDEO),0.00,0.4090909,0.2181818
+0.67,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+0.77,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+0.87,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+0.97,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+1.07,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+1.17,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+1.27,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2181818
+1.37,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.47,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.57,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.67,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.77,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.87,00_StartPlayback,(NO VIDEO),0.00,0.4,0.2272727
+1.97,00_StartPlayback,(NO VIDEO),0.00,0.3909091,0.2272727
+2.08,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3909091,0.2272727
+2.18,04_Opening Credits,04_OpeningCredits_Interactive,0.12,0.3909091,0.2272727
+2.28,04_Opening Credits,04_OpeningCredits_Interactive,0.20,0.3818182,0.2272727
+2.38,04_Opening Credits,04_OpeningCredits_Interactive,0.32,0.3818182,0.2272727
+2.48,04_Opening Credits,04_OpeningCredits_Interactive,0.40,0.3818182,0.2272727
+2.59,04_Opening Credits,04_OpeningCredits_Interactive,0.52,0.3727273,0.2272727
+2.68,04_Opening Credits,04_OpeningCredits_Interactive,0.60,0.3727273,0.2272727
+2.79,04_Opening Credits,04_OpeningCredits_Interactive,0.72,0.3727273,0.2272727
+2.89,04_Opening Credits,04_OpeningCredits_Interactive,0.80,0.3727273,0.2272727
+2.99,04_Opening Credits,04_OpeningCredits_Interactive,0.92,0.3636364,0.2272727
+3.09,04_Opening Credits,04_OpeningCredits_Interactive,1.00,0.3636364,0.2272727
+3.19,04_Opening Credits,04_OpeningCredits_Interactive,1.12,0.3636364,0.2272727
+3.29,04_Opening Credits,04_OpeningCredits_Interactive,1.20,0.3636364,0.2272727
+3.39,04_Opening Credits,04_OpeningCredits_Interactive,1.32,0.3545454,0.2272727
+3.49,04_Opening Credits,04_OpeningCredits_Interactive,1.40,0.3545454,0.2181818
+3.59,04_Opening Credits,04_OpeningCredits_Interactive,1.52,0.3545454,0.2181818
+3.70,04_Opening Credits,04_OpeningCredits_Interactive,1.60,0.3545454,0.2181818
+3.80,04_Opening Credits,04_OpeningCredits_Interactive,1.72,0.3545454,0.2181818
+3.89,04_Opening Credits,04_OpeningCredits_Interactive,1.80,0.3545454,0.2272727
+4.00,04_Opening Credits,04_OpeningCredits_Interactive,1.92,0.3636364,0.2272727
+4.10,04_Opening Credits,04_OpeningCredits_Interactive,2.00,0.3636364,0.2272727
+4.20,04_Opening Credits,04_OpeningCredits_Interactive,2.12,0.3636364,0.2272727
+4.30,04_Opening Credits,04_OpeningCredits_Interactive,2.20,0.3727273,0.2363636
+4.40,04_Opening Credits,04_OpeningCredits_Interactive,2.32,0.3727273,0.2363636
+4.50,04_Opening Credits,04_OpeningCredits_Interactive,2.44,0.3818182,0.2363636
+4.60,04_Opening Credits,04_OpeningCredits_Interactive,2.52,0.3818182,0.2363636
+4.70,04_Opening Credits,04_OpeningCredits_Interactive,2.64,0.3818182,0.2454545
+4.80,04_Opening Credits,04_OpeningCredits_Interactive,2.72,0.4090909,0.2909091
+4.90,04_Opening Credits,04_OpeningCredits_Interactive,2.84,0.4454545,0.3545454
+5.00,04_Opening Credits,04_OpeningCredits_Interactive,2.92,0.4818182,0.4272727
+5.10,04_Opening Credits,04_OpeningCredits_Interactive,3.04,0.5181818,0.4909091
+5.20,04_Opening Credits,04_OpeningCredits_Interactive,3.12,0.5545455,0.5545455
+5.30,04_Opening Credits,04_OpeningCredits_Interactive,3.24,0.5909091,0.6181818
+5.41,04_Opening Credits,04_OpeningCredits_Interactive,3.32,0.6181818,0.6909091
+5.50,04_Opening Credits,04_OpeningCredits_Interactive,3.44,0.6545454,0.7545455
+5.61,04_Opening Credits,04_OpeningCredits_Interactive,3.52,0.6909091,0.8181818
+5.71,04_Opening Credits,04_OpeningCredits_Interactive,3.64,0.7272727,0.8818182
+5.81,04_Opening Credits,04_OpeningCredits_Interactive,3.72,0.7272727,0.8909091
+5.91,04_Opening Credits,04_OpeningCredits_Interactive,3.84,0.6909091,0.8181818
+6.01,04_Opening Credits,04_OpeningCredits_Interactive,3.92,0.6454545,0.7545455
+6.11,04_Opening Credits,04_OpeningCredits_Interactive,4.04,0.6090909,0.6818182
+6.21,04_Opening Credits,04_OpeningCredits_Interactive,4.12,0.5636364,0.6090909
+6.31,04_Opening Credits,04_OpeningCredits_Interactive,4.24,0.5272727,0.5454546
+6.41,04_Opening Credits,04_OpeningCredits_Interactive,4.32,0.4909091,0.4727273
+6.52,04_Opening Credits,04_OpeningCredits_Interactive,4.44,0.4454545,0.4090909
+6.61,04_Opening Credits,04_OpeningCredits_Interactive,4.52,0.4090909,0.3363636
+6.71,04_Opening Credits,04_OpeningCredits_Interactive,4.64,0.3636364,0.2636364
+6.82,04_Opening Credits,04_OpeningCredits_Interactive,4.72,0.3636364,0.2636364
+6.92,04_Opening Credits,04_OpeningCredits_Interactive,4.84,0.3636364,0.2636364
+7.02,04_Opening Credits,04_OpeningCredits_Interactive,4.96,0.3636364,0.2545455
+7.12,04_Opening Credits,04_OpeningCredits_Interactive,5.04,0.3636364,0.2545455
+7.22,04_Opening Credits,04_OpeningCredits_Interactive,5.16,0.3545454,0.2545455
+7.32,04_Opening Credits,04_OpeningCredits_Interactive,5.24,0.3545454,0.2454545
+7.42,04_Opening Credits,04_OpeningCredits_Interactive,5.36,0.3545454,0.2454545
+7.52,04_Opening Credits,04_OpeningCredits_Interactive,5.44,0.3545454,0.2454545
+7.63,04_Opening Credits,04_OpeningCredits_Interactive,5.56,0.3545454,0.2363636
+7.73,04_Opening Credits,04_OpeningCredits_Interactive,5.64,0.3454545,0.2363636
+7.82,04_Opening Credits,04_OpeningCredits_Interactive,5.76,0.3454545,0.2363636
+7.93,04_Opening Credits,04_OpeningCredits_Interactive,5.84,0.3454545,0.2363636
+8.03,04_Opening Credits,04_OpeningCredits_Interactive,5.96,0.3454545,0.2363636
+8.13,04_Opening Credits,04_OpeningCredits_Interactive,6.04,0.3454545,0.2363636
+8.23,04_Opening Credits,04_OpeningCredits_Interactive,6.16,0.3454545,0.2363636
+8.33,04_Opening Credits,04_OpeningCredits_Interactive,6.24,0.3363636,0.2272727
+8.43,04_Opening Credits,04_OpeningCredits_Interactive,6.36,0.3363636,0.2272727
+8.53,04_Opening Credits,04_OpeningCredits_Interactive,6.44,0.3363636,0.2272727
+8.63,04_Opening Credits,04_OpeningCredits_Interactive,6.56,0.3363636,0.2272727
+8.73,04_Opening Credits,04_OpeningCredits_Interactive,6.64,0.3363636,0.2272727
+8.83,04_Opening Credits,04_OpeningCredits_Interactive,6.76,0.3363636,0.2272727
+8.93,04_Opening Credits,04_OpeningCredits_Interactive,6.84,0.3363636,0.2272727
+9.03,04_Opening Credits,04_OpeningCredits_Interactive,6.96,0.3363636,0.2272727
+9.13,04_Opening Credits,04_OpeningCredits_Interactive,7.04,0.3363636,0.2272727
+9.23,04_Opening Credits,04_OpeningCredits_Interactive,7.16,0.3454545,0.2272727
+9.34,04_Opening Credits,04_OpeningCredits_Interactive,7.24,0.3454545,0.2181818
+9.43,04_Opening Credits,04_OpeningCredits_Interactive,7.36,0.3454545,0.2181818
+9.54,04_Opening Credits,04_OpeningCredits_Interactive,7.44,0.3454545,0.2181818
+9.64,04_Opening Credits,04_OpeningCredits_Interactive,7.56,0.3454545,0.2181818
+9.74,04_Opening Credits,04_OpeningCredits_Interactive,7.64,0.3454545,0.2181818
+9.84,04_Opening Credits,04_OpeningCredits_Interactive,7.76,0.3454545,0.2181818
+9.94,04_Opening Credits,04_OpeningCredits_Interactive,7.88,0.3454545,0.2181818
+10.04,04_Opening Credits,04_OpeningCredits_Interactive,7.96,0.3454545,0.2181818
+10.14,04_Opening Credits,04_OpeningCredits_Interactive,8.08,0.3545454,0.2181818
+10.24,04_Opening Credits,04_OpeningCredits_Interactive,8.16,0.3545454,0.2181818
+10.34,04_Opening Credits,04_OpeningCredits_Interactive,8.28,0.3545454,0.2181818
+10.44,04_Opening Credits,04_OpeningCredits_Interactive,8.36,0.3545454,0.2181818
+10.54,04_Opening Credits,04_OpeningCredits_Interactive,8.48,0.3545454,0.2272727
+10.64,04_Opening Credits,04_OpeningCredits_Interactive,8.56,0.3545454,0.2272727
+10.74,04_Opening Credits,04_OpeningCredits_Interactive,8.68,0.3545454,0.2272727
+10.84,04_Opening Credits,04_OpeningCredits_Interactive,8.76,0.3545454,0.2272727
+10.95,04_Opening Credits,04_OpeningCredits_Interactive,8.88,0.3545454,0.2272727
+11.05,04_Opening Credits,04_OpeningCredits_Interactive,8.96,0.3545454,0.2272727
+11.15,04_Opening Credits,04_OpeningCredits_Interactive,9.08,0.3545454,0.2272727
+11.25,04_Opening Credits,04_OpeningCredits_Interactive,9.16,0.3545454,0.2272727
+11.35,04_Opening Credits,04_OpeningCredits_Interactive,9.28,0.3545454,0.2272727
+11.45,04_Opening Credits,04_OpeningCredits_Interactive,9.36,0.3545454,0.2272727
+11.55,04_Opening Credits,04_OpeningCredits_Interactive,9.48,0.3545454,0.2272727
+11.65,04_Opening Credits,04_OpeningCredits_Interactive,9.56,0.3545454,0.2272727
+11.75,04_Opening Credits,04_OpeningCredits_Interactive,9.68,0.3545454,0.2363636
+11.85,04_Opening Credits,04_OpeningCredits_Interactive,9.76,0.3818182,0.2727273
+11.95,04_Opening Credits,04_OpeningCredits_Interactive,9.88,0.4,0.3
+12.05,04_Opening Credits,04_OpeningCredits_Interactive,9.96,0.4272727,0.3363636
+12.15,04_Opening Credits,04_OpeningCredits_Interactive,10.08,0.4454545,0.3727273
+12.25,04_Opening Credits,04_OpeningCredits_Interactive,10.16,0.4636364,0.4090909
+12.36,04_Opening Credits,04_OpeningCredits_Interactive,10.28,0.4909091,0.4454545
+12.45,04_Opening Credits,04_OpeningCredits_Interactive,10.36,0.5090909,0.4818182
+12.55,04_Opening Credits,04_OpeningCredits_Interactive,10.48,0.5363637,0.5181818
+12.66,04_Opening Credits,04_OpeningCredits_Interactive,10.56,0.5545455,0.5454546
+12.76,04_Opening Credits,04_OpeningCredits_Interactive,10.68,0.5727273,0.5727273
+12.86,04_Opening Credits,04_OpeningCredits_Interactive,10.76,0.5545455,0.5454546
+12.96,04_Opening Credits,04_OpeningCredits_Interactive,10.88,0.5272727,0.5090909
+13.06,04_Opening Credits,04_OpeningCredits_Interactive,10.96,0.5090909,0.4727273
+13.16,04_Opening Credits,04_OpeningCredits_Interactive,11.08,0.4818182,0.4454545
+13.26,04_Opening Credits,04_OpeningCredits_Interactive,11.20,0.4545455,0.4090909
+13.36,04_Opening Credits,04_OpeningCredits_Interactive,11.28,0.4363636,0.3727273
+13.46,04_Opening Credits,04_OpeningCredits_Interactive,11.40,0.4090909,0.3363636
+13.56,04_Opening Credits,04_OpeningCredits_Interactive,11.48,0.3909091,0.3
+13.66,04_Opening Credits,04_OpeningCredits_Interactive,11.60,0.3636364,0.2727273
+13.76,04_Opening Credits,04_OpeningCredits_Interactive,11.68,0.3363636,0.2363636
+13.86,04_Opening Credits,04_OpeningCredits_Interactive,11.80,0.3454545,0.2363636
+13.96,04_Opening Credits,04_OpeningCredits_Interactive,11.88,0.3454545,0.2363636
+14.06,04_Opening Credits,04_OpeningCredits_Interactive,12.00,0.3454545,0.2363636
+14.16,04_Opening Credits,04_OpeningCredits_Interactive,12.08,0.3454545,0.2272727
+14.27,04_Opening Credits,04_OpeningCredits_Interactive,12.20,0.3454545,0.2272727
+14.37,04_Opening Credits,04_OpeningCredits_Interactive,12.28,0.3454545,0.2272727
+14.46,04_Opening Credits,04_OpeningCredits_Interactive,12.40,0.3454545,0.2272727
+14.57,04_Opening Credits,04_OpeningCredits_Interactive,12.48,0.3454545,0.2272727
+14.67,04_Opening Credits,04_OpeningCredits_Interactive,12.60,0.3545454,0.2181818
+14.77,04_Opening Credits,04_OpeningCredits_Interactive,12.68,0.3545454,0.2181818
+14.87,04_Opening Credits,04_OpeningCredits_Interactive,12.80,0.3545454,0.2181818
+14.97,04_Opening Credits,04_OpeningCredits_Interactive,12.88,0.3545454,0.2272727
+15.07,04_Opening Credits,04_OpeningCredits_Interactive,13.00,0.3454545,0.2272727
+15.17,04_Opening Credits,04_OpeningCredits_Interactive,13.08,0.3454545,0.2272727
+15.27,04_Opening Credits,04_OpeningCredits_Interactive,13.20,0.3454545,0.2363636
+15.37,04_Opening Credits,04_OpeningCredits_Interactive,13.28,0.3454545,0.2363636
+15.47,04_Opening Credits,04_OpeningCredits_Interactive,13.40,0.3454545,0.2363636
+15.57,04_Opening Credits,04_OpeningCredits_Interactive,13.48,0.3454545,0.2454545
+15.67,04_Opening Credits,04_OpeningCredits_Interactive,13.60,0.3454545,0.2454545
+15.77,04_Opening Credits,04_OpeningCredits_Interactive,13.68,0.3454545,0.2454545
+15.88,04_Opening Credits,04_OpeningCredits_Interactive,13.80,0.3454545,0.2454545
+15.97,04_Opening Credits,04_OpeningCredits_Interactive,13.88,0.3454545,0.2454545
+16.07,04_Opening Credits,04_OpeningCredits_Interactive,14.00,0.3454545,0.2454545
+16.18,04_Opening Credits,04_OpeningCredits_Interactive,14.08,0.3454545,0.2363636
+16.28,04_Opening Credits,04_OpeningCredits_Interactive,14.20,0.3454545,0.2363636
+16.38,04_Opening Credits,04_OpeningCredits_Interactive,14.28,0.3454545,0.2363636
+16.48,04_Opening Credits,04_OpeningCredits_Interactive,14.40,0.3454545,0.2363636
+16.58,04_Opening Credits,04_OpeningCredits_Interactive,14.48,0.3454545,0.2363636
+16.68,04_Opening Credits,04_OpeningCredits_Interactive,14.60,0.3454545,0.2272727
+16.78,04_Opening Credits,04_OpeningCredits_Interactive,14.72,0.3454545,0.2272727
+16.88,04_Opening Credits,04_OpeningCredits_Interactive,14.80,0.3454545,0.2272727
+16.98,04_Opening Credits,04_OpeningCredits_Interactive,14.92,0.3454545,0.2272727
+17.08,04_Opening Credits,04_OpeningCredits_Interactive,15.00,0.3454545,0.2272727
+17.18,04_Opening Credits,04_OpeningCredits_Interactive,15.12,0.3454545,0.2272727
+17.28,04_Opening Credits,04_OpeningCredits_Interactive,15.20,0.3454545,0.2272727
+17.38,04_Opening Credits,04_OpeningCredits_Interactive,15.32,0.3363636,0.2272727
+17.48,04_Opening Credits,04_OpeningCredits_Interactive,15.40,0.3363636,0.2272727
+17.58,04_Opening Credits,04_OpeningCredits_Interactive,15.52,0.3363636,0.2272727
+17.68,04_Opening Credits,04_OpeningCredits_Interactive,15.60,0.3363636,0.2272727
+17.79,04_Opening Credits,04_OpeningCredits_Interactive,15.72,0.3363636,0.2272727
+17.89,04_Opening Credits,04_OpeningCredits_Interactive,15.80,0.3363636,0.2272727
+17.99,04_Opening Credits,04_OpeningCredits_Interactive,15.92,0.3363636,0.2272727
+18.09,04_Opening Credits,04_OpeningCredits_Interactive,16.00,0.3363636,0.2181818
+18.19,04_Opening Credits,04_OpeningCredits_Interactive,16.12,0.3363636,0.2181818
+18.29,04_Opening Credits,04_OpeningCredits_Interactive,16.20,0.3363636,0.2181818
+18.39,04_Opening Credits,04_OpeningCredits_Interactive,16.32,0.3363636,0.2181818
+18.49,04_Opening Credits,04_OpeningCredits_Interactive,16.40,0.3363636,0.2181818
+18.59,04_Opening Credits,04_OpeningCredits_Interactive,16.52,0.3363636,0.2181818
+18.69,04_Opening Credits,04_OpeningCredits_Interactive,16.60,0.3363636,0.2181818
+18.79,04_Opening Credits,04_OpeningCredits_Interactive,16.72,0.3363636,0.2181818
+18.89,04_Opening Credits,04_OpeningCredits_Interactive,16.80,0.3363636,0.2181818
+18.99,04_Opening Credits,04_OpeningCredits_Interactive,16.92,0.3363636,0.2181818
+19.09,04_Opening Credits,04_OpeningCredits_Interactive,17.00,0.3363636,0.2181818
+19.19,04_Opening Credits,04_OpeningCredits_Interactive,17.12,0.3363636,0.2181818
+19.29,04_Opening Credits,04_OpeningCredits_Interactive,17.20,0.3363636,0.2181818
+19.39,04_Opening Credits,04_OpeningCredits_Interactive,17.32,0.3363636,0.2181818
+19.50,04_Opening Credits,04_OpeningCredits_Interactive,17.40,0.3363636,0.2181818
+19.59,04_Opening Credits,04_OpeningCredits_Interactive,17.52,0.3363636,0.2181818
+19.70,04_Opening Credits,04_OpeningCredits_Interactive,17.60,0.3363636,0.2181818
+19.80,04_Opening Credits,04_OpeningCredits_Interactive,17.72,0.3363636,0.2181818
+19.90,04_Opening Credits,04_OpeningCredits_Interactive,17.80,0.3363636,0.2272727
+20.00,04_Opening Credits,04_OpeningCredits_Interactive,17.92,0.3272727,0.2363636
+20.10,04_Opening Credits,04_OpeningCredits_Interactive,18.04,0.3272727,0.2454545
+20.20,04_Opening Credits,04_OpeningCredits_Interactive,18.12,0.3272727,0.2545455
+20.30,04_Opening Credits,04_OpeningCredits_Interactive,18.24,0.3272727,0.2636364
+20.40,04_Opening Credits,04_OpeningCredits_Interactive,18.32,0.3181818,0.2727273
+20.50,04_Opening Credits,04_OpeningCredits_Interactive,18.44,0.3181818,0.2818182
+20.60,04_Opening Credits,04_OpeningCredits_Interactive,18.52,0.3181818,0.2818182
+20.70,04_Opening Credits,04_OpeningCredits_Interactive,18.64,0.3181818,0.2818182
+20.80,04_Opening Credits,04_OpeningCredits_Interactive,18.72,0.3181818,0.2818182
+20.91,04_Opening Credits,04_OpeningCredits_Interactive,18.84,0.3181818,0.2818182
+21.00,04_Opening Credits,04_OpeningCredits_Interactive,18.92,0.3181818,0.2818182
+21.11,04_Opening Credits,04_OpeningCredits_Interactive,19.04,0.3181818,0.2818182
+21.21,04_Opening Credits,04_OpeningCredits_Interactive,19.12,0.3181818,0.2818182
+21.30,04_Opening Credits,04_OpeningCredits_Interactive,19.24,0.3181818,0.2818182
+21.41,04_Opening Credits,04_OpeningCredits_Interactive,19.32,0.3181818,0.2818182
+21.51,04_Opening Credits,04_OpeningCredits_Interactive,19.44,0.3181818,0.2818182
+21.61,04_Opening Credits,04_OpeningCredits_Interactive,19.52,0.3181818,0.2818182
+21.71,04_Opening Credits,04_OpeningCredits_Interactive,19.64,0.3181818,0.2818182
+21.81,04_Opening Credits,04_OpeningCredits_Interactive,19.72,0.3181818,0.2818182
+21.91,04_Opening Credits,04_OpeningCredits_Interactive,19.84,0.3272727,0.2727273
+22.01,04_Opening Credits,04_OpeningCredits_Interactive,19.92,0.3272727,0.2727273
+22.11,04_Opening Credits,04_OpeningCredits_Interactive,20.04,0.3272727,0.2636364
+22.21,04_Opening Credits,04_OpeningCredits_Interactive,20.12,0.3272727,0.2636364
+22.31,04_Opening Credits,04_OpeningCredits_Interactive,20.24,0.3272727,0.2545455
+22.41,04_Opening Credits,04_OpeningCredits_Interactive,20.32,0.3363636,0.2545455
+22.51,04_Opening Credits,04_OpeningCredits_Interactive,20.44,0.3363636,0.2454545
+22.61,04_Opening Credits,04_OpeningCredits_Interactive,20.52,0.3363636,0.2454545
+22.71,04_Opening Credits,04_OpeningCredits_Interactive,20.64,0.3363636,0.2363636
+22.82,04_Opening Credits,04_OpeningCredits_Interactive,20.72,0.3363636,0.2363636
+22.91,04_Opening Credits,04_OpeningCredits_Interactive,20.84,0.3363636,0.2363636
+23.02,04_Opening Credits,04_OpeningCredits_Interactive,20.92,0.3363636,0.2363636
+23.12,04_Opening Credits,04_OpeningCredits_Interactive,21.04,0.3363636,0.2363636
+23.21,04_Opening Credits,04_OpeningCredits_Interactive,21.12,0.3363636,0.2363636
+23.32,04_Opening Credits,04_OpeningCredits_Interactive,21.24,0.3363636,0.2363636
+23.42,04_Opening Credits,04_OpeningCredits_Interactive,21.36,0.3272727,0.2363636
+23.52,04_Opening Credits,04_OpeningCredits_Interactive,21.44,0.3272727,0.2363636
+23.62,04_Opening Credits,04_OpeningCredits_Interactive,21.56,0.3272727,0.2363636
+23.72,04_Opening Credits,04_OpeningCredits_Interactive,21.64,0.3272727,0.2363636
+23.82,04_Opening Credits,04_OpeningCredits_Interactive,21.76,0.3272727,0.2363636
+23.92,04_Opening Credits,04_OpeningCredits_Interactive,21.84,0.3272727,0.2363636
+24.02,04_Opening Credits,04_OpeningCredits_Interactive,21.96,0.3272727,0.2363636
+24.13,04_Opening Credits,04_OpeningCredits_Interactive,22.04,0.3363636,0.2363636
+24.23,04_Opening Credits,04_OpeningCredits_Interactive,22.16,0.3363636,0.2272727
+24.32,04_Opening Credits,04_OpeningCredits_Interactive,22.24,0.3363636,0.2272727
+24.43,04_Opening Credits,04_OpeningCredits_Interactive,22.36,0.3363636,0.2272727
+24.53,04_Opening Credits,04_OpeningCredits_Interactive,22.44,0.3363636,0.2272727
+24.63,04_Opening Credits,04_OpeningCredits_Interactive,22.56,0.3454545,0.2272727
+24.73,04_Opening Credits,04_OpeningCredits_Interactive,22.64,0.3454545,0.2181818
+24.83,04_Opening Credits,04_OpeningCredits_Interactive,22.76,0.3454545,0.2181818
+24.93,04_Opening Credits,04_OpeningCredits_Interactive,22.84,0.3454545,0.2181818
+25.03,04_Opening Credits,04_OpeningCredits_Interactive,22.96,0.3454545,0.2181818
+25.13,04_Opening Credits,04_OpeningCredits_Interactive,23.04,0.3454545,0.2181818
+25.23,04_Opening Credits,04_OpeningCredits_Interactive,23.16,0.3545454,0.2181818
+25.33,04_Opening Credits,04_OpeningCredits_Interactive,23.24,0.3545454,0.2181818
+25.43,04_Opening Credits,04_OpeningCredits_Interactive,23.36,0.3545454,0.2181818
+25.53,04_Opening Credits,04_OpeningCredits_Interactive,23.44,0.3545454,0.2181818
+25.63,04_Opening Credits,04_OpeningCredits_Interactive,23.56,0.3545454,0.2181818
+25.73,04_Opening Credits,04_OpeningCredits_Interactive,23.64,0.3545454,0.2181818
+25.84,04_Opening Credits,04_OpeningCredits_Interactive,23.76,0.3545454,0.2181818
+25.94,04_Opening Credits,04_OpeningCredits_Interactive,23.84,0.3545454,0.2181818
+26.04,04_Opening Credits,04_OpeningCredits_Interactive,23.96,0.3545454,0.2181818
+26.14,04_Opening Credits,04_OpeningCredits_Interactive,24.04,0.3545454,0.2181818
+26.24,04_Opening Credits,04_OpeningCredits_Interactive,24.16,0.3545454,0.2181818
+26.34,04_Opening Credits,04_OpeningCredits_Interactive,24.28,0.3545454,0.2181818
+26.44,04_Opening Credits,04_OpeningCredits_Interactive,24.36,0.3636364,0.2272727
+26.54,04_Opening Credits,04_OpeningCredits_Interactive,24.48,0.3636364,0.2272727
+26.64,04_Opening Credits,04_OpeningCredits_Interactive,24.56,0.3636364,0.2272727
+26.74,04_Opening Credits,04_OpeningCredits_Interactive,24.68,0.3636364,0.2272727
+26.84,04_Opening Credits,04_OpeningCredits_Interactive,24.76,0.3636364,0.2272727
+26.94,04_Opening Credits,04_OpeningCredits_Interactive,24.88,0.3636364,0.2272727
+27.04,04_Opening Credits,04_OpeningCredits_Interactive,24.96,0.3636364,0.2272727
+27.14,04_Opening Credits,04_OpeningCredits_Interactive,25.08,0.3636364,0.2272727
+27.24,04_Opening Credits,04_OpeningCredits_Interactive,25.16,0.3636364,0.2272727
+27.34,04_Opening Credits,04_OpeningCredits_Interactive,25.28,0.3636364,0.2272727
+27.45,04_Opening Credits,04_OpeningCredits_Interactive,25.36,0.3636364,0.2272727
+27.54,04_Opening Credits,04_OpeningCredits_Interactive,25.48,0.3636364,0.2272727
+27.64,04_Opening Credits,04_OpeningCredits_Interactive,25.56,0.3727273,0.2363636
+27.75,04_Opening Credits,04_OpeningCredits_Interactive,25.68,0.3727273,0.2363636
+27.84,04_Opening Credits,04_OpeningCredits_Interactive,25.76,0.3727273,0.2363636
+27.95,04_Opening Credits,04_OpeningCredits_Interactive,25.88,0.3727273,0.2363636
+28.05,04_Opening Credits,04_OpeningCredits_Interactive,25.96,0.3909091,0.2454545
+28.15,04_Opening Credits,04_OpeningCredits_Interactive,26.08,0.4363636,0.2818182
+28.25,04_Opening Credits,04_OpeningCredits_Interactive,26.16,0.4909091,0.3090909
+28.35,04_Opening Credits,04_OpeningCredits_Interactive,26.28,0.5363637,0.3454545
+28.45,04_Opening Credits,04_OpeningCredits_Interactive,26.36,0.5818182,0.3727273
+28.55,04_Opening Credits,04_OpeningCredits_Interactive,26.48,0.6363636,0.4090909
+28.65,04_Opening Credits,04_OpeningCredits_Interactive,26.56,0.6818182,0.4454545
+28.75,04_Opening Credits,04_OpeningCredits_Interactive,26.68,0.7363636,0.4727273
+28.86,04_Opening Credits,04_OpeningCredits_Interactive,26.76,0.7090909,0.4545455
+28.95,04_Opening Credits,04_OpeningCredits_Interactive,26.88,0.6818182,0.4363636
+29.05,04_Opening Credits,04_OpeningCredits_Interactive,26.96,0.6545454,0.4181818
+29.16,04_Opening Credits,04_OpeningCredits_Interactive,27.08,0.6272727,0.4
+29.26,04_Opening Credits,04_OpeningCredits_Interactive,27.16,0.6,0.3818182
+29.36,04_Opening Credits,04_OpeningCredits_Interactive,27.28,0.5727273,0.3636364
+29.46,04_Opening Credits,04_OpeningCredits_Interactive,27.36,0.5454546,0.3454545
+29.56,04_Opening Credits,04_OpeningCredits_Interactive,27.48,0.5272727,0.3272727
+29.66,04_Opening Credits,04_OpeningCredits_Interactive,27.60,0.5,0.3
+29.76,04_Opening Credits,04_OpeningCredits_Interactive,27.68,0.4727273,0.2909091
+29.86,04_Opening Credits,04_OpeningCredits_Interactive,27.80,0.4636364,0.2818182
+29.96,04_Opening Credits,04_OpeningCredits_Interactive,27.88,0.4545455,0.2727273
+30.06,04_Opening Credits,04_OpeningCredits_Interactive,28.00,0.4454545,0.2636364
+30.16,04_Opening Credits,04_OpeningCredits_Interactive,28.08,0.4363636,0.2636364
+30.26,04_Opening Credits,04_OpeningCredits_Interactive,28.20,0.4272727,0.2545455
+30.36,04_Opening Credits,04_OpeningCredits_Interactive,28.28,0.4181818,0.2454545
+30.46,04_Opening Credits,04_OpeningCredits_Interactive,28.40,0.4090909,0.2363636
+30.56,04_Opening Credits,04_OpeningCredits_Interactive,28.48,0.4090909,0.2363636
+30.66,04_Opening Credits,04_OpeningCredits_Interactive,28.60,0.4090909,0.2363636
+30.76,04_Opening Credits,04_OpeningCredits_Interactive,28.68,0.4090909,0.2363636
+30.86,04_Opening Credits,04_OpeningCredits_Interactive,28.80,0.4090909,0.2363636
+30.96,04_Opening Credits,04_OpeningCredits_Interactive,28.88,0.4090909,0.2363636
+31.07,04_Opening Credits,04_OpeningCredits_Interactive,29.00,0.4090909,0.2363636
+31.16,04_Opening Credits,04_OpeningCredits_Interactive,29.08,0.4090909,0.2363636
+31.27,04_Opening Credits,04_OpeningCredits_Interactive,29.20,0.4090909,0.2363636
+31.37,04_Opening Credits,04_OpeningCredits_Interactive,29.28,0.4090909,0.2363636
+31.47,04_Opening Credits,04_OpeningCredits_Interactive,29.40,0.4090909,0.2363636
+31.57,04_Opening Credits,04_OpeningCredits_Interactive,29.48,0.4090909,0.2363636
+31.67,04_Opening Credits,04_OpeningCredits_Interactive,29.60,0.4090909,0.2363636
+31.77,04_Opening Credits,04_OpeningCredits_Interactive,29.68,0.4090909,0.2363636
+31.87,04_Opening Credits,04_OpeningCredits_Interactive,29.80,0.4090909,0.2363636
+31.97,04_Opening Credits,04_OpeningCredits_Interactive,29.88,0.4090909,0.2363636
+32.07,04_Opening Credits,04_OpeningCredits_Interactive,30.00,0.4090909,0.2363636
+32.17,04_Opening Credits,04_OpeningCredits_Interactive,30.08,0.4090909,0.2363636
+32.27,04_Opening Credits,04_OpeningCredits_Interactive,30.20,0.4090909,0.2363636
+32.37,04_Opening Credits,04_OpeningCredits_Interactive,30.28,0.4090909,0.2363636
+32.47,04_Opening Credits,04_OpeningCredits_Interactive,30.40,0.4090909,0.2363636
+32.57,04_Opening Credits,04_OpeningCredits_Interactive,30.48,0.4090909,0.2363636
+32.68,04_Opening Credits,04_OpeningCredits_Interactive,30.60,0.4090909,0.2363636
+32.78,04_Opening Credits,04_OpeningCredits_Interactive,30.68,0.4090909,0.2363636
+32.88,04_Opening Credits,04_OpeningCredits_Interactive,30.80,0.4090909,0.2363636
+32.98,04_Opening Credits,04_OpeningCredits_Interactive,30.88,0.4090909,0.2363636
+33.08,04_Opening Credits,04_OpeningCredits_Interactive,31.00,0.4090909,0.2363636
+33.18,04_Opening Credits,04_OpeningCredits_Interactive,31.08,0.4090909,0.2272727
+33.28,04_Opening Credits,04_OpeningCredits_Interactive,31.20,0.4181818,0.2272727
+33.38,04_Opening Credits,04_OpeningCredits_Interactive,31.32,0.4181818,0.2272727
+33.48,04_Opening Credits,04_OpeningCredits_Interactive,31.40,0.4181818,0.2272727
+33.58,04_Opening Credits,04_OpeningCredits_Interactive,31.52,0.4181818,0.2272727
+33.68,04_Opening Credits,04_OpeningCredits_Interactive,31.60,0.4181818,0.2272727
+33.78,04_Opening Credits,04_OpeningCredits_Interactive,31.72,0.4181818,0.2272727
+33.88,04_Opening Credits,04_OpeningCredits_Interactive,31.80,0.4181818,0.2272727
+33.98,04_Opening Credits,04_OpeningCredits_Interactive,31.92,0.4181818,0.2272727
+34.09,04_Opening Credits,04_OpeningCredits_Interactive,32.00,0.4181818,0.2272727
+34.18,04_Opening Credits,04_OpeningCredits_Interactive,32.12,0.4181818,0.2272727
+34.29,04_Opening Credits,04_OpeningCredits_Interactive,32.20,0.4090909,0.2272727
+34.39,04_Opening Credits,04_OpeningCredits_Interactive,32.32,0.4090909,0.2363636
+34.49,04_Opening Credits,04_OpeningCredits_Interactive,32.40,0.4090909,0.2363636
+34.59,04_Opening Credits,04_OpeningCredits_Interactive,32.52,0.4090909,0.2363636
+34.69,04_Opening Credits,04_OpeningCredits_Interactive,32.60,0.4090909,0.2363636
+34.79,04_Opening Credits,04_OpeningCredits_Interactive,32.72,0.4090909,0.2363636
+34.89,04_Opening Credits,04_OpeningCredits_Interactive,32.80,0.4090909,0.2363636
+34.99,04_Opening Credits,04_OpeningCredits_Interactive,32.92,0.4090909,0.2363636
+35.09,04_Opening Credits,04_OpeningCredits_Interactive,33.00,0.4090909,0.2454545
+35.19,04_Opening Credits,04_OpeningCredits_Interactive,33.12,0.4090909,0.2454545
+35.29,04_Opening Credits,04_OpeningCredits_Interactive,33.20,0.4090909,0.2454545
+35.39,04_Opening Credits,04_OpeningCredits_Interactive,33.32,0.4090909,0.2454545
+35.50,04_Opening Credits,04_OpeningCredits_Interactive,33.40,0.4090909,0.2454545
+35.60,04_Opening Credits,04_OpeningCredits_Interactive,33.52,0.4090909,0.2454545
+35.70,04_Opening Credits,04_OpeningCredits_Interactive,33.60,0.4090909,0.2454545
+35.80,04_Opening Credits,04_OpeningCredits_Interactive,33.72,0.4090909,0.2545455
+35.90,04_Opening Credits,04_OpeningCredits_Interactive,33.80,0.4090909,0.2454545
+36.00,04_Opening Credits,04_OpeningCredits_Interactive,33.92,0.4090909,0.2454545
+36.10,04_Opening Credits,04_OpeningCredits_Interactive,34.04,0.4090909,0.2454545
+36.20,04_Opening Credits,04_OpeningCredits_Interactive,34.12,0.4090909,0.2454545
+36.30,04_Opening Credits,04_OpeningCredits_Interactive,34.24,0.4090909,0.2454545
+36.40,04_Opening Credits,04_OpeningCredits_Interactive,34.32,0.4090909,0.2454545
+36.50,04_Opening Credits,04_OpeningCredits_Interactive,34.44,0.4090909,0.2454545
+36.61,04_Opening Credits,04_OpeningCredits_Interactive,34.52,0.4090909,0.2363636
+36.70,04_Opening Credits,04_OpeningCredits_Interactive,34.64,0.4090909,0.2363636
+36.80,04_Opening Credits,04_OpeningCredits_Interactive,34.72,0.4090909,0.2363636
+36.90,04_Opening Credits,04_OpeningCredits_Interactive,34.84,0.4090909,0.2363636
+37.00,04_Opening Credits,04_OpeningCredits_Interactive,34.92,0.4090909,0.2363636
+37.11,04_Opening Credits,04_OpeningCredits_Interactive,35.04,0.4090909,0.2363636
+37.21,04_Opening Credits,04_OpeningCredits_Interactive,35.12,0.4090909,0.2363636
+37.31,04_Opening Credits,04_OpeningCredits_Interactive,35.24,0.4181818,0.2272727
+37.41,04_Opening Credits,04_OpeningCredits_Interactive,35.32,0.4181818,0.2272727
+37.51,04_Opening Credits,04_OpeningCredits_Interactive,35.44,0.4181818,0.2272727
+37.61,04_Opening Credits,04_OpeningCredits_Interactive,35.52,0.4181818,0.2272727
+37.71,04_Opening Credits,04_OpeningCredits_Interactive,35.64,0.4181818,0.2272727
+37.81,04_Opening Credits,04_OpeningCredits_Interactive,35.72,0.4181818,0.2272727
+37.91,04_Opening Credits,04_OpeningCredits_Interactive,35.84,0.4181818,0.2272727
+38.01,04_Opening Credits,04_OpeningCredits_Interactive,35.92,0.4181818,0.2272727
+38.11,04_Opening Credits,04_OpeningCredits_Interactive,36.04,0.4181818,0.2272727
+38.21,04_Opening Credits,04_OpeningCredits_Interactive,36.12,0.4181818,0.2272727
+38.31,04_Opening Credits,04_OpeningCredits_Interactive,36.24,0.4090909,0.2272727
+38.41,04_Opening Credits,04_OpeningCredits_Interactive,36.32,0.4090909,0.2363636
+38.52,04_Opening Credits,04_OpeningCredits_Interactive,36.44,0.4090909,0.2363636
+38.62,04_Opening Credits,04_OpeningCredits_Interactive,36.52,0.4090909,0.2363636
+38.71,04_Opening Credits,04_OpeningCredits_Interactive,36.64,0.4090909,0.2363636
+38.82,04_Opening Credits,04_OpeningCredits_Interactive,36.72,0.4090909,0.2363636
+38.92,04_Opening Credits,04_OpeningCredits_Interactive,36.84,0.4,0.2363636
+39.02,04_Opening Credits,04_OpeningCredits_Interactive,36.92,0.4,0.2363636
+39.12,04_Opening Credits,04_OpeningCredits_Interactive,37.04,0.4,0.2363636
+39.22,04_Opening Credits,04_OpeningCredits_Interactive,37.16,0.3909091,0.2363636
+39.32,04_Opening Credits,04_OpeningCredits_Interactive,37.24,0.3909091,0.2363636
+39.42,04_Opening Credits,04_OpeningCredits_Interactive,37.36,0.3909091,0.2363636
+39.52,04_Opening Credits,04_OpeningCredits_Interactive,37.44,0.3909091,0.2363636
+39.62,04_Opening Credits,04_OpeningCredits_Interactive,37.56,0.3818182,0.2363636
+39.72,04_Opening Credits,04_OpeningCredits_Interactive,37.64,0.3818182,0.2363636
+39.82,04_Opening Credits,04_OpeningCredits_Interactive,37.76,0.3818182,0.2363636
+39.93,04_Opening Credits,04_OpeningCredits_Interactive,37.84,0.3909091,0.2363636
+40.03,04_Opening Credits,04_OpeningCredits_Interactive,37.96,0.3909091,0.2363636
+40.13,04_Opening Credits,04_OpeningCredits_Interactive,38.04,0.4,0.2363636
+40.23,04_Opening Credits,04_OpeningCredits_Interactive,38.16,0.4,0.2363636
+40.33,04_Opening Credits,04_OpeningCredits_Interactive,38.24,0.4090909,0.2272727
+40.43,04_Opening Credits,04_OpeningCredits_Interactive,38.36,0.4090909,0.2272727
+40.53,04_Opening Credits,04_OpeningCredits_Interactive,38.44,0.4090909,0.2272727
+40.63,04_Opening Credits,04_OpeningCredits_Interactive,38.56,0.4181818,0.2272727
+40.73,04_Opening Credits,04_OpeningCredits_Interactive,38.64,0.4181818,0.2272727
+40.83,04_Opening Credits,04_OpeningCredits_Interactive,38.76,0.4272727,0.2272727
+40.93,04_Opening Credits,04_OpeningCredits_Interactive,38.84,0.4272727,0.2272727
+41.03,04_Opening Credits,04_OpeningCredits_Interactive,38.96,0.4363636,0.2272727
+41.13,04_Opening Credits,04_OpeningCredits_Interactive,39.04,0.4363636,0.2272727
+41.23,04_Opening Credits,04_OpeningCredits_Interactive,39.16,0.4454545,0.2363636
+41.34,04_Opening Credits,04_OpeningCredits_Interactive,39.24,0.4454545,0.2363636
+41.43,04_Opening Credits,04_OpeningCredits_Interactive,39.36,0.4454545,0.2363636
+41.54,04_Opening Credits,04_OpeningCredits_Interactive,39.44,0.4545455,0.2363636
+41.65,04_Opening Credits,04_OpeningCredits_Interactive,39.56,0.4545455,0.2363636
+41.75,04_Opening Credits,04_OpeningCredits_Interactive,39.68,0.4636364,0.2454545
+41.85,04_Opening Credits,04_OpeningCredits_Interactive,39.76,0.4545455,0.2454545
+41.95,04_Opening Credits,04_OpeningCredits_Interactive,39.88,0.4454545,0.2363636
+42.05,04_Opening Credits,04_OpeningCredits_Interactive,39.96,0.4454545,0.2363636
+42.15,04_Opening Credits,04_OpeningCredits_Interactive,40.08,0.4363636,0.2363636
+42.25,04_Opening Credits,04_OpeningCredits_Interactive,40.16,0.4272727,0.2363636
+42.35,04_Opening Credits,04_OpeningCredits_Interactive,40.28,0.4181818,0.2363636
+42.45,04_Opening Credits,04_OpeningCredits_Interactive,40.36,0.4090909,0.2363636
+42.55,04_Opening Credits,04_OpeningCredits_Interactive,40.48,0.4,0.2363636
+42.65,04_Opening Credits,04_OpeningCredits_Interactive,40.56,0.3909091,0.2363636
+42.75,04_Opening Credits,04_OpeningCredits_Interactive,40.68,0.3909091,0.2272727
+42.86,04_Opening Credits,04_OpeningCredits_Interactive,40.76,0.3818182,0.2272727
+42.96,04_Opening Credits,04_OpeningCredits_Interactive,40.88,0.3818182,0.2272727
+43.06,04_Opening Credits,04_OpeningCredits_Interactive,40.96,0.3909091,0.2272727
+43.16,04_Opening Credits,04_OpeningCredits_Interactive,41.08,0.3909091,0.2272727
+43.26,04_Opening Credits,04_OpeningCredits_Interactive,41.16,0.3909091,0.2272727
+43.36,04_Opening Credits,04_OpeningCredits_Interactive,41.28,0.3909091,0.2272727
+43.46,04_Opening Credits,04_OpeningCredits_Interactive,41.40,0.3909091,0.2272727
+43.56,04_Opening Credits,04_OpeningCredits_Interactive,41.48,0.4,0.2272727
+43.66,04_Opening Credits,04_OpeningCredits_Interactive,41.60,0.4,0.2272727
+43.76,04_Opening Credits,04_OpeningCredits_Interactive,41.68,0.4,0.2272727
+43.86,04_Opening Credits,04_OpeningCredits_Interactive,41.80,0.4181818,0.2272727
+43.96,04_Opening Credits,04_OpeningCredits_Interactive,41.88,0.4363636,0.2363636
+44.06,04_Opening Credits,04_OpeningCredits_Interactive,42.00,0.4545455,0.2363636
+44.16,04_Opening Credits,04_OpeningCredits_Interactive,42.08,0.4636364,0.2454545
+44.27,04_Opening Credits,04_OpeningCredits_Interactive,42.20,0.4818182,0.2454545
+44.37,04_Opening Credits,04_OpeningCredits_Interactive,42.28,0.5,0.2454545
+44.46,04_Opening Credits,04_OpeningCredits_Interactive,42.40,0.5181818,0.2545455
+44.57,04_Opening Credits,04_OpeningCredits_Interactive,42.48,0.5363637,0.2545455
+44.67,04_Opening Credits,04_OpeningCredits_Interactive,42.60,0.5545455,0.2545455
+44.77,04_Opening Credits,04_OpeningCredits_Interactive,42.68,0.5636364,0.2636364
+44.87,04_Opening Credits,04_OpeningCredits_Interactive,42.80,0.5636364,0.2636364
+44.97,04_Opening Credits,04_OpeningCredits_Interactive,42.88,0.5454546,0.2545455
+45.07,04_Opening Credits,04_OpeningCredits_Interactive,43.00,0.5363637,0.2545455
+45.17,04_Opening Credits,04_OpeningCredits_Interactive,43.08,0.5272727,0.2545455
+45.27,04_Opening Credits,04_OpeningCredits_Interactive,43.20,0.5181818,0.2545455
+45.38,04_Opening Credits,04_OpeningCredits_Interactive,43.28,0.5,0.2454545
+45.48,04_Opening Credits,04_OpeningCredits_Interactive,43.40,0.4909091,0.2454545
+45.57,04_Opening Credits,04_OpeningCredits_Interactive,43.48,0.4818182,0.2454545
+45.68,04_Opening Credits,04_OpeningCredits_Interactive,43.60,0.4636364,0.2454545
+45.78,04_Opening Credits,04_OpeningCredits_Interactive,43.68,0.4636364,0.2454545
+45.88,04_Opening Credits,04_OpeningCredits_Interactive,43.80,0.4727273,0.2454545
+45.98,04_Opening Credits,04_OpeningCredits_Interactive,43.92,0.4818182,0.2454545
+46.08,04_Opening Credits,04_OpeningCredits_Interactive,44.00,0.5,0.2454545
+46.18,04_Opening Credits,04_OpeningCredits_Interactive,44.12,0.5090909,0.2454545
+46.28,04_Opening Credits,04_OpeningCredits_Interactive,44.20,0.5181818,0.2454545
+46.38,04_Opening Credits,04_OpeningCredits_Interactive,44.32,0.5272727,0.2454545
+46.48,04_Opening Credits,04_OpeningCredits_Interactive,44.40,0.5363637,0.2454545
+46.58,04_Opening Credits,04_OpeningCredits_Interactive,44.52,0.5545455,0.2363636
+46.68,04_Opening Credits,04_OpeningCredits_Interactive,44.60,0.5636364,0.2363636
+46.79,04_Opening Credits,04_OpeningCredits_Interactive,44.72,0.5636364,0.2363636
+46.89,04_Opening Credits,04_OpeningCredits_Interactive,44.80,0.5545455,0.2363636
+46.99,04_Opening Credits,04_OpeningCredits_Interactive,44.92,0.5454546,0.2454545
+47.09,04_Opening Credits,04_OpeningCredits_Interactive,45.00,0.5363637,0.2454545
+47.19,04_Opening Credits,04_OpeningCredits_Interactive,45.12,0.5181818,0.2454545
+47.29,04_Opening Credits,04_OpeningCredits_Interactive,45.20,0.5090909,0.2454545
+47.39,04_Opening Credits,04_OpeningCredits_Interactive,45.32,0.5,0.2454545
+47.49,04_Opening Credits,04_OpeningCredits_Interactive,45.40,0.4909091,0.2454545
+47.59,04_Opening Credits,04_OpeningCredits_Interactive,45.52,0.4818182,0.2454545
+47.69,04_Opening Credits,04_OpeningCredits_Interactive,45.60,0.4636364,0.2454545
+47.79,04_Opening Credits,04_OpeningCredits_Interactive,45.72,0.4636364,0.2454545
+47.89,04_Opening Credits,04_OpeningCredits_Interactive,45.80,0.4545455,0.2363636
+47.99,04_Opening Credits,04_OpeningCredits_Interactive,45.92,0.4454545,0.2363636
+48.09,04_Opening Credits,04_OpeningCredits_Interactive,46.00,0.4454545,0.2363636
+48.20,04_Opening Credits,04_OpeningCredits_Interactive,46.12,0.4363636,0.2363636
+48.30,04_Opening Credits,04_OpeningCredits_Interactive,46.20,0.4272727,0.2363636
+48.39,04_Opening Credits,04_OpeningCredits_Interactive,46.32,0.4272727,0.2363636
+48.50,04_Opening Credits,04_OpeningCredits_Interactive,46.40,0.4181818,0.2272727
+48.60,04_Opening Credits,04_OpeningCredits_Interactive,46.52,0.4090909,0.2272727
+48.70,04_Opening Credits,04_OpeningCredits_Interactive,46.60,0.4090909,0.2272727
+48.80,04_Opening Credits,04_OpeningCredits_Interactive,46.72,0.4,0.2272727
+48.90,04_Opening Credits,04_OpeningCredits_Interactive,46.84,0.4,0.2272727
+49.00,04_Opening Credits,04_OpeningCredits_Interactive,46.92,0.4,0.2272727
+49.10,04_Opening Credits,04_OpeningCredits_Interactive,47.04,0.4,0.2272727
+49.20,04_Opening Credits,04_OpeningCredits_Interactive,47.12,0.3909091,0.2272727
+49.30,04_Opening Credits,04_OpeningCredits_Interactive,47.24,0.3909091,0.2272727
+49.40,04_Opening Credits,04_OpeningCredits_Interactive,47.32,0.3909091,0.2272727
+49.50,04_Opening Credits,04_OpeningCredits_Interactive,47.44,0.3909091,0.2272727
+49.61,04_Opening Credits,04_OpeningCredits_Interactive,47.52,0.3818182,0.2272727
+49.71,04_Opening Credits,04_OpeningCredits_Interactive,47.64,0.3818182,0.2272727
+49.80,04_Opening Credits,04_OpeningCredits_Interactive,47.72,0.3909091,0.2272727
+49.91,04_Opening Credits,04_OpeningCredits_Interactive,47.84,0.4,0.2272727
+50.01,04_Opening Credits,04_OpeningCredits_Interactive,47.92,0.4181818,0.2272727
+50.11,04_Opening Credits,04_OpeningCredits_Interactive,48.04,0.4272727,0.2272727
+50.21,04_Opening Credits,04_OpeningCredits_Interactive,48.12,0.4363636,0.2272727
+50.31,04_Opening Credits,04_OpeningCredits_Interactive,48.24,0.4454545,0.2272727
+50.41,04_Opening Credits,04_OpeningCredits_Interactive,48.32,0.4545455,0.2272727
+50.51,04_Opening Credits,04_OpeningCredits_Interactive,48.44,0.4727273,0.2272727
+50.61,04_Opening Credits,04_OpeningCredits_Interactive,48.52,0.4818182,0.2272727
+50.71,04_Opening Credits,04_OpeningCredits_Interactive,48.64,0.4818182,0.2272727
+50.81,04_Opening Credits,04_OpeningCredits_Interactive,48.72,0.5181818,0.2545455
+50.91,04_Opening Credits,04_OpeningCredits_Interactive,48.84,0.5545455,0.2909091
+51.01,04_Opening Credits,04_OpeningCredits_Interactive,48.92,0.6,0.3272727
+51.11,04_Opening Credits,04_OpeningCredits_Interactive,49.04,0.6363636,0.3636364
+51.21,04_Opening Credits,04_OpeningCredits_Interactive,49.12,0.6818182,0.4
+51.31,04_Opening Credits,04_OpeningCredits_Interactive,49.24,0.7272727,0.4363636
+51.41,04_Opening Credits,04_OpeningCredits_Interactive,49.32,0.7727273,0.4727273
+51.52,04_Opening Credits,04_OpeningCredits_Interactive,49.44,0.8090909,0.5090909
+51.61,04_Opening Credits,04_OpeningCredits_Interactive,49.52,0.8454546,0.5454546
+51.71,04_Opening Credits,04_OpeningCredits_Interactive,49.64,0.8818182,0.5727273
+51.82,04_Opening Credits,04_OpeningCredits_Interactive,49.72,0.8727273,0.5636364
+51.92,04_Opening Credits,04_OpeningCredits_Interactive,49.84,0.8363636,0.5272727
+52.02,04_Opening Credits,04_OpeningCredits_Interactive,49.92,0.8090909,0.5
+52.12,04_Opening Credits,04_OpeningCredits_Interactive,50.04,0.7727273,0.4636364
+52.22,04_Opening Credits,04_OpeningCredits_Interactive,50.12,0.7454545,0.4363636
+52.32,04_Opening Credits,04_OpeningCredits_Interactive,50.24,0.7090909,0.4
+52.42,04_Opening Credits,04_OpeningCredits_Interactive,50.36,0.6818182,0.3727273
+52.52,04_Opening Credits,04_OpeningCredits_Interactive,50.44,0.6545454,0.3454545
+52.62,04_Opening Credits,04_OpeningCredits_Interactive,50.56,0.6181818,0.3090909
+52.72,04_Opening Credits,04_OpeningCredits_Interactive,50.64,0.6,0.2909091
+52.82,04_Opening Credits,04_OpeningCredits_Interactive,50.76,0.5818182,0.2818182
+52.92,04_Opening Credits,04_OpeningCredits_Interactive,50.84,0.5636364,0.2818182
+53.02,04_Opening Credits,04_OpeningCredits_Interactive,50.96,0.5454546,0.2818182
+53.13,04_Opening Credits,04_OpeningCredits_Interactive,51.04,0.5272727,0.2818182
+53.22,04_Opening Credits,04_OpeningCredits_Interactive,51.16,0.5181818,0.2818182
+53.32,04_Opening Credits,04_OpeningCredits_Interactive,51.24,0.5,0.2818182
+53.43,04_Opening Credits,04_OpeningCredits_Interactive,51.36,0.4818182,0.2727273
+53.53,04_Opening Credits,04_OpeningCredits_Interactive,51.44,0.4636364,0.2727273
+53.63,04_Opening Credits,04_OpeningCredits_Interactive,51.56,0.4454545,0.2727273
+53.73,04_Opening Credits,04_OpeningCredits_Interactive,51.64,0.4272727,0.2727273
+53.83,04_Opening Credits,04_OpeningCredits_Interactive,51.76,0.4181818,0.2727273
+53.93,04_Opening Credits,04_OpeningCredits_Interactive,51.84,0.4181818,0.2727273
+54.03,04_Opening Credits,04_OpeningCredits_Interactive,51.96,0.4090909,0.2636364
+54.13,04_Opening Credits,04_OpeningCredits_Interactive,52.04,0.4090909,0.2636364
+54.23,04_Opening Credits,04_OpeningCredits_Interactive,52.16,0.4,0.2636364
+54.33,04_Opening Credits,04_OpeningCredits_Interactive,52.24,0.4,0.2636364
+54.43,04_Opening Credits,04_OpeningCredits_Interactive,52.36,0.4,0.2636364
+54.54,04_Opening Credits,04_OpeningCredits_Interactive,52.44,0.3909091,0.2636364
+54.63,04_Opening Credits,04_OpeningCredits_Interactive,52.56,0.3909091,0.2545455
+54.73,04_Opening Credits,04_OpeningCredits_Interactive,52.64,0.3818182,0.2545455
+54.83,04_Opening Credits,04_OpeningCredits_Interactive,52.76,0.3818182,0.2545455
+54.93,04_Opening Credits,04_OpeningCredits_Interactive,52.84,0.3818182,0.2545455
+55.04,04_Opening Credits,04_OpeningCredits_Interactive,52.96,0.3818182,0.2545455
+55.13,04_Opening Credits,04_OpeningCredits_Interactive,53.04,0.3818182,0.2545455
+55.23,04_Opening Credits,04_OpeningCredits_Interactive,53.16,0.3818182,0.2454545
+55.34,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2454545
+55.43,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2454545
+55.54,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2454545
+55.64,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2454545
+55.73,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2454545
+55.84,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2363636
+55.94,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2363636
+56.04,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2363636
+56.14,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2272727
+56.24,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2272727
+56.34,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2272727
+56.44,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2272727
+56.54,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+56.64,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+56.74,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+56.84,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+56.95,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+57.05,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+57.14,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3818182,0.2181818
+57.25,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0.3909091,0.2181818
+57.35,05_Prologue,04_OpeningCredits_Interactive,0.00,0.3909091,0.2181818
+57.45,05_Prologue,04_OpeningCredits_Interactive,0.08,0.3909091,0.2181818
+57.55,05_Prologue,04_OpeningCredits_Interactive,0.20,0.3909091,0.2090909
+57.65,05_Prologue,04_OpeningCredits_Interactive,0.28,0.3909091,0.2090909
+57.75,05_Prologue,04_OpeningCredits_Interactive,0.40,0.3909091,0.2090909
+57.85,05_Prologue,04_OpeningCredits_Interactive,0.48,0.3909091,0.2181818
+57.95,05_Prologue,04_OpeningCredits_Interactive,0.60,0.4,0.2181818
+58.05,05_Prologue,04_OpeningCredits_Interactive,0.68,0.4,0.2181818
+58.15,05_Prologue,04_OpeningCredits_Interactive,0.80,0.4,0.2181818
+58.25,05_Prologue,04_OpeningCredits_Interactive,0.88,0.4090909,0.2181818
+58.36,05_Prologue,04_OpeningCredits_Interactive,1.00,0.4090909,0.2181818
+58.46,05_Prologue,04_OpeningCredits_Interactive,1.08,0.4090909,0.2181818
+58.55,05_Prologue,04_OpeningCredits_Interactive,1.20,0.4181818,0.2181818
+58.66,05_Prologue,04_OpeningCredits_Interactive,1.28,0.4181818,0.2181818
+58.76,05_Prologue,04_OpeningCredits_Interactive,1.40,0.4181818,0.2272727
+58.86,05_Prologue,04_OpeningCredits_Interactive,1.48,0.4181818,0.2272727
+58.96,05_Prologue,04_OpeningCredits_Interactive,1.60,0.4181818,0.2272727
+59.06,05_Prologue,04_OpeningCredits_Interactive,1.72,0.4181818,0.2272727
+59.16,05_Prologue,04_OpeningCredits_Interactive,1.80,0.4181818,0.2272727
+59.26,05_Prologue,04_OpeningCredits_Interactive,1.92,0.4090909,0.2272727
+59.36,05_Prologue,04_OpeningCredits_Interactive,2.00,0.4090909,0.2272727
+59.46,05_Prologue,04_OpeningCredits_Interactive,2.12,0.4090909,0.2272727
+59.56,05_Prologue,04_OpeningCredits_Interactive,2.20,0.4090909,0.2272727
+59.66,05_Prologue,04_OpeningCredits_Interactive,2.32,0.4,0.2272727
+59.76,05_Prologue,04_OpeningCredits_Interactive,2.40,0.4,0.2272727
+59.86,05_Prologue,04_OpeningCredits_Interactive,2.52,0.4,0.2272727
+59.96,05_Prologue,04_OpeningCredits_Interactive,2.60,0.4090909,0.2272727
+60.07,05_Prologue,04_OpeningCredits_Interactive,2.72,0.4181818,0.2272727
+60.17,05_Prologue,04_OpeningCredits_Interactive,2.80,0.4272727,0.2272727
+60.27,05_Prologue,04_OpeningCredits_Interactive,2.92,0.4363636,0.2272727
+60.37,05_Prologue,04_OpeningCredits_Interactive,3.00,0.4454545,0.2272727
+60.47,05_Prologue,04_OpeningCredits_Interactive,3.12,0.4545455,0.2272727
+60.57,05_Prologue,04_OpeningCredits_Interactive,3.20,0.4636364,0.2272727
+60.67,05_Prologue,04_OpeningCredits_Interactive,3.32,0.4727273,0.2272727
+60.77,05_Prologue,04_OpeningCredits_Interactive,3.40,0.4818182,0.2272727
+60.87,05_Prologue,04_OpeningCredits_Interactive,3.52,0.4818182,0.2272727
+60.97,05_Prologue,04_OpeningCredits_Interactive,3.60,0.4818182,0.2272727
+61.07,05_Prologue,04_OpeningCredits_Interactive,3.72,0.4818182,0.2272727
+61.17,05_Prologue,04_OpeningCredits_Interactive,3.80,0.4818182,0.2272727
+61.27,05_Prologue,04_OpeningCredits_Interactive,3.92,0.4818182,0.2272727
+61.38,05_Prologue,04_OpeningCredits_Interactive,4.00,0.4727273,0.2363636
+61.47,05_Prologue,04_OpeningCredits_Interactive,4.12,0.4727273,0.2363636
+61.57,05_Prologue,04_OpeningCredits_Interactive,4.20,0.4727273,0.2363636
+61.68,05_Prologue,04_OpeningCredits_Interactive,4.32,0.4727273,0.2363636
+61.77,05_Prologue,04_OpeningCredits_Interactive,4.40,0.4636364,0.2363636
+61.88,05_Prologue,04_OpeningCredits_Interactive,4.52,0.4636364,0.2363636
+61.98,05_Prologue,04_OpeningCredits_Interactive,4.60,0.4545455,0.2363636
+62.07,05_Prologue,04_OpeningCredits_Interactive,4.72,0.4545455,0.2363636
+62.18,05_Prologue,04_OpeningCredits_Interactive,4.80,0.4454545,0.2363636
+62.28,05_Prologue,04_OpeningCredits_Interactive,4.92,0.4363636,0.2363636
+62.38,05_Prologue,04_OpeningCredits_Interactive,5.04,0.4363636,0.2363636
+62.48,05_Prologue,04_OpeningCredits_Interactive,5.12,0.4272727,0.2363636
+62.58,05_Prologue,04_OpeningCredits_Interactive,5.24,0.4181818,0.2363636
+62.68,05_Prologue,04_OpeningCredits_Interactive,5.32,0.4181818,0.2363636
+62.78,05_Prologue,04_OpeningCredits_Interactive,5.44,0.4090909,0.2363636
+62.88,05_Prologue,04_OpeningCredits_Interactive,5.52,0.4090909,0.2363636
+62.98,05_Prologue,04_OpeningCredits_Interactive,5.64,0.4090909,0.2363636
+63.08,05_Prologue,04_OpeningCredits_Interactive,5.72,0.4090909,0.2363636
+63.18,05_Prologue,04_OpeningCredits_Interactive,5.84,0.4090909,0.2363636
+63.29,05_Prologue,04_OpeningCredits_Interactive,5.92,0.4090909,0.2363636
+63.39,05_Prologue,04_OpeningCredits_Interactive,6.04,0.4090909,0.2363636
+63.49,05_Prologue,04_OpeningCredits_Interactive,6.12,0.4090909,0.2363636
+63.59,05_Prologue,04_OpeningCredits_Interactive,6.24,0.4090909,0.2363636
+63.69,05_Prologue,04_OpeningCredits_Interactive,6.32,0.4090909,0.2363636
+63.79,05_Prologue,04_OpeningCredits_Interactive,6.44,0.4090909,0.2363636
+63.89,05_Prologue,04_OpeningCredits_Interactive,6.52,0.4181818,0.2363636
+63.99,05_Prologue,04_OpeningCredits_Interactive,6.64,0.4363636,0.2363636
+64.09,05_Prologue,04_OpeningCredits_Interactive,6.72,0.4545455,0.2363636
+64.19,05_Prologue,04_OpeningCredits_Interactive,6.84,0.4636364,0.2363636
+64.29,05_Prologue,04_OpeningCredits_Interactive,6.92,0.4818182,0.2363636
+64.39,05_Prologue,04_OpeningCredits_Interactive,7.04,0.5,0.2363636
+64.49,05_Prologue,04_OpeningCredits_Interactive,7.12,0.5181818,0.2363636
+64.59,05_Prologue,04_OpeningCredits_Interactive,7.24,0.5272727,0.2363636
+64.70,05_Prologue,04_OpeningCredits_Interactive,7.32,0.5454546,0.2363636
+64.80,05_Prologue,04_OpeningCredits_Interactive,7.44,0.5636364,0.2363636
+64.89,05_Prologue,04_OpeningCredits_Interactive,7.52,0.5454546,0.2363636
+65.00,05_Prologue,04_OpeningCredits_Interactive,7.64,0.5272727,0.2363636
+65.10,05_Prologue,04_OpeningCredits_Interactive,7.72,0.5090909,0.2363636
+65.20,05_Prologue,04_OpeningCredits_Interactive,7.84,0.4909091,0.2272727
+65.30,05_Prologue,04_OpeningCredits_Interactive,7.92,0.4818182,0.2272727
+65.40,05_Prologue,04_OpeningCredits_Interactive,8.04,0.4636364,0.2272727
+65.50,05_Prologue,04_OpeningCredits_Interactive,8.16,0.4454545,0.2272727
+65.60,05_Prologue,04_OpeningCredits_Interactive,8.24,0.4272727,0.2272727
+65.70,05_Prologue,04_OpeningCredits_Interactive,8.36,0.4090909,0.2181818
+65.80,05_Prologue,04_OpeningCredits_Interactive,8.44,0.4,0.2181818
+65.90,05_Prologue,04_OpeningCredits_Interactive,8.56,0.4,0.2181818
+66.00,05_Prologue,04_OpeningCredits_Interactive,8.64,0.4,0.2272727
+66.11,05_Prologue,04_OpeningCredits_Interactive,8.76,0.4,0.2272727
+66.21,05_Prologue,04_OpeningCredits_Interactive,8.84,0.4,0.2272727
+66.30,05_Prologue,04_OpeningCredits_Interactive,8.96,0.4,0.2272727
+66.41,05_Prologue,04_OpeningCredits_Interactive,9.04,0.4,0.2272727
+66.51,05_Prologue,04_OpeningCredits_Interactive,9.16,0.4,0.2363636
+66.61,05_Prologue,04_OpeningCredits_Interactive,9.24,0.4,0.2363636
+66.71,05_Prologue,04_OpeningCredits_Interactive,9.36,0.4,0.2363636
+66.81,05_Prologue,04_OpeningCredits_Interactive,9.44,0.4090909,0.2363636
+66.91,05_Prologue,04_OpeningCredits_Interactive,9.56,0.4272727,0.2363636
+67.01,05_Prologue,04_OpeningCredits_Interactive,9.64,0.4454545,0.2363636
+67.11,05_Prologue,04_OpeningCredits_Interactive,9.76,0.4636364,0.2363636
+67.21,05_Prologue,04_OpeningCredits_Interactive,9.84,0.4818182,0.2363636
+67.31,05_Prologue,04_OpeningCredits_Interactive,9.96,0.5,0.2363636
+67.41,05_Prologue,04_OpeningCredits_Interactive,10.04,0.5181818,0.2363636
+67.52,05_Prologue,04_OpeningCredits_Interactive,10.16,0.5272727,0.2363636
+67.61,05_Prologue,04_OpeningCredits_Interactive,10.24,0.5454546,0.2363636
+67.71,05_Prologue,04_OpeningCredits_Interactive,10.36,0.5636364,0.2363636
+67.82,05_Prologue,04_OpeningCredits_Interactive,10.44,0.5727273,0.2363636
+67.92,05_Prologue,04_OpeningCredits_Interactive,10.56,0.5727273,0.2363636
+68.02,05_Prologue,04_OpeningCredits_Interactive,10.64,0.5636364,0.2363636
+68.12,05_Prologue,04_OpeningCredits_Interactive,10.76,0.5545455,0.2363636
+68.22,05_Prologue,04_OpeningCredits_Interactive,10.88,0.5363637,0.2363636
+68.32,05_Prologue,04_OpeningCredits_Interactive,10.96,0.5272727,0.2363636
+68.42,05_Prologue,04_OpeningCredits_Interactive,11.08,0.5090909,0.2363636
+68.52,05_Prologue,04_OpeningCredits_Interactive,11.16,0.4909091,0.2363636
+68.62,05_Prologue,04_OpeningCredits_Interactive,11.28,0.4818182,0.2363636
+68.72,05_Prologue,04_OpeningCredits_Interactive,11.36,0.4636364,0.2363636
+68.82,05_Prologue,04_OpeningCredits_Interactive,11.48,0.4545455,0.2363636
+68.93,05_Prologue,04_OpeningCredits_Interactive,11.56,0.4363636,0.2363636
+69.02,05_Prologue,04_OpeningCredits_Interactive,11.68,0.4363636,0.2363636
+69.13,05_Prologue,04_OpeningCredits_Interactive,11.76,0.4363636,0.2272727
+69.23,05_Prologue,04_OpeningCredits_Interactive,11.88,0.4454545,0.2272727
+69.33,05_Prologue,04_OpeningCredits_Interactive,11.96,0.4454545,0.2272727
+69.43,05_Prologue,04_OpeningCredits_Interactive,12.08,0.4545455,0.2272727
+69.53,05_Prologue,04_OpeningCredits_Interactive,12.16,0.4545455,0.2272727
+69.63,05_Prologue,04_OpeningCredits_Interactive,12.28,0.4636364,0.2272727
+69.73,05_Prologue,04_OpeningCredits_Interactive,12.36,0.4636364,0.2272727
+69.83,05_Prologue,04_OpeningCredits_Interactive,12.48,0.4727273,0.2272727
+69.93,05_Prologue,04_OpeningCredits_Interactive,12.56,0.4727273,0.2272727
+70.03,05_Prologue,04_OpeningCredits_Interactive,12.68,0.4818182,0.2272727
+70.13,05_Prologue,04_OpeningCredits_Interactive,12.76,0.4727273,0.2272727
+70.23,05_Prologue,04_OpeningCredits_Interactive,12.88,0.4727273,0.2272727
+70.33,05_Prologue,04_OpeningCredits_Interactive,12.96,0.4727273,0.2272727
+70.43,05_Prologue,04_OpeningCredits_Interactive,13.08,0.4727273,0.2363636
+70.54,05_Prologue,04_OpeningCredits_Interactive,13.16,0.4727273,0.2363636
+70.64,05_Prologue,04_OpeningCredits_Interactive,13.28,0.4727273,0.2363636
+70.73,05_Prologue,04_OpeningCredits_Interactive,13.36,0.4636364,0.2363636
+70.84,05_Prologue,04_OpeningCredits_Interactive,13.48,0.4636364,0.2363636
+70.94,05_Prologue,04_OpeningCredits_Interactive,13.60,0.4636364,0.2363636
+71.04,05_Prologue,04_OpeningCredits_Interactive,13.68,0.4636364,0.2363636
+71.14,05_Prologue,04_OpeningCredits_Interactive,13.80,0.4636364,0.2363636
+71.24,05_Prologue,04_OpeningCredits_Interactive,13.88,0.4636364,0.2363636
+71.34,05_Prologue,04_OpeningCredits_Interactive,14.00,0.4636364,0.2363636
+71.44,05_Prologue,04_OpeningCredits_Interactive,14.08,0.4636364,0.2363636
+71.54,05_Prologue,04_OpeningCredits_Interactive,14.20,0.4636364,0.2454545
+71.64,05_Prologue,04_OpeningCredits_Interactive,14.28,0.4636364,0.2454545
+71.74,05_Prologue,04_OpeningCredits_Interactive,14.40,0.4636364,0.2454545
+71.84,05_Prologue,04_OpeningCredits_Interactive,14.48,0.4636364,0.2454545
+71.95,05_Prologue,04_OpeningCredits_Interactive,14.60,0.4545455,0.2363636
+72.05,05_Prologue,04_OpeningCredits_Interactive,14.68,0.4545455,0.2363636
+72.15,05_Prologue,04_OpeningCredits_Interactive,14.80,0.4454545,0.2363636
+72.25,05_Prologue,04_OpeningCredits_Interactive,14.88,0.4454545,0.2363636
+72.35,05_Prologue,04_OpeningCredits_Interactive,15.00,0.4454545,0.2363636
+72.45,05_Prologue,04_OpeningCredits_Interactive,15.08,0.4363636,0.2363636
+72.55,05_Prologue,04_OpeningCredits_Interactive,15.20,0.4363636,0.2363636
+72.65,05_Prologue,04_OpeningCredits_Interactive,15.28,0.4363636,0.2363636
+72.75,05_Prologue,04_OpeningCredits_Interactive,15.40,0.4363636,0.2272727
+72.86,05_Prologue,04_OpeningCredits_Interactive,15.48,0.4272727,0.2272727
+72.95,05_Prologue,04_OpeningCredits_Interactive,15.60,0.4272727,0.2272727
+73.05,05_Prologue,04_OpeningCredits_Interactive,15.68,0.4181818,0.2272727
+73.15,05_Prologue,04_OpeningCredits_Interactive,15.80,0.4181818,0.2272727
+73.25,05_Prologue,04_OpeningCredits_Interactive,15.88,0.4090909,0.2272727
+73.35,05_Prologue,04_OpeningCredits_Interactive,16.00,0.4090909,0.2272727
+73.45,05_Prologue,04_OpeningCredits_Interactive,16.08,0.4090909,0.2181818
+73.55,05_Prologue,04_OpeningCredits_Interactive,16.20,0.4,0.2181818
+73.66,05_Prologue,04_OpeningCredits_Interactive,16.28,0.4,0.2181818
+73.75,05_Prologue,04_OpeningCredits_Interactive,16.40,0.4,0.2181818

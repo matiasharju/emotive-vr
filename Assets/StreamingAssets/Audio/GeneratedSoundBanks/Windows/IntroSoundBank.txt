@@ -11,15 +11,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	4091047182	PauseAll			\Default Work Unit\Common\PauseAll	
 	4284960165	PlayHeartbeat			\Default Work Unit\Common\PlayHeartbeat	
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
-
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	847696529	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	147186154	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_02_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_02		8757
-	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
 	676971331	NeuroTheremin_03	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_03_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_03		9889
 	742108528	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_07_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_07		4808
 	816203901	NeuroTheremin_17	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_17_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_17		9756
