@@ -587,7 +587,7 @@
 				<GameParameter Id="703117816" Name="startDelay" ObjectPath="\Game Parameters\Default Work Unit\startDelay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="886154420" Language="SFX" Hash="1197069296">
+		<SoundBank Id="886154420" Language="SFX" Hash="3378962799">
 			<ObjectPath>\SoundBanks\Default Work Unit\IntroSoundBank</ObjectPath>
 			<ShortName>IntroSoundBank</ShortName>
 			<Path>IntroSoundBank.bnk</Path>
@@ -597,6 +597,14 @@
 				<Event Id="2845561435" Name="PlayArousalTestMusic" ObjectPath="\Events\Default Work Unit\Common\PlayArousalTestMusic" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3043762247" Name="PlayBeep" ObjectPath="\Events\Default Work Unit\Common\PlayBeep" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
 				<Event Id="3934384867" Name="PlayBreathing" ObjectPath="\Events\Default Work Unit\Common\PlayBreathing" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3572927369" Name="PlayCalib1" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalib1" DurationType="OneShot" DurationMin="4.184083" DurationMax="4.184083">
+					<IncludedMemoryFiles>
+						<File Id="89089825" Language="SFX">
+							<ShortName>Bear_AngryMoan.wav</ShortName>
+							<Path>SFX\Bear_AngryMoan_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3972833680" Name="PlayIntroduction1" ObjectPath="\Events\Default Work Unit\01_Introduction\PlayIntroduction1" DurationType="Infinite">
 					<ReferencedStreamedFiles>

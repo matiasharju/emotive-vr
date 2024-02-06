@@ -108,6 +108,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "StartCalibration",
+                    "type": "Button",
+                    "id": "34be27a2-1244-4def-9e43-f1284f10cddd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -317,6 +325,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "SyncAudioToVideo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50467aa8-849f-480a-ba7f-850cdd77890a",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartCalibration",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

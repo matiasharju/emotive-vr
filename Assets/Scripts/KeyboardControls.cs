@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KeyboardControls : MonoBehaviour
 {
+    public GameObject calibrationManager;
     public GameObject telemetryElementsParentObject;
     public GameObject subtitlesParentObject;
     public GameObject emotionalTableParentObject;
@@ -23,6 +24,12 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedMenu = false;
     bool keyPressedJump = false;
     bool keyPressedSync = false;
+
+
+   public void StartCalibration()
+    {
+        calibrationManager.SetActive(true);
+    }
 
 
     public void StartPlayback()

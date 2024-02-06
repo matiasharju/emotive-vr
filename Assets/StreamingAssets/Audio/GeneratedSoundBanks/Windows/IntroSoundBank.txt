@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3043762247	PlayBeep			\Default Work Unit\Common\PlayBeep	
 	3086540886	StopAll			\Default Work Unit\Common\StopAll	
 	3240900869	ResumeAll			\Default Work Unit\Common\ResumeAll	
+	3572927369	PlayCalib1			\Default Work Unit\Calibration\PlayCalib1	
 	3698975080	GreetingsFromHelsinki			\Default Work Unit\Common\GreetingsFromHelsinki	
 	3934384867	PlayBreathing			\Default Work Unit\Common\PlayBreathing	
 	3972833680	PlayIntroduction1			\Default Work Unit\01_Introduction\PlayIntroduction1	
@@ -15,6 +16,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	847696529	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	89089825	Bear_AngryMoan	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Bear_AngryMoan_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Bear_AngryMoan		36664
 	147186154	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_02_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_02		8757
 	676971331	NeuroTheremin_03	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_03_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_03		9889
 	742108528	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_07_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_07		4808

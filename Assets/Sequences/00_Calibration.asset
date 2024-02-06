@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 738e593105f59cf4cb30df41d4115766, type: 3}
-  m_Name: 00_StartPlayback
+  m_Name: 00_Calibration
   m_EditorClassIdentifier: 
   clip: {fileID: 0}
-  rt: {fileID: 8400000, guid: 99a35b5bb97500342b5deebea1772df2, type: 2}
+  rt: {fileID: 0}
   useAudioFromVideo: 0
   cutSequence: 0
   videoLoop: 0
-  showEmotionalBar: 1
-  addScene: 1
+  showEmotionalBar: 0
+  addScene: 0
   waitInteraction: 1
-  clearVideo: 1
+  clearVideo: 0
   usePostProcess: 0
   epilogue: 0
   thisIsFreud: 0
   thisIsKarl: 0
-  thisIsStartScene: 1
-  sceneNameToLoad: 00_StartPlayback
+  thisIsStartScene: 0
+  sceneNameToLoad: 
   delayBeforeNextSequence: 0
   soundBankName: IntroSoundBank
   audioEvtNames: []
@@ -38,5 +38,5 @@ MonoBehaviour:
   updateColorFromValence: 0
   forceSynchronize: 0
   timeValue: 0
-  readSensorData: 1
+  readSensorData: 0
   sensorDataStartTime: 0

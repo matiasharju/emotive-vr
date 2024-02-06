@@ -121,6 +121,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""StartCalibration"",
+                    ""type"": ""Button"",
+                    ""id"": ""34be27a2-1244-4def-9e43-f1284f10cddd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -332,6 +340,17 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""SyncAudioToVideo"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""50467aa8-849f-480a-ba7f-850cdd77890a"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""StartCalibration"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -353,6 +372,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_QuitApplication = m_Keyboard.FindAction("QuitApplication", throwIfNotFound: true);
         m_Keyboard_JumpToNextSequence = m_Keyboard.FindAction("JumpToNextSequence", throwIfNotFound: true);
         m_Keyboard_SyncAudioToVideo = m_Keyboard.FindAction("SyncAudioToVideo", throwIfNotFound: true);
+        m_Keyboard_StartCalibration = m_Keyboard.FindAction("StartCalibration", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -415,6 +435,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_QuitApplication;
     private readonly InputAction m_Keyboard_JumpToNextSequence;
     private readonly InputAction m_Keyboard_SyncAudioToVideo;
+    private readonly InputAction m_Keyboard_StartCalibration;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -432,6 +453,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @QuitApplication => m_Wrapper.m_Keyboard_QuitApplication;
         public InputAction @JumpToNextSequence => m_Wrapper.m_Keyboard_JumpToNextSequence;
         public InputAction @SyncAudioToVideo => m_Wrapper.m_Keyboard_SyncAudioToVideo;
+        public InputAction @StartCalibration => m_Wrapper.m_Keyboard_StartCalibration;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -480,6 +502,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @SyncAudioToVideo.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
                 @SyncAudioToVideo.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
                 @SyncAudioToVideo.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSyncAudioToVideo;
+                @StartCalibration.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
+                @StartCalibration.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
+                @StartCalibration.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -523,6 +548,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @SyncAudioToVideo.started += instance.OnSyncAudioToVideo;
                 @SyncAudioToVideo.performed += instance.OnSyncAudioToVideo;
                 @SyncAudioToVideo.canceled += instance.OnSyncAudioToVideo;
+                @StartCalibration.started += instance.OnStartCalibration;
+                @StartCalibration.performed += instance.OnStartCalibration;
+                @StartCalibration.canceled += instance.OnStartCalibration;
             }
         }
     }
@@ -542,5 +570,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnQuitApplication(InputAction.CallbackContext context);
         void OnJumpToNextSequence(InputAction.CallbackContext context);
         void OnSyncAudioToVideo(InputAction.CallbackContext context);
+        void OnStartCalibration(InputAction.CallbackContext context);
     }
 }
