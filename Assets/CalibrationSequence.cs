@@ -26,7 +26,7 @@ public class CalibrationSequence : MonoBehaviour
 
     public void oscSend(string text)
     {
-        oscMessage = OSC.StringToOscMessage("/whatever/ " + text);
+        oscMessage = OSC.StringToOscMessage("/ov/stimulation " + text);
         osc.Send(oscMessage);
     }
 
@@ -34,41 +34,43 @@ public class CalibrationSequence : MonoBehaviour
     {
         calibrationStartText.SetActive(true);
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(5.0f);
 
         calibrationStartText.SetActive(false);
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.0f);
 
         while (calibrationItems.Count > 0)
-        { 
-            // Play noise
-            AkSoundEngine.PostEvent(calibrationNoiseItem.wwiseEventName, gameObject);
-            oscSend("noiseStarted");
+        {
+            // Pre-stimulus silence
+            yield return new WaitForSeconds(5.0f);
 
-            yield return new WaitForSeconds(5);
-
-            // Stop the noise
-            AkSoundEngine.PostEvent("StopCalib", gameObject);
-            oscSend("noiseStopped");
-
-            yield return new WaitForSeconds(2);
-
-            // Randomise first calibration sound item
+            // Sound
             playIndex = Random.Range(0, calibrationItems.Count);
             AkSoundEngine.PostEvent(calibrationItems[playIndex].wwiseEventName, gameObject);
-            oscSend("soundStarted with identifier " + calibrationItems[playIndex].identifier);
+            oscSend(calibrationItems[playIndex].label);
             calibrationItems.RemoveAt(playIndex);
 
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(6.5f);
 
-            // Stop sound
+            // Stop sound; Post-stimulus silence
             AkSoundEngine.PostEvent("StopCalib", gameObject);
-            oscSend("soundStopped");
+//            oscSend("soundStopped");
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1.0f);
+
+            // Noise
+            AkSoundEngine.PostEvent(calibrationNoiseItem.wwiseEventName, gameObject);
+//            oscSend("noiseStarted");
+
+            yield return new WaitForSeconds(13.5f);
+
+            // Stop noise
+            AkSoundEngine.PostEvent("StopCalib", gameObject);
+//            oscSend("noiseStopped");
         }
 
+        oscSend("end");
         calibrationEndText.SetActive(true);
 
         yield return new WaitForSeconds(5);

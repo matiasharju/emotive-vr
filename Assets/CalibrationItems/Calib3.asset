@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Calib3
   m_EditorClassIdentifier: 
   wwiseEventName: PlayCalib3
-  identifier: 3
+  label: hvla

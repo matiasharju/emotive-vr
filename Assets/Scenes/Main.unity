@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a242c6f213d84347b303b1bdb77a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inPort: 9003
+  inPort: 9001
   outIP: 127.0.0.1
   outPort: 6161
 --- !u!1 &106281758
@@ -23811,7 +23811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inPort: 6969
   outIP: 127.0.0.1
-  outPort: 6161
+  outPort: 9000
 --- !u!1 &1648611524
 GameObject:
   m_ObjectHideFlags: 0
@@ -25137,18 +25137,12 @@ MonoBehaviour:
   m_text: 'EEG calibration is about to start...
 
 
-    For the next 10 minutes,
-
-    you
-    will be hearing various sound clips
-
-    with noise in between.
+    For the next 10 minutes, you
+    will be hearing various sound stimuli with noise in between.
 
 
     Just relax
-    and listen.
-
-    The calibration will happen automatically.'
+    and listen while the EEG signals are being recorded.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26356,11 +26350,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EEG calibration is now ready.
+  m_text: 'Thank you. The stimuli are now over.
 
 
-    The operator will start the film in
-    a moment.'
+    The system is now analysing
+    the recorded EEG signals.
+
+
+    Once ready, the film will start.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: CalibNoise
   m_EditorClassIdentifier: 
   wwiseEventName: PlayCalibNoise
+  label: nopic
