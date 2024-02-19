@@ -105,10 +105,6 @@
 			<ShortName>FreudB_2018-06-02_AmbiX2-2_add0.5seconds.wav</ShortName>
 			<Path>SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem</Path>
 		</File>
-		<File Id="320455122" Language="SFX">
-			<ShortName>Freud_ALL_MoreActive_fromStart.wav</ShortName>
-			<Path>SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem</Path>
-		</File>
 		<File Id="367692447" Language="SFX">
 			<ShortName>KarlHallucination_violins2.wav</ShortName>
 			<Path>SFX\KarlHallucination_violins2_D10D53C6.wem</Path>
@@ -137,17 +133,9 @@
 			<ShortName>ChoiceMusic_2018-05-29_extraBarEnd.wav</ShortName>
 			<Path>SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem</Path>
 		</File>
-		<File Id="573226816" Language="SFX">
-			<ShortName>Freud_ALL_fromStart_ActiveStrgsLow.wav</ShortName>
-			<Path>SFX\Freud_ALL_fromStart_ActiveStrgsLow_34D9B405.wem</Path>
-		</File>
 		<File Id="596245445" Language="SFX">
 			<ShortName>Prologue_2018-05-06_AmbiX2-2.wav</ShortName>
 			<Path>SFX\Prologue_2018-05-06_AmbiX2-2_44F0EF5B.wem</Path>
-		</File>
-		<File Id="610501190" Language="SFX">
-			<ShortName>Freud_ALL_Calm_fromStart.wav</ShortName>
-			<Path>SFX\Freud_ALL_Calm_fromStart_34D9B405.wem</Path>
 		</File>
 		<File Id="637122654" Language="SFX">
 			<ShortName>Karl_music_hypno_theremin2.wav</ShortName>
@@ -193,10 +181,6 @@
 			<ShortName>EndCreditMusic_2018-05-24_positive_violins2.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_positive_violins2_D10D53C6.wem</Path>
 		</File>
-		<File Id="767719300" Language="SFX">
-			<ShortName>Freud_ALL_fromStart_ActiveStep1.wav</ShortName>
-			<Path>SFX\Freud_ALL_fromStart_ActiveStep1_34D9B405.wem</Path>
-		</File>
 		<File Id="773170163" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_neutral_violas.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_neutral_violas_D10D53C6.wem</Path>
@@ -220,10 +204,6 @@
 		<File Id="864687233" Language="SFX">
 			<ShortName>EndCreditMusic_2018-05-24_positive_softStrings.wav</ShortName>
 			<Path>SFX\EndCreditMusic_2018-05-24_positive_softStrings_D10D53C6.wem</Path>
-		</File>
-		<File Id="900696347" Language="SFX">
-			<ShortName>Freud_ALL_fromStart_ActiveStep2.wav</ShortName>
-			<Path>SFX\Freud_ALL_fromStart_ActiveStep2_34D9B405.wem</Path>
 		</File>
 		<File Id="916912912" Language="SFX">
 			<ShortName>ChoiceMusic_2018-06-21_long.wav</ShortName>
@@ -265,10 +245,6 @@
 			<ShortName>KarlHallucination_Fast_Snare.wav</ShortName>
 			<Path>SFX\KarlHallucination_Fast_Snare_7EB50B16.wem</Path>
 		</File>
-		<File Id="996780440" Language="SFX">
-			<ShortName>Freud_ALL_fromStart_ActiveStep3.wav</ShortName>
-			<Path>SFX\Freud_ALL_fromStart_ActiveStep3_34D9B405.wem</Path>
-		</File>
 		<File Id="1008580489" Language="SFX">
 			<ShortName>KarlHallucination_violas.wav</ShortName>
 			<Path>SFX\KarlHallucination_violas_D10D53C6.wem</Path>
@@ -280,10 +256,6 @@
 		<File Id="1019554246" Language="SFX">
 			<ShortName>Karl_music_hypno_theremin3.wav</ShortName>
 			<Path>SFX\Karl_music_hypno_theremin3_D10D53C6.wem</Path>
-		</File>
-		<File Id="1024539883" Language="SFX">
-			<ShortName>Freud_ALL_Common_fromStart.wav</ShortName>
-			<Path>SFX\Freud_ALL_Common_fromStart_34D9B405.wem</Path>
 		</File>
 		<File Id="1044095283" Language="SFX">
 			<ShortName>KarlB_2018-05-06_AmbiX_add0.5seconds.wav</ShortName>
@@ -587,7 +559,7 @@
 				<GameParameter Id="703117816" Name="startDelay" ObjectPath="\Game Parameters\Default Work Unit\startDelay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="886154420" Language="SFX" Hash="3378962799">
+		<SoundBank Id="886154420" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\IntroSoundBank</ObjectPath>
 			<ShortName>IntroSoundBank</ShortName>
 			<Path>IntroSoundBank.bnk</Path>
@@ -602,6 +574,38 @@
 						<File Id="89089825" Language="SFX">
 							<ShortName>Bear_AngryMoan.wav</ShortName>
 							<Path>SFX\Bear_AngryMoan_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3572927370" Name="PlayCalib2" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalib2" DurationType="OneShot" DurationMin="19.319645" DurationMax="19.319645">
+					<IncludedMemoryFiles>
+						<File Id="822640539" Language="SFX">
+							<ShortName>Arcade.wav</ShortName>
+							<Path>SFX\Arcade_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3572927371" Name="PlayCalib3" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalib3" DurationType="OneShot" DurationMin="8.266666" DurationMax="8.266666">
+					<IncludedMemoryFiles>
+						<File Id="486104322" Language="SFX">
+							<ShortName>Baseball.wav</ShortName>
+							<Path>SFX\Baseball_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3572927372" Name="PlayCalib4" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalib4" DurationType="OneShot" DurationMin="6.496167" DurationMax="6.496167">
+					<IncludedMemoryFiles>
+						<File Id="47049553" Language="SFX">
+							<ShortName>Seagull.wav</ShortName>
+							<Path>SFX\Seagull_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2937779214" Name="PlayCalibNoise" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalibNoise" DurationType="OneShot" DurationMin="9.774331" DurationMax="9.774331">
+					<IncludedMemoryFiles>
+						<File Id="769559567" Language="SFX">
+							<ShortName>Pink_Noise.wav</ShortName>
+							<Path>SFX\Pink_Noise_623340BC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -700,6 +704,7 @@
 				</Event>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1351109882" Name="StopCalib" ObjectPath="\Events\Default Work Unit\Calibration\StopCalib" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="172570369" Name="StopIntroduction" ObjectPath="\Events\Default Work Unit\01_Introduction\StopIntroduction" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
@@ -861,7 +866,7 @@
 			<ShortName>TestSoundBank</ShortName>
 			<Path>TestSoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX">
+		<SoundBank Id="1916941780" Language="SFX" Hash="1933818443">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>
@@ -905,45 +910,73 @@
 							<ShortName>FreudB_2018-06-02_AmbiX2-2_add0.5seconds.wav</ShortName>
 							<Path>SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem</Path>
 						</File>
-						<File Id="320455122" Language="SFX">
-							<ShortName>Freud_ALL_MoreActive_fromStart.wav</ShortName>
-							<Path>SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem</Path>
-						</File>
-						<File Id="573226816" Language="SFX">
-							<ShortName>Freud_ALL_fromStart_ActiveStrgsLow.wav</ShortName>
-							<Path>SFX\Freud_ALL_fromStart_ActiveStrgsLow_34D9B405.wem</Path>
-						</File>
-						<File Id="610501190" Language="SFX">
-							<ShortName>Freud_ALL_Calm_fromStart.wav</ShortName>
-							<Path>SFX\Freud_ALL_Calm_fromStart_34D9B405.wem</Path>
-						</File>
-						<File Id="767719300" Language="SFX">
-							<ShortName>Freud_ALL_fromStart_ActiveStep1.wav</ShortName>
-							<Path>SFX\Freud_ALL_fromStart_ActiveStep1_34D9B405.wem</Path>
-						</File>
-						<File Id="900696347" Language="SFX">
-							<ShortName>Freud_ALL_fromStart_ActiveStep2.wav</ShortName>
-							<Path>SFX\Freud_ALL_fromStart_ActiveStep2_34D9B405.wem</Path>
-						</File>
-						<File Id="996780440" Language="SFX">
-							<ShortName>Freud_ALL_fromStart_ActiveStep3.wav</ShortName>
-							<Path>SFX\Freud_ALL_fromStart_ActiveStep3_34D9B405.wem</Path>
-						</File>
-						<File Id="1024539883" Language="SFX">
-							<ShortName>Freud_ALL_Common_fromStart.wav</ShortName>
-							<Path>SFX\Freud_ALL_Common_fromStart_34D9B405.wem</Path>
-						</File>
 					</ReferencedStreamedFiles>
 					<IncludedMemoryFiles>
+						<File Id="26493571" Language="SFX">
+							<ShortName>Freud_2024_PnoUpper_4ths.wav</ShortName>
+							<Path>SFX\Freud_2024_PnoUpper_4ths_34D9B405.wem</Path>
+						</File>
 						<File Id="121426742" Language="SFX">
 							<ShortName>FreudB_2018-06-02_Headlocked_add0.5seconds.wav</ShortName>
 							<Path>SFX\FreudB_2018-06-02_Headlocked_add0.5seconds_1752715B.wem</Path>
 							<PrefetchSize>3684</PrefetchSize>
 						</File>
+						<File Id="157317717" Language="SFX">
+							<ShortName>Freud_2024_PnoLower_Bars.wav</ShortName>
+							<Path>SFX\Freud_2024_PnoLower_Bars_34D9B405.wem</Path>
+						</File>
+						<File Id="179970646" Language="SFX">
+							<ShortName>Freud_2024_Theremin.wav</ShortName>
+							<Path>SFX\Freud_2024_Theremin_34D9B405.wem</Path>
+						</File>
+						<File Id="285160567" Language="SFX">
+							<ShortName>Freud_2024_PnoUpper_16ths.wav</ShortName>
+							<Path>SFX\Freud_2024_PnoUpper_16ths_34D9B405.wem</Path>
+						</File>
+						<File Id="298487203" Language="SFX">
+							<ShortName>Freud_2024_Strgs_8ths.wav</ShortName>
+							<Path>SFX\Freud_2024_Strgs_8ths_34D9B405.wem</Path>
+						</File>
 						<File Id="309900962" Language="SFX">
 							<ShortName>FreudB_2018-06-02_AmbiX2-2_add0.5seconds.wav</ShortName>
 							<Path>SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem</Path>
 							<PrefetchSize>3645</PrefetchSize>
+						</File>
+						<File Id="386468461" Language="SFX">
+							<ShortName>Freud_2024_Melody_Flute.wav</ShortName>
+							<Path>SFX\Freud_2024_Melody_Flute_34D9B405.wem</Path>
+						</File>
+						<File Id="428026059" Language="SFX">
+							<ShortName>Freud_2024_Bass_Higher.wav</ShortName>
+							<Path>SFX\Freud_2024_Bass_Higher_34D9B405.wem</Path>
+						</File>
+						<File Id="482697894" Language="SFX">
+							<ShortName>Freud_2024_Cymbals.wav</ShortName>
+							<Path>SFX\Freud_2024_Cymbals_34D9B405.wem</Path>
+						</File>
+						<File Id="502764823" Language="SFX">
+							<ShortName>Freud_2024_Melody_Cello.wav</ShortName>
+							<Path>SFX\Freud_2024_Melody_Cello_34D9B405.wem</Path>
+						</File>
+						<File Id="527639339" Language="SFX">
+							<ShortName>Freud_2024_PnoUpper_Bars.wav</ShortName>
+							<Path>SFX\Freud_2024_PnoUpper_Bars_34D9B405.wem</Path>
+						</File>
+						<File Id="669423220" Language="SFX">
+							<ShortName>Freud_2024_Bass_Lower.wav</ShortName>
+							<Path>SFX\Freud_2024_Bass_Lower_34D9B405.wem</Path>
+						</File>
+						<File Id="922071399" Language="SFX">
+							<ShortName>Freud_2024_Strgs_Bars.wav</ShortName>
+							<Path>SFX\Freud_2024_Strgs_Bars_34D9B405.wem</Path>
+						</File>
+						<File Id="967542351" Language="SFX">
+							<ShortName>Freud_2024_GranCassa.wav</ShortName>
+							<Path>SFX\Freud_2024_GranCassa_34D9B405.wem</Path>
+						</File>
+						<File Id="1018565850" Language="SFX">
+							<ShortName>Freud_2024_Strgs_Melody16ths.wav</ShortName>
+							<Path>SFX\Freud_2024_Strgs_Melody16ths_34D9B405.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -956,6 +989,7 @@
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="2275494527" Name="ValenceLevel" ObjectPath="\Game Parameters\Default Work Unit\ValenceLevel"/>
 				<GameParameter Id="4105510166" Name="ArousalLevel" ObjectPath="\Game Parameters\Default Work Unit\ArousalLevel"/>
 			</GameParameters>
 		</SoundBank>

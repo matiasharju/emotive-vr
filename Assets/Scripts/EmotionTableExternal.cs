@@ -16,16 +16,24 @@ public class EmotionTableExternal : MonoBehaviour
     Color arousalColor;
     private GameObject line;
 
+    public GameObject dataDiagramObjectValence;
+    private DD_DataDiagram m_DataDiagram_Valence;
+    Color valenceColor;
+    private GameObject valenceLine;
+
     private float m_Input = 0f;
 
     GameObject lineArousal;
+    GameObject lineValence;
 
     DD_Lines dD_Lines_Arousal;
+    DD_Lines dD_Lines_Valence;
 
     private void Start()
     {
         InitialiseDataDiagram();
         lineArousal = GameObject.Find("LineArousal");
+        lineValence = GameObject.Find("LineValence");
         Invoke("ActivateLines", 1.0f);
     }
 
@@ -36,6 +44,13 @@ public class EmotionTableExternal : MonoBehaviour
             dD_Lines_Arousal = lineArousal.GetComponent<DD_Lines>();
             dD_Lines_Arousal.enabled = true;
         }
+
+        if (lineValence != null)
+        {
+            dD_Lines_Valence = lineValence.GetComponent<DD_Lines>();
+            dD_Lines_Valence.enabled = true;
+        }
+
     }
 
     public void UpdateEmotionTable(float valenceValue, float arousalValue)
@@ -56,8 +71,11 @@ public class EmotionTableExternal : MonoBehaviour
     public void InitialiseDataDiagram()
     {
         arousalColor = Color.cyan;
+        valenceColor = Color.yellow;
         m_DataDiagram = dataDiagramObject.GetComponent<DD_DataDiagram>();
+        m_DataDiagram_Valence = dataDiagramObjectValence.GetComponent<DD_DataDiagram>();
         line = m_DataDiagram.AddLine("Arousal", arousalColor);
+        valenceLine = m_DataDiagram_Valence.AddLine("Valence", valenceColor);
     }
 
     public void DrawDataDiagram(float arousalRawValue)
@@ -71,4 +89,11 @@ public class EmotionTableExternal : MonoBehaviour
 
 //        counter++;
     }
-}   
+
+    public void DrawDataDiagramValence(float valenceRawValue)
+    {
+        m_DataDiagram_Valence.InputPoint(valenceLine, new Vector2(0.01f, valenceRawValue));
+    }
+
+
+}

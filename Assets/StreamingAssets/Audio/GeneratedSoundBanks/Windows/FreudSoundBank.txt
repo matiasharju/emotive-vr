@@ -12,28 +12,35 @@ Event	ID	Name			Wwise Object Path	Notes
 	4284960165	PlayHeartbeat			\Default Work Unit\Common\PlayHeartbeat	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	2275494527	ValenceLevel			\Default Work Unit\ValenceLevel	
 	4105510166	ArousalLevel			\Default Work Unit\ArousalLevel	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	847696529	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26493571	Freud_2024_PnoUpper_4ths	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_PnoUpper_4ths_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_PnoUpper_4ths		10243864
 	121426742	FreudB_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\FreudB_2018-06-02_Headlocked_add0.5seconds_1752715B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\FreudB_Headlocked		3684
+	157317717	Freud_2024_PnoLower_Bars	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_PnoLower_Bars_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_PnoLower_Bars		10243864
+	179970646	Freud_2024_Theremin	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Theremin_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Theremin		10243864
+	285160567	Freud_2024_PnoUpper_16ths	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_PnoUpper_16ths_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_PnoUpper_16ths		10243864
+	298487203	Freud_2024_Strgs_8ths	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Strgs_8ths_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Strgs_8ths		10243864
 	309900962	FreudB_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\FreudB_Ambisonic		3645
-	556146288	ChoiceMusic_2018-05-29_extraBarEnd	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\ChoiceMusic_2018-05-29_extraBarEnd_D10D53C6.wem		\Interactive Music Hierarchy\Default Work Unit\ArousalTest\Choix\ChoiceMusic_2018-05-29_extraBarEnd		380784
+	386468461	Freud_2024_Melody_Flute	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Melody_Flute_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Melody_Flute		10243864
+	428026059	Freud_2024_Bass_Higher	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Bass_Higher_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Bass_Higher		10243864
+	482697894	Freud_2024_Cymbals	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Cymbals_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Cymbals		10243864
+	502764823	Freud_2024_Melody_Cello	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Melody_Cello_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Melody_Cello		10243864
+	527639339	Freud_2024_PnoUpper_Bars	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_PnoUpper_Bars_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_PnoUpper_Bars		10243864
+	669423220	Freud_2024_Bass_Lower	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Bass_Lower_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Bass_Lower		10243864
 	746741627	Freud_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2018-05-06_AmbiX2-2_add0.5seconds_4087959D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\Freud_Ambisonic		5157
+	922071399	Freud_2024_Strgs_Bars	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Strgs_Bars_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Strgs_Bars		10243864
+	967542351	Freud_2024_GranCassa	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_GranCassa_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_GranCassa		10243864
 	982226890	Freud_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2018-05-06_Headlocked_add0.5seconds_1752715B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\Freud_Headlocked		5180
+	1018565850	Freud_2024_Strgs_Melody16ths	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2024_Strgs_Melody16ths_34D9B405.wem		\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_2024_Strgs_Melody16ths		10243864
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	121426742	FreudB_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\FreudB_2018-06-02_Headlocked_add0.5seconds_1752715B.wem	121426742.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\FreudB_Headlocked	
 	309900962	FreudB_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\FreudB_2018-06-02_AmbiX2-2_add0.5seconds_4087959D.wem	309900962.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\FreudB_Ambisonic	
-	320455122	Freud_ALL_04_MoreActive_fromStart	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_MoreActive_fromStart_34D9B405.wem	320455122.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_04_MoreActive_fromStart	
-	573226816	Freud_ALL_03d_fromStart_ActiveStrgsLow	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_fromStart_ActiveStrgsLow_34D9B405.wem	573226816.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_03d_fromStart_ActiveStrgsLow	
-	610501190	Freud_ALL_02_Calm_fromStart	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_Calm_fromStart_34D9B405.wem	610501190.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_02_Calm_fromStart	
 	746741627	Freud_Ambisonic	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2018-05-06_AmbiX2-2_add0.5seconds_4087959D.wem	746741627.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\Freud_Ambisonic	
-	767719300	Freud_ALL_03a_fromStart_ActiveStep1	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_fromStart_ActiveStep1_34D9B405.wem	767719300.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_03a_fromStart_ActiveStep1	
-	900696347	Freud_ALL_03b_fromStart_ActiveStep2	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_fromStart_ActiveStep2_34D9B405.wem	900696347.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_03b_fromStart_ActiveStep2	
 	982226890	Freud_Headlocked	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_2018-05-06_Headlocked_add0.5seconds_1752715B.wem	982226890.wem	\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Freud\Freud_Headlocked	
-	996780440	Freud_ALL_03c_fromStart_ActiveStep3	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_fromStart_ActiveStep3_34D9B405.wem	996780440.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_03c_fromStart_ActiveStep3	
-	1024539883	Freud_ALL_01_Common_fromStart	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Freud_ALL_Common_fromStart_34D9B405.wem	1024539883.wem	\Interactive Music Hierarchy\Default Work Unit\HallucinationFreud\Freud_ALL_fromStart\Freud_ALL_01_Common_fromStart	
 

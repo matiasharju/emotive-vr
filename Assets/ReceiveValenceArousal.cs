@@ -4,21 +4,23 @@ using System.Collections;
 public class ReceiveValenceArousal : MonoBehaviour
 {
     public OSC osc;
-    public static int valence;
-    public static int arousal;
+    public static float valence;
+    public static float arousal;
 
     void Start()
     {
-        osc.SetAddressHandler("/valence", OnReceiveValence);
-        osc.SetAddressHandler("/arousal", OnReceiveArousal);
+        osc.SetAddressHandler("/va", OnReceiveValence);
+//        osc.SetAddressHandler("/ar", OnReceiveArousal);
     }
 
     void OnReceiveValence(OscMessage message)
     {
-        valence = message.GetInt(0);
+        Debug.Log(message);
+        valence = message.GetFloat(0);
+        arousal = message.GetFloat(1);
     }
     void OnReceiveArousal(OscMessage message)
     {
-        arousal = message.GetInt(0);
+        arousal = message.GetFloat(0);
     }
 }

@@ -509,8 +509,10 @@ private void EndVideo(VideoPlayer vp)
         //while(true)
         while(isInteractive)
         {
-            arousal = ReceiveValenceArousal.arousal / 110f;     // values coming from the Mentalista sensor are 0 - 120???
-            valence = ReceiveValenceArousal.valence / 110f;     // values coming from the Mentalista sensor are 0 - 120???
+            arousal = ReceiveValenceArousal.arousal;     
+            valence = ReceiveValenceArousal.valence;     
+//            arousal = ReceiveValenceArousal.arousal / 110f;     // values coming from the Mentalista sensor are 0 - 120???
+//            valence = ReceiveValenceArousal.valence / 110f;     // values coming from the Mentalista sensor are 0 - 120???
 
             if (enableInteractiveMusic)
             {
@@ -538,6 +540,7 @@ private void EndVideo(VideoPlayer vp)
             {
                 emotionTableExternal.GetComponent<EmotionTableExternal>().UpdateEmotionTable(valence, arousal);
                 emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagram(arousal);
+                emotionTableExternal.GetComponent<EmotionTableExternal>().DrawDataDiagramValence(valence);
             }
 
             // Send data to DataRecorder.cs to be written on a csv file
