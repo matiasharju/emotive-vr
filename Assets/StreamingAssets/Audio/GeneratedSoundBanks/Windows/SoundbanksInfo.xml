@@ -559,7 +559,7 @@
 				<GameParameter Id="703117816" Name="startDelay" ObjectPath="\Game Parameters\Default Work Unit\startDelay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="886154420" Language="SFX">
+		<SoundBank Id="886154420" Language="SFX" Hash="3694864163">
 			<ObjectPath>\SoundBanks\Default Work Unit\IntroSoundBank</ObjectPath>
 			<ShortName>IntroSoundBank</ShortName>
 			<Path>IntroSoundBank.bnk</Path>
@@ -601,15 +601,191 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2937779214" Name="PlayCalibNoise" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalibNoise" DurationType="OneShot" DurationMin="9.774331" DurationMax="9.774331">
+				<Event Id="2937779214" Name="PlayCalibNoise" ObjectPath="\Events\Default Work Unit\Calibration\PlayCalibNoise" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="769559567" Language="SFX">
 							<ShortName>Pink_Noise.wav</ShortName>
-							<Path>SFX\Pink_Noise_623340BC.wem</Path>
+							<Path>SFX\Pink_Noise_4C429B4B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4284960165" Name="PlayHeartbeat" ObjectPath="\Events\Default Work Unit\Common\PlayHeartbeat" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1853602296" Name="PlayHVHA" ObjectPath="\Events\Default Work Unit\Calibration\PlayHVHA" DurationType="OneShot" DurationMin="5.980114" DurationMax="6.039637">
+					<IncludedMemoryFiles>
+						<File Id="146220738" Language="SFX">
+							<ShortName>311.wav</ShortName>
+							<Path>SFX\311_623340BC.wem</Path>
+						</File>
+						<File Id="181047348" Language="SFX">
+							<ShortName>360.wav</ShortName>
+							<Path>SFX\360_623340BC.wem</Path>
+						</File>
+						<File Id="182173419" Language="SFX">
+							<ShortName>216.wav</ShortName>
+							<Path>SFX\216_623340BC.wem</Path>
+						</File>
+						<File Id="194009506" Language="SFX">
+							<ShortName>204.wav</ShortName>
+							<Path>SFX\204_623340BC.wem</Path>
+						</File>
+						<File Id="335335723" Language="SFX">
+							<ShortName>353.wav</ShortName>
+							<Path>SFX\353_623340BC.wem</Path>
+						</File>
+						<File Id="343822232" Language="SFX">
+							<ShortName>215.wav</ShortName>
+							<Path>SFX\215_623340BC.wem</Path>
+						</File>
+						<File Id="399305719" Language="SFX">
+							<ShortName>202.wav</ShortName>
+							<Path>SFX\202_623340BC.wem</Path>
+						</File>
+						<File Id="402252949" Language="SFX">
+							<ShortName>365.wav</ShortName>
+							<Path>SFX\365_623340BC.wem</Path>
+						</File>
+						<File Id="412789857" Language="SFX">
+							<ShortName>815.wav</ShortName>
+							<Path>SFX\815_623340BC.wem</Path>
+						</File>
+						<File Id="497172764" Language="SFX">
+							<ShortName>201.wav</ShortName>
+							<Path>SFX\201_623340BC.wem</Path>
+						</File>
+						<File Id="540768566" Language="SFX">
+							<ShortName>367.wav</ShortName>
+							<Path>SFX\367_623340BC.wem</Path>
+						</File>
+						<File Id="547154006" Language="SFX">
+							<ShortName>716.wav</ShortName>
+							<Path>SFX\716_623340BC.wem</Path>
+						</File>
+						<File Id="634016697" Language="SFX">
+							<ShortName>205.wav</ShortName>
+							<Path>SFX\205_623340BC.wem</Path>
+						</File>
+						<File Id="700686320" Language="SFX">
+							<ShortName>200.wav</ShortName>
+							<Path>SFX\200_623340BC.wem</Path>
+						</File>
+						<File Id="719812018" Language="SFX">
+							<ShortName>817.wav</ShortName>
+							<Path>SFX\817_623340BC.wem</Path>
+						</File>
+						<File Id="818240905" Language="SFX">
+							<ShortName>717.wav</ShortName>
+							<Path>SFX\717_623340BC.wem</Path>
+						</File>
+						<File Id="842789256" Language="SFX">
+							<ShortName>352.wav</ShortName>
+							<Path>SFX\352_623340BC.wem</Path>
+						</File>
+						<File Id="947759716" Language="SFX">
+							<ShortName>355.wav</ShortName>
+							<Path>SFX\355_623340BC.wem</Path>
+						</File>
+						<File Id="954912793" Language="SFX">
+							<ShortName>210.wav</ShortName>
+							<Path>SFX\210_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1920712580" Name="PlayHVLA" ObjectPath="\Events\Default Work Unit\Calibration\PlayHVLA" DurationType="OneShot" DurationMin="6.000000" DurationMax="6.053875">
+					<IncludedMemoryFiles>
+						<File Id="55257535" Language="SFX">
+							<ShortName>270.wav</ShortName>
+							<Path>SFX\270_623340BC.wem</Path>
+						</File>
+						<File Id="135493515" Language="SFX">
+							<ShortName>171.wav</ShortName>
+							<Path>SFX\171_623340BC.wem</Path>
+						</File>
+						<File Id="196907182" Language="SFX">
+							<ShortName>225.wav</ShortName>
+							<Path>SFX\225_623340BC.wem</Path>
+						</File>
+						<File Id="213216978" Language="SFX">
+							<ShortName>370.wav</ShortName>
+							<Path>SFX\370_623340BC.wem</Path>
+						</File>
+						<File Id="248510697" Language="SFX">
+							<ShortName>809.wav</ShortName>
+							<Path>SFX\809_623340BC.wem</Path>
+						</File>
+						<File Id="255481260" Language="SFX">
+							<ShortName>172.wav</ShortName>
+							<Path>SFX\172_623340BC.wem</Path>
+						</File>
+						<File Id="348666679" Language="SFX">
+							<ShortName>377.wav</ShortName>
+							<Path>SFX\377_623340BC.wem</Path>
+						</File>
+						<File Id="360767481" Language="SFX">
+							<ShortName>812.wav</ShortName>
+							<Path>SFX\812_623340BC.wem</Path>
+						</File>
+						<File Id="373022414" Language="SFX">
+							<ShortName>725.wav</ShortName>
+							<Path>SFX\725_623340BC.wem</Path>
+						</File>
+						<File Id="398211387" Language="SFX">
+							<ShortName>810.wav</ShortName>
+							<Path>SFX\810_623340BC.wem</Path>
+						</File>
+						<File Id="496996580" Language="SFX">
+							<ShortName>150.wav</ShortName>
+							<Path>SFX\150_623340BC.wem</Path>
+						</File>
+						<File Id="508349561" Language="SFX">
+							<ShortName>132.wav</ShortName>
+							<Path>SFX\132_623340BC.wem</Path>
+						</File>
+						<File Id="516740322" Language="SFX">
+							<ShortName>206.wav</ShortName>
+							<Path>SFX\206_623340BC.wem</Path>
+						</File>
+						<File Id="522281106" Language="SFX">
+							<ShortName>811.wav</ShortName>
+							<Path>SFX\811_623340BC.wem</Path>
+						</File>
+						<File Id="524371224" Language="SFX">
+							<ShortName>221.wav</ShortName>
+							<Path>SFX\221_623340BC.wem</Path>
+						</File>
+						<File Id="605557880" Language="SFX">
+							<ShortName>113.wav</ShortName>
+							<Path>SFX\113_623340BC.wem</Path>
+						</File>
+						<File Id="618709910" Language="SFX">
+							<ShortName>721.wav</ShortName>
+							<Path>SFX\721_623340BC.wem</Path>
+						</File>
+						<File Id="632243174" Language="SFX">
+							<ShortName>826.wav</ShortName>
+							<Path>SFX\826_623340BC.wem</Path>
+						</File>
+						<File Id="689191609" Language="SFX">
+							<ShortName>726.wav</ShortName>
+							<Path>SFX\726_623340BC.wem</Path>
+						</File>
+						<File Id="739926843" Language="SFX">
+							<ShortName>602.wav</ShortName>
+							<Path>SFX\602_623340BC.wem</Path>
+						</File>
+						<File Id="746850042" Language="SFX">
+							<ShortName>816.wav</ShortName>
+							<Path>SFX\816_623340BC.wem</Path>
+						</File>
+						<File Id="930941586" Language="SFX">
+							<ShortName>374.wav</ShortName>
+							<Path>SFX\374_623340BC.wem</Path>
+						</File>
+						<File Id="1002296228" Language="SFX">
+							<ShortName>802.wav</ShortName>
+							<Path>SFX\802_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3972833680" Name="PlayIntroduction1" ObjectPath="\Events\Default Work Unit\01_Introduction\PlayIntroduction1" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="125294654" Language="SFX">
@@ -701,6 +877,182 @@
 						<AuxBus Id="1359398863" Name="KarlMusic_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Karl Spatial Hallucination Music Bus\KarlMusic_Reverb"/>
 						<AuxBus Id="2327170656" Name="Headlocked_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Headlocked Bus\Headlocked_Reverb"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="3786928020" Name="PlayLVHA" ObjectPath="\Events\Default Work Unit\Calibration\PlayLVHA" DurationType="OneShot" DurationMin="5.999478" DurationMax="6.085306">
+					<IncludedMemoryFiles>
+						<File Id="3461608" Language="SFX">
+							<ShortName>260.wav</ShortName>
+							<Path>SFX\260_623340BC.wem</Path>
+						</File>
+						<File Id="21494067" Language="SFX">
+							<ShortName>422.wav</ShortName>
+							<Path>SFX\422_623340BC.wem</Path>
+						</File>
+						<File Id="42832544" Language="SFX">
+							<ShortName>278.wav</ShortName>
+							<Path>SFX\278_623340BC.wem</Path>
+						</File>
+						<File Id="126846919" Language="SFX">
+							<ShortName>277.wav</ShortName>
+							<Path>SFX\277_623340BC.wem</Path>
+						</File>
+						<File Id="194484780" Language="SFX">
+							<ShortName>501.wav</ShortName>
+							<Path>SFX\501_623340BC.wem</Path>
+						</File>
+						<File Id="225154645" Language="SFX">
+							<ShortName>279.wav</ShortName>
+							<Path>SFX\279_623340BC.wem</Path>
+						</File>
+						<File Id="264215744" Language="SFX">
+							<ShortName>285.wav</ShortName>
+							<Path>SFX\285_623340BC.wem</Path>
+						</File>
+						<File Id="340965564" Language="SFX">
+							<ShortName>310.wav</ShortName>
+							<Path>SFX\310_623340BC.wem</Path>
+						</File>
+						<File Id="376948802" Language="SFX">
+							<ShortName>275.wav</ShortName>
+							<Path>SFX\275_623340BC.wem</Path>
+						</File>
+						<File Id="394628124" Language="SFX">
+							<ShortName>134.wav</ShortName>
+							<Path>SFX\134_623340BC.wem</Path>
+						</File>
+						<File Id="401278033" Language="SFX">
+							<ShortName>714.wav</ShortName>
+							<Path>SFX\714_623340BC.wem</Path>
+						</File>
+						<File Id="410478573" Language="SFX">
+							<ShortName>424.wav</ShortName>
+							<Path>SFX\424_623340BC.wem</Path>
+						</File>
+						<File Id="411226897" Language="SFX">
+							<ShortName>116.wav</ShortName>
+							<Path>SFX\116_623340BC.wem</Path>
+						</File>
+						<File Id="433261377" Language="SFX">
+							<ShortName>600.wav</ShortName>
+							<Path>SFX\600_623340BC.wem</Path>
+						</File>
+						<File Id="434299816" Language="SFX">
+							<ShortName>380.wav</ShortName>
+							<Path>SFX\380_623340BC.wem</Path>
+						</File>
+						<File Id="457158431" Language="SFX">
+							<ShortName>626.wav</ShortName>
+							<Path>SFX\626_623340BC.wem</Path>
+						</File>
+						<File Id="500163208" Language="SFX">
+							<ShortName>106.wav</ShortName>
+							<Path>SFX\106_623340BC.wem</Path>
+						</File>
+						<File Id="566229098" Language="SFX">
+							<ShortName>502.wav</ShortName>
+							<Path>SFX\502_623340BC.wem</Path>
+						</File>
+						<File Id="577551521" Language="SFX">
+							<ShortName>420.wav</ShortName>
+							<Path>SFX\420_623340BC.wem</Path>
+						</File>
+						<File Id="592470568" Language="SFX">
+							<ShortName>244.wav</ShortName>
+							<Path>SFX\244_623340BC.wem</Path>
+						</File>
+						<File Id="592693436" Language="SFX">
+							<ShortName>715.wav</ShortName>
+							<Path>SFX\715_623340BC.wem</Path>
+						</File>
+						<File Id="610255660" Language="SFX">
+							<ShortName>286.wav</ShortName>
+							<Path>SFX\286_623340BC.wem</Path>
+						</File>
+						<File Id="622253447" Language="SFX">
+							<ShortName>712.wav</ShortName>
+							<Path>SFX\712_623340BC.wem</Path>
+						</File>
+						<File Id="700072380" Language="SFX">
+							<ShortName>115.wav</ShortName>
+							<Path>SFX\115_623340BC.wem</Path>
+						</File>
+						<File Id="707459937" Language="SFX">
+							<ShortName>255.wav</ShortName>
+							<Path>SFX\255_623340BC.wem</Path>
+						</File>
+						<File Id="747840870" Language="SFX">
+							<ShortName>312.wav</ShortName>
+							<Path>SFX\312_623340BC.wem</Path>
+						</File>
+						<File Id="758512645" Language="SFX">
+							<ShortName>105.wav</ShortName>
+							<Path>SFX\105_623340BC.wem</Path>
+						</File>
+						<File Id="773219373" Language="SFX">
+							<ShortName>289.wav</ShortName>
+							<Path>SFX\289_623340BC.wem</Path>
+						</File>
+						<File Id="822566429" Language="SFX">
+							<ShortName>281.wav</ShortName>
+							<Path>SFX\281_623340BC.wem</Path>
+						</File>
+						<File Id="866308981" Language="SFX">
+							<ShortName>291.wav</ShortName>
+							<Path>SFX\291_623340BC.wem</Path>
+						</File>
+						<File Id="922821093" Language="SFX">
+							<ShortName>719.wav</ShortName>
+							<Path>SFX\719_623340BC.wem</Path>
+						</File>
+						<File Id="955803281" Language="SFX">
+							<ShortName>261.wav</ShortName>
+							<Path>SFX\261_623340BC.wem</Path>
+						</File>
+						<File Id="981142700" Language="SFX">
+							<ShortName>732.wav</ShortName>
+							<Path>SFX\732_623340BC.wem</Path>
+						</File>
+						<File Id="988674098" Language="SFX">
+							<ShortName>292.wav</ShortName>
+							<Path>SFX\292_623340BC.wem</Path>
+						</File>
+						<File Id="998388768" Language="SFX">
+							<ShortName>276.wav</ShortName>
+							<Path>SFX\276_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3719817672" Name="PlayLVLA" ObjectPath="\Events\Default Work Unit\Calibration\PlayLVLA" DurationType="OneShot" DurationMin="6.000000" DurationMax="6.025624">
+					<IncludedMemoryFiles>
+						<File Id="20450071" Language="SFX">
+							<ShortName>250.wav</ShortName>
+							<Path>SFX\250_623340BC.wem</Path>
+						</File>
+						<File Id="122117056" Language="SFX">
+							<ShortName>251.wav</ShortName>
+							<Path>SFX\251_623340BC.wem</Path>
+						</File>
+						<File Id="202392295" Language="SFX">
+							<ShortName>252.wav</ShortName>
+							<Path>SFX\252_623340BC.wem</Path>
+						</File>
+						<File Id="294985542" Language="SFX">
+							<ShortName>382.wav</ShortName>
+							<Path>SFX\382_623340BC.wem</Path>
+						</File>
+						<File Id="387390489" Language="SFX">
+							<ShortName>706.wav</ShortName>
+							<Path>SFX\706_623340BC.wem</Path>
+						</File>
+						<File Id="441122329" Language="SFX">
+							<ShortName>243.wav</ShortName>
+							<Path>SFX\243_623340BC.wem</Path>
+						</File>
+						<File Id="890229302" Language="SFX">
+							<ShortName>245.wav</ShortName>
+							<Path>SFX\245_623340BC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3240900869" Name="ResumeAll" ObjectPath="\Events\Default Work Unit\Common\ResumeAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\Default Work Unit\Common\StopAll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -866,7 +1218,7 @@
 			<ShortName>TestSoundBank</ShortName>
 			<Path>TestSoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1916941780" Language="SFX" Hash="1933818443">
+		<SoundBank Id="1916941780" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\FreudSoundBank</ObjectPath>
 			<ShortName>FreudSoundBank</ShortName>
 			<Path>FreudSoundBank.bnk</Path>

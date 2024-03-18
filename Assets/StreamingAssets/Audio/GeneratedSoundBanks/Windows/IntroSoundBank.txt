@@ -1,11 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
 	172570369	StopIntroduction			\Default Work Unit\01_Introduction\StopIntroduction	
+	1351109882	StopCalib			\Default Work Unit\Calibration\StopCalib	
+	1853602296	PlayHVHA			\Default Work Unit\Calibration\PlayHVHA	
+	1920712580	PlayHVLA			\Default Work Unit\Calibration\PlayHVLA	
 	2845561435	PlayArousalTestMusic			\Default Work Unit\Common\PlayArousalTestMusic	
+	2937779214	PlayCalibNoise			\Default Work Unit\Calibration\PlayCalibNoise	
 	3043762247	PlayBeep			\Default Work Unit\Common\PlayBeep	
 	3086540886	StopAll			\Default Work Unit\Common\StopAll	
 	3240900869	ResumeAll			\Default Work Unit\Common\ResumeAll	
 	3572927369	PlayCalib1			\Default Work Unit\Calibration\PlayCalib1	
+	3572927370	PlayCalib2			\Default Work Unit\Calibration\PlayCalib2	
+	3572927371	PlayCalib3			\Default Work Unit\Calibration\PlayCalib3	
+	3572927372	PlayCalib4			\Default Work Unit\Calibration\PlayCalib4	
 	3698975080	GreetingsFromHelsinki			\Default Work Unit\Common\GreetingsFromHelsinki	
+	3719817672	PlayLVLA			\Default Work Unit\Calibration\PlayLVLA	
+	3786928020	PlayLVHA			\Default Work Unit\Calibration\PlayLVHA	
 	3934384867	PlayBreathing			\Default Work Unit\Common\PlayBreathing	
 	3972833680	PlayIntroduction1			\Default Work Unit\01_Introduction\PlayIntroduction1	
 	3972833683	PlayIntroduction2			\Default Work Unit\01_Introduction\PlayIntroduction2	
@@ -16,12 +25,100 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	847696529	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TestSignals\Beep\Wwise Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3461608	260	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\260_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\260		46526
+	20450071	250	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\250_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\250		50099
+	21494067	422	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\422_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\422		44917
+	42832544	278	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\278_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\278		48798
+	47049553	Seagull	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Seagull_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Seagull		105893
+	55257535	270	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\270_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\270		31586
 	89089825	Bear_AngryMoan	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Bear_AngryMoan_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Bear_AngryMoan		36664
+	122117056	251	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\251_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\251		48920
+	126846919	277	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\277_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\277		49138
+	135493515	171	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\171_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\171		53949
+	146220738	311	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\311_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\311		35699
 	147186154	NeuroTheremin_02	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_02_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_02		8757
+	181047348	360	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\360_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\360		44321
+	182173419	216	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\216_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\216		46613
+	194009506	204	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\204_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\204		27700
+	194484780	501	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\501_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\501		36015
+	196907182	225	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\225_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\225		49465
+	202392295	252	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\252_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\252		40101
+	213216978	370	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\370_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\370		50078
+	225154645	279	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\279_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\279		46890
+	248510697	809	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\809_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\809		28840
+	255481260	172	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\172_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\172		58922
+	264215744	285	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\285_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\285		48083
+	294985542	382	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\382_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\382		51242
+	335335723	353	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\353_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\353		36142
+	340965564	310	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\310_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\310		46702
+	343822232	215	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\215_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\215		48183
+	348666679	377	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\377_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\377		53370
+	360767481	812	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\812_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\812		35324
+	373022414	725	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\725_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\725		46700
+	376948802	275	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\275_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\275		53133
+	387390489	706	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\706_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\706		36869
+	394628124	134	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\134_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\134		32983
+	398211387	810	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\810_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\810		44715
+	399305719	202	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\202_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\202		45403
+	401278033	714	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\714_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\714		40458
+	402252949	365	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\365_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\365		27546
+	410478573	424	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\424_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\424		48102
+	411226897	116	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\116_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\116		27529
+	412789857	815	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\815_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\815		69639
+	433261377	600	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\600_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\600		43769
+	434299816	380	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\380_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\380		53121
+	441122329	243	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\243_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\243		25955
+	457158431	626	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\626_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\626		37410
+	486104322	Baseball	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Baseball_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Baseball		184259
+	496996580	150	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\150_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\150		26092
+	497172764	201	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\201_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\201		46685
+	500163208	106	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\106_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\106		37032
+	508349561	132	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\132_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\132		49508
+	516740322	206	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\206_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\206		46273
+	522281106	811	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\811_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\811		58537
+	524371224	221	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\221_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\221		57785
+	540768566	367	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\367_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\367		39147
+	547154006	716	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\716_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\716		41224
+	566229098	502	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\502_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\502		46698
+	577551521	420	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\420_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\420		36379
+	592470568	244	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\244_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\244		27456
+	592693436	715	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\715_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\715		43241
+	605557880	113	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\113_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\113		19474
+	610255660	286	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\286_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\286		41723
+	618709910	721	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\721_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\721		79509
+	622253447	712	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\712_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\712		44263
+	632243174	826	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\826_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\826		46592
+	634016697	205	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\205_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\205		45613
 	676971331	NeuroTheremin_03	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_03_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_03		9889
+	689191609	726	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\726_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\726		84552
+	700072380	115	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\115_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\115		43084
+	700686320	200	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\200_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\200		50651
+	707459937	255	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\255_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\255		39893
+	719812018	817	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\817_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\817		56984
+	739926843	602	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\602_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\602		60979
 	742108528	NeuroTheremin_07	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_07_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_07		4808
+	746850042	816	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\816_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\816		49399
+	747840870	312	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\312_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\312		36028
+	758512645	105	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\105_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\105		47431
+	769559567	Pink_Noise	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Pink_Noise_4C429B4B.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Pink_Noise		158369
+	773219373	289	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\289_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\289		35532
 	816203901	NeuroTheremin_17	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_17_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_17		9756
+	818240905	717	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\717_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\717		41944
+	822566429	281	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\281_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\281		26279
+	822640539	Arcade	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\Arcade_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\Arcade		341173
+	842789256	352	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\352_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\352		45094
+	866308981	291	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\291_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\291		48998
+	890229302	245	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\245_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVLA\245		15592
+	922821093	719	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\719_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\719		36708
+	930941586	374	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\374_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\374		35601
+	947759716	355	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\355_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\355		47621
+	954912793	210	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\210_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVHA\210		46845
+	955803281	261	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\261_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\261		52148
 	978726710	NeuroTheremin_15	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_15_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_15		11388
+	981142700	732	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\732_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\732		35610
+	988674098	292	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\292_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\292		41381
+	998388768	276	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\276_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\LVHA\276		35581
+	1002296228	802	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\802_623340BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\EEG_Calibration\HVLA\802		51821
 	1073416195	NeuroTheremin_01	D:\Dropbox\EmotiveVR_WWise2019.2.8\.cache\Windows\SFX\NeuroTheremin_01_1DE3917C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequences\Introduction\NeuroTheremin\NeuroTheremin_01		10273
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
