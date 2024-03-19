@@ -52,6 +52,14 @@ public class CalibrationSequence : MonoBehaviour
         osc.Send(oscMessage);
     }
 
+    public void TerminateCalibration()
+    {
+        AkSoundEngine.PostEvent("StopCalib", gameObject);
+        oscSend("end");
+        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
+        this.gameObject.SetActive(false);
+    }
+
 
     // SEQUENCE WITH RANDOMISATION DONE IN WWISE
     IEnumerator RunSequence()
@@ -178,6 +186,9 @@ public class CalibrationSequence : MonoBehaviour
         }
 
         oscSend("end");
+
+        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
+
         calibrationEndText.SetActive(true);
 
         yield return new WaitForSeconds(5);

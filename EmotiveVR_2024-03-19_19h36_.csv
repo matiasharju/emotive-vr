@@ -1,0 +1,733 @@
+EMOTIVE VR DATA RECORDING
+Date (year-month-day): 2024-03-19
+Playback start time: 19:36
+Session ID: 
+
+
+Time from playback start (s),Sequence name,Video clip name,Video time (s),Valence,Arousal
+0.07,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.17,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.27,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.38,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.48,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.58,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.67,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.77,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.88,00_StartPlayback,(NO VIDEO),0.00,0,0
+0.98,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.08,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.18,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.28,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.38,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.48,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.59,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.69,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.78,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.88,00_StartPlayback,(NO VIDEO),0.00,0,0
+1.98,00_StartPlayback,(NO VIDEO),0.00,0,0
+2.09,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+2.19,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+2.29,04_Opening Credits,04_OpeningCredits_Interactive,0.12,0,0
+2.39,04_Opening Credits,04_OpeningCredits_Interactive,0.24,0,0
+2.49,04_Opening Credits,04_OpeningCredits_Interactive,0.32,0,0
+2.59,04_Opening Credits,04_OpeningCredits_Interactive,0.44,0,0
+2.70,04_Opening Credits,04_OpeningCredits_Interactive,0.52,0,0
+2.80,04_Opening Credits,04_OpeningCredits_Interactive,0.64,0,0
+2.90,04_Opening Credits,04_OpeningCredits_Interactive,0.72,0,0
+3.00,04_Opening Credits,04_OpeningCredits_Interactive,0.84,0,0
+3.10,04_Opening Credits,04_OpeningCredits_Interactive,0.92,0,0
+3.20,04_Opening Credits,04_OpeningCredits_Interactive,1.04,0,0
+3.30,04_Opening Credits,04_OpeningCredits_Interactive,1.12,0,0
+3.41,04_Opening Credits,04_OpeningCredits_Interactive,1.24,0,0
+3.51,04_Opening Credits,04_OpeningCredits_Interactive,1.32,0,0
+3.61,04_Opening Credits,04_OpeningCredits_Interactive,1.44,0,0
+3.71,04_Opening Credits,04_OpeningCredits_Interactive,1.56,0,0
+3.81,04_Opening Credits,04_OpeningCredits_Interactive,1.64,0,0
+3.91,04_Opening Credits,04_OpeningCredits_Interactive,1.76,0,0
+4.02,04_Opening Credits,04_OpeningCredits_Interactive,1.84,0,0
+4.13,04_Opening Credits,04_OpeningCredits_Interactive,1.96,0,0
+4.22,04_Opening Credits,04_OpeningCredits_Interactive,2.04,0,0
+4.32,04_Opening Credits,04_OpeningCredits_Interactive,2.16,0,0
+4.42,04_Opening Credits,04_OpeningCredits_Interactive,2.24,0,0
+4.52,04_Opening Credits,04_OpeningCredits_Interactive,2.36,0,0
+4.62,04_Opening Credits,04_OpeningCredits_Interactive,2.44,0,0
+4.72,04_Opening Credits,04_OpeningCredits_Interactive,2.56,0,0
+4.82,04_Opening Credits,04_OpeningCredits_Interactive,2.64,0,0
+4.92,04_Opening Credits,04_OpeningCredits_Interactive,2.76,0,0
+5.02,04_Opening Credits,04_OpeningCredits_Interactive,2.84,0,0
+5.13,04_Opening Credits,04_OpeningCredits_Interactive,2.96,0,0
+5.23,04_Opening Credits,04_OpeningCredits_Interactive,3.04,0,0
+5.33,04_Opening Credits,04_OpeningCredits_Interactive,3.16,0,0
+5.43,04_Opening Credits,04_OpeningCredits_Interactive,3.24,0,0
+5.53,04_Opening Credits,04_OpeningCredits_Interactive,3.36,0,0
+5.63,04_Opening Credits,04_OpeningCredits_Interactive,3.48,0,0
+5.73,04_Opening Credits,04_OpeningCredits_Interactive,3.56,0,0
+5.84,04_Opening Credits,04_OpeningCredits_Interactive,3.68,0,0
+5.94,04_Opening Credits,04_OpeningCredits_Interactive,3.76,0,0
+6.05,04_Opening Credits,04_OpeningCredits_Interactive,3.88,0,0
+6.16,04_Opening Credits,04_OpeningCredits_Interactive,4.00,0,0
+6.27,04_Opening Credits,04_OpeningCredits_Interactive,4.08,0,0
+6.38,04_Opening Credits,04_OpeningCredits_Interactive,4.20,0,0
+6.49,04_Opening Credits,04_OpeningCredits_Interactive,4.32,0,0
+6.60,04_Opening Credits,04_OpeningCredits_Interactive,4.44,0,0
+6.71,04_Opening Credits,04_OpeningCredits_Interactive,4.52,0,0
+6.83,04_Opening Credits,04_OpeningCredits_Interactive,4.64,0,0
+6.92,04_Opening Credits,04_OpeningCredits_Interactive,4.76,0,0
+7.03,04_Opening Credits,04_OpeningCredits_Interactive,4.84,0,0
+7.15,04_Opening Credits,04_OpeningCredits_Interactive,4.96,0,0
+7.26,04_Opening Credits,04_OpeningCredits_Interactive,5.08,0,0
+7.37,04_Opening Credits,04_OpeningCredits_Interactive,5.20,0,0
+7.48,04_Opening Credits,04_OpeningCredits_Interactive,5.28,0,0
+7.59,04_Opening Credits,04_OpeningCredits_Interactive,5.40,0,0
+7.69,04_Opening Credits,04_OpeningCredits_Interactive,5.52,0,0
+7.80,04_Opening Credits,04_OpeningCredits_Interactive,5.60,0,0
+7.91,04_Opening Credits,04_OpeningCredits_Interactive,5.72,0,0
+8.02,04_Opening Credits,04_OpeningCredits_Interactive,5.84,0,0
+8.13,04_Opening Credits,04_OpeningCredits_Interactive,5.96,0,0
+8.24,04_Opening Credits,04_OpeningCredits_Interactive,6.08,0,0
+8.36,04_Opening Credits,04_OpeningCredits_Interactive,6.16,0,0
+8.45,04_Opening Credits,04_OpeningCredits_Interactive,6.28,0,0
+8.56,04_Opening Credits,04_OpeningCredits_Interactive,6.40,0,0
+8.68,04_Opening Credits,04_OpeningCredits_Interactive,6.48,0,0
+8.79,04_Opening Credits,04_OpeningCredits_Interactive,6.60,0,0
+8.88,04_Opening Credits,04_OpeningCredits_Interactive,6.72,0,0
+9.00,04_Opening Credits,04_OpeningCredits_Interactive,6.80,0,0
+9.11,04_Opening Credits,04_OpeningCredits_Interactive,6.92,0,0
+9.22,04_Opening Credits,04_OpeningCredits_Interactive,7.04,0,0
+9.33,04_Opening Credits,04_OpeningCredits_Interactive,7.16,0,0
+9.45,04_Opening Credits,04_OpeningCredits_Interactive,7.28,0,0
+9.54,04_Opening Credits,04_OpeningCredits_Interactive,7.36,0,0
+9.65,04_Opening Credits,04_OpeningCredits_Interactive,7.48,0,0
+9.77,04_Opening Credits,04_OpeningCredits_Interactive,7.60,0,0
+9.88,04_Opening Credits,04_OpeningCredits_Interactive,7.68,0,0
+9.98,04_Opening Credits,04_OpeningCredits_Interactive,7.80,0,0
+10.09,04_Opening Credits,04_OpeningCredits_Interactive,7.92,0,0
+10.20,04_Opening Credits,04_OpeningCredits_Interactive,8.00,0,0
+10.30,04_Opening Credits,04_OpeningCredits_Interactive,8.12,0,0
+10.41,04_Opening Credits,04_OpeningCredits_Interactive,8.24,0,0
+10.53,04_Opening Credits,04_OpeningCredits_Interactive,8.36,0,0
+10.63,04_Opening Credits,04_OpeningCredits_Interactive,8.44,0,0
+10.73,04_Opening Credits,04_OpeningCredits_Interactive,8.56,0,0
+10.85,04_Opening Credits,04_OpeningCredits_Interactive,8.68,0,0
+10.95,04_Opening Credits,04_OpeningCredits_Interactive,8.76,0,0
+11.05,04_Opening Credits,04_OpeningCredits_Interactive,8.88,0,0
+11.17,04_Opening Credits,04_OpeningCredits_Interactive,9.00,0,0
+11.27,04_Opening Credits,04_OpeningCredits_Interactive,9.08,0,0
+11.38,04_Opening Credits,04_OpeningCredits_Interactive,9.20,0,0
+11.49,04_Opening Credits,04_OpeningCredits_Interactive,9.32,0,0
+11.60,04_Opening Credits,04_OpeningCredits_Interactive,9.44,0,0
+11.71,04_Opening Credits,04_OpeningCredits_Interactive,9.52,0,0
+11.82,04_Opening Credits,04_OpeningCredits_Interactive,9.64,0,0
+11.94,04_Opening Credits,04_OpeningCredits_Interactive,9.76,0,0
+12.03,04_Opening Credits,04_OpeningCredits_Interactive,9.84,0,0
+12.14,04_Opening Credits,04_OpeningCredits_Interactive,9.96,0,0
+12.26,04_Opening Credits,04_OpeningCredits_Interactive,10.08,0,0
+12.37,04_Opening Credits,04_OpeningCredits_Interactive,10.20,0,0
+12.48,04_Opening Credits,04_OpeningCredits_Interactive,10.28,0,0
+12.59,04_Opening Credits,04_OpeningCredits_Interactive,10.40,0,0
+12.70,04_Opening Credits,04_OpeningCredits_Interactive,10.52,0,0
+12.80,04_Opening Credits,04_OpeningCredits_Interactive,10.64,0,0
+12.91,04_Opening Credits,04_OpeningCredits_Interactive,10.72,0,0
+13.02,04_Opening Credits,04_OpeningCredits_Interactive,10.84,0,0
+13.13,04_Opening Credits,04_OpeningCredits_Interactive,10.96,0,0
+13.24,04_Opening Credits,04_OpeningCredits_Interactive,11.08,0,0
+13.35,04_Opening Credits,04_OpeningCredits_Interactive,11.16,0,0
+13.47,04_Opening Credits,04_OpeningCredits_Interactive,11.28,0,0
+13.56,04_Opening Credits,04_OpeningCredits_Interactive,11.40,0,0
+13.67,04_Opening Credits,04_OpeningCredits_Interactive,11.48,0,0
+13.79,04_Opening Credits,04_OpeningCredits_Interactive,11.60,0,0
+13.88,04_Opening Credits,04_OpeningCredits_Interactive,11.72,0,0
+13.99,04_Opening Credits,04_OpeningCredits_Interactive,11.80,0,0
+14.11,04_Opening Credits,04_OpeningCredits_Interactive,11.92,0,0
+14.22,04_Opening Credits,04_OpeningCredits_Interactive,12.04,0,0
+14.32,04_Opening Credits,04_OpeningCredits_Interactive,12.12,0,0
+14.45,04_Opening Credits,04_OpeningCredits_Interactive,12.24,0,0
+14.55,04_Opening Credits,04_OpeningCredits_Interactive,12.36,0,0
+14.65,04_Opening Credits,04_OpeningCredits_Interactive,12.48,0,0
+14.76,04_Opening Credits,04_OpeningCredits_Interactive,12.60,0,0
+14.88,04_Opening Credits,04_OpeningCredits_Interactive,12.68,0,0
+14.97,04_Opening Credits,04_OpeningCredits_Interactive,12.80,0,0
+15.08,04_Opening Credits,04_OpeningCredits_Interactive,12.88,0,0
+15.20,04_Opening Credits,04_OpeningCredits_Interactive,13.00,0,0
+15.30,04_Opening Credits,04_OpeningCredits_Interactive,13.12,0,0
+15.41,04_Opening Credits,04_OpeningCredits_Interactive,13.24,0,0
+15.52,04_Opening Credits,04_OpeningCredits_Interactive,13.36,0,0
+15.64,04_Opening Credits,04_OpeningCredits_Interactive,13.44,0,0
+15.75,04_Opening Credits,04_OpeningCredits_Interactive,13.56,0,0
+15.86,04_Opening Credits,04_OpeningCredits_Interactive,13.68,0,0
+15.97,04_Opening Credits,04_OpeningCredits_Interactive,13.80,0,0
+16.09,04_Opening Credits,04_OpeningCredits_Interactive,13.92,0,0
+16.20,04_Opening Credits,04_OpeningCredits_Interactive,14.00,0,0
+16.30,04_Opening Credits,04_OpeningCredits_Interactive,14.12,0,0
+16.41,04_Opening Credits,04_OpeningCredits_Interactive,14.24,0,0
+16.53,04_Opening Credits,04_OpeningCredits_Interactive,14.36,0,0
+16.64,04_Opening Credits,04_OpeningCredits_Interactive,14.44,0,0
+16.75,04_Opening Credits,04_OpeningCredits_Interactive,14.56,0,0
+16.87,04_Opening Credits,04_OpeningCredits_Interactive,14.68,0,0
+16.98,04_Opening Credits,04_OpeningCredits_Interactive,14.80,0,0
+17.09,04_Opening Credits,04_OpeningCredits_Interactive,14.92,0,0
+17.20,04_Opening Credits,04_OpeningCredits_Interactive,15.00,0,0
+17.31,04_Opening Credits,04_OpeningCredits_Interactive,15.12,0,0
+17.41,04_Opening Credits,04_OpeningCredits_Interactive,15.24,0,0
+17.52,04_Opening Credits,04_OpeningCredits_Interactive,15.36,0,0
+17.63,04_Opening Credits,04_OpeningCredits_Interactive,15.44,0,0
+17.74,04_Opening Credits,04_OpeningCredits_Interactive,15.56,0,0
+17.85,04_Opening Credits,04_OpeningCredits_Interactive,15.68,0,0
+17.96,04_Opening Credits,04_OpeningCredits_Interactive,15.80,0,0
+18.08,04_Opening Credits,04_OpeningCredits_Interactive,15.88,0,0
+18.19,04_Opening Credits,04_OpeningCredits_Interactive,16.00,0,0
+18.28,04_Opening Credits,04_OpeningCredits_Interactive,16.12,0,0
+18.40,04_Opening Credits,04_OpeningCredits_Interactive,16.24,0,0
+18.51,04_Opening Credits,04_OpeningCredits_Interactive,16.32,0,0
+18.62,04_Opening Credits,04_OpeningCredits_Interactive,16.44,0,0
+18.73,04_Opening Credits,04_OpeningCredits_Interactive,16.56,0,0
+18.84,04_Opening Credits,04_OpeningCredits_Interactive,16.68,0,0
+18.95,04_Opening Credits,04_OpeningCredits_Interactive,16.76,0,0
+19.06,04_Opening Credits,04_OpeningCredits_Interactive,16.88,0,0
+19.16,04_Opening Credits,04_OpeningCredits_Interactive,17.00,0,0
+19.27,04_Opening Credits,04_OpeningCredits_Interactive,17.08,0,0
+19.38,04_Opening Credits,04_OpeningCredits_Interactive,17.20,0,0
+19.49,04_Opening Credits,04_OpeningCredits_Interactive,17.32,0,0
+19.61,04_Opening Credits,04_OpeningCredits_Interactive,17.44,0,0
+19.72,04_Opening Credits,04_OpeningCredits_Interactive,17.56,0,0
+19.81,04_Opening Credits,04_OpeningCredits_Interactive,17.64,0,0
+19.93,04_Opening Credits,04_OpeningCredits_Interactive,17.76,0,0
+20.04,04_Opening Credits,04_OpeningCredits_Interactive,17.88,0,0
+20.15,04_Opening Credits,04_OpeningCredits_Interactive,17.96,0,0
+20.26,04_Opening Credits,04_OpeningCredits_Interactive,18.08,0,0
+20.36,04_Opening Credits,04_OpeningCredits_Interactive,18.20,0,0
+20.47,04_Opening Credits,04_OpeningCredits_Interactive,18.28,0,0
+20.59,04_Opening Credits,04_OpeningCredits_Interactive,18.40,0,0
+20.70,04_Opening Credits,04_OpeningCredits_Interactive,18.52,0,0
+20.80,04_Opening Credits,04_OpeningCredits_Interactive,18.64,0,0
+20.91,04_Opening Credits,04_OpeningCredits_Interactive,18.72,0,0
+21.02,04_Opening Credits,04_OpeningCredits_Interactive,18.84,0,0
+21.14,04_Opening Credits,04_OpeningCredits_Interactive,18.96,0,0
+21.25,04_Opening Credits,04_OpeningCredits_Interactive,19.08,0,0
+21.36,04_Opening Credits,04_OpeningCredits_Interactive,19.20,0,0
+21.47,04_Opening Credits,04_OpeningCredits_Interactive,19.28,0,0
+21.59,04_Opening Credits,04_OpeningCredits_Interactive,19.40,0,0
+21.70,04_Opening Credits,04_OpeningCredits_Interactive,19.52,0,0
+21.80,04_Opening Credits,04_OpeningCredits_Interactive,19.64,0,0
+21.92,04_Opening Credits,04_OpeningCredits_Interactive,19.72,0,0
+22.03,04_Opening Credits,04_OpeningCredits_Interactive,19.84,0,0
+22.14,04_Opening Credits,04_OpeningCredits_Interactive,19.96,0,0
+22.25,04_Opening Credits,04_OpeningCredits_Interactive,20.08,0,0
+22.37,04_Opening Credits,04_OpeningCredits_Interactive,20.20,0,0
+22.48,04_Opening Credits,04_OpeningCredits_Interactive,20.28,0,0
+22.59,04_Opening Credits,04_OpeningCredits_Interactive,20.40,0,0
+22.70,04_Opening Credits,04_OpeningCredits_Interactive,20.52,0,0
+22.81,04_Opening Credits,04_OpeningCredits_Interactive,20.64,0,0
+22.92,04_Opening Credits,04_OpeningCredits_Interactive,20.72,0,0
+23.03,04_Opening Credits,04_OpeningCredits_Interactive,20.84,0,0
+23.14,04_Opening Credits,04_OpeningCredits_Interactive,20.96,0,0
+23.26,04_Opening Credits,04_OpeningCredits_Interactive,21.08,0,0
+23.37,04_Opening Credits,04_OpeningCredits_Interactive,21.20,0,0
+23.49,04_Opening Credits,04_OpeningCredits_Interactive,21.28,0,0
+23.59,04_Opening Credits,04_OpeningCredits_Interactive,21.40,0,0
+23.70,04_Opening Credits,04_OpeningCredits_Interactive,21.52,0,0
+23.81,04_Opening Credits,04_OpeningCredits_Interactive,21.64,0,0
+23.92,04_Opening Credits,04_OpeningCredits_Interactive,21.76,0,0
+24.03,04_Opening Credits,04_OpeningCredits_Interactive,21.84,0,0
+24.15,04_Opening Credits,04_OpeningCredits_Interactive,21.96,0,0
+24.26,04_Opening Credits,04_OpeningCredits_Interactive,22.08,0,0
+24.37,04_Opening Credits,04_OpeningCredits_Interactive,22.20,0,0
+24.48,04_Opening Credits,04_OpeningCredits_Interactive,22.28,0,0
+24.59,04_Opening Credits,04_OpeningCredits_Interactive,22.40,0,0
+24.70,04_Opening Credits,04_OpeningCredits_Interactive,22.52,0,0
+24.81,04_Opening Credits,04_OpeningCredits_Interactive,22.64,0,0
+24.92,04_Opening Credits,04_OpeningCredits_Interactive,22.76,0,0
+25.04,04_Opening Credits,04_OpeningCredits_Interactive,22.84,0,0
+25.15,04_Opening Credits,04_OpeningCredits_Interactive,22.96,0,0
+25.26,04_Opening Credits,04_OpeningCredits_Interactive,23.08,0,0
+25.37,04_Opening Credits,04_OpeningCredits_Interactive,23.20,0,0
+25.48,04_Opening Credits,04_OpeningCredits_Interactive,23.32,0,0
+25.59,04_Opening Credits,04_OpeningCredits_Interactive,23.40,0,0
+25.70,04_Opening Credits,04_OpeningCredits_Interactive,23.52,0,0
+25.82,04_Opening Credits,04_OpeningCredits_Interactive,23.64,0,0
+25.93,04_Opening Credits,04_OpeningCredits_Interactive,23.76,0,0
+26.04,04_Opening Credits,04_OpeningCredits_Interactive,23.84,0,0
+26.15,04_Opening Credits,04_OpeningCredits_Interactive,23.96,0,0
+26.26,04_Opening Credits,04_OpeningCredits_Interactive,24.08,0,0
+26.38,04_Opening Credits,04_OpeningCredits_Interactive,24.20,0,0
+26.48,04_Opening Credits,04_OpeningCredits_Interactive,24.32,0,0
+26.59,04_Opening Credits,04_OpeningCredits_Interactive,24.40,0,0
+26.71,04_Opening Credits,04_OpeningCredits_Interactive,24.52,0,0
+26.82,04_Opening Credits,04_OpeningCredits_Interactive,24.64,0,0
+26.93,04_Opening Credits,04_OpeningCredits_Interactive,24.76,0,0
+27.05,04_Opening Credits,04_OpeningCredits_Interactive,24.88,0,0
+27.16,04_Opening Credits,04_OpeningCredits_Interactive,24.96,0,0
+27.27,04_Opening Credits,04_OpeningCredits_Interactive,25.08,0,0
+27.38,04_Opening Credits,04_OpeningCredits_Interactive,25.20,0,0
+27.48,04_Opening Credits,04_OpeningCredits_Interactive,25.32,0,0
+27.60,04_Opening Credits,04_OpeningCredits_Interactive,25.40,0,0
+27.71,04_Opening Credits,04_OpeningCredits_Interactive,25.52,0,0
+27.82,04_Opening Credits,04_OpeningCredits_Interactive,25.64,0,0
+27.93,04_Opening Credits,04_OpeningCredits_Interactive,25.76,0,0
+28.05,04_Opening Credits,04_OpeningCredits_Interactive,25.88,0,0
+28.16,04_Opening Credits,04_OpeningCredits_Interactive,25.96,0,0
+28.25,04_Opening Credits,04_OpeningCredits_Interactive,26.08,0,0
+28.37,04_Opening Credits,04_OpeningCredits_Interactive,26.20,0,0
+28.48,04_Opening Credits,04_OpeningCredits_Interactive,26.28,0,0
+28.59,04_Opening Credits,04_OpeningCredits_Interactive,26.40,0,0
+28.70,04_Opening Credits,04_OpeningCredits_Interactive,26.52,0,0
+28.81,04_Opening Credits,04_OpeningCredits_Interactive,26.64,0,0
+28.92,04_Opening Credits,04_OpeningCredits_Interactive,26.72,0,0
+29.02,04_Opening Credits,04_OpeningCredits_Interactive,26.84,0,0
+29.13,04_Opening Credits,04_OpeningCredits_Interactive,26.96,0,0
+29.24,04_Opening Credits,04_OpeningCredits_Interactive,27.04,0,0
+29.35,04_Opening Credits,04_OpeningCredits_Interactive,27.16,0,0
+29.46,04_Opening Credits,04_OpeningCredits_Interactive,27.28,0,0
+29.58,04_Opening Credits,04_OpeningCredits_Interactive,27.40,0,0
+29.69,04_Opening Credits,04_OpeningCredits_Interactive,27.52,0,0
+29.80,04_Opening Credits,04_OpeningCredits_Interactive,27.60,0,0
+29.91,04_Opening Credits,04_OpeningCredits_Interactive,27.72,0,0
+30.02,04_Opening Credits,04_OpeningCredits_Interactive,27.84,0,0
+30.13,04_Opening Credits,04_OpeningCredits_Interactive,27.96,0,0
+30.24,04_Opening Credits,04_OpeningCredits_Interactive,28.08,0,0
+30.35,04_Opening Credits,04_OpeningCredits_Interactive,28.16,0,0
+30.47,04_Opening Credits,04_OpeningCredits_Interactive,28.28,0,0
+30.58,04_Opening Credits,04_OpeningCredits_Interactive,28.40,0,0
+30.69,04_Opening Credits,04_OpeningCredits_Interactive,28.52,0,0
+30.80,04_Opening Credits,04_OpeningCredits_Interactive,28.60,0,0
+30.91,04_Opening Credits,04_OpeningCredits_Interactive,28.72,0,0
+31.02,04_Opening Credits,04_OpeningCredits_Interactive,28.84,0,0
+31.13,04_Opening Credits,04_OpeningCredits_Interactive,28.96,0,0
+31.24,04_Opening Credits,04_OpeningCredits_Interactive,29.08,0,0
+31.34,04_Opening Credits,04_OpeningCredits_Interactive,29.16,0,0
+31.45,04_Opening Credits,04_OpeningCredits_Interactive,29.28,0,0
+31.56,04_Opening Credits,04_OpeningCredits_Interactive,29.40,0,0
+31.68,04_Opening Credits,04_OpeningCredits_Interactive,29.48,0,0
+31.79,04_Opening Credits,04_OpeningCredits_Interactive,29.60,0,0
+31.90,04_Opening Credits,04_OpeningCredits_Interactive,29.72,0,0
+32.02,04_Opening Credits,04_OpeningCredits_Interactive,29.84,0,0
+32.11,04_Opening Credits,04_OpeningCredits_Interactive,29.92,0,0
+32.22,04_Opening Credits,04_OpeningCredits_Interactive,30.04,0,0
+32.34,04_Opening Credits,04_OpeningCredits_Interactive,30.16,0,0
+32.45,04_Opening Credits,04_OpeningCredits_Interactive,30.28,0,0
+32.55,04_Opening Credits,04_OpeningCredits_Interactive,30.36,0,0
+32.66,04_Opening Credits,04_OpeningCredits_Interactive,30.48,0,0
+32.78,04_Opening Credits,04_OpeningCredits_Interactive,30.60,0,0
+32.88,04_Opening Credits,04_OpeningCredits_Interactive,30.68,0,0
+32.98,04_Opening Credits,04_OpeningCredits_Interactive,30.80,0,0
+33.10,04_Opening Credits,04_OpeningCredits_Interactive,30.92,0,0
+33.20,04_Opening Credits,04_OpeningCredits_Interactive,31.00,0,0
+33.30,04_Opening Credits,04_OpeningCredits_Interactive,31.12,0,0
+33.42,04_Opening Credits,04_OpeningCredits_Interactive,31.24,0,0
+33.52,04_Opening Credits,04_OpeningCredits_Interactive,31.32,0,0
+33.63,04_Opening Credits,04_OpeningCredits_Interactive,31.44,0,0
+33.74,04_Opening Credits,04_OpeningCredits_Interactive,31.56,0,0
+33.85,04_Opening Credits,04_OpeningCredits_Interactive,31.68,0,0
+33.96,04_Opening Credits,04_OpeningCredits_Interactive,31.80,0,0
+34.08,04_Opening Credits,04_OpeningCredits_Interactive,31.88,0,0
+34.17,04_Opening Credits,04_OpeningCredits_Interactive,32.00,0,0
+34.28,04_Opening Credits,04_OpeningCredits_Interactive,32.08,0,0
+34.38,04_Opening Credits,04_OpeningCredits_Interactive,32.20,0,0
+34.49,04_Opening Credits,04_OpeningCredits_Interactive,32.32,0,0
+34.60,04_Opening Credits,04_OpeningCredits_Interactive,32.40,0,0
+34.71,04_Opening Credits,04_OpeningCredits_Interactive,32.52,0,0
+34.82,04_Opening Credits,04_OpeningCredits_Interactive,32.64,0,0
+34.92,04_Opening Credits,04_OpeningCredits_Interactive,32.76,0,0
+35.03,04_Opening Credits,04_OpeningCredits_Interactive,32.84,0,0
+35.14,04_Opening Credits,04_OpeningCredits_Interactive,32.96,0,0
+35.26,04_Opening Credits,04_OpeningCredits_Interactive,33.08,0,0
+35.37,04_Opening Credits,04_OpeningCredits_Interactive,33.20,0,0
+35.48,04_Opening Credits,04_OpeningCredits_Interactive,33.28,0,0
+35.59,04_Opening Credits,04_OpeningCredits_Interactive,33.40,0,0
+35.70,04_Opening Credits,04_OpeningCredits_Interactive,33.52,0,0
+35.81,04_Opening Credits,04_OpeningCredits_Interactive,33.64,0,0
+35.92,04_Opening Credits,04_OpeningCredits_Interactive,33.76,0,0
+36.02,04_Opening Credits,04_OpeningCredits_Interactive,33.84,0,0
+36.13,04_Opening Credits,04_OpeningCredits_Interactive,33.96,0,0
+36.24,04_Opening Credits,04_OpeningCredits_Interactive,34.08,0,0
+36.36,04_Opening Credits,04_OpeningCredits_Interactive,34.16,0,0
+36.47,04_Opening Credits,04_OpeningCredits_Interactive,34.28,0,0
+36.58,04_Opening Credits,04_OpeningCredits_Interactive,34.40,0,0
+36.69,04_Opening Credits,04_OpeningCredits_Interactive,34.52,0,0
+36.79,04_Opening Credits,04_OpeningCredits_Interactive,34.60,0,0
+36.90,04_Opening Credits,04_OpeningCredits_Interactive,34.72,0,0
+37.01,04_Opening Credits,04_OpeningCredits_Interactive,34.84,0,0
+37.12,04_Opening Credits,04_OpeningCredits_Interactive,34.92,0,0
+37.23,04_Opening Credits,04_OpeningCredits_Interactive,35.04,0,0
+37.34,04_Opening Credits,04_OpeningCredits_Interactive,35.16,0,0
+37.45,04_Opening Credits,04_OpeningCredits_Interactive,35.28,0,0
+37.55,04_Opening Credits,04_OpeningCredits_Interactive,35.36,0,0
+37.66,04_Opening Credits,04_OpeningCredits_Interactive,35.48,0,0
+37.77,04_Opening Credits,04_OpeningCredits_Interactive,35.60,0,0
+37.89,04_Opening Credits,04_OpeningCredits_Interactive,35.72,0,0
+38.00,04_Opening Credits,04_OpeningCredits_Interactive,35.80,0,0
+38.11,04_Opening Credits,04_OpeningCredits_Interactive,35.92,0,0
+38.22,04_Opening Credits,04_OpeningCredits_Interactive,36.04,0,0
+38.32,04_Opening Credits,04_OpeningCredits_Interactive,36.16,0,0
+38.43,04_Opening Credits,04_OpeningCredits_Interactive,36.24,0,0
+38.54,04_Opening Credits,04_OpeningCredits_Interactive,36.36,0,0
+38.66,04_Opening Credits,04_OpeningCredits_Interactive,36.48,0,0
+38.77,04_Opening Credits,04_OpeningCredits_Interactive,36.60,0,0
+38.88,04_Opening Credits,04_OpeningCredits_Interactive,36.68,0,0
+38.98,04_Opening Credits,04_OpeningCredits_Interactive,36.80,0,0
+39.09,04_Opening Credits,04_OpeningCredits_Interactive,36.92,0,0
+39.20,04_Opening Credits,04_OpeningCredits_Interactive,37.00,0,0
+39.30,04_Opening Credits,04_OpeningCredits_Interactive,37.12,0,0
+39.42,04_Opening Credits,04_OpeningCredits_Interactive,37.24,0,0
+39.53,04_Opening Credits,04_OpeningCredits_Interactive,37.36,0,0
+39.64,04_Opening Credits,04_OpeningCredits_Interactive,37.44,0,0
+39.75,04_Opening Credits,04_OpeningCredits_Interactive,37.56,0,0
+39.85,04_Opening Credits,04_OpeningCredits_Interactive,37.68,0,0
+39.96,04_Opening Credits,04_OpeningCredits_Interactive,37.76,0,0
+40.07,04_Opening Credits,04_OpeningCredits_Interactive,37.88,0,0
+40.19,04_Opening Credits,04_OpeningCredits_Interactive,38.00,0,0
+40.30,04_Opening Credits,04_OpeningCredits_Interactive,38.12,0,0
+40.41,04_Opening Credits,04_OpeningCredits_Interactive,38.24,0,0
+40.52,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.34,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.45,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.56,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.67,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.78,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+41.89,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+42.94,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.05,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.16,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.27,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.38,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.49,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.59,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.70,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.81,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+43.93,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+44.04,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+44.15,04_Opening Credits,04_OpeningCredits_Interactive,38.32,0,0
+44.26,04_Opening Credits,04_OpeningCredits_Interactive,42.08,0,0
+44.36,04_Opening Credits,04_OpeningCredits_Interactive,42.20,0,0
+44.47,04_Opening Credits,04_OpeningCredits_Interactive,42.28,0,0
+44.58,04_Opening Credits,04_OpeningCredits_Interactive,42.40,0,0
+44.70,04_Opening Credits,04_OpeningCredits_Interactive,42.52,0,0
+44.80,04_Opening Credits,04_OpeningCredits_Interactive,42.64,0,0
+44.91,04_Opening Credits,04_OpeningCredits_Interactive,42.72,0,0
+45.02,04_Opening Credits,04_OpeningCredits_Interactive,42.84,0,0
+45.13,04_Opening Credits,04_OpeningCredits_Interactive,42.96,0,0
+45.23,04_Opening Credits,04_OpeningCredits_Interactive,43.04,0,0
+45.35,04_Opening Credits,04_OpeningCredits_Interactive,43.16,0,0
+45.46,04_Opening Credits,04_OpeningCredits_Interactive,43.28,0,0
+45.57,04_Opening Credits,04_OpeningCredits_Interactive,43.40,0,0
+45.68,04_Opening Credits,04_OpeningCredits_Interactive,43.48,0,0
+45.80,04_Opening Credits,04_OpeningCredits_Interactive,43.60,0,0
+45.89,04_Opening Credits,04_OpeningCredits_Interactive,43.72,0,0
+46.00,04_Opening Credits,04_OpeningCredits_Interactive,43.80,0,0
+46.12,04_Opening Credits,04_OpeningCredits_Interactive,43.92,0,0
+46.23,04_Opening Credits,04_OpeningCredits_Interactive,44.04,0,0
+46.34,04_Opening Credits,04_OpeningCredits_Interactive,44.16,0,0
+46.45,04_Opening Credits,04_OpeningCredits_Interactive,44.28,0,0
+46.56,04_Opening Credits,04_OpeningCredits_Interactive,44.36,0,0
+46.66,04_Opening Credits,04_OpeningCredits_Interactive,44.48,0,0
+46.77,04_Opening Credits,04_OpeningCredits_Interactive,44.60,0,0
+46.88,04_Opening Credits,04_OpeningCredits_Interactive,44.72,0,0
+46.99,04_Opening Credits,04_OpeningCredits_Interactive,44.80,0,0
+47.10,04_Opening Credits,04_OpeningCredits_Interactive,44.92,0,0
+47.20,04_Opening Credits,04_OpeningCredits_Interactive,45.04,0,0
+47.31,04_Opening Credits,04_OpeningCredits_Interactive,45.12,0,0
+47.42,04_Opening Credits,04_OpeningCredits_Interactive,45.24,0,0
+47.54,04_Opening Credits,04_OpeningCredits_Interactive,45.36,0,0
+47.65,04_Opening Credits,04_OpeningCredits_Interactive,45.48,0,0
+47.74,04_Opening Credits,04_OpeningCredits_Interactive,45.56,0,0
+47.86,04_Opening Credits,04_OpeningCredits_Interactive,45.68,0,0
+47.97,04_Opening Credits,04_OpeningCredits_Interactive,45.80,0,0
+48.08,04_Opening Credits,04_OpeningCredits_Interactive,45.88,0,0
+48.19,04_Opening Credits,04_OpeningCredits_Interactive,46.00,0,0
+48.30,04_Opening Credits,04_OpeningCredits_Interactive,46.12,0,0
+48.41,04_Opening Credits,04_OpeningCredits_Interactive,46.24,0,0
+48.51,04_Opening Credits,04_OpeningCredits_Interactive,46.32,0,0
+48.62,04_Opening Credits,04_OpeningCredits_Interactive,46.44,0,0
+48.73,04_Opening Credits,04_OpeningCredits_Interactive,46.56,0,0
+48.84,04_Opening Credits,04_OpeningCredits_Interactive,46.68,0,0
+48.95,04_Opening Credits,04_OpeningCredits_Interactive,46.76,0,0
+49.07,04_Opening Credits,04_OpeningCredits_Interactive,46.88,0,0
+49.18,04_Opening Credits,04_OpeningCredits_Interactive,47.00,0,0
+49.27,04_Opening Credits,04_OpeningCredits_Interactive,47.08,0,0
+49.39,04_Opening Credits,04_OpeningCredits_Interactive,47.20,0,0
+49.50,04_Opening Credits,04_OpeningCredits_Interactive,47.32,0,0
+49.61,04_Opening Credits,04_OpeningCredits_Interactive,47.44,0,0
+49.72,04_Opening Credits,04_OpeningCredits_Interactive,47.52,0,0
+49.84,04_Opening Credits,04_OpeningCredits_Interactive,47.64,0,0
+49.95,04_Opening Credits,04_OpeningCredits_Interactive,47.76,0,0
+50.04,04_Opening Credits,04_OpeningCredits_Interactive,47.88,0,0
+50.15,04_Opening Credits,04_OpeningCredits_Interactive,47.96,0,0
+50.27,04_Opening Credits,04_OpeningCredits_Interactive,48.08,0,0
+50.38,04_Opening Credits,04_OpeningCredits_Interactive,48.20,0,0
+50.48,04_Opening Credits,04_OpeningCredits_Interactive,48.32,0,0
+50.60,04_Opening Credits,04_OpeningCredits_Interactive,48.40,0,0
+50.71,04_Opening Credits,04_OpeningCredits_Interactive,48.52,0,0
+50.82,04_Opening Credits,04_OpeningCredits_Interactive,48.64,0,0
+50.93,04_Opening Credits,04_OpeningCredits_Interactive,48.76,0,0
+51.05,04_Opening Credits,04_OpeningCredits_Interactive,48.88,0,0
+51.16,04_Opening Credits,04_OpeningCredits_Interactive,48.96,0,0
+51.27,04_Opening Credits,04_OpeningCredits_Interactive,49.08,0,0
+51.38,04_Opening Credits,04_OpeningCredits_Interactive,49.20,0,0
+51.49,04_Opening Credits,04_OpeningCredits_Interactive,49.32,0,0
+51.59,04_Opening Credits,04_OpeningCredits_Interactive,49.40,0,0
+51.70,04_Opening Credits,04_OpeningCredits_Interactive,49.52,0,0
+51.81,04_Opening Credits,04_OpeningCredits_Interactive,49.64,0,0
+51.92,04_Opening Credits,04_OpeningCredits_Interactive,49.72,0,0
+52.03,04_Opening Credits,04_OpeningCredits_Interactive,49.84,0,0
+52.14,04_Opening Credits,04_OpeningCredits_Interactive,49.96,0,0
+52.26,04_Opening Credits,04_OpeningCredits_Interactive,50.08,0,0
+52.35,04_Opening Credits,04_OpeningCredits_Interactive,50.16,0,0
+52.46,04_Opening Credits,04_OpeningCredits_Interactive,50.28,0,0
+52.58,04_Opening Credits,04_OpeningCredits_Interactive,50.40,0,0
+52.69,04_Opening Credits,04_OpeningCredits_Interactive,50.52,0,0
+52.80,04_Opening Credits,04_OpeningCredits_Interactive,50.60,0,0
+52.91,04_Opening Credits,04_OpeningCredits_Interactive,50.72,0,0
+53.02,04_Opening Credits,04_OpeningCredits_Interactive,50.84,0,0
+53.12,04_Opening Credits,04_OpeningCredits_Interactive,50.96,0,0
+53.23,04_Opening Credits,04_OpeningCredits_Interactive,51.04,0,0
+53.34,04_Opening Credits,04_OpeningCredits_Interactive,51.16,0,0
+53.44,04_Opening Credits,04_OpeningCredits_Interactive,51.28,0,0
+53.55,04_Opening Credits,04_OpeningCredits_Interactive,51.36,0,0
+53.66,04_Opening Credits,04_OpeningCredits_Interactive,51.48,0,0
+53.76,04_Opening Credits,04_OpeningCredits_Interactive,51.60,0,0
+53.87,04_Opening Credits,04_OpeningCredits_Interactive,51.68,0,0
+53.98,04_Opening Credits,04_OpeningCredits_Interactive,51.80,0,0
+54.09,04_Opening Credits,04_OpeningCredits_Interactive,51.92,0,0
+54.20,04_Opening Credits,04_OpeningCredits_Interactive,52.00,0,0
+54.31,04_Opening Credits,04_OpeningCredits_Interactive,52.12,0,0
+54.43,04_Opening Credits,04_OpeningCredits_Interactive,52.24,0,0
+54.52,04_Opening Credits,04_OpeningCredits_Interactive,52.36,0,0
+54.63,04_Opening Credits,04_OpeningCredits_Interactive,52.44,0,0
+54.75,04_Opening Credits,04_OpeningCredits_Interactive,52.56,0,0
+54.86,04_Opening Credits,04_OpeningCredits_Interactive,52.68,0,0
+54.97,04_Opening Credits,04_OpeningCredits_Interactive,52.80,0,0
+55.08,04_Opening Credits,04_OpeningCredits_Interactive,52.88,0,0
+55.20,04_Opening Credits,04_OpeningCredits_Interactive,53.00,0,0
+55.29,04_Opening Credits,04_OpeningCredits_Interactive,53.12,0,0
+55.40,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+55.52,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+55.63,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+55.73,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+55.84,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+55.96,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.05,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.16,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.28,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.39,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.50,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.61,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.73,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.82,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+56.93,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+57.05,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+57.16,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+57.27,04_Opening Credits,04_OpeningCredits_Interactive,0.00,0,0
+57.39,05_Prologue,04_OpeningCredits_Interactive,0.00,0,0
+57.50,05_Prologue,04_OpeningCredits_Interactive,0.00,0,0
+57.60,05_Prologue,04_OpeningCredits_Interactive,0.12,0,0
+57.71,05_Prologue,04_OpeningCredits_Interactive,0.20,0,0
+57.82,05_Prologue,04_OpeningCredits_Interactive,0.32,0,0
+57.93,05_Prologue,04_OpeningCredits_Interactive,0.44,0,0
+58.05,05_Prologue,04_OpeningCredits_Interactive,0.56,0,0
+58.16,05_Prologue,04_OpeningCredits_Interactive,0.68,0,0
+58.27,05_Prologue,04_OpeningCredits_Interactive,0.76,0,0
+58.37,05_Prologue,04_OpeningCredits_Interactive,0.88,0,0
+58.48,05_Prologue,04_OpeningCredits_Interactive,1.00,0,0
+58.59,05_Prologue,04_OpeningCredits_Interactive,1.08,0,0
+58.70,05_Prologue,04_OpeningCredits_Interactive,1.20,0,0
+58.81,05_Prologue,04_OpeningCredits_Interactive,1.32,0,0
+58.92,05_Prologue,04_OpeningCredits_Interactive,1.44,0,0
+59.04,05_Prologue,04_OpeningCredits_Interactive,1.52,0,0
+59.13,05_Prologue,04_OpeningCredits_Interactive,1.64,0,0
+59.24,05_Prologue,04_OpeningCredits_Interactive,1.76,0,0
+59.35,05_Prologue,04_OpeningCredits_Interactive,1.84,0,0
+59.46,05_Prologue,04_OpeningCredits_Interactive,1.96,0,0
+59.58,05_Prologue,04_OpeningCredits_Interactive,2.08,0,0
+59.69,05_Prologue,04_OpeningCredits_Interactive,2.20,0,0
+59.80,05_Prologue,04_OpeningCredits_Interactive,2.32,0,0
+59.90,05_Prologue,04_OpeningCredits_Interactive,2.40,0,0
+60.01,05_Prologue,04_OpeningCredits_Interactive,2.52,0,0
+60.10,05_Prologue,04_OpeningCredits_Interactive,2.60,0,0
+60.22,05_Prologue,04_OpeningCredits_Interactive,2.72,0,0
+60.33,05_Prologue,04_OpeningCredits_Interactive,2.84,0,0
+60.44,05_Prologue,04_OpeningCredits_Interactive,2.96,0,0
+60.55,05_Prologue,04_OpeningCredits_Interactive,3.04,0,0
+60.66,05_Prologue,04_OpeningCredits_Interactive,3.16,0,0
+60.77,05_Prologue,04_OpeningCredits_Interactive,3.28,0,0
+60.88,05_Prologue,04_OpeningCredits_Interactive,3.40,0,0
+60.98,05_Prologue,04_OpeningCredits_Interactive,3.48,0,0
+61.09,05_Prologue,04_OpeningCredits_Interactive,3.60,0,0
+61.20,05_Prologue,04_OpeningCredits_Interactive,3.72,0,0
+61.31,05_Prologue,04_OpeningCredits_Interactive,3.84,0,0
+61.43,05_Prologue,04_OpeningCredits_Interactive,3.92,0,0
+61.54,05_Prologue,04_OpeningCredits_Interactive,4.04,0,0
+61.65,05_Prologue,04_OpeningCredits_Interactive,4.16,0,0
+61.75,05_Prologue,04_OpeningCredits_Interactive,4.28,0,0
+61.86,05_Prologue,04_OpeningCredits_Interactive,4.36,0,0
+61.97,05_Prologue,04_OpeningCredits_Interactive,4.48,0,0
+62.09,05_Prologue,04_OpeningCredits_Interactive,4.60,0,0
+62.20,05_Prologue,04_OpeningCredits_Interactive,4.68,0,0
+62.30,05_Prologue,04_OpeningCredits_Interactive,4.80,0,0
+62.41,05_Prologue,04_OpeningCredits_Interactive,4.92,0,0
+62.53,05_Prologue,04_OpeningCredits_Interactive,5.04,0,0
+62.64,05_Prologue,04_OpeningCredits_Interactive,5.16,0,0
+62.75,05_Prologue,04_OpeningCredits_Interactive,5.24,0,0
+62.86,05_Prologue,04_OpeningCredits_Interactive,5.36,0,0
+62.98,05_Prologue,04_OpeningCredits_Interactive,5.48,0,0
+63.09,05_Prologue,04_OpeningCredits_Interactive,5.60,0,0
+63.20,05_Prologue,04_OpeningCredits_Interactive,5.72,0,0
+63.31,05_Prologue,04_OpeningCredits_Interactive,5.80,0,0
+63.42,05_Prologue,04_OpeningCredits_Interactive,5.92,0,0
+63.53,05_Prologue,04_OpeningCredits_Interactive,6.04,0,0
+63.64,05_Prologue,04_OpeningCredits_Interactive,6.16,0,0
+63.74,05_Prologue,04_OpeningCredits_Interactive,6.24,0,0
+63.85,05_Prologue,04_OpeningCredits_Interactive,6.36,0,0
+63.96,05_Prologue,04_OpeningCredits_Interactive,6.48,0,0
+64.08,05_Prologue,04_OpeningCredits_Interactive,6.56,0,0
+64.19,05_Prologue,04_OpeningCredits_Interactive,6.68,0,0
+64.30,05_Prologue,04_OpeningCredits_Interactive,6.80,0,0
+64.41,05_Prologue,04_OpeningCredits_Interactive,6.92,0,0
+64.52,05_Prologue,04_OpeningCredits_Interactive,7.04,0,0
+64.63,05_Prologue,04_OpeningCredits_Interactive,7.12,0,0
+64.74,05_Prologue,04_OpeningCredits_Interactive,7.24,0,0
+64.85,05_Prologue,04_OpeningCredits_Interactive,7.36,0,0
+64.96,05_Prologue,04_OpeningCredits_Interactive,7.48,0,0
+65.06,05_Prologue,04_OpeningCredits_Interactive,7.56,0,0
+65.17,05_Prologue,04_OpeningCredits_Interactive,7.68,0,0
+65.29,05_Prologue,04_OpeningCredits_Interactive,7.80,0,0
+65.40,05_Prologue,04_OpeningCredits_Interactive,7.92,0,0
+65.51,05_Prologue,04_OpeningCredits_Interactive,8.04,0,0
+65.62,05_Prologue,04_OpeningCredits_Interactive,8.12,0,0
+65.73,05_Prologue,04_OpeningCredits_Interactive,8.24,0,0
+65.84,05_Prologue,04_OpeningCredits_Interactive,8.36,0,0
+65.95,05_Prologue,04_OpeningCredits_Interactive,8.44,0,0
+66.06,05_Prologue,04_OpeningCredits_Interactive,8.56,0,0
+66.16,05_Prologue,04_OpeningCredits_Interactive,8.68,0,0
+66.27,05_Prologue,04_OpeningCredits_Interactive,8.76,0,0
+66.37,05_Prologue,04_OpeningCredits_Interactive,8.88,0,0
+66.48,05_Prologue,04_OpeningCredits_Interactive,9.00,0,0
+66.58,05_Prologue,04_OpeningCredits_Interactive,9.08,0,0
+66.69,05_Prologue,04_OpeningCredits_Interactive,9.20,0,0
+66.80,05_Prologue,04_OpeningCredits_Interactive,9.32,0,0
+66.91,05_Prologue,04_OpeningCredits_Interactive,9.44,0,0
+67.02,05_Prologue,04_OpeningCredits_Interactive,9.52,0,0
+67.14,05_Prologue,04_OpeningCredits_Interactive,9.64,0,0
+67.25,05_Prologue,04_OpeningCredits_Interactive,9.76,0,0
+67.36,05_Prologue,04_OpeningCredits_Interactive,9.88,0,0
+67.47,05_Prologue,04_OpeningCredits_Interactive,9.96,0,0
+67.58,05_Prologue,04_OpeningCredits_Interactive,10.08,0,0
+67.70,05_Prologue,04_OpeningCredits_Interactive,10.20,0,0
+67.80,05_Prologue,04_OpeningCredits_Interactive,10.32,0,0
+67.91,05_Prologue,04_OpeningCredits_Interactive,10.44,0,0
+68.03,05_Prologue,04_OpeningCredits_Interactive,10.52,0,0
+68.14,05_Prologue,04_OpeningCredits_Interactive,10.64,0,0
+68.25,05_Prologue,04_OpeningCredits_Interactive,10.76,0,0
+68.36,05_Prologue,04_OpeningCredits_Interactive,10.88,0,0
+68.46,05_Prologue,04_OpeningCredits_Interactive,10.96,0,0
+68.57,05_Prologue,04_OpeningCredits_Interactive,11.08,0,0
+68.68,05_Prologue,04_OpeningCredits_Interactive,11.20,0,0
+68.80,05_Prologue,04_OpeningCredits_Interactive,11.28,0,0
+68.91,05_Prologue,04_OpeningCredits_Interactive,11.40,0,0
+69.02,05_Prologue,04_OpeningCredits_Interactive,11.52,0,0
+69.13,05_Prologue,04_OpeningCredits_Interactive,11.64,0,0
+69.24,05_Prologue,04_OpeningCredits_Interactive,11.76,0,0
+69.35,05_Prologue,04_OpeningCredits_Interactive,11.84,0,0
+69.46,05_Prologue,04_OpeningCredits_Interactive,11.96,0,0
+69.58,05_Prologue,04_OpeningCredits_Interactive,12.08,0,0
+69.69,05_Prologue,04_OpeningCredits_Interactive,12.20,0,0
+69.78,05_Prologue,04_OpeningCredits_Interactive,12.28,0,0
+69.89,05_Prologue,04_OpeningCredits_Interactive,12.40,0,0
+70.01,05_Prologue,04_OpeningCredits_Interactive,12.52,0,0
+70.10,05_Prologue,04_OpeningCredits_Interactive,12.60,0,0
+70.21,05_Prologue,04_OpeningCredits_Interactive,12.72,0,0
+70.31,05_Prologue,04_OpeningCredits_Interactive,12.84,0,0
+70.42,05_Prologue,04_OpeningCredits_Interactive,12.92,0,0
+70.53,05_Prologue,04_OpeningCredits_Interactive,13.04,0,0
+70.65,05_Prologue,04_OpeningCredits_Interactive,13.16,0,0
+70.76,05_Prologue,04_OpeningCredits_Interactive,13.28,0,0
+70.87,05_Prologue,04_OpeningCredits_Interactive,13.36,0,0
+70.98,05_Prologue,04_OpeningCredits_Interactive,13.48,0,0
+71.09,05_Prologue,04_OpeningCredits_Interactive,13.60,0,0
+71.20,05_Prologue,04_OpeningCredits_Interactive,13.72,0,0
+71.31,05_Prologue,04_OpeningCredits_Interactive,13.80,0,0
+71.43,05_Prologue,04_OpeningCredits_Interactive,13.92,0,0
+71.54,05_Prologue,04_OpeningCredits_Interactive,14.04,0,0
+71.65,05_Prologue,04_OpeningCredits_Interactive,14.16,0,0
+71.76,05_Prologue,04_OpeningCredits_Interactive,14.28,0,0
+71.86,05_Prologue,04_OpeningCredits_Interactive,14.36,0,0
+71.95,05_Prologue,04_OpeningCredits_Interactive,14.48,0,0
+72.06,05_Prologue,04_OpeningCredits_Interactive,14.56,0,0
+72.18,05_Prologue,04_OpeningCredits_Interactive,14.68,0,0
+72.29,05_Prologue,04_OpeningCredits_Interactive,14.80,0,0
+72.40,05_Prologue,04_OpeningCredits_Interactive,14.92,0,0
+72.51,05_Prologue,04_OpeningCredits_Interactive,15.00,0,0
+72.63,05_Prologue,04_OpeningCredits_Interactive,15.12,0,0
+72.73,05_Prologue,04_OpeningCredits_Interactive,15.24,0,0
+72.84,05_Prologue,04_OpeningCredits_Interactive,15.36,0,0
+72.96,05_Prologue,04_OpeningCredits_Interactive,15.48,0,0
+73.07,05_Prologue,04_OpeningCredits_Interactive,15.56,0,0
+73.18,05_Prologue,04_OpeningCredits_Interactive,15.68,0,0
+73.30,05_Prologue,04_OpeningCredits_Interactive,15.80,0,0
+73.41,05_Prologue,04_OpeningCredits_Interactive,15.92,0,0
+73.52,05_Prologue,04_OpeningCredits_Interactive,16.00,0,0
+73.63,05_Prologue,04_OpeningCredits_Interactive,16.12,0,0
+73.73,05_Prologue,04_OpeningCredits_Interactive,16.24,0,0
+73.85,05_Prologue,04_OpeningCredits_Interactive,16.36,0,0
+73.95,05_Prologue,04_OpeningCredits_Interactive,16.44,0,0
+74.05,05_Prologue,04_OpeningCredits_Interactive,16.56,0,0
+74.17,05_Prologue,04_OpeningCredits_Interactive,16.68,0,0
+74.28,05_Prologue,04_OpeningCredits_Interactive,16.80,0,0
+74.39,05_Prologue,04_OpeningCredits_Interactive,16.88,0,0
+74.50,05_Prologue,04_OpeningCredits_Interactive,17.00,0,0
+74.61,05_Prologue,04_OpeningCredits_Interactive,17.12,0,0
+74.73,05_Prologue,04_OpeningCredits_Interactive,17.24,0,0
+74.84,05_Prologue,04_OpeningCredits_Interactive,17.36,0,0
+74.95,05_Prologue,04_OpeningCredits_Interactive,17.44,0,0
+75.05,05_Prologue,04_OpeningCredits_Interactive,17.56,0,0
+75.17,05_Prologue,04_OpeningCredits_Interactive,17.68,0,0
+75.28,05_Prologue,04_OpeningCredits_Interactive,17.80,0,0
+75.39,05_Prologue,04_OpeningCredits_Interactive,17.88,0,0
+75.51,05_Prologue,04_OpeningCredits_Interactive,18.00,0,0
+75.62,05_Prologue,04_OpeningCredits_Interactive,18.12,0,0
+75.73,05_Prologue,04_OpeningCredits_Interactive,18.24,0,0
+75.84,05_Prologue,04_OpeningCredits_Interactive,18.36,0,0
+75.95,05_Prologue,04_OpeningCredits_Interactive,18.44,0,0
+76.06,05_Prologue,04_OpeningCredits_Interactive,18.56,0,0
+76.17,05_Prologue,04_OpeningCredits_Interactive,18.68,0,0
+76.28,05_Prologue,04_OpeningCredits_Interactive,18.80,0,0
+76.40,05_Prologue,04_OpeningCredits_Interactive,18.92,0,0
+76.51,05_Prologue,04_OpeningCredits_Interactive,19.00,0,0
+76.62,05_Prologue,04_OpeningCredits_Interactive,19.12,0,0
+76.73,05_Prologue,04_OpeningCredits_Interactive,19.24,0,0
+76.83,05_Prologue,04_OpeningCredits_Interactive,19.32,0,0
+76.94,05_Prologue,04_OpeningCredits_Interactive,19.44,0,0
+77.05,05_Prologue,04_OpeningCredits_Interactive,19.56,0,0
+77.16,05_Prologue,04_OpeningCredits_Interactive,19.68,0,0
+77.27,05_Prologue,04_OpeningCredits_Interactive,19.76,0,0
+77.38,05_Prologue,04_OpeningCredits_Interactive,19.88,0,0
+77.50,05_Prologue,04_OpeningCredits_Interactive,20.00,0,0
+77.61,05_Prologue,04_OpeningCredits_Interactive,20.12,0,0
+77.72,05_Prologue,04_OpeningCredits_Interactive,20.24,0,0
+77.83,05_Prologue,04_OpeningCredits_Interactive,20.32,0,0
+77.95,05_Prologue,04_OpeningCredits_Interactive,20.44,0,0
+78.05,05_Prologue,04_OpeningCredits_Interactive,20.56,0,0
+78.16,05_Prologue,04_OpeningCredits_Interactive,20.68,0,0
+78.27,05_Prologue,04_OpeningCredits_Interactive,20.80,0,0
+78.39,05_Prologue,04_OpeningCredits_Interactive,20.88,0,0
+78.50,05_Prologue,04_OpeningCredits_Interactive,21.00,0,0
+78.61,05_Prologue,04_OpeningCredits_Interactive,21.12,0,0
+78.72,05_Prologue,04_OpeningCredits_Interactive,21.24,0,0
+78.84,05_Prologue,04_OpeningCredits_Interactive,21.32,0,0
+78.95,05_Prologue,04_OpeningCredits_Interactive,21.44,0,0
+79.04,05_Prologue,04_OpeningCredits_Interactive,21.56,0,0
+79.16,05_Prologue,04_OpeningCredits_Interactive,21.68,0,0
+79.28,05_Prologue,04_OpeningCredits_Interactive,21.80,0,0
+79.39,05_Prologue,04_OpeningCredits_Interactive,21.88,0,0
+79.50,05_Prologue,04_OpeningCredits_Interactive,22.00,0,0
+79.61,05_Prologue,04_OpeningCredits_Interactive,22.12,0,0
+79.73,05_Prologue,04_OpeningCredits_Interactive,22.24,0,0
+79.84,05_Prologue,04_OpeningCredits_Interactive,22.36,0,0
+79.95,05_Prologue,04_OpeningCredits_Interactive,22.44,0,0
+80.05,05_Prologue,04_OpeningCredits_Interactive,22.56,0,0
+80.17,05_Prologue,04_OpeningCredits_Interactive,22.68,0,0
+80.29,05_Prologue,04_OpeningCredits_Interactive,22.80,0,0
+80.41,05_Prologue,04_OpeningCredits_Interactive,22.92,0,0
+80.52,05_Prologue,04_OpeningCredits_Interactive,23.04,0,0
+80.63,05_Prologue,04_OpeningCredits_Interactive,23.12,0,0
+80.74,05_Prologue,04_OpeningCredits_Interactive,23.24,0,0
+80.85,05_Prologue,04_OpeningCredits_Interactive,23.36,0,0

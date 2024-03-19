@@ -129,6 +129,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""TerminateCalibration"",
+                    ""type"": ""Button"",
+                    ""id"": ""ee39b7bf-da43-43dd-b6aa-d1259b63d4e0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -351,6 +359,39 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""action"": ""StartCalibration"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Button With One Modifier"",
+                    ""id"": ""afe6dc3f-fc57-4f34-9651-ddc9acf0d551"",
+                    ""path"": ""ButtonWithOneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TerminateCalibration"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""a221cefc-b22f-4950-ae02-e1846b262100"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TerminateCalibration"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""button"",
+                    ""id"": ""09fa2aec-47c9-48a7-87e2-90b4dfdfb480"",
+                    ""path"": ""<Keyboard>/c"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TerminateCalibration"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -373,6 +414,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_JumpToNextSequence = m_Keyboard.FindAction("JumpToNextSequence", throwIfNotFound: true);
         m_Keyboard_SyncAudioToVideo = m_Keyboard.FindAction("SyncAudioToVideo", throwIfNotFound: true);
         m_Keyboard_StartCalibration = m_Keyboard.FindAction("StartCalibration", throwIfNotFound: true);
+        m_Keyboard_TerminateCalibration = m_Keyboard.FindAction("TerminateCalibration", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -436,6 +478,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_JumpToNextSequence;
     private readonly InputAction m_Keyboard_SyncAudioToVideo;
     private readonly InputAction m_Keyboard_StartCalibration;
+    private readonly InputAction m_Keyboard_TerminateCalibration;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -454,6 +497,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @JumpToNextSequence => m_Wrapper.m_Keyboard_JumpToNextSequence;
         public InputAction @SyncAudioToVideo => m_Wrapper.m_Keyboard_SyncAudioToVideo;
         public InputAction @StartCalibration => m_Wrapper.m_Keyboard_StartCalibration;
+        public InputAction @TerminateCalibration => m_Wrapper.m_Keyboard_TerminateCalibration;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -505,6 +549,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @StartCalibration.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
                 @StartCalibration.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
                 @StartCalibration.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnStartCalibration;
+                @TerminateCalibration.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
+                @TerminateCalibration.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
+                @TerminateCalibration.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -551,6 +598,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @StartCalibration.started += instance.OnStartCalibration;
                 @StartCalibration.performed += instance.OnStartCalibration;
                 @StartCalibration.canceled += instance.OnStartCalibration;
+                @TerminateCalibration.started += instance.OnTerminateCalibration;
+                @TerminateCalibration.performed += instance.OnTerminateCalibration;
+                @TerminateCalibration.canceled += instance.OnTerminateCalibration;
             }
         }
     }
@@ -571,5 +621,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnJumpToNextSequence(InputAction.CallbackContext context);
         void OnSyncAudioToVideo(InputAction.CallbackContext context);
         void OnStartCalibration(InputAction.CallbackContext context);
+        void OnTerminateCalibration(InputAction.CallbackContext context);
     }
 }

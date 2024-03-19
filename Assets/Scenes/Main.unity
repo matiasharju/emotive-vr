@@ -18766,11 +18766,8 @@ MonoBehaviour:
   GSRValue: {fileID: 1431918721}
   GSRCalibration: {fileID: 444060285}
   arousalCumulativePeaks: {fileID: 553425974}
-  realTimeDisplayObject: {fileID: 1540036007}
-  dataTimeDisplayObject: {fileID: 857342205}
   GSRValueObject: {fileID: 1431918719}
   GSRCalibrationObject: {fileID: 444060283}
-  arousalPeaksObject: {fileID: 553425971}
 --- !u!114 &765416949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26921,11 +26918,8 @@ MonoBehaviour:
   GSRValue: {fileID: 0}
   GSRCalibration: {fileID: 0}
   arousalCumulativePeaks: {fileID: 1936124514}
-  realTimeDisplayObject: {fileID: 1713057144}
-  dataTimeDisplayObject: {fileID: 1889288525}
   GSRValueObject: {fileID: 0}
   GSRCalibrationObject: {fileID: 0}
-  arousalPeaksObject: {fileID: 1936124512}
 --- !u!114 &1037660414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33901,6 +33895,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 34be27a2-1244-4def-9e43-f1284f10cddd
     m_ActionName: Keyboard/New action
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1632752232}
+        m_TargetAssemblyTypeName: CalibrationSequence, Assembly-CSharp
+        m_MethodName: TerminateCalibration
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ee39b7bf-da43-43dd-b6aa-d1259b63d4e0
+    m_ActionName: Keyboard/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Keyboard
@@ -36660,7 +36670,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 50, y: 2}
+  m_SizeDelta: {x: 4, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493414559
 MonoBehaviour:
@@ -38144,7 +38154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1544528335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41373,7 +41383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1713057145
 RectTransform:
   m_ObjectHideFlags: 0
@@ -44543,7 +44553,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 53, y: 102}
+  m_SizeDelta: {x: 102, y: 102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832413354
 MonoBehaviour:
@@ -44565,7 +44575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa2f126a28c5904d93362a546db9982, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75b276d9de9554e70bffe720d65fc6f7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -45536,7 +45546,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1889288526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46824,7 +46834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1936124513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -50104,7 +50114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 600, y: -365}
+  m_AnchoredPosition: {x: 600, y: -340}
   m_SizeDelta: {x: 500, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066614758
@@ -50140,7 +50150,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.2
-  m_Text: 'C: Start calibration'
+  m_Text: 'C: Start calibration
+
+    Shift+C: Terminate calibration'
 --- !u!222 &2066614759
 CanvasRenderer:
   m_ObjectHideFlags: 0
