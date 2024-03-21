@@ -26,11 +26,6 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedSync = false;
 
 
-   public void StartCalibration()
-    {
-        calibrationManager.SetActive(true);
-    }
-
 
     public void StartPlayback()
     {

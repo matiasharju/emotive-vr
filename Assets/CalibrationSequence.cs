@@ -25,11 +25,29 @@ public class CalibrationSequence : MonoBehaviour
     public float timeRemaining;
     public Text timeText;
 
+    private bool calibrationStarted = false;
+
     void Start()
     {
-        calibrationTime = infoTextTime + ((preStimulusTime + soundStimulusTime + postStimulusTime + noiseTime + 0.5f) * 4 * cycles);
-        timeRemaining = calibrationTime;
-        StartCoroutine(RunSequence());
+    }
+
+    public void StartCalibration()
+    {
+        if (!calibrationStarted)
+        {
+            calibrationStarted = true;
+            calibrationTime = infoTextTime + ((preStimulusTime + soundStimulusTime + postStimulusTime + noiseTime + 0.5f) * 4 * cycles);
+            timeRemaining = calibrationTime;
+            StartCoroutine(RunSequence());
+        }
+    }
+
+    public void TerminateCalibration()
+    {
+        AkSoundEngine.PostEvent("StopCalib", gameObject);
+        oscSend("end");
+        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
+        calibrationStarted = false;
     }
 
     void Update()
@@ -52,13 +70,6 @@ public class CalibrationSequence : MonoBehaviour
         osc.Send(oscMessage);
     }
 
-    public void TerminateCalibration()
-    {
-        AkSoundEngine.PostEvent("StopCalib", gameObject);
-        oscSend("end");
-        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
-        this.gameObject.SetActive(false);
-    }
 
 
     // SEQUENCE WITH RANDOMISATION DONE IN WWISE
@@ -194,6 +205,7 @@ public class CalibrationSequence : MonoBehaviour
         yield return new WaitForSeconds(5);
         calibrationEndText.SetActive(false);
 
+        calibrationStarted = false;
     }
 
     /* OLD SEQUENCE USING RANDOMISATION IN UNITY
