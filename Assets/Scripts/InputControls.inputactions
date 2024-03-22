@@ -124,6 +124,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ToggleSyncSlate",
+                    "type": "Button",
+                    "id": "76a932b1-c466-4c12-a407-5d4f2d3617cf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -348,37 +356,26 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Button With One Modifier",
-                    "id": "afe6dc3f-fc57-4f34-9651-ddc9acf0d551",
-                    "path": "ButtonWithOneModifier",
+                    "name": "",
+                    "id": "acd64ec5-9eb4-4728-9664-1bc79c38b689",
+                    "path": "<Keyboard>/t",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "TerminateCalibration",
-                    "isComposite": true,
+                    "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "modifier",
-                    "id": "a221cefc-b22f-4950-ae02-e1846b262100",
-                    "path": "<Keyboard>/shift",
+                    "name": "",
+                    "id": "8334188c-bf80-460b-9116-5e2ad6a69872",
+                    "path": "<Keyboard>/f5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "TerminateCalibration",
+                    "action": "ToggleSyncSlate",
                     "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "button",
-                    "id": "09fa2aec-47c9-48a7-87e2-90b4dfdfb480",
-                    "path": "<Keyboard>/c",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "TerminateCalibration",
-                    "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         }

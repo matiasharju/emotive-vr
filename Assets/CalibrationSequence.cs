@@ -24,8 +24,11 @@ public class CalibrationSequence : MonoBehaviour
 
     public float timeRemaining;
     public Text timeText;
+    public Text pressCToStartText;
 
-    private bool calibrationStarted = false;
+    private bool calibrationRunning = false;
+
+    Coroutine calibrationRoutine = null;
 
     void Start()
     {
@@ -33,12 +36,14 @@ public class CalibrationSequence : MonoBehaviour
 
     public void StartCalibration()
     {
-        if (!calibrationStarted)
+        if (!calibrationRunning)
         {
-            calibrationStarted = true;
+            calibrationRunning = true;
+            cycles = 5;
             calibrationTime = infoTextTime + ((preStimulusTime + soundStimulusTime + postStimulusTime + noiseTime + 0.5f) * 4 * cycles);
             timeRemaining = calibrationTime;
-            StartCoroutine(RunSequence());
+            calibrationRoutine = StartCoroutine(RunSequence());
+            if (pressCToStartText != null) pressCToStartText.text = "\n T: Terminate calibration";
         }
     }
 
@@ -46,14 +51,21 @@ public class CalibrationSequence : MonoBehaviour
     {
         AkSoundEngine.PostEvent("StopCalib", gameObject);
         oscSend("end");
-        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
-        calibrationStarted = false;
+        StopCoroutine(calibrationRoutine);
+        if (timeText != null) timeText.text = "";
+        if (pressCToStartText != null) pressCToStartText.text = "Calibration terminated.\n C: Restart calibration";
+        calibrationRunning = false;
+        DirectorSequencer.Instance.FadeFromBlack();
+
     }
 
     void Update()
     {
-        timeRemaining -= Time.deltaTime;
-        DisplayTime(timeRemaining);
+        if (calibrationRunning)
+        { 
+            timeRemaining -= Time.deltaTime;
+            DisplayTime(timeRemaining);
+        }
     }
 
     void DisplayTime(float timeToDisplay)
@@ -61,7 +73,7 @@ public class CalibrationSequence : MonoBehaviour
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
-        if (timeText != null) timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        if (timeText != null) timeText.text = string.Format("Calibration running... Time remaining: {0:00}:{1:00}", minutes, seconds);
     }
 
     public void oscSend(string text)
@@ -80,6 +92,7 @@ public class CalibrationSequence : MonoBehaviour
         yield return new WaitForSeconds(infoTextTime);
 
         calibrationStartText.SetActive(false);  // Hide calibration start message
+        DirectorSequencer.Instance.FadeToBlack();
 
         while (cycles > 0)
         {
@@ -198,14 +211,15 @@ public class CalibrationSequence : MonoBehaviour
 
         oscSend("end");
 
-        if (timeText != null) timeText.text = "Calibration finished. Please run TRAIN and ESTIMATE.";
+        if (timeText != null) timeText.text = "Calibration finished.\n (C: Restart calibration)";
 
         calibrationEndText.SetActive(true);
 
         yield return new WaitForSeconds(5);
         calibrationEndText.SetActive(false);
+        DirectorSequencer.Instance.FadeFromBlack();
 
-        calibrationStarted = false;
+        calibrationRunning = false;
     }
 
     /* OLD SEQUENCE USING RANDOMISATION IN UNITY

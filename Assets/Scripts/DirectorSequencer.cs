@@ -604,6 +604,43 @@ private void EndVideo(VideoPlayer vp)
         }
     }
 
+    public void FadeToBlack()   // Use this for only fading to black without proceeding to the next sequence
+    {
+        if (!vr)
+        { 
+            fadeDone = false;
+            fadeAnimator.SetTrigger("FadeIn");
+        }
+        else
+            fadeCanvas.SetBool("FadeIn", true);
+    }
+
+    public void FadeFromBlack()     // Use this for only fading from black without proceeding to the next sequence
+    {
+        if (!vr)
+        {
+            fadeAnimator.SetTrigger("FadeOut");
+            fadeDone = true;
+        }
+        else
+            StartCoroutine(Coroutine_FadeFromBlack_VR());
+    }
+
+
+    IEnumerator Coroutine_FadeFromBlack_VR()    // This fades from black in VR without proceeding to the next sequence
+    {
+        yield return new WaitForSeconds(1);
+
+        fadeCanvas.SetBool("FadeIn", false);
+        fadeCanvas.SetBool("FadeOut", true);
+        yield return new WaitForSeconds(fadeCanvas.GetCurrentAnimatorStateInfo(0).length);
+        fadeCanvas.SetBool("FadeOut", false);
+        fadeDone = true;
+        yield return null;
+    }
+
+
+
     IEnumerator Coroutine_FadeInBlack()
     {
 //        Debug.Log("Coroutine_FadeInBlack");

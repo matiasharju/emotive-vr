@@ -24,8 +24,7 @@ public class KeyboardControls : MonoBehaviour
     bool keyPressedMenu = false;
     bool keyPressedJump = false;
     bool keyPressedSync = false;
-
-
+    public bool useSyncSlate = false;
 
     public void StartPlayback()
     {
@@ -35,14 +34,19 @@ public class KeyboardControls : MonoBehaviour
             DirectorSequencer.Instance.PlayNextSequenceFromStartScreen();
 
             pressSpace.SetActive(false);
-            menuItems.SetActive(false);
+            // menuItems.SetActive(false);
 
             DirectorSequencer.Instance.arousal = 0.0f;
 
             if (DirectorSequencer.Instance.isInteractive) DataRecorder.StartRecording();    // Start DataRecorder only in interactive mode
 
-            StartCoroutine(FlashSlate());
+            if (useSyncSlate) StartCoroutine(FlashSlate());
         }
+    }
+
+    public void ToggleSyncSlate()
+    {
+        useSyncSlate = !useSyncSlate;
     }
 
     IEnumerator FlashSlate()

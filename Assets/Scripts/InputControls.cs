@@ -137,6 +137,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ToggleSyncSlate"",
+                    ""type"": ""Button"",
+                    ""id"": ""76a932b1-c466-4c12-a407-5d4f2d3617cf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -361,37 +369,26 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""Button With One Modifier"",
-                    ""id"": ""afe6dc3f-fc57-4f34-9651-ddc9acf0d551"",
-                    ""path"": ""ButtonWithOneModifier"",
+                    ""name"": """",
+                    ""id"": ""acd64ec5-9eb4-4728-9664-1bc79c38b689"",
+                    ""path"": ""<Keyboard>/t"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""TerminateCalibration"",
-                    ""isComposite"": true,
+                    ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""modifier"",
-                    ""id"": ""a221cefc-b22f-4950-ae02-e1846b262100"",
-                    ""path"": ""<Keyboard>/shift"",
+                    ""name"": """",
+                    ""id"": ""8334188c-bf80-460b-9116-5e2ad6a69872"",
+                    ""path"": ""<Keyboard>/f5"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""TerminateCalibration"",
+                    ""action"": ""ToggleSyncSlate"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""button"",
-                    ""id"": ""09fa2aec-47c9-48a7-87e2-90b4dfdfb480"",
-                    ""path"": ""<Keyboard>/c"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""TerminateCalibration"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -415,6 +412,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         m_Keyboard_SyncAudioToVideo = m_Keyboard.FindAction("SyncAudioToVideo", throwIfNotFound: true);
         m_Keyboard_StartCalibration = m_Keyboard.FindAction("StartCalibration", throwIfNotFound: true);
         m_Keyboard_TerminateCalibration = m_Keyboard.FindAction("TerminateCalibration", throwIfNotFound: true);
+        m_Keyboard_ToggleSyncSlate = m_Keyboard.FindAction("ToggleSyncSlate", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -479,6 +477,7 @@ public class @InputControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Keyboard_SyncAudioToVideo;
     private readonly InputAction m_Keyboard_StartCalibration;
     private readonly InputAction m_Keyboard_TerminateCalibration;
+    private readonly InputAction m_Keyboard_ToggleSyncSlate;
     public struct KeyboardActions
     {
         private @InputControls m_Wrapper;
@@ -498,6 +497,7 @@ public class @InputControls : IInputActionCollection, IDisposable
         public InputAction @SyncAudioToVideo => m_Wrapper.m_Keyboard_SyncAudioToVideo;
         public InputAction @StartCalibration => m_Wrapper.m_Keyboard_StartCalibration;
         public InputAction @TerminateCalibration => m_Wrapper.m_Keyboard_TerminateCalibration;
+        public InputAction @ToggleSyncSlate => m_Wrapper.m_Keyboard_ToggleSyncSlate;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -552,6 +552,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @TerminateCalibration.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
                 @TerminateCalibration.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
                 @TerminateCalibration.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnTerminateCalibration;
+                @ToggleSyncSlate.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSyncSlate;
+                @ToggleSyncSlate.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSyncSlate;
+                @ToggleSyncSlate.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnToggleSyncSlate;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -601,6 +604,9 @@ public class @InputControls : IInputActionCollection, IDisposable
                 @TerminateCalibration.started += instance.OnTerminateCalibration;
                 @TerminateCalibration.performed += instance.OnTerminateCalibration;
                 @TerminateCalibration.canceled += instance.OnTerminateCalibration;
+                @ToggleSyncSlate.started += instance.OnToggleSyncSlate;
+                @ToggleSyncSlate.performed += instance.OnToggleSyncSlate;
+                @ToggleSyncSlate.canceled += instance.OnToggleSyncSlate;
             }
         }
     }
@@ -622,5 +628,6 @@ public class @InputControls : IInputActionCollection, IDisposable
         void OnSyncAudioToVideo(InputAction.CallbackContext context);
         void OnStartCalibration(InputAction.CallbackContext context);
         void OnTerminateCalibration(InputAction.CallbackContext context);
+        void OnToggleSyncSlate(InputAction.CallbackContext context);
     }
 }
